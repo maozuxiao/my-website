@@ -1,2 +1,0 @@
-theme: jekyll-theme-minimal  # 使用 Jekyll 的默认主题，你可以根据需求修改
-markdown: kramdown           # 使用 kramdown 作为 Markdown 渲染器
