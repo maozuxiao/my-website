@@ -7,6 +7,39 @@
 </head>
 <body>
     <h1>Welcome to Sean's GitHub Pages</h1>
-    <p><a href="README.md">Read the Markdown file</a></p>
+    <h1>File List</h1>
+    <ul id="file-list">Loading...</ul>
+
+    <script>
+        async function fetchRepoFiles() {
+            const username = "maozuxiao"; // 修改为你的 GitHub 用户名
+            const repo = "my-website"; // 修改为你的仓库名
+            const branch = "main"; // 或 "master" 视情况而定
+
+            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
+
+            try {
+                const response = await fetch(apiUrl);
+                const files = await response.json();
+                const fileList = document.getElementById("file-list");
+                fileList.innerHTML = "";
+
+                files.forEach(file => {
+                    if (file.type === "file") {
+                        const li = document.createElement("li");
+                        const a = document.createElement("a");
+                        a.href = file.download_url;
+                        a.textContent = file.name;
+                        li.appendChild(a);
+                        fileList.appendChild(li);
+                    }
+                });
+            } catch (error) {
+                console.error("Error fetching file list:", error);
+            }
+        }
+
+        fetchRepoFiles();
+    </script>
 </body>
 </html>
