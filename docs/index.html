@@ -12,9 +12,9 @@
 
     <script>
         async function fetchRepoFiles() {
-            const username = "maozuxiao"; // 修改为你的 GitHub 用户名
-            const repo = "my-website"; // 修改为你的仓库名
-            const branch = "main"; // 或 "master" 视情况而定
+            const username = "maozuxiao"; // 你的 GitHub 用户名
+            const repo = "my-website"; // 你的仓库名
+            const branch = "main"; // 你的 GitHub Pages 分支
 
             const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
 
@@ -28,7 +28,9 @@
                     if (file.type === "file") {
                         const li = document.createElement("li");
                         const a = document.createElement("a");
-                        a.href = file.download_url;
+
+                        // ✅ 修改为 GitHub Pages 链接
+                        a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
                         a.textContent = file.name;
                         li.appendChild(a);
                         fileList.appendChild(li);
