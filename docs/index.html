@@ -38,8 +38,16 @@ title: Sean's GitHub Pages
                         const li = document.createElement("li");
                         const a = document.createElement("a");
 
-                        // 生成 GitHub Pages URL
-                        a.href = `https://${username}.github.io/${repo}/${file.name}`;
+                        // 检查文件是否是 Markdown 文件
+                        if (file.name.endsWith(".md")) {
+                            // 对于 Markdown 文件，链接到渲染后的 HTML 文件
+                            const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
+                            a.href = `https://${username}.github.io/${repo}/docs/${htmlFileName}`;
+                        } else {
+                            // 对于其他文件，直接链接到文件本身
+                            a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
+                        }
+
                         a.textContent = file.name;
                         li.appendChild(a);
                         fileList.appendChild(li);
