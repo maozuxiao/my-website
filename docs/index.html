@@ -10,13 +10,77 @@ title: Sean's GitHub Pages
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <!-- 添加自定义CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 600;
+            transition: color 0.2s;
+            display: block;
+        }
+        
+        a:hover {
+            color: #2980b9;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Sean's GitHub Pages</h1>
         <h2>File List</h2>
-        <ul id="file-list">Loading...</ul>
+        <ul id="file-list" class="loading">Loading...</ul>
     </div>
 
     <script>
@@ -32,8 +96,14 @@ title: Sean's GitHub Pages
                 const files = await response.json();
                 const fileList = document.getElementById("file-list");
                 fileList.innerHTML = "";
+                fileList.classList.remove("loading");
 
                 files.forEach(file => {
+                    // 隐藏 _config 和 index 文件
+                    if (file.name === "_config.yml" || file.name === "index.html") {
+                        return;
+                    }
+
                     if (file.type === "file") {
                         const li = document.createElement("li");
                         const a = document.createElement("a");
@@ -42,13 +112,16 @@ title: Sean's GitHub Pages
                         if (file.name.endsWith(".md")) {
                             // 对于 Markdown 文件，链接到渲染后的 HTML 文件
                             const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
-                            a.href = `https://${username}.github.io/${repo}/docs/${htmlFileName}`;
+                            a.href = `https://${username}.github.io/${repo}/${htmlFileName}`;
                         } else {
                             // 对于其他文件，直接链接到文件本身
                             a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
                         }
 
-                        a.textContent = file.name;
+                        // 不显示文件后缀
+                        const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
+                        a.textContent = fileNameWithoutExtension;
+                        
                         li.appendChild(a);
                         fileList.appendChild(li);
                     }
