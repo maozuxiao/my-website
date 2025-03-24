@@ -89,7 +89,7 @@ title: Sean's GitHub Pages
             const repo = "my-website"; // 你的仓库名
             const branch = "main"; // 你的 GitHub Pages 分支
 
-            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
+            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`; // 获取文件的路径
 
             try {
                 const response = await fetch(apiUrl);
@@ -115,7 +115,7 @@ title: Sean's GitHub Pages
                             a.href = `https://${username}.github.io/${repo}/${htmlFileName}`;
                         } else {
                             // 对于其他文件，直接链接到文件本身
-                            a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
+                            a.href = `https://${username}.github.io/${repo}/${file.name}`;
                         }
 
                         // 不显示文件后缀
