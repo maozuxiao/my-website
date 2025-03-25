@@ -18,7 +18,7 @@ title: Sean's GitHub Pages
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 100%;
             margin: 0 auto;
             padding: 20px;
         }
@@ -121,6 +121,9 @@ title: Sean's GitHub Pages
                     return;
                 }
 
+                const folders = [];
+                const otherFiles = [];
+
                 files.forEach(file => {
                     if (file.name === "_config.yml" || file.name === "index.html") return;
 
@@ -131,30 +134,28 @@ title: Sean's GitHub Pages
                         a.href = `https://${username}.github.io/${repo}/${file.name}/`;
                         a.textContent = `[Folder] ${file.name}`;
                         li.classList.add("nested");
+                        folders.push({ li, a });
                     } else {
                         a.href = file.name.endsWith(".md") 
                             ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
                             : `https://${username}.github.io/${repo}/${file.name}`;
                         a.textContent = file.name;
+                        otherFiles.push({ li, a });
                     }
 
-                    a.target = "_blank";
                     li.appendChild(a);
-                    fileList.appendChild(li);
                 });
-                
-                                // 先添加文件夹
+
+                // 先添加文件夹
                 folders.forEach(folder => {
-                    folder.li.appendChild(folder.a);
                     fileList.appendChild(folder.li);
                 });
 
                 // 再添加其他文件
                 otherFiles.forEach(file => {
-                    file.li.appendChild(file.a);
                     fileList.appendChild(file.li);
                 });
-                
+
             } catch (error) {
                 console.error("Error fetching file list:", error);
                 document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
@@ -174,4 +175,3 @@ title: Sean's GitHub Pages
     </script>
 </body>
 </html>
-
