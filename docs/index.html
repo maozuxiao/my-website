@@ -128,9 +128,9 @@ title: Sean's GitHub Pages
                         // 文件，处理 Markdown 转 HTML
                         if (file.name.endsWith(".md")) {
                             const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
-                            a.href = `https://${username}.github.io/${repo}/docs/${htmlFileName}`;
+                            a.href = `https://${username}.github.io/${repo}/${htmlFileName}`;
                         } else {
-                            a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
+                            a.href = `https://${username}.github.io/${repo}/${file.name}`;
                         }
 
                         // 不显示文件后缀
