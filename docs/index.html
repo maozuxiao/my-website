@@ -142,6 +142,19 @@ title: Sean's GitHub Pages
                     li.appendChild(a);
                     fileList.appendChild(li);
                 });
+                
+                                // 先添加文件夹
+                folders.forEach(folder => {
+                    folder.li.appendChild(folder.a);
+                    fileList.appendChild(folder.li);
+                });
+
+                // 再添加其他文件
+                otherFiles.forEach(file => {
+                    file.li.appendChild(file.a);
+                    fileList.appendChild(file.li);
+                });
+                
             } catch (error) {
                 console.error("Error fetching file list:", error);
                 document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
