@@ -1,6 +1,6 @@
 ---
 layout: default
-title: User Guide
+title:User Guide
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ title: User Guide
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Guide</title>
-       <style>
+    <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -96,31 +96,27 @@ title: User Guide
 </head>
 <body>
     <div class="container">
-        <h1>User Guide</h1
+        <h1>Welcome to Sean's GitHub Pages</h1>
         <input type="text" id="search-box" placeholder="Search files...">
-        <h2>Files & Folders</h2>
+        <h2>File List</h2>
         <ul id="file-list" class="loading">Loading...</ul>
-        <p><a href="../index.html">Back to Docs</a></p>
     </div>
 
     <script>
         async function fetchRepoFiles() {
-            const username = "maozuxiao"; // 你的 GitHub 用户名
-            const repo = "my-website"; // 你的仓库名
-            const branch = "main"; // 你的 GitHub Pages 分支
+            const username = "maozuxiao";
+            const repo = "my-website";
+            const branch = "main";
             const folderPath = "docs/UserGuide"; // 这里是当前目录路径
 
             const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folderPath}?ref=${branch}`;
 
             try {
                 const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    throw new Error(`GitHub API 请求失败: ${response.status}`);
-                }
-                
+                if (!response.ok) throw new Error(`GitHub API 请求失败: ${response.status}`);
                 const files = await response.json();
                 const fileList = document.getElementById("file-list");
-                fileList.innerHTML = ""; // 清空 "Loading..."
+                fileList.innerHTML = "";
 
                 if (files.length === 0) {
                     fileList.innerHTML = "<p class='error'>没有找到文件</p>";
@@ -128,18 +124,17 @@ title: User Guide
                 }
 
                 files.forEach(file => {
-                    if (file.name === "_config.yml" || file.name === "index.html") {
-                        return; // 跳过不想显示的文件
-                    }
+                    if (file.name === "_config.yml" || file.name === "index.html") return;
 
                     const li = document.createElement("li");
                     const a = document.createElement("a");
 
-            if (file.type === "dir") {
-                a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}/`;
-                a.textContent = `[Folder] ${file.name}`;
-            } else {
-                if (file.name.endsWith(".md")) {
+                    if (file.type === "dir") {
+                        a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}/`;
+                        a.textContent = `[Folder] ${file.name}`;
+                        li.classList.add("nested");
+                    } else {
+                        if (file.name.endsWith(".md")) {
                     const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
                     a.href = `https://${username}.github.io/${repo}/UserGuide/${htmlFileName}`;
                 } else if (file.name.endsWith(".pdf")) {
@@ -176,9 +171,8 @@ title: User Guide
                 item.style.display = text.includes(filter) ? "" : "none";
             });
         });
-        
+
         fetchRepoFiles();
     </script>
-
 </body>
 </html>
