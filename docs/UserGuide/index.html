@@ -8,7 +8,7 @@ title: User Guide
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Guide</title>
-    <style>
+       <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -79,11 +79,25 @@ title: User Guide
             font-weight: bold;
             padding: 20px;
         }
+
+        #search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .nested {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>User Guide</h1>
+        <h1>User Guide</h1
+        <input type="text" id="search-box" placeholder="Search files...">
         <h2>Files & Folders</h2>
         <ul id="file-list" class="loading">Loading...</ul>
         <p><a href="../index.html">Back to Docs</a></p>
@@ -154,6 +168,15 @@ title: User Guide
     }
 }
 
+        document.getElementById("search-box").addEventListener("input", function() {
+            let filter = this.value.toLowerCase();
+            let items = document.querySelectorAll("#file-list li");
+            items.forEach(item => {
+                let text = item.textContent.toLowerCase();
+                item.style.display = text.includes(filter) ? "" : "none";
+            });
+        });
+        
         fetchRepoFiles();
     </script>
 
