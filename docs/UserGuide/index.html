@@ -121,32 +121,46 @@ title: User Guide
                     const li = document.createElement("li");
                     const a = document.createElement("a");
 
-                    if (file.type === "dir") {
-                        a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}/`;
-                        a.textContent = `[Folder] ${file.name}`;
-                    } else {
-                        if (file.name.endsWith(".md")) {
-                            const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
-                            a.href = `https://${username}.github.io/${repo}/UserGuide/${htmlFileName}`;
-                        } else {
-                            a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
-                        }
+            if (file.type === "dir") {
+                a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}/`;
+                a.textContent = `[Folder] ${file.name}`;
+            } else {
+                if (file.name.endsWith(".md")) {
+                    const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
+                    a.href = `https://${username}.github.io/${repo}/UserGuide/${htmlFileName}`;
+                } else if (file.name.endsWith(".pdf")) {
+                    a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
+                    a.textContent = file.name;
+                    a.target = "_blank"; // PDF 在新标签页打开
+                    li.appendChild(a);
 
-                        const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
-                        a.textContent = fileNameWithoutExtension;
-                    }
+                    // 添加一个 iframe 预览 PDF
+                    const iframe = document.createElement("iframe");
+                    iframe.src = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
+                    iframe.width = "100%";
+                    iframe.height = "400px";
+                    iframe.style.border = "1px solid #ccc";
+                    li.appendChild(iframe);
+                } else {
+                    a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
+                }
 
+                if (!file.name.endsWith(".pdf")) {
+                    const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
+                    a.textContent = fileNameWithoutExtension;
                     a.target = "_blank";
                     a.rel = "noopener noreferrer";
-
                     li.appendChild(a);
-                    fileList.appendChild(li);
-                });
-            } catch (error) {
-                console.error("Error fetching file list:", error);
-                document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
+                }
+
+                fileList.appendChild(li);
             }
-        }
+        });
+    } catch (error) {
+        console.error("Error fetching file list:", error);
+        document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
+    }
+}
 
         fetchRepoFiles();
     </script>
