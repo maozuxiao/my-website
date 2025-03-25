@@ -133,14 +133,6 @@ title: Sean's GitHub Pages
                     a.textContent = file.name;
                     a.target = "_blank"; // PDF 在新标签页打开
                     li.appendChild(a);
-
-                    // 添加 PDF 预览 iframe
-                    const iframe = document.createElement("iframe");
-                    iframe.src = `https://${username}.github.io/${repo}/${file.name}`;
-                    iframe.width = "100%";
-                    iframe.height = "400px";
-                    iframe.style.border = "1px solid #ccc";
-                    li.appendChild(iframe);
                 } else {
                     a.href = `https://${username}.github.io/${repo}/${file.name}`;
                 }
