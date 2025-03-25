@@ -73,6 +73,13 @@ title: Sean's GitHub Pages
             font-style: italic;
             padding: 20px 0;
         }
+
+        .error {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -88,49 +95,59 @@ title: Sean's GitHub Pages
             const repo = "my-website"; // 你的仓库名
             const branch = "main"; // 你的 GitHub Pages 分支
 
-            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`; // 获取文件的路径
+            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
 
             try {
                 const response = await fetch(apiUrl);
+                if (!response.ok) {
+                    throw new Error(`GitHub API 请求失败: ${response.status}`);
+                }
+                
                 const files = await response.json();
                 const fileList = document.getElementById("file-list");
-                fileList.innerHTML = "";
-                fileList.classList.remove("loading");
+                fileList.innerHTML = ""; // 清空 "Loading..."
+
+                if (files.length === 0) {
+                    fileList.innerHTML = "<p class='error'>没有找到文件</p>";
+                    return;
+                }
 
                 files.forEach(file => {
-                    // 隐藏 _config 和 index 文件
                     if (file.name === "_config.yml" || file.name === "index.html") {
-                        return;
+                        return; // 跳过不想显示的文件
                     }
 
-                    if (file.type === "file") {
-                        const li = document.createElement("li");
-                        const a = document.createElement("a");
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
 
-                        // 检查文件是否是 Markdown 文件
+                    if (file.type === "dir") {
+                        // 文件夹，链接到该文件夹的 index.html 或直接进入文件夹
+                        a.href = `https://${username}.github.io/${repo}/docs/${file.name}/`;
+                        a.textContent = `[Folder] ${file.name}`;
+                    } else {
+                        // 文件，处理 Markdown 转 HTML
                         if (file.name.endsWith(".md")) {
-                            // 对于 Markdown 文件，链接到渲染后的 HTML 文件
                             const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
-                            a.href = `https://${username}.github.io/${repo}/${htmlFileName}`;
+                            a.href = `https://${username}.github.io/${repo}/docs/${htmlFileName}`;
                         } else {
-                            // 对于其他文件，直接链接到文件本身
-                            a.href = `https://${username}.github.io/${repo}/${file.name}`;
+                            a.href = `https://${username}.github.io/${repo}/docs/${file.name}`;
                         }
 
                         // 不显示文件后缀
                         const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
                         a.textContent = fileNameWithoutExtension;
-
-                        // 在新标签页中打开链接
-                        a.target = "_blank";
-                        a.rel = "noopener noreferrer"; // 添加安全性属性
-
-                        li.appendChild(a);
-                        fileList.appendChild(li);
                     }
+
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+
+                    li.appendChild(a);
+                    fileList.appendChild(li);
                 });
             } catch (error) {
                 console.error("Error fetching file list:", error);
+                const fileList = document.getElementById("file-list");
+                fileList.innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
             }
         }
 
