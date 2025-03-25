@@ -8,7 +8,6 @@ title: Sean's GitHub Pages
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sean's GitHub Pages</title>
-    <!-- 添加自定义CSS -->
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -80,32 +79,42 @@ title: Sean's GitHub Pages
             font-weight: bold;
             padding: 20px;
         }
+
+        #search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .nested {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Sean's GitHub Pages</h1>
+        <input type="text" id="search-box" placeholder="Search files...">
         <h2>File List</h2>
         <ul id="file-list" class="loading">Loading...</ul>
     </div>
 
     <script>
         async function fetchRepoFiles() {
-            const username = "maozuxiao"; // 你的 GitHub 用户名
-            const repo = "my-website"; // 你的仓库名
-            const branch = "main"; // 你的 GitHub Pages 分支
-
+            const username = "maozuxiao";
+            const repo = "my-website";
+            const branch = "main";
             const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
 
             try {
                 const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    throw new Error(`GitHub API 请求失败: ${response.status}`);
-                }
-                
+                if (!response.ok) throw new Error(`GitHub API 请求失败: ${response.status}`);
                 const files = await response.json();
                 const fileList = document.getElementById("file-list");
-                fileList.innerHTML = ""; // 清空 "Loading..."
+                fileList.innerHTML = "";
 
                 if (files.length === 0) {
                     fileList.innerHTML = "<p class='error'>没有找到文件</p>";
@@ -113,50 +122,43 @@ title: Sean's GitHub Pages
                 }
 
                 files.forEach(file => {
-                    if (file.name === "_config.yml" || file.name === "index.html") {
-                        return; // 跳过不想显示的文件
-                    }
+                    if (file.name === "_config.yml" || file.name === "index.html") return;
 
                     const li = document.createElement("li");
                     const a = document.createElement("a");
 
-                               if (file.type === "dir") {
-                // 文件夹，链接到该文件夹的 index.html 或直接进入文件夹
-                a.href = `https://${username}.github.io/${repo}/${file.name}/`;
-                a.textContent = `[Folder] ${file.name}`;
-            } else {
-                if (file.name.endsWith(".md")) {
-                    const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
-                    a.href = `https://${username}.github.io/${repo}/${htmlFileName}`;
-                } else if (file.name.endsWith(".pdf")) {
-                    a.href = `https://${username}.github.io/${repo}/${file.name}`;
-                    a.textContent = file.name;
-                    a.target = "_blank"; // PDF 在新标签页打开
-                    li.appendChild(a);
-                } else {
-                    a.href = `https://${username}.github.io/${repo}/${file.name}`;
-                }
+                    if (file.type === "dir") {
+                        a.href = `https://${username}.github.io/${repo}/${file.name}/`;
+                        a.textContent = `[Folder] ${file.name}`;
+                        li.classList.add("nested");
+                    } else {
+                        a.href = file.name.endsWith(".md") 
+                            ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
+                            : `https://${username}.github.io/${repo}/${file.name}`;
+                        a.textContent = file.name;
+                    }
 
-                if (!file.name.endsWith(".pdf")) {
-                    const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
-                    a.textContent = fileNameWithoutExtension;
                     a.target = "_blank";
-                    a.rel = "noopener noreferrer";
                     li.appendChild(a);
-                }
-
-                fileList.appendChild(li);
+                    fileList.appendChild(li);
+                });
+            } catch (error) {
+                console.error("Error fetching file list:", error);
+                document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
             }
+        }
+
+        document.getElementById("search-box").addEventListener("input", function() {
+            let filter = this.value.toLowerCase();
+            let items = document.querySelectorAll("#file-list li");
+            items.forEach(item => {
+                let text = item.textContent.toLowerCase();
+                item.style.display = text.includes(filter) ? "" : "none";
+            });
         });
-    } catch (error) {
-        console.error("Error fetching file list:", error);
-        const fileList = document.getElementById("file-list");
-        fileList.innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
-    }
-}
 
         fetchRepoFiles();
     </script>
-
 </body>
 </html>
+
