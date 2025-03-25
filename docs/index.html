@@ -1,8 +1,3 @@
----
-layout: default
-title: Sean's GitHub Pages
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,7 +116,11 @@ title: Sean's GitHub Pages
                         // 不显示文件后缀
                         const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
                         a.textContent = fileNameWithoutExtension;
-                        
+
+                        // 在新标签页中打开链接
+                        a.target = "_blank";
+                        a.rel = "noopener noreferrer"; // 添加安全性属性
+
                         li.appendChild(a);
                         fileList.appendChild(li);
                     }
