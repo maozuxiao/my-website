@@ -133,14 +133,6 @@ title: User Guide
                     a.textContent = file.name;
                     a.target = "_blank"; // PDF 在新标签页打开
                     li.appendChild(a);
-
-                    // 添加一个 iframe 预览 PDF
-                    const iframe = document.createElement("iframe");
-                    iframe.src = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
-                    iframe.width = "100%";
-                    iframe.height = "400px";
-                    iframe.style.border = "1px solid #ccc";
-                    li.appendChild(iframe);
                 } else {
                     a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
                 }
