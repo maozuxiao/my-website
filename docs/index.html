@@ -16,25 +16,30 @@ title: Sean's GitHub Pages
             background-color: #f5f5f5;
             color: #333;
         }
+        
         .container {
             max-width: 100%;
             margin: 0 auto;
             padding: 20px;
         }
+        
         h1 {
             text-align: center;
             color: #2c3e50;
             margin-top: 30px;
         }
+        
         h2 {
             color: #34495e;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
         }
+        
         ul {
             list-style-type: none;
             padding: 0;
         }
+        
         li {
             margin-bottom: 10px;
             background-color: white;
@@ -43,10 +48,12 @@ title: Sean's GitHub Pages
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             transition: transform 0.2s, box-shadow 0.2s;
         }
+        
         li:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
+        
         a {
             text-decoration: none;
             color: #3498db;
@@ -54,21 +61,25 @@ title: Sean's GitHub Pages
             transition: color 0.2s;
             display: block;
         }
+        
         a:hover {
             color: #2980b9;
         }
+        
         .loading {
             text-align: center;
             color: #7f8c8d;
             font-style: italic;
             padding: 20px 0;
         }
+
         .error {
             text-align: center;
             color: red;
             font-weight: bold;
             padding: 20px;
         }
+
         #search-box {
             width: 100%;
             padding: 10px;
@@ -77,28 +88,9 @@ title: Sean's GitHub Pages
             border-radius: 5px;
             font-size: 16px;
         }
+
         .nested {
             margin-left: 20px;
-        }
-        .pagination {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .pagination button {
-            padding: 10px 20px;
-            margin: 0 5px;
-            border: 1px solid #3498db;
-            background-color: #f5f5f5;
-            color: #3498db;
-            cursor: pointer;
-        }
-        .pagination button.disabled {
-            color: #ccc;
-            cursor: not-allowed;
-        }
-        #items-per-page {
-            margin-top: 20px;
-            text-align: center;
         }
     </style>
 </head>
@@ -108,100 +100,66 @@ title: Sean's GitHub Pages
         <input type="text" id="search-box" placeholder="Search files...">
         <h2>File List</h2>
         <ul id="file-list" class="loading">Loading...</ul>
-        <div id="items-per-page">
-            <label for="per-page">Items per page:</label>
-            <select id="per-page">
-                <option value="5">5</option>
-                <option value="10">10</option>
-                <option value="20">20</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-            </select>
-        </div>
-        <div class="pagination">
-            <button id="prev-page" class="disabled">Previous</button>
-            <button id="next-page" class="disabled">Next</button>
-        </div>
     </div>
 
     <script>
-        let currentPage = 1;
-        let perPage = 10;
-        const fileList = document.getElementById("file-list");
-        const prevPageBtn = document.getElementById("prev-page");
-        const nextPageBtn = document.getElementById("next-page");
-        const perPageSelect = document.getElementById("per-page");
-        const username = "maozuxiao";
-        const repo = "my-website";
-        const branch = "main";
-        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
-
-        perPageSelect.addEventListener("change", function() {
-            perPage = parseInt(this.value);
-            currentPage = 1;
-            fetchRepoFiles();
-        });
-
         async function fetchRepoFiles() {
+            const username = "maozuxiao";
+            const repo = "my-website";
+            const branch = "main";
+            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
+
             try {
                 const response = await fetch(apiUrl);
                 if (!response.ok) throw new Error(`GitHub API 请求失败: ${response.status}`);
                 const files = await response.json();
-                displayFiles(files);
+                const fileList = document.getElementById("file-list");
+                fileList.innerHTML = "";
+
+                if (files.length === 0) {
+                    fileList.innerHTML = "<p class='error'>没有找到文件</p>";
+                    return;
+                }
+
+                const folders = [];
+                const otherFiles = [];
+
+                files.forEach(file => {
+                    if (file.name === "_config.yml" || file.name === "index.html") return;
+
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+
+                    if (file.type === "dir") {
+                        a.href = `https://${username}.github.io/${repo}/${file.name}/`;
+                        a.textContent = `[Folder] ${file.name}`;
+                        li.classList.add("nested");
+                        folders.push({ li, a });
+                    } else {
+                        a.href = file.name.endsWith(".md") 
+                            ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
+                            : `https://${username}.github.io/${repo}/${file.name}`;
+                        a.textContent = file.name;
+                        otherFiles.push({ li, a });
+                    }
+
+                    li.appendChild(a);
+                });
+
+                // 先添加文件夹
+                folders.forEach(folder => {
+                    fileList.appendChild(folder.li);
+                });
+
+                // 再添加其他文件
+                otherFiles.forEach(file => {
+                    fileList.appendChild(file.li);
+                });
+
             } catch (error) {
                 console.error("Error fetching file list:", error);
-                fileList.innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
+                document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
             }
-        }
-
-        function displayFiles(files) {
-            fileList.innerHTML = "";
-            const totalFiles = files.length;
-            const totalPages = Math.ceil(totalFiles / perPage);
-            const start = (currentPage - 1) * perPage;
-            const end = start + perPage;
-
-            const paginatedFiles = files.slice(start, end);
-            paginatedFiles.forEach(file => {
-                if (file.name === "_config.yml" || file.name === "index.html") return;
-
-                const li = document.createElement("li");
-                const a = document.createElement("a");
-
-                if (file.type === "dir") {
-                    a.href = `https://${username}.github.io/${repo}/${file.name}/`;
-                    a.textContent = `[Folder] ${file.name}`;
-                } else {
-                    a.href = file.name.endsWith(".md") 
-                        ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
-                        : `https://${username}.github.io/${repo}/${file.name}`;
-                    a.textContent = file.name;
-                }
-
-                li.appendChild(a);
-                fileList.appendChild(li);
-            });
-
-            updatePagination(totalFiles, totalPages);
-        }
-
-        function updatePagination(totalFiles, totalPages) {
-            prevPageBtn.classList.toggle("disabled", currentPage === 1);
-            nextPageBtn.classList.toggle("disabled", currentPage === totalPages || totalFiles === 0);
-
-            prevPageBtn.onclick = function() {
-                if (currentPage > 1) {
-                    currentPage--;
-                    fetchRepoFiles();
-                }
-            };
-
-            nextPageBtn.onclick = function() {
-                if (currentPage < totalPages) {
-                    currentPage++;
-                    fetchRepoFiles();
-                }
-            };
         }
 
         document.getElementById("search-box").addEventListener("input", function() {
