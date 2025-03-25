@@ -1,0 +1,155 @@
+---
+layout: default
+title: User Guide
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 600;
+            transition: color 0.2s;
+            display: block;
+        }
+        
+        a:hover {
+            color: #2980b9;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            padding: 20px 0;
+        }
+
+        .error {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Guide</h1>
+        <h2>Files & Folders</h2>
+        <ul id="file-list" class="loading">Loading...</ul>
+        <p><a href="../index.html">Back to Docs</a></p>
+    </div>
+
+    <script>
+        async function fetchRepoFiles() {
+            const username = "maozuxiao"; // 你的 GitHub 用户名
+            const repo = "my-website"; // 你的仓库名
+            const branch = "main"; // 你的 GitHub Pages 分支
+            const folderPath = "docs/UserGuide"; // 这里是当前目录路径
+
+            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folderPath}?ref=${branch}`;
+
+            try {
+                const response = await fetch(apiUrl);
+                if (!response.ok) {
+                    throw new Error(`GitHub API 请求失败: ${response.status}`);
+                }
+                
+                const files = await response.json();
+                const fileList = document.getElementById("file-list");
+                fileList.innerHTML = ""; // 清空 "Loading..."
+
+                if (files.length === 0) {
+                    fileList.innerHTML = "<p class='error'>没有找到文件</p>";
+                    return;
+                }
+
+                files.forEach(file => {
+                    if (file.name === "_config.yml" || file.name === "index.html") {
+                        return; // 跳过不想显示的文件
+                    }
+
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+
+                    if (file.type === "dir") {
+                        a.href = `https://${username}.github.io/${repo}/docs/UserGuide/${file.name}/`;
+                        a.textContent = `[Folder] ${file.name}`;
+                    } else {
+                        if (file.name.endsWith(".md")) {
+                            const htmlFileName = file.name.substring(0, file.name.length - 3) + ".html";
+                            a.href = `https://${username}.github.io/${repo}/UserGuide/${htmlFileName}`;
+                        } else {
+                            a.href = `https://${username}.github.io/${repo}/UserGuide/${file.name}`;
+                        }
+
+                        const fileNameWithoutExtension = file.name.split('.').slice(0, -1).join('.');
+                        a.textContent = fileNameWithoutExtension;
+                    }
+
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+
+                    li.appendChild(a);
+                    fileList.appendChild(li);
+                });
+            } catch (error) {
+                console.error("Error fetching file list:", error);
+                document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
+            }
+        }
+
+        fetchRepoFiles();
+    </script>
+
+</body>
+</html>
