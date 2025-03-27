@@ -71,204 +71,80 @@ title: Sean's GitHub Pages
         <h2>Docs</h2>
         <ul id="file-list" class="loading">Loading...</ul>
     </div>
+<script>
+    async function fetchRepoFiles() {
+        const username = "maozuxiao";
+        const repo = "my-website";
+        const branch = "main";
+        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
 
-    帮我优化下如下index页面的搜搜索框功能，现在该功能不起作用
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) throw new Error(`GitHub API 请求失败: ${response.status}`);
+            const files = await response.json();
+            const fileList = document.getElementById("file-list");
+            fileList.innerHTML = "";
 
----
-layout: default
-title: Sean's GitHub Pages
----
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean's GitHub Pages</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        
-        .container {
-            max-width: 100%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-            margin-top: 30px;
-        }
-        
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        
-        ul {
-            list-style-type: none;
-            padding-left: 10px;
-        }
-        
-        .file-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 5px;
-            border-radius: 5px;
-            transition: background-color 0.2s;
-        }
-        
-        .file-item:hover {
-            background-color: #e0e0e0;
-        }
-        
-        .nested {
-            margin-left: 20px;
-            padding-left: 10px;
-            border-left: 2px solid #ccc;
-        }
-        
-        .icon {
-            font-size: 16px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to Sean's GitHub Pages</h1>
-        <input type="text" id="search-box" placeholder="Search files...">
-        <h2>Docs</h2>
-        <ul id="file-list" class="loading">Loading...</ul>
-    </div>
+            if (files.length === 0) {
+                fileList.innerHTML = "<p class='error'>没有找到文件</p>";
+                return;
+            }
 
-    <script>
-        async function fetchRepoFiles() {
-            const username = "maozuxiao";
-            const repo = "my-website";
-            const branch = "main";
-            const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs?ref=${branch}`;
+            files.forEach(file => {
+                if (["_config.yml", "index.html", "default.html", "assets"].includes(file.name)) return;
 
-            try {
-                const response = await fetch(apiUrl);
-                if (!response.ok) throw new Error(`GitHub API 请求失败: ${response.status}`);
-                const files = await response.json();
-                const fileList = document.getElementById("file-list");
-                fileList.innerHTML = "";
+                const li = document.createElement("li");
+                li.classList.add("file-item");
+                li.setAttribute("data-file-name", file.name.toLowerCase()); // 存储文件名以供搜索
 
-                if (files.length === 0) {
-                    fileList.innerHTML = "<p class='error'>没有找到文件</p>";
-                    return;
+                const icon = document.createElement("span");
+                icon.classList.add("icon");
+
+                const a = document.createElement("a");
+                a.href = file.name.endsWith(".md") 
+                    ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
+                    : `https://${username}.github.io/${repo}/${file.name}`;
+                a.textContent = file.name;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+
+                if (file.name.endsWith(".html")) {
+                    icon.textContent = "🌐";
+                } else if (file.name.endsWith(".pdf")) {
+                    icon.textContent = "📄";
+                } else if (file.name.endsWith(".md")) {
+                    icon.textContent = "📝";
                 }
 
-                const folders = [];
-                const otherFiles = [];
-
-                files.forEach(file => {
-                    if (["_config.yml", "index.html", "default.html", "assets"].includes(file.name)) return;
-
-                    const li = document.createElement("li");
-                    li.classList.add("file-item");
-                    
-                    const icon = document.createElement("span");
-                    icon.classList.add("icon");
-                    
-                    const a = document.createElement("a");
-                    
-                    if (file.type === "dir") {
-                        icon.textContent = "📁";
-                        a.href = "#";
-                        a.textContent = file.name;
-                        li.classList.add("nested");
-                        li.appendChild(icon);
-                        li.appendChild(a);
-
-                        const subList = document.createElement("ul");
-                        subList.style.display = "none";
-                        li.appendChild(subList);
-
-                        a.addEventListener("click", async (event) => {
-                            event.preventDefault();
-                            if (subList.children.length > 0) {
-                                subList.style.display = subList.style.display === "none" ? "block" : "none";
-                                return;
-                            }
-
-                            const subApiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs/${file.name}?ref=${branch}`;
-                            try {
-                                const subResponse = await fetch(subApiUrl);
-                                if (!subResponse.ok) throw new Error(`GitHub API 请求失败: ${subResponse.status}`);
-                                const subFiles = await subResponse.json();
-                                subFiles.forEach(subFile => {
-                                    const subLi = document.createElement("li");
-                                    subLi.classList.add("file-item");
-                                    
-                                    const subIcon = document.createElement("span");
-                                    subIcon.classList.add("icon");
-                                    
-                                    const subA = document.createElement("a");
-                                    subA.href = subFile.name.endsWith(".md")
-                                        ? `https://${username}.github.io/${repo}/${file.name}/${subFile.name.replace('.md', '.html')}`
-                                        : `https://${username}.github.io/${repo}/${file.name}/${subFile.name}`;
-                                    subA.textContent = subFile.name;
-                                    subA.target = "_blank";
-                                    subA.rel = "noopener noreferrer";
-                                    
-                                    if (subFile.name.endsWith(".html")) {
-                                        subIcon.textContent = "🌐";
-                                    } else if (subFile.name.endsWith(".pdf")) {
-                                        subIcon.textContent = "📄";
-                                    } else if (subFile.name.endsWith(".md")) {
-                                        subIcon.textContent = "📝";
-                                    }
-                                    
-                                    subLi.appendChild(subIcon);
-                                    subLi.appendChild(subA);
-                                    subList.appendChild(subLi);
-                                });
-                                subList.style.display = "block";
-                            } catch (error) {
-                                console.error("Error fetching subfolder files:", error);
-                            }
-                        });
-                        folders.push(li);
-                    } else {
-                        a.href = file.name.endsWith(".md") 
-                            ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
-                            : `https://${username}.github.io/${repo}/${file.name}`;
-                        a.textContent = file.name;
-                        a.target = "_blank";
-                        a.rel = "noopener noreferrer";
-                        
-                        if (file.name.endsWith(".html")) {
-                            icon.textContent = "🌐";
-                        } else if (file.name.endsWith(".pdf")) {
-                            icon.textContent = "📄";
-                        } else if (file.name.endsWith(".md")) {
-                            icon.textContent = "📝";
-                        }
-                        
-                        li.appendChild(icon);
-                        li.appendChild(a);
-                        otherFiles.push(li);
-                    }
-                });
-                folders.forEach(folder => fileList.appendChild(folder));
-                otherFiles.forEach(file => fileList.appendChild(file));
-            } catch (error) {
-                console.error("Error fetching file list:", error);
-                document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
-            }
+                li.appendChild(icon);
+                li.appendChild(a);
+                fileList.appendChild(li);
+            });
+        } catch (error) {
+            console.error("Error fetching file list:", error);
+            document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
         }
+    }
 
-        fetchRepoFiles();
-    </script>
+    function filterFiles() {
+        const searchInput = document.getElementById("search-box").value.toLowerCase();
+        const fileItems = document.querySelectorAll(".file-item");
+
+        fileItems.forEach(item => {
+            const fileName = item.getAttribute("data-file-name");
+            if (fileName.includes(searchInput)) {
+                item.style.display = "flex";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
+
+    document.getElementById("search-box").addEventListener("input", filterFiles);
+
+    fetchRepoFiles();
+</script>
+
 </body>
 </html>
 </body>
