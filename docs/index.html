@@ -140,18 +140,18 @@ title: Sean's GitHub Pages
                             ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
                             : `https://${username}.github.io/${repo}/${file.name}`;
                         a.textContent = file.name;
+                        a.target = "_blank";
+                        a.rel = "noopener noreferrer";
                         otherFiles.push({ li, a });
                     }
 
                     li.appendChild(a);
                 });
 
-                // 先添加文件夹
                 folders.forEach(folder => {
                     fileList.appendChild(folder.li);
                 });
 
-                // 再添加其他文件
                 otherFiles.forEach(file => {
                     fileList.appendChild(file.li);
                 });
