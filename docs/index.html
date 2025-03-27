@@ -108,15 +108,7 @@ title: Sean's GitHub Pages
                 icon.textContent = "📁";  // Emoji for folder
 
                 const a = document.createElement("a");
-
-                // Check if index.html exists in the folder
-                const indexFile = files.find(f => f.type === 'file' && f.name === 'index.html' && f.path.startsWith(file.path));
-                if (indexFile) {
-                    a.href = `https://${username}.github.io/${repo}/${file.name}/index.html`; // Link to folder's index.html
-                } else {
-                    a.href = "#"; // Placeholder if no index.html file is found
-                }
-
+                a.href = `https://${username}.github.io/${repo}/${file.name}/index.html`; // Link to folder's index.html
                 a.textContent = file.name;
                 a.target = "_blank";
                 a.rel = "noopener noreferrer";
