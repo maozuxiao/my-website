@@ -37,60 +37,30 @@ title: Sean's GitHub Pages
         
         ul {
             list-style-type: none;
-            padding: 0;
+            padding-left: 10px;
         }
         
-        li {
-            margin-bottom: 10px;
-            background-color: white;
-            padding: 15px;
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: background-color 0.2s;
         }
         
-        li:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        .file-item:hover {
+            background-color: #e0e0e0;
         }
         
-        a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: 600;
-            transition: color 0.2s;
-            display: block;
-        }
-        
-        a:hover {
-            color: #2980b9;
-        }
-        
-        .loading {
-            text-align: center;
-            color: #7f8c8d;
-            font-style: italic;
-            padding: 20px 0;
-        }
-
-        .error {
-            text-align: center;
-            color: red;
-            font-weight: bold;
-            padding: 20px;
-        }
-
-        #search-box {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
         .nested {
             margin-left: 20px;
+            padding-left: 10px;
+            border-left: 2px solid #ccc;
+        }
+        
+        .icon {
+            font-size: 16px;
         }
     </style>
 </head>
@@ -98,7 +68,7 @@ title: Sean's GitHub Pages
     <div class="container">
         <h1>Welcome to Sean's GitHub Pages</h1>
         <input type="text" id="search-box" placeholder="Search files...">
-        <h2>File List</h2>
+        <h2>Docs</h2>
         <ul id="file-list" class="loading">Loading...</ul>
     </div>
 
@@ -125,16 +95,73 @@ title: Sean's GitHub Pages
                 const otherFiles = [];
 
                 files.forEach(file => {
-                    if (file.name === "_config.yml" || file.name === "index.html") return;
+                    if (["_config.yml", "index.html", "default.html", "assets"].includes(file.name)) return;
 
                     const li = document.createElement("li");
+                    li.classList.add("file-item");
+                    
+                    const icon = document.createElement("span");
+                    icon.classList.add("icon");
+                    
                     const a = document.createElement("a");
-
+                    
                     if (file.type === "dir") {
-                        a.href = `https://${username}.github.io/${repo}/${file.name}/`;
-                        a.textContent = `[Folder] ${file.name}`;
+                        icon.textContent = "📁";
+                        a.href = "#";
+                        a.textContent = file.name;
                         li.classList.add("nested");
-                        folders.push({ li, a });
+                        li.appendChild(icon);
+                        li.appendChild(a);
+
+                        const subList = document.createElement("ul");
+                        subList.style.display = "none";
+                        li.appendChild(subList);
+
+                        a.addEventListener("click", async (event) => {
+                            event.preventDefault();
+                            if (subList.children.length > 0) {
+                                subList.style.display = subList.style.display === "none" ? "block" : "none";
+                                return;
+                            }
+
+                            const subApiUrl = `https://api.github.com/repos/${username}/${repo}/contents/docs/${file.name}?ref=${branch}`;
+                            try {
+                                const subResponse = await fetch(subApiUrl);
+                                if (!subResponse.ok) throw new Error(`GitHub API 请求失败: ${subResponse.status}`);
+                                const subFiles = await subResponse.json();
+                                subFiles.forEach(subFile => {
+                                    const subLi = document.createElement("li");
+                                    subLi.classList.add("file-item");
+                                    
+                                    const subIcon = document.createElement("span");
+                                    subIcon.classList.add("icon");
+                                    
+                                    const subA = document.createElement("a");
+                                    subA.href = subFile.name.endsWith(".md")
+                                        ? `https://${username}.github.io/${repo}/${file.name}/${subFile.name.replace('.md', '.html')}`
+                                        : `https://${username}.github.io/${repo}/${file.name}/${subFile.name}`;
+                                    subA.textContent = subFile.name;
+                                    subA.target = "_blank";
+                                    subA.rel = "noopener noreferrer";
+                                    
+                                    if (subFile.name.endsWith(".html")) {
+                                        subIcon.textContent = "🌐";
+                                    } else if (subFile.name.endsWith(".pdf")) {
+                                        subIcon.textContent = "📄";
+                                    } else if (subFile.name.endsWith(".md")) {
+                                        subIcon.textContent = "📝";
+                                    }
+                                    
+                                    subLi.appendChild(subIcon);
+                                    subLi.appendChild(subA);
+                                    subList.appendChild(subLi);
+                                });
+                                subList.style.display = "block";
+                            } catch (error) {
+                                console.error("Error fetching subfolder files:", error);
+                            }
+                        });
+                        folders.push(li);
                     } else {
                         a.href = file.name.endsWith(".md") 
                             ? `https://${username}.github.io/${repo}/${file.name.replace('.md', '.html')}` 
@@ -142,34 +169,27 @@ title: Sean's GitHub Pages
                         a.textContent = file.name;
                         a.target = "_blank";
                         a.rel = "noopener noreferrer";
-                        otherFiles.push({ li, a });
+                        
+                        if (file.name.endsWith(".html")) {
+                            icon.textContent = "🌐";
+                        } else if (file.name.endsWith(".pdf")) {
+                            icon.textContent = "📄";
+                        } else if (file.name.endsWith(".md")) {
+                            icon.textContent = "📝";
+                        }
+                        
+                        li.appendChild(icon);
+                        li.appendChild(a);
+                        otherFiles.push(li);
                     }
-
-                    li.appendChild(a);
                 });
-
-                folders.forEach(folder => {
-                    fileList.appendChild(folder.li);
-                });
-
-                otherFiles.forEach(file => {
-                    fileList.appendChild(file.li);
-                });
-
+                folders.forEach(folder => fileList.appendChild(folder));
+                otherFiles.forEach(file => fileList.appendChild(file));
             } catch (error) {
                 console.error("Error fetching file list:", error);
                 document.getElementById("file-list").innerHTML = `<p class='error'>加载文件列表失败，请稍后重试。</p>`;
             }
         }
-
-        document.getElementById("search-box").addEventListener("input", function() {
-            let filter = this.value.toLowerCase();
-            let items = document.querySelectorAll("#file-list li");
-            items.forEach(item => {
-                let text = item.textContent.toLowerCase();
-                item.style.display = text.includes(filter) ? "" : "none";
-            });
-        });
 
         fetchRepoFiles();
     </script>
