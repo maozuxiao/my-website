@@ -72,6 +72,82 @@ title: Sean's GitHub Pages
         <ul id="file-list" class="loading">Loading...</ul>
     </div>
 
+    帮我优化下如下index页面的搜搜索框功能，现在该功能不起作用
+
+---
+layout: default
+title: Sean's GitHub Pages
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's GitHub Pages</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        
+        .file-item:hover {
+            background-color: #e0e0e0;
+        }
+        
+        .nested {
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: 2px solid #ccc;
+        }
+        
+        .icon {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sean's GitHub Pages</h1>
+        <input type="text" id="search-box" placeholder="Search files...">
+        <h2>Docs</h2>
+        <ul id="file-list" class="loading">Loading...</ul>
+    </div>
+
     <script>
         async function fetchRepoFiles() {
             const username = "maozuxiao";
@@ -193,5 +269,7 @@ title: Sean's GitHub Pages
 
         fetchRepoFiles();
     </script>
+</body>
+</html>
 </body>
 </html>
