@@ -90,12 +90,39 @@ title: Sean's GitHub Pages
                 return;
             }
 
-            files.forEach(file => {
-                if (["_config.yml", "index.html", "default.html", "assets"].includes(file.name)) return;
+            // Define the files to hide
+            const filesToHide = ["_config.yml", "index.html", "default.html", "assets"];
 
+            // Separate folders from files
+            const folders = files.filter(file => file.type === 'dir' && !filesToHide.includes(file.name));
+            const regularFiles = files.filter(file => file.type === 'file' && !filesToHide.includes(file.name));
+
+            // Add folders at the top
+            folders.forEach(file => {
                 const li = document.createElement("li");
                 li.classList.add("file-item");
-                li.setAttribute("data-file-name", file.name.toLowerCase()); // 存储文件名以供搜索
+                li.setAttribute("data-file-name", file.name.toLowerCase());  // Add data-file-name for filtering
+
+                const icon = document.createElement("span");
+                icon.classList.add("icon");
+                icon.textContent = "📁";  // Emoji for folder
+
+                const a = document.createElement("a");
+                a.href = "#"; // Folders can be linked later if needed
+                a.textContent = file.name;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+
+                li.appendChild(icon);
+                li.appendChild(a);
+                fileList.appendChild(li);
+            });
+
+            // Add files after folders
+            regularFiles.forEach(file => {
+                const li = document.createElement("li");
+                li.classList.add("file-item");
+                li.setAttribute("data-file-name", file.name.toLowerCase());  // Add data-file-name for filtering
 
                 const icon = document.createElement("span");
                 icon.classList.add("icon");
@@ -132,7 +159,7 @@ title: Sean's GitHub Pages
 
         fileItems.forEach(item => {
             const fileName = item.getAttribute("data-file-name");
-            if (fileName.includes(searchInput)) {
+            if (fileName && fileName.includes(searchInput)) {
                 item.style.display = "flex";
             } else {
                 item.style.display = "none";
@@ -145,7 +172,5 @@ title: Sean's GitHub Pages
     fetchRepoFiles();
 </script>
 
-</body>
-</html>
 </body>
 </html>
