@@ -1,4 +1,7 @@
+# What's New
+
 ## Ver11.3.0 to V11.4.7 
+
 1. Streamlined Digital Signature Workflow: Enhanced the process of signing with digital certificates.
 2. Fix the crash issue that might occur in certain situations.
 3. Scanner Page Insertion: Insert pages directly from a scanner for seamless updates.
