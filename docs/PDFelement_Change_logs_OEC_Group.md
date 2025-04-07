@@ -17,3 +17,4 @@
 13. OCR Upgrade: Update the OCR engine to deliver improved recognition accuracy.
 14. Optimized Inverted View: Enhance the visual experience with refined color inversion.
 15. Feature Enhancements & Bug Fixes: Refined various feature details and addressed known issues for an overall improved experience.
+16. Optimized SSO interface
