@@ -26,7 +26,7 @@ vlook-query: fold=off&ws=3
 
 > [!TIP]
 >
-> 该指引可以帮助你自动分配license给指定Group中的用户
+> This guide can help you automatically assign licenses to users in a specified group.
 
 
 
