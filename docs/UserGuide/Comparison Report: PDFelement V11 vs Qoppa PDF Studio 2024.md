@@ -1,9 +1,6 @@
 # Comparison Report: PDFelement V11 vs Qoppa PDF Studio 2024
 
-
-
 ## OverView
-
 
 
 | Feature            | **Wondershare PDFelement V11**                    | **Qoppa PDF Studio 2024**                           |
