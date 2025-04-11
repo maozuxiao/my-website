@@ -2,7 +2,6 @@
 
 ## OverView
 
-
 | Feature            | **Wondershare PDFelement V11**                    | **Qoppa PDF Studio 2024**                           |
 | ------------------ | ------------------------------------------------- | --------------------------------------------------- |
 | Developer          | Wondershare<br />Company size: *2,000+ employees* | Qoppa Software<br />Company size: *11-50 employees* |
