@@ -18,21 +18,87 @@ layout: default
 
 # Streamax Landing Report
 
+> ###### ℹ️ 简 介
+>
+> ---
+>
+> 该工作笔记是为了记录入职Streamax的工作过程，以便后续进行复盘。
+------
 
+<details close>
+<summary>今日心情：<progress max="100" value="99"></progress>99%</summary>
+<div align="center"><img src="https://s2.loli.net/2023/01/16/xuQNqZjR3lkcDBJ.gif" alt="Lofi Girl-001" /></div>
+</details>
+
+------
+
+## 今日诗词
+
+
+
+> ---
+>
+> > <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=Salmon" style="max-width:100%; display: block; margin: 0 auto;">
+>
+> > ![今日诗词](https://v2.jinrishici.com/one.svg#line)
+
+------
 
 ## 待办事项
 
 - [x] 新员工辅导流程--已发起
 - [x] 新员工入职培训--丘湄湄Arianna
+- [x] 权限申请：OMS/RDMS/文件系统（鸿翼）/wiki知识库/Salesforce（海外）
 - [ ] 锐明学院课程
 
+------
+## 生活相关
+
+### 地铁通勤
+
+==通勤时长：1小时==
+
+```mermaid
+%%{init: {'theme':'hand'}}%%
+graph LR
+    A["大剧院"] --> B["科学馆(松岗方向)"]
+    B --> C["深圳北(赤湾方向)"]
+    C --> D["塘朗 C出口"]
+```
+------
+### 餐饮
 
 
+1. **自助食堂午餐**
+   - 价格：七菜一汤/自带餐具 17.5元/18元自助午餐
+   - 供应地点：B1栋20楼餐厅/A4栋10楼走廊
+   - 供应时间：11:40-12:20
+2. **网上/电话订餐**
+4. **自带餐食**
+   - 公司提供冰箱、微波炉
+   - 冰箱微波炉位置：B1栋20楼餐厅
+5. **园区食堂用餐**
+   - 地点：A4栋1楼鑫辉餐饮、A1与A2之间金百味餐饮
+   - 支付方式：可办理就餐卡或支付现金
 
+------
+### 快递业务
 
+| 快递业务         | 详情                                                         |
+| ---------------- | ------------------------------------------------------------ |
+| 快递收发地址     | 智园B1快递收发室在20楼餐厅旁边，包裹类快递一律放置在20楼收发室，文件类都在23楼前台收取，文件前台每天会发送钉钉通知 |
+| 月结合作公司     | 京东（月结号：020K1450818 密码：Streamax@2024）、顺丰（顺丰月结号755 0530 642） |
+| 公司件寄快递     | 20楼收发室桌上有二维码寄件单进行扫描填单，顺丰、京东月结号已张贴在20楼收发室大家可自行绑定，快递寄出可以按照重量来选择较优惠的快递公司，再将包裹放置在寄件区 |
+| 个人件寄快递     | 寄出个人件，都需要将贴在包裹上的回单上注明：私人件，再将包裹放置在寄件区，行政核对快递账单时会进行收款私人件费用统一给到快递公司 |
+| 从工厂到智园物件 | 前台每天钉钉发到件通知，工作日工厂谢师傅13:30-14:00到智园，14:00-14:30返回实验室-工厂，若有急需物品传送及时联系谢师傅：13682318933 |
+------
+## WIFI网络配置
+`WIFI SSID`: STREAMAX
 
+`Password`: streamax@23
 
-## 常用链接
+------
+## 常用平台链接
 
 | 🆔序号 | :label:名称      | 📝描述                      | :link:链接                       |
 | ----- | ---------------- | -------------------------- | -------------------------------- |
@@ -44,304 +110,165 @@ layout: default
 | 6     | RDMS             | 锐明技术RDMS项目管理系统   | https://rdms.streamax.com/       |
 | 7     | Salesforce       | CRM系统                    |                                  |
 
-
+------
 
 ## 相关方登记册
 
-| 姓名          | 角色         | 部门                           |
-| ------------- | ------------ | ------------------------------ |
-| Emrys梁学贤   | Mentor       | 海外营销中心-欧洲战区-土耳其区 |
-| 丘湄湄Arianna | 海外营销HRBP | 人力资源部-招聘组              |
-| Jayden岑剑龙  | IT支持       | 信息技术部-网络安全组          |
-| 康正晖        | 入职搭子     | 产品研发中心-自动驾驶研发部    |
+| 姓名             | 角色                                                         | 部门                               |
+| :--------------- | :----------------------------------------------------------- | :--------------------------------- |
+| Emrys梁学贤      | Mentor                                                       | 海外营销中心-欧洲战区-土耳其区     |
+| 丘湄湄Arianna    | 海外营销HRBP                                                 | 人力资源部-招聘组                  |
+| Jayden岑剑龙     | IT支持                                                       | 信息技术部-网络安全组              |
+| 康正晖           | 入职搭子                                                     | 产品研发中心-自动驾驶研发部        |
+| 冯雨书Florence   | 锐明学院课程学习问题对接人                                   | 人力资源部-COE组                   |
+| 胡萍             | 费用报销对接人                                               | 财务部-账务组                      |
+| 黄秋月 Kelly     | [机票业务（国际票务）/各国签证、港澳台签注/国际酒店/境外保险](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-川渝行政组                  |
+| 付雅琴           | [车辆派遣（含租车+港车）/接待安排/国内酒店预订/餐厅预订/名片定制/快递业务](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-行政服务组                  |
+| 吴可嘉 Victor Wu | 产品工程师（货运产品线）                                     | 产品发展中心-货运产品线-海外货运组 |
+| 张明瀚           | 产品工程师（出租产品线）                                     | 产品发展中心-出租产品线            |
+| 覃茹婧 Sussie    | 产品工程师（公交产品线）                                     | 产品发展中心-公交产品线            |
+| Thompson汤振宁   | 产品工程师（矿山）                                           | 产品发展中心-创新工业产品线        |
+| 吴雨纾Nancy      | 产品工程师（摄像机）                                         | 产品发展中心-摄像机产品线          |
+| Doris 魏可依     | 产品工程师（平台）                                           | 产品发展中心-产品市场一部          |
+| Ariel 王梦琪     | 解决方案工程师（SafeGPT）                                    | 产品发展中心-产品市场一部          |
+
+------
+## 锐明学院
+
+### 知识地图
+
+---
+---
+---
+
+- `了解锐明`
+
+  <summary>进度：<progress max="100" value="25"></progress>25%</summary>
+
+  ==必修课==
+
+    - [x]  [企业核心价值观及经营理念Corporate Core Values and Philosophy](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x]  [2024锐明反舞弊反腐败培训Anti-fraud Anti-corruption](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x]  [行政服务手册](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ]  [财务报销/International Reimbursement](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ]  [信息安全及IT应用资源](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x]  [消防安全知识](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+  ==选修课==
+
+    - [x] [锐明发展历程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [常见消防安全标识认知](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+  
+- `锐明行业`
+
+  进度：<progress max="100" value="50"></progress>50%</summary>
+
+  ==必修课==
+
+    - [ ] [【2024锐小星培训】货运行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】公交行业分享：公交智能解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】出租行业分享：锐明出租行业智能化解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】矿山行业分享：矿山市场分析与解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [无线摄像机产品方案介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [2025年OEM事业部产品矩阵](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [警用解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+  ==选修课==
+
+    - [ ] [产品立项与需求管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+- `锐明技术`
+
+  进度：<progress max="100" value="75"></progress>75%</summary>
+
+  ==必修课==
+
+    - [ ] [【2024锐小星培训】质量课程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】技服研讨](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】三级研发架构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】IPD流程介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+  ==选修课==
+
+    - [ ] [IPD整机开发过程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+- `课外拓展`
+
+  进度：<progress max="100" value="100"></progress>100%</summary>
+
+  ==必修课==
+
+    - [ ] [SWOT分析](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [PDCA循环管理法](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [鱼刺图](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [【2024锐小星培训】职业素养培养](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+  ==选修课==
+
+    - [ ] [左脑框架，搭建脉络清晰的结构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [右脑力量，汇聚打动人心的力量](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [零基础学工作总结与汇报](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [会议纪要写作技巧](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [高效职场人的时间管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [ ] [职业形象塑造——像个职业人的样子](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+### 学习总结
+
+#### 企业文化
+
+---
+
+- 核心价值观
+  Core Values of Streamax
+  * 成就客户 `Customer Success`
+  * 团队协作 `Team Collaboration`
+  * 开放包容 `Diversity & Inclusivity`
+  * 追求卓越 `Pursue Excellence`
+  * 持续创新 `Continuous Innovation`
+- 核心经营理念
+  Core Philosophy
+  * 做离客户最近的技术公司 `To be the Tech-Driven
+    Company that Gets
+    Closest to the Customers`
+  * 坚持长期主义 `Persisting in Long-Termism`
+    * 不做机会主义者 `Not being opportunistic`
+    * 十年如一日的坚持对研发的高投入 `Consistent high investment in research and development for a decade`
+    * 坚持对人才及企业能力的持续投入`Sustained investment in talent and enterprise capabilities`
+    * 技术能提升  `Technology 
+      Capability 
+      Enhancement`
+    * 企业能力提升 `Improvement 
+      of Organization 
+      Capability`
+  * 战略聚焦，在一厘米的宽度深耕一公里`Strategic Focus, Deep Cultivation within a 
+    Narrow Scope`
 
 
 
-## 说明书
-
-> [+]
->
-> > 1. https://madmaxchow.github.io/VLOOK/index.html
-> > 2. https://madmaxchow.github.io/VLOOK/guide.html
-> > 3. https://madmaxchow.github.io/VLOOK/guide2.html
-
-## YMAL
-
-|   **插件预置选项**    | 简介                                          | 内容取值及说明                                               |
-| :-------------------: | --------------------------------------------- | ------------------------------------------------------------ |
-|         title         | 属于 YAML Front Matter 的标准选项             | 指定导出 HTML 后的文档标题                                   |
-|        author         | 属于 YAML Front Matter 的标准选项             | 指定导出 HTML 后的作者信息                                   |
-|       keywords        | 属于 YAML Front Matter 的标准选项             | 指定导出 HTML 后的文档关键字，便于搜索引擎收录               |
-| vlook-chapter-autonum | 自定义章节自动编号的格式、前缀、后缀等内容    | 详见：[章节自动编号](https://madmaxchow.github.io/VLOOK/guide2.html#章节自动编号) **支持设置为多个值，以两个英文井号「##」进行分隔** |
-|     vlook-doc-lib     | 启用并指定当前文档的文库 URL                  | 详见：[文库导航](https://madmaxchow.github.io/VLOOK/guide2.html#文库导航) |
-|      vlook-query      | 自定义文档 URL 中的 VLOOK™ 规范的插件调校参数 | 详见以下章节：[插件调校参数](https://madmaxchow.github.io/VLOOK/guide2.html#插件调校参数) |
-|     vlook-welcome     | 自定义文档在加载时欢迎页信息                  | 详见：[自定义欢迎页内容](https://madmaxchow.github.io/VLOOK/guide2.html#自定义欢迎页内容) |
-
-通过 VLOOK™ 的「插件调校参数」可以对插件功能或文档的样式、交互方式进行开关和调整，支持以下方式进行调校（若同时存在则以 URL 参数指定的为优先）：
-
-- **方式一：**通过文档的 URL 参数（即 Query）指定
-- **方式二：**通过 Markdown 文档的 YAML Front Matter 来指定
-
-表 10. VLOOK™ 插件调校参数说明
-
-| **插件调校参数** | 简介                                                         | 取值及说明                                                   |
-| :--------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|      capnum      | 指定不要启用自动生成内容索引与编号的范围（多项间可用英文逗号分隔），不启用的情况下，对应内容的超长后的[自动折叠](https://madmaxchow.github.io/VLOOK/guide2.html#长内容自动折叠)也会不启用 默认**全部启用** | `table` - 表格 `figure` - 插图 `audio` - 音频 `video` - 视频 `codeblock` - 代码块 |
-|     capauto      | 指定在内容索引无题注内容时，是否以索引对象（如表格、图片、代码块等）的内容自动生成 默认为 `off` | `off` - 不开启 `on` - 开启                                   |
-|        cs        | 指定使用固定的颜色方案 默认为 `auto`                         | `light` - 强制显示为 Light Mode `dark` - 强制显示为 Dark Mode `auto` - 自动跟随系统配置 |
-|        cf        | 控制使用长内容自动折叠的开头 黑夜为 `on`                     | `off` - 不开启 `on` - 开启                                   |
-|      dc-tag      | 调整[彩虹标签](https://madmaxchow.github.io/VLOOK/guide.html#彩虹标签)未指定颜色时默认使用的颜色标识 默认为 `theme1` | 对应的预置颜色标识，[详见这里](https://madmaxchow.github.io/VLOOK/guide.html#彩虹标签) |
-|     dc-badge     | 调整[彩虹徽章](https://madmaxchow.github.io/VLOOK/guide.html#彩虹徽章)未指定颜色时默认使用的颜色标识 默认为 `gray` | 对应的预置颜色标识，[详见这里](https://madmaxchow.github.io/VLOOK/guide.html#彩虹徽章) |
-|     dc-quote     | 调整普通「引用」默认自动转换为指定颜色标识的[彩虹引用](https://madmaxchow.github.io/VLOOK/guide.html#彩虹引用) 默认为 `theme1` | 对应的预置颜色标识，[详见这里](https://madmaxchow.github.io/VLOOK/guide.html#彩虹引用) |
-|     dc-coat      | 调整[刮刮卡](https://madmaxchow.github.io/VLOOK/guide.html#°刮刮卡)未指定颜色时默认使用的颜色标识 默认为 `gray` | 对应的预置颜色标识，[详见这里](https://madmaxchow.github.io/VLOOK/guide.html#°刮刮卡) |
-|        dl        | 控制文库功能的开关 默认为 `on`                               | `off` - 不开启 `on` - 开启                                   |
-|      effect      | 调整文档的动效级别 默认为 `2`                                | `0` - 关闭动效 `1` - 标准动效 `2` - 增强动效（毛玻璃等）     |
-|       lmc        | 对代码块自动生成题注并编号的行数下限 默认为 `1`              | `{行数下限}` - 大于该行数的代码才会自动生成题注和编号 如：`3` |
-|       mdx        | 指定将扩展名为「*.md」的链接转换为指定的新扩展名 （该配置默认是全局生效，也支持在单个链接中单独添加同名参数进行微调） 默认为 `html` | `off` - 关闭，不转换 `{扩展名}` - 指定的扩展名，如 `php` `htm` 等 |
-|        nc        | 指定导航中心初始的运行模式 默认为 `auto`                     | `auto` - 在封面时自动关闭、在正文时自动展开 `closed` - 始终关闭，须鼠标悬停在左侧，或通过工具栏打开 |
-|      reset       | 强制重置浏览器存储的 VLOOK 相关数据                          | `true`                                                       |
-|      radius      | 使用指定的圆角样式，忽略 VLOOK 主题自带的样式                | `none` - 不使用圆角 `small` - 使用小号圆角 `big` - 使用大号圆角 |
-|      srcset      | 对于没有高清分辨率的图片，在高分屏上强制以高清形式显示 默认为「不开启」 | `auto` - 对未指定 srcset 的图片强制以高清形式显示            |
-|      stsbar      | 指定文档底部状态栏内不要启用的内容项（多项间可用英文逗号分隔） 默认**全部启用** | `doc-info` - 阅读时长、字数 `zoom-view` - 缩放 `link-checker` - 错误链接 |
-|        wf        | 强制指定使用的字体主题，指定该参数后则忽略 VLOOK 主题配套的字体主题 默认为文档选用的 VLOOK 主题中配套的字体主题 | `local` - 强制使用「系统默认」 `sans` - 强制使用「小清新」 `serif` - 强制使用「文艺范」 |
-|        ws        | 指定文档的「欢迎页」显示模式 默认为 `auto`                   | `auto` - 文档和插件加载完成后，延时（5秒）自动关闭欢迎页 `wait` - 文档和插件加载完成后，手动关闭欢迎页 `none` - 不显示欢迎页 |
-|      theme       | 使用在[线插件方式](https://madmaxchow.github.io/VLOOK/index.html#在线版插件)时动态指定任意 VLOOK 主题 | `{具体的主题名称}` ，如`vlook-hope`                          |
-|       toc        | 指定目录大纲初始自动折叠的层级 默认为 `2`                    | `0` - 不折叠，全部展开 `1~5` - 折叠指定的层级                |
-|        tr        | 指定表格阅读模式默认开关 默认为 `on`                         | `off` - 不开启 `on` - 开启                                   |
+## 产品知识
 
 
 
-## 家中常备
+### 参考资料
+
+1. streamax company profile-Basic Information-0611.pptx
+1. Comprehensive MDVR series from Streamax 20230911.pptx
 
 
 
-### HTML发布
-
-#### Github
-
-1. 登录https://github.com/maozuxiao/my-website/tree/main/docs
-2. 上传HTML到`docs`文件夹
-3. 访问地址示例：
-
-```html
-https://maozuxiao.github.io/my-website/毛祖潇的工作笔记-2025-03-21.html
-```
+### 产品线
 
 
 
-##### **方法 1：使用 GitHub Pages 直接托管**
 
-适用于 **静态 HTML 文件**（不支持动态后端）。
 
-**1. 创建 GitHub 仓库**
 
-1. 登录 [GitHub](https://github.com)。
-2. 新建一个 **Public（公开）** 仓库（如果是 Private（私有）仓库，需要开通 GitHub Pro）。
-3. 记住仓库名，比如 `my-website`。
 
-**2. 上传 HTML 文件**
 
-- 方法 A：GitHub 网站上传
 
-  1. 进入仓库，点击 **"Add file" → "Upload files"**。
-  2. 选择你的 HTML、CSS、JS 文件，上传后提交。
-
-- 方法 B：使用 Git
-
-  ```sh
-  git clone https://github.com/你的用户名/my-website.git
-  cd my-website
-  echo "Hello, GitHub Pages!" > index.html
-  git add .
-  git commit -m "Initial commit"
-  git push origin main
-  ```
-
-**3. 启用 GitHub Pages**
-
-1. 进入你的 GitHub 仓库 **Settings** → **Pages**。
-
-2. 在 **Branch** 选择 `main`（或 `master`），然后点击 **Save**。
-
-3. GitHub 会分配一个 URL，例如：
-
-   ```html
-    https://你的用户名.github.io/my-website/
-   ```
-
-4. 等待几分钟，访问该链接，就能看到你的 HTML 页面。
 
 ------
 
-##### **方法 2：使用 `docs/` 目录（适用于已有仓库）**
 
-如果你不想改动 `main` 分支，可以：
-
-1. 在仓库根目录创建 `docs/` 文件夹，放入 `index.html`。
-2. 进入 **Settings → Pages**，在 **Source** 选择 `docs/` 目录。
-
-你的网页就会在：
-
-```html
-https://你的用户名.github.io/仓库名/
-```
-
-
-
-------
-
-##### **方法 3：绑定自定义域名（可选）**
-
-如果你有自己的域名，可以：
-
-1. 在 **Settings → Pages**，添加你的域名（如 `www.example.com`）。
-2. 在你的域名 DNS 记录中，添加 GitHub 提供的 `CNAME` 解析。
-
-------
-
-这样，你的 HTML 网页就可以被外网访问了！😃
-
-###  Logi option+ Mac平台程序一直卡死解决方案
-
-```sh
-kill -9 $(ps aux | grep "MacOS/logioptionsplus_agent" | grep -v grep | awk '{print $2}')
-```
-
-杀进程后重启应用
-
-###  LVSecurityAgent 重启
-
-~~~sh
-kill -9 $(ps aux | grep "LVSecurityAgent" | grep -v grep | awk '{print $2}')
-~~~
-
-杀进程后重启应用
-
-### Markdown导出PDF分页
-
-```html
-<div STYLE="page-break-after: always;"></div>
-```
-
-
-
-### 修复Windows RDP远程桌面没有声音
-
-1. 打开Windows开始菜单，搜索并进入Services
-2. 找到**Windows Audio**服务，重启解决
-
-> 参考🔗：https://www.anyviewer.cn/how-to/rdp-audio-not-working-6540.html
-
-### emoji 支持
-
-
-
-![提莫点赞](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20241105114953100.png)
-
-> > > 表情
-> >
-> > >😀 😁 😂 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 😗 😙 😚 ☺ 🙂 🤗 😇 🤓 🤔 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 😒 😓 😔 😕 🙃 🤑 😲 😷 🤒 🤕 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 😬 😰 😱 😳 😡 😠
-> >
-> > > 动物
-> > >
-> > > 🐱 😺 😸 😹 😻 😼 😽 🙀 😿 😾 🙈 🙉 🙊 🐵 🐒 🐕 🐩 🐺 🐱 🐈 🦁 🐯 🦄 🐂 🐃 🐄 🐷 🐖 🐗 🐽 🐏 🐑 🐐 🐪 🐫 🐘 🐭 🐁 🐀 🐹 🐰 🐇 🐿 🐨 🐼 🐾 🦃 🐓 🐣 🐤 🐥 🐦 🐧 🕊 🐸 🐊 🐍 🐲 🐉 🐳 🐋 🐬 🐟 🐡 🐙 🐚 🦀 🐌 🐜 🐝 🐞 🕷 🦂 🕸
-> >
-> > > 办公
-> > >
-> > > 📱 📲 ☎ 📞 📟 📠 🔋 🔌 💻 💽 💾 💿 📀 🎥 📺 📷 📹 📼 🔍 🔎 🔬 🔭 📡 📔 📕 📖 📗 📘 📙 📚 📓 📃 📜 📄 📰 📑 🔖 💳 ✉ 📧 📨 📩 📤 📥 📦 📫 📪 📬 📭 📮 ✏ ✒ 📝 📁 📂 📅 📆 📇 📈 📉 📊 📋 📍 📎 📏 📐 ✂ 🔒 🔓 🔏 🔐 🔑
-> >
-> > > 饮食
-> > >
-> > > 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍑 🍒 🍓 🍅 🍆 🌽 🍄 🌰 🍞 🍖 🍗 🍔 🍟 🍕 🍳 🍲 🍱 🍘 🍙 🍚 🍛 🍜 🍝 🍠 🍢 🍣 🍤 🍥 🍡 🍦 🍧 🍨 🍩 🍪 🎂 🍰 🍫 🍬 🍭 🍮 🍯 🍼 ☕ 🍵 🍶 🍷 🍸 🍹 🍴
-> >
-> > > 身体
-> > >
-> > > 👂 👣 👀 👁 👁 🗨 👅 👄
-> >
-> > > 手机
-> > >
-> > > 📱 📲 📶 📳 📴 ☎ 📞 📟 📠
-> >
-> > > 恐怖
-> > >
-> > > 😈 👿 👹 👺 💀 ☠ 👻 👽 👾 💣
-> >
-> > > 星座
-> > >
-> > > ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ⛎
-> >
-> > > 公共
-> > >
-> > > ♻ 🏧 🚮 🚰 ♿ 🚹 🚺 🚻 🚼 🚾 ⚠ 🚸 ⛔ 🚫 🚳 🚭 🚯 🚱 🚷 🔞 💈
-> >
-> > > 建筑
-> > >
-> > > 🏠 🏡 🏢 🏣 🏤 🏥 🏦 🏨 🏩 🏪 🏫 🏬 🏭 🏯 🏰 💒 🗽 ⛪ 🌆 🌇 🌉
-> >
-> > > 植物
-> > >
-> > > 💐 🌸 💮 🏵 🌹 🌺 🌻 🌼 🌷 🌱 🌲 🌳 🌴 🌵 🌾 🌿 ☘ 🍀 🍁 🍂 🍃
-> >
-> > > 心形
-> > >
-> > > 💘 ❤ 💓 💔 💕 💖 💗 💙 💚 💛 💜 💝 💞 💟 ❣
-> >
-> > > 自然
-> > >
-> > > 🌍 🌎 🌏 🌐 🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌙 🌚 🌛 🌜 ☀ 🌝 🌞 ⭐ 🌟 🌠 ☁ ⛅ ☔ ⚡ ❄ 💧 🌊
-> >
-> > > 文体
-> > >
-> > > 🎪 🎭 🎨 🎰 🚣 🛀 🎫 🏆 ⚾ 🏈 🏉 🎾 🎱 🎳 ⛳ 🎣 🎽 🎿 🏂 🏄 🏇 🏊 🚴 🚵 🎯 🎮 🎲 🎷 🎸 🎺 🎻 🎬
-> >
-> > > 时钟
-> > >
-> > > 🕛 🕧 🕐 🕜 🕑 🕝 🕒 🕞 🕓 🕟 🕔 🕠 🕕 🕡 🕖 🕢 🕗 🕣 🕘 🕤 🕙 🕥 🕚 🕦 ⌛ ⏳ ⌚ ⏰ ⏱ ⏲ 🕰
-> >
-> > > 手势
-> > >
-> > > 💪 👈 👉 ☝ 👆 🖕 👇 ✌ 🖖 🤘 🖐 ✋ 👌 👍 👎 ✊ 👊 👏 👐 ✍ 💅
-> >
-> > > 标志
-> > >
-> > > ♠ ♥ ♦ ♣ 🀄 🎴 🔇 🔈 🔉 🔊 📢 📣 💤 💢 💬 💭 ♨ 🌀 🔔 🔕 ✡ ✝ 🔯 📛 🔰 🔱 ⭕ ✅ ☑ ✔ ✖ ❌ ❎ ➕ ➖ ➗ ➰ ➿ 〽 ✳ ✴ ❇ ‼ ⁉ ❓ ❔ ❕ ❗ © ® ™ 🎦 🔅 🔆 💯 🔠 🔡 🔢 🔣 🔤 🅰 🆎 🅱 🆑 🆒 🆓 ℹ 🆔 Ⓜ 🆕 🆖 🅾 🆗 🅿 🆘 🆙 🆚 🈁 🈂 🈷 🈶 🈯 🉐 🈹 🈚 🈲 🉑 🈸 🈴 🈳 ㊗ ㊙ 🈺 🈵 ▪ ▫ ◻ ◼ ◽ ◾ ⬛ ⬜ 🔶 🔷 🔸 🔹 🔺 🔻 💠 🔲 🔳 ⚪ ⚫ 🔴 🔵 ▶ ◀ ⬆ ↗ ➡ ↘ ⬇ ↙ ⬅ ↖ ↕ ↔ ↩ ↪ ⤴ ⤵ 🔃 🔄 🔙 🔚 🔛 🔜 🔝
-> >
-> > > 物品
-> > >
-> > > 💌 💎 🔪 💈 🚪 🚽 🚿 🛁 ⌛ ⏳ ⌚ ⏰ 🎈 🎉 🎊 🎎 🎏 🎐 🎀 🎁 📯 📻 📱 📲 ☎ 📞 📟 📠 🔋 🔌 💻 💽 💾 💿 📀 🎥 📺 📷 📹 📼 🔍 🔎 🔬 🔭 📡 💡 🔦 🏮 📔 📕 📖 📗 📘 📙 📚 📓 📃 📜 📄 📰 📑 🔖 💰 💴 💵 💶 💷 💸 💳 ✉ 📧 📨 📩 📤 📥 📦 📫 📪 📬 📭 📮 ✏ ✒ 📝 📁 📂 📅 📆 📇 📈 📉 📊 📋 📍 📎 📏 📐 ✂ 🔒 🔓 🔏 🔐 🔑 🔫 🔧 🔩 🔗 💊 🚬 🔮 🚩 🎌 💦 💨
-> >
-> > > 人物
-> > >
-> > > 👦 👧 👨 👩 👴 👵 👶 👱 👮 👲 👳 👷 ⛑ 👸 💂 🕵 🎅 👰 👼 💆 💇 🙍 🙎 🙅 🙆 💁 🙋 🙇 🙌 🙏 🗣 👤 👥 🚶 🏃 👯 💃 🕴 👫 👬 👭 💏 💑 👪 👨‍ 👩‍ 👧 👨‍ 👩‍ 👧‍ 👦 👨‍ 👩‍ 👦‍ 👦 👨‍ 👩‍ 👧‍ 👧 👩‍ 👩‍ 👦 👩‍ 👩‍ 👧 👨 👩 👦 👨 👩 👧 👨 👩 👧 👦 👨 👩 👦 👦 👨 👩 👧 👧 👨 👨 👦 👨 👨 👧 👨 👨 👧 👦 👨 👨 👦 👦 👨 👨 👧 👧 👩 👩 👦 👩 👩 👧 👩 👩 👧 👦 👩 👩 👦 👦 👩 👩 👧 👧
-> >
-> > > 交通
-> > >
-> > > 🚂 🚃 🚄 🚅 🚆 🚇 🚈 🚉 🚊 🚝 🚞 🚋 🚌 🚍 🚎 🚏 🚐 🚑 🚒 🚓 🚔 🚕 🚖 🚗 🚘 🚚 🚛 🚜 🚲 ⛽ 🚨 🚥 🚦 🚧 ⚓ ⛵ 🚣 🚤 🚢 ✈ 💺 🚁 🚟 🚠 🚡 🚀
-
-### Have fun
-
->  Music
->
->  ---
->
->  ---
->
->  ---
->
->  > **lofi hip hop radio - beats to relax/study to**
->  >
->  > <iframe width="480" height="320" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->
->  > **Lazy Summer Morning 🥙 Lofi Summer Vibes 🥙 Morning Lofi Songs To Listen When You're Having Breakfast**
->  >
->  > <iframe width="1280" height="720" src="https://www.youtube.com/embed/titnZQ5KdT0" title="Lazy Summer Morning 🥙 Lofi Summer Vibes 🥙 Morning Lofi Songs To Listen When You&#39;re Having Breakfast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
->
->  > **【24/7 CHILL LOFI HIP HOP RADIO】beats to sleep/relax/study to**
->  >
->  > <iframe width="480" height="320" src="https://www.youtube.com/embed/qH3fETPsqXU" title="【24/7 CHILL LOFI HIP HOP RADIO】beats to sleep/relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->
->  > **lofi hip hop radio - beats to study/relax to 🐾**
->  >
->  > <iframe width="480" height="320" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="lofi hip hop radio - beats to study/relax to 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Thanks for watching! 
+# Thanks for watching! <br> *Sean`🚕` Mao*
