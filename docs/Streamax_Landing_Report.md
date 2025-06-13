@@ -8,7 +8,7 @@ keywords:
 - 海外营销中心-欧洲战区
 - 仅内部使用
 vlook-welcome: Streamax
-vlook-chp-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
+vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
 vlook-query: coating=bu&ws=3
 ---
@@ -267,28 +267,23 @@ graph LR
 
 - 核心价值观
   Core Values of Streamax
-  * 成就客户 `Customer Success`
-  * 团队协作 `Team Collaboration`
-  * 开放包容 `Diversity & Inclusivity`
-  * 追求卓越 `Pursue Excellence`
-  * 持续创新 `Continuous Innovation`
+  * *成就客户**Customer Success***
+  * *团队协作 **Team Collaboration***
+  * *开放包容 **Diversity & Inclusivity***
+  * *追求卓越 **Pursue Excellence***
+  * *持续创新 **Continuous Innovation***
 - 核心经营理念
   Core Philosophy
-  * 做离客户最近的技术公司 `To be the Tech-Driven
-    Company that Gets
-    Closest to the Customers`
-  * 坚持长期主义 `Persisting in Long-Termism`
-    * 不做机会主义者 `Not being opportunistic`
-    * 十年如一日的坚持对研发的高投入 `Consistent high investment in research and development for a decade`
-    * 坚持对人才及企业能力的持续投入`Sustained investment in talent and enterprise capabilities`
-    * 技术能提升  `Technology 
-      Capability 
-      Enhancement`
-    * 企业能力提升 `Improvement 
-      of Organization 
-      Capability`
-  * 战略聚焦，在一厘米的宽度深耕一公里`Strategic Focus, Deep Cultivation within a 
-    Narrow Scope`
+  * *做离客户最近的技术公司 **To be the Tech-Driven Company that Gets Closest to the Customers***
+  * *坚持长期主义 **Persisting in Long-Termism***
+    * *不做机会主义者 **Not being opportunistic***
+    * *十年如一日的坚持对研发的高投入 **Consistent high investment in research and development for a decade***
+    * *坚持对人才及企业能力的持续投入**Sustained investment in talent and enterprise capabilities***
+    * *技术能提升  **Technology Capability Enhancement***
+    * *企业能力提升 **Improvement of Organization Capability***
+  * *战略聚焦，在一厘米的宽度深耕一公里**Strategic Focus, Deep Cultivation within a Narrow Scope***
+
+
 ------
 
 ## 产品知识
