@@ -92,7 +92,7 @@ graph LR
 | 快递业务         | 详情                                                         |
 | ---------------- | ------------------------------------------------------------ |
 | 快递收发地址     | 智园B1快递收发室在20楼餐厅旁边，包裹类快递一律放置在20楼收发室，文件类都在23楼前台收取，文件前台每天会发送钉钉通知 |
-| 月结合作公司     | 京东（月结号：020K1450818 密码：Streamax@2024）、顺丰（顺丰月结号755 0530 642） |
+| 月结合作公司     | 京东（月结号：020K1450818 *密码：**Streamax@2024***_~Cy~_）、顺丰（顺丰月结号755 0530 642） |
 | 公司件寄快递     | 20楼收发室桌上有二维码寄件单进行扫描填单，顺丰、京东月结号已张贴在20楼收发室大家可自行绑定，快递寄出可以按照重量来选择较优惠的快递公司，再将包裹放置在寄件区 |
 | 个人件寄快递     | 寄出个人件，都需要将贴在包裹上的回单上注明：私人件，再将包裹放置在寄件区，行政核对快递账单时会进行收款私人件费用统一给到快递公司 |
 | 从工厂到智园物件 | 前台每天钉钉发到件通知，工作日工厂谢师傅13:30-14:00到智园，14:00-14:30返回实验室-工厂，若有急需物品传送及时联系谢师傅：13682318933 |
@@ -129,9 +129,17 @@ graph LR
 
 `WIFI SSID`: STREAMAX
 
-`Password`: streamax@23
+`Password`: ***streamax@23***
 
 ------
+
+## 打印机配置
+`Account`: 100038760
+
+`Password`: ***Streamax2025#print***
+
+------
+
 ## 常用平台链接
 
 | 🆔序号 | :label:名称      | 📝描述                            | :link:链接                       |
@@ -184,7 +192,7 @@ graph LR
     - [x]  [企业核心价值观及经营理念Corporate Core Values and Philosophy](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [2024锐明反舞弊反腐败培训Anti-fraud Anti-corruption](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [行政服务手册](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ]  [财务报销/International Reimbursement](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x]  [财务报销/International Reimbursement](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [信息安全及IT应用资源](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [消防安全知识](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
