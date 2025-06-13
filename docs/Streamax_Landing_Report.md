@@ -10,6 +10,7 @@ keywords:
 vlook-welcome: Streamax
 vlook-chp-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
+vlook-query: coating=bu&ws=3
 ---
 
 ###### Streamax Landing Report<br />------<br />*Version 1.0`🐾`11th June 2025*<br />*一般`👀`部门可见*<br />*Sean`🚕` Mao*<br />
@@ -52,14 +53,18 @@ layout: default
 - [ ] 锐明学院课程
 
 ------
-## 生活相关
+## 工作生活相关
 
+### 工号
+
+<kbd>100038760</kbd>
+
+------
 ### 地铁通勤
 
 ==通勤时长：1小时==
 
 ```mermaid
-%%{init: {'theme':'hand'}}%%
 graph LR
     A["大剧院"] --> B["科学馆(松岗方向)"]
     B --> C["深圳北(赤湾方向)"]
@@ -92,7 +97,36 @@ graph LR
 | 个人件寄快递     | 寄出个人件，都需要将贴在包裹上的回单上注明：私人件，再将包裹放置在寄件区，行政核对快递账单时会进行收款私人件费用统一给到快递公司 |
 | 从工厂到智园物件 | 前台每天钉钉发到件通知，工作日工厂谢师傅13:30-14:00到智园，14:00-14:30返回实验室-工厂，若有急需物品传送及时联系谢师傅：13682318933 |
 ------
+### 报销相关
+
+1. 交通、住宿、招待按标准执行
+2. 发票完整有效，不得损坏或遗失
+3. 住宿费优先 “专票”、须提供住宿清单
+4. 机票费用优选行程单
+5. 运费联 & 发票、滴滴行程单 & 发票
+6. 购买物品办理入库手续
+
+```mermaid
+graph LR
+  A(Start) -->B[报销人登陆系统]
+  B -->|01| C[填写并提交系统单据]
+  C -->|02| D[首签领导审核]
+  D -->|03| E[各中心总监审核]
+  E -->|04| F[费用会计审核]
+  C -->|03| F[费用会计审核]
+  F -->|05/YES| G[总经理/副总经理审核]
+  G -->|06/YES| H[财务总监审核]
+  H -->|07/YES| I[出纳付款]
+  H -->|07/NO| F[费用会计审核]
+  I -->J[End]
+```
+
+
+
+------
+
 ## WIFI网络配置
+
 `WIFI SSID`: STREAMAX
 
 `Password`: streamax@23
@@ -100,15 +134,15 @@ graph LR
 ------
 ## 常用平台链接
 
-| 🆔序号 | :label:名称      | 📝描述                      | :link:链接                       |
-| ----- | ---------------- | -------------------------- | -------------------------------- |
-| 1     | OA               | 内部流程发起               | http://oa.streamax.com:8080/     |
-| 2     | 锐明学院         | 试用期课程学习             | https://streamax.21tb.com/       |
-| 3     | 鸿翼文件服务器   | Streamax内部文件系统       | https://wj.streamax.com:9443/    |
-| 4     | Wiki知识库       | 技术支持FAQ，知识共享      | http://jfwiki.streamax.com:7503/ |
-| 5     | Coremail论客邮箱 | 网页版邮箱，用于内外部沟通 | https://mail.streamax.com/       |
-| 6     | RDMS             | 锐明技术RDMS项目管理系统   | https://rdms.streamax.com/       |
-| 7     | Salesforce       | CRM系统                    |                                  |
+| 🆔序号 | :label:名称      | 📝描述                            | :link:链接                       |
+| ----- | ---------------- | -------------------------------- | -------------------------------- |
+| 1     | OA               | 内部流程发起                     | http://oa.streamax.com:8080/     |
+| 2     | 锐明学院         | 试用期课程学习                   | https://streamax.21tb.com/       |
+| 3     | 鸿翼文件服务器   | Streamax内部文件系统             | https://wj.streamax.com:9443/    |
+| 4     | Wiki知识库       | 技术支持FAQ，知识共享            | http://jfwiki.streamax.com:7503/ |
+| 5     | Coremail论客邮箱 | 网页版邮箱，用于内外部沟通       | https://mail.streamax.com/       |
+| 6     | RDMS             | 锐明技术RDMS项目管理系统（禅道） | https://rdms.streamax.com/       |
+| 7     | Salesforce       | CRM系统                          |                                  |
 
 ------
 
@@ -143,7 +177,7 @@ graph LR
 
 - `了解锐明`
 
-  <summary>进度：<progress max="100" value="25"></progress>25%</summary>
+  进度：**==25==**_~Bu~_
 
   ==必修课==
 
@@ -151,7 +185,7 @@ graph LR
     - [x]  [2024锐明反舞弊反腐败培训Anti-fraud Anti-corruption](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [行政服务手册](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ]  [财务报销/International Reimbursement](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ]  [信息安全及IT应用资源](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x]  [信息安全及IT应用资源](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x]  [消防安全知识](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
   ==选修课==
@@ -161,7 +195,7 @@ graph LR
   
 - `锐明行业`
 
-  进度：<progress max="100" value="50"></progress>50%</summary>
+  进度：**==50==**_~Bu~_
 
   ==必修课==
 
@@ -180,7 +214,7 @@ graph LR
 
 - `锐明技术`
 
-  进度：<progress max="100" value="75"></progress>75%</summary>
+  进度：**==75==**_~Bu~_
 
   ==必修课==
 
@@ -195,7 +229,7 @@ graph LR
 
 - `课外拓展`
 
-  进度：<progress max="100" value="100"></progress>100%</summary>
+  进度：**==100==**_~Bu~_
 
   ==必修课==
 
@@ -212,6 +246,8 @@ graph LR
     - [ ] [会议纪要写作技巧](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [高效职场人的时间管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [职业形象塑造——像个职业人的样子](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+
+------
 
 ### 学习总结
 
@@ -243,19 +279,16 @@ graph LR
       Capability`
   * 战略聚焦，在一厘米的宽度深耕一公里`Strategic Focus, Deep Cultivation within a 
     Narrow Scope`
-
-
+------
 
 ## 产品知识
-
-
 
 ### 参考资料
 
 1. streamax company profile-Basic Information-0611.pptx
-1. Comprehensive MDVR series from Streamax 20230911.pptx
+2. Comprehensive MDVR series from Streamax 20230911.pptx
 
-
+------
 
 ### 产品线
 
@@ -264,6 +297,31 @@ graph LR
 
 
 
+
+
+
+## 我的碎碎念
+
+
+
+### 优点
+
+
+
+1. 新人入职有《新员工入职指引》、笔记本和笔
+2. 新人可以通过锐明学院进行自学
+3. 20楼有食堂
+
+------
+
+### 缺点
+
+1. 公司内部系统的账号并不完全互通，不同的系统需要设置不同的密码，账号使用工号不太友好`建议：各系统互通，通过单点登录控制授权登录，账号使用公司邮箱前缀代替工号`
+2. 公司不提供纸巾，茶包`建议：提供纸巾和茶包增加员工幸福感`
+3. 新人没有工位，导师也出差了`建议：关爱空巢新人，提供专属工位，为新人提供1:1的指导`
+4. 没有给新人配电风扇，新人很羡慕 `建议：给夏天入职的同事发放电风扇`
+5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**错峰出行***_~Bu~_
+6. 
 
 
 
