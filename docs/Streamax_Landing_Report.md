@@ -41,7 +41,7 @@ vlook-query: coating=bu&ws=3
 >
 > > <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=Salmon" style="max-width:100%; display: block; margin: 0 auto;">
 >
-> > ![今日诗词](https://v2.jinrishici.com/one.svg#line)
+> > <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=Brown" style="max-width:100%; display: block; margin: 0 auto;">
 
 ------
 
@@ -140,6 +140,8 @@ graph LR
 
 `Password`: ***Streamax2025#print***
 
+> 参考文档: 震旦打印机安装驱动+教程
+
 ------
 
 ## 常用平台链接
@@ -209,7 +211,7 @@ graph LR
 
   ==必修课==
 
-    - [ ] [【2024锐小星培训】货运行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】货运行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】公交行业分享：公交智能解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】出租行业分享：锐明出租行业智能化解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
@@ -364,7 +366,7 @@ graph LR
 | ![R151/R159](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto3.png#200w#line) | **黑光侧盲 + 前盲（R151/R159）**                            | 在低光照条件下也能清晰成像，用于监测车辆侧面盲区和前方盲区，辅助驾驶员更好地了解周围环境，减少因盲区导致的交通事故。 |
 | ![DVS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image12.png#200w#line) | **黑光侧盲 / 前盲（DVS）**                                  | 与上述黑光产品类似，通过先进的图像传感器和算法，在黑暗环境下提供清晰的侧方和前方盲区画面，增强驾驶安全性。 |
 | ![**360 系统**](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#200w#line) | **360 系统**                                                | 即 360 度全景影像系统，通过环绕车辆的多个摄像头拍摄的画面拼接，生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境，提高驾驶便利性和安全性。 |
-| ![CA51-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) | **（鱼眼摄像头)**                                           | 具有1/2.8 2M pixel CMOS传感器，支持HDR、自动电子快门、自动曝光和自动白平衡，配备1.7mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
+| ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) | **CA51A-Fisheye Camera-1080P（鱼眼摄像头)**                 | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
 | ![无线摄像机](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image16.png#200w#line) | **无线摄像机**                                              | 通过无线传输技术与车辆监控系统连接，安装灵活，可放置在车辆不同位置，用于监测车辆周围环境，避免布线繁琐，为驾驶员提供实时画面。 |
 
 
@@ -377,6 +379,45 @@ graph LR
 | ![蓝牙温湿度传感器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image19.png#200w#line) | 蓝牙温湿度 Sensor（蓝牙温湿度传感器） | 实时监测货物周围的温湿度环境，对于运输对温湿度有要求的货物，如食品、药品、电子产品等，可确保货物在适宜的环境下运输，保障货物质量。 |
 | ![蓝牙油杆传感器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image20.png#200w#line) | 蓝牙油杆 sensor（蓝牙油杆传感器）     | 监测车辆油箱油量变化，防止油料盗窃等情况，同时帮助管理者了解车辆油耗情况，便于进行成本控制和燃油管理。 |
 | ![酒精检测](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image21.png#line) | 酒精检测                              | 用于检测驾驶员是否饮酒，确保驾驶员在酒精含量符合规定的情况下驾驶车辆，保障行车安全，避免因酒驾导致的交通事故。 |
+
+
+
+## 产品FAQ
+
+> ###### Streamax IP Camera是否支持HDR
+>
+> Emrys梁学贤 RE: 我们大部分IPC 支持WDR。WDR就是软件优化，HDR其实更多是硬件成本的消耗
+>
+> ------
+>
+> **WDR 和 HDR 都是为了更好地处理场景中的明暗差异，不过它们在技术细节、应用场景和实现方式等方面有一定的区别。WDR 更多侧重于在图像采集端（如摄像头）解决强光和弱光场景下的细节捕捉问题，HDR 则是在整个影像链路（包括拍摄、编码、传输和显示）中提升动态范围和视觉效果。**
+>
+> WDR（Wide Dynamic Range）和 HDR（High Dynamic Range）都是用于处理图像和视频中动态范围的技术，以下是它们详细的介绍：
+> **一、WDR（Wide Dynamic Range）**
+>
+> 1. **定义**
+>    - WDR 是宽动态范围的缩写。它是一种图像处理技术，用于解决在同一场景中因明暗差别过大而导致普通相机无法同时捕捉到亮部和暗部细节的问题。例如，在一个有强烈光线从窗户射入室内的场景中，如果没有 WDR 技术，靠近窗户的物体可能会因为过亮而看不清细节，而室内其他较暗位置的物体又可能因为过暗而无法分辨。
+>    - WDR 技术是通过同时拍摄多张不同曝光程度的照片（一张曝光正常的、一张曝光过度的用于捕捉暗部细节、一张曝光不足的用于捕捉亮部细节），然后将这些不同曝光的照片进行合成，从而得到一张亮部和暗部细节都能清晰呈现的图像。
+> 2. **应用场景**
+>    - 在监控领域广泛应用。比如在银行营业厅，营业厅内部光线和透过玻璃门的外部光线可能相差很大，安装在门口的监控摄像头就可以利用 WDR 技术来同时看清进出人员的脸部等细节以及营业厅内部的情况。
+>    - 在一些专业摄影场景中也有应用，当摄影师需要拍摄高对比度场景，如在舞台灯光下拍摄演员，舞台灯光很亮，而演员身后可能有较暗的背景，WDR 技术可以帮助摄影师更好地捕捉完整的场景细节。
+> 3. **技术实现方式**
+>    - 硬件实现：一些高端的摄像头会在传感器层面采用特殊的电路设计和感光元件，使其能够同时感知高亮和低暗部分的信号，并通过内部的图像处理芯片进行合成处理。这种硬件级的 WDR 通常能够提供较好的动态范围效果。
+>    - 软件实现：通过图像处理算法来合成不同曝光的照片。在数字图像后期处理软件中，也可以对已经拍摄的照片应用 WDR 算法，但效果可能不如硬件实现的 WDR 真实和自然。
+>
+> **二、HDR（High Dynamic Range）**
+>
+> 1. ------
+>
+> 定义     * HDR 是高动态范围的缩写。它也是一种动态范围增强技术。HDR 技术主要是通过扩展图像或视频的亮度范围，使画面能够呈现出更接近人眼所看到的丰富的亮部和暗部细节。HDR 不仅仅是合成不同曝光的照片，它还包括对色彩、对比度等多个方面的优化。 * 例如，在 HDR 显示设备上播放 HDR 内容，如电影或游戏画面，观众可以看到更鲜艳的颜色、更细腻的光影过渡。在亮部，比如阳光照射的金属表面的反光会更加耀眼且细节丰富；暗在部，比如夜晚星空下的阴影部分也能看到更多的纹理，如树木在阴影中的枝干细节。
+>
+> 1. **应用场景**
+>    - 在影视制作和播放领域，HDR 技术已经成为一种提升视觉体验的重要标准。许多流媒体平台如 Netflix、Amazon Prime Video 等都提供了 HDR 内容，通过支持 HDR 的智能电视、显示器等设备，观众可以享受到高质量的视觉盛宴。
+>    - 在游戏产业，HDR 技术也被广泛应用。游戏开发者利用 HDR 技术来增强游戏画面的沉浸感，使游戏场景中的光影效果更加逼真。在一些开放世界游戏的场景中，如《荒野大镖客：救赎 2》，开启 HDR 功能后，游戏中从白天到夜晚的场景转换、阳光下马匹的毛发细节和阴影中的岩石纹理等都能得到更好的呈现。
+>    - 在摄影方面，HDR 摄影可以帮助摄影师创作出具有强烈视觉冲击力的作品。例如在拍摄风景照时，HDR 技术可以让天空中云彩的层次和地面景观的细节都得到更好的展现。
+> 2. **技术实现方式**
+>    - HDR 编码格式：常见的 HDR 编码格式有 Dolby Vision、HDR10 等。Dolby Vision 能够提供更广泛的亮度范围和更丰富的色彩，它可以根据显示设备的特性动态地调整画面参数。HDR10 是一种较为主流的格式，它基于静态元数据，能够在兼容的设备上提供较好的 HDR 效果。
+>    - HDR 显示设备：为了能够呈现出 HDR 内容的效果，需要有支持 HDR 的显示设备。这些设备需要具备高亮度、宽色域和高对比度等特性。例如，一些高端的 4K HDR 电视亮度可以达到 1000 尼特甚至更高，能够展示出明亮且真实的画面效果。
 
 ## 我的碎碎念
 
@@ -399,9 +440,6 @@ graph LR
 3. 新人没有工位，导师也出差了`建议：关爱空巢新人，提供专属工位，为新人提供1:1的指导`
 4. 没有给新人配电风扇，新人很羡慕 `建议：给夏天入职的同事发放电风扇`
 5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**错峰出行***_~Bu~_
-6. 
-
-
 
 
 ------
