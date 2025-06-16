@@ -212,8 +212,8 @@ graph LR
   ==必修课==
 
     - [x] [【2024锐小星培训】货运行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】公交行业分享：公交智能解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】出租行业分享：锐明出租行业智能化解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】公交行业分享：公交智能解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】出租行业分享：锐明出租行业智能化解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】矿山行业分享：矿山市场分析与解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [无线摄像机产品方案介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
@@ -222,7 +222,7 @@ graph LR
 
   ==选修课==
 
-    - [ ] [产品立项与需求管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [产品立项与需求管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
 - `锐明技术`
 
@@ -263,7 +263,22 @@ graph LR
 
 ### 学习总结
 
+> ###### 公司介绍
+> 锐明技术（股票代码002970）创立于2002年，现为深圳证券交易所主板上市企业，是以人工智能和视频技术为核心，专注于商用车的安全、合规和效率提升的AIoT智能物联解决方案提供商。截至目前，锐明技术在深圳、重庆、成都等地均设有技术研发中心。 公司以深圳为中心，辐射国内30多个省市以及北美、欧洲、中东等地，建立起以子公司、办事处等为载体的营销和售后服务体系。产品和解决方案广泛应用于全球100多个国家和地区，成功为北京奥运会、上海世博会、全国两会、卡塔尔世界杯、成都大运会、北京公交、成都公交、深圳出租、美国校车、新加坡公交、土耳其出租、厄瓜多尔综合交通等大型交通安保项目提供安全保障及信息化服务。锐明技术将秉持“成就客户、追求卓越、持续创新、团队合作、开放包容”的核心价值观。持续提升服务能力，努力成为“离客户最近的科技型企业”。并将围绕AI、大数据、高清视频等技术持续创新，为构筑更安全、高效、有序的美好交通未来不懈努力。
+
 #### 企业文化
+
+---
+
+- 企业愿景
+  Corporate Vision
+
+  *成为最值得信赖的交通安全守护者**To become the most trusted guardian of traffic safety***
+
+- 企业使命
+  Corporate Mission
+
+  *科技构筑美好交通未来**Building a better transportation future with technology***
 
 ---
 
@@ -294,7 +309,10 @@ graph LR
 
 1. streamax company profile-Basic Information-0611.pptx
 2. Comprehensive MDVR series from Streamax 20230911.pptx
-3. 7.24-04 新生培训-货运.pptx
+3. Spc-CA51A-AHD Camer-1080P.docx
+4. 7.24-04 新生培训-货运.pptx
+5. 7.24-Streamax Intelligent Solutions for Public Transportation v2.3_Final-中文培训.pptx
+6. 7.24-03 锐明出租行业智能化解决方案-2024.pptx
 
 ------
 
@@ -310,17 +328,27 @@ graph LR
 
 ---
 
-- 🚚货运行业
+- 🚚货运行业[<kbd>货运行业产品内容详见这里 ❯❯</kbd>](#🚚货运行业产品)
 
-  ![Trucking Solution](https://en.streamax.com/images/d1.jpg)
+  ![Trucking Solution](https://www.streamax.com/images/e2.jpg)
 
-- 🚌公交行业
+  > ###### 360智能环视系统
+  > 通过多摄像机的频接覆盖，对车辆周边环境和盲区进行覆盖，同时，系统集成AI机器视觉算法，当车辆周边存在行人时，进行主动提示报警，报警与车载屏幕进行联动，车载显示屏会显示报警对应画面，对驾驶员提供直观提示。
 
-  
+- 🚌公交行业[<kbd>公交行业产品内容详见这里 ❯❯</kbd>](#🚌公交行业产品)
 
-- 🚕出租行业
+   ![Transit Bus Solution](https://www.streamax.com/userfiles/images/2021/08/25/2021082509418928.jpg)
 
-  
+  > ###### 高级驾驶辅助系统
+  > 高级驾驶辅助系统（双目ADAS）配备长焦和短焦双镜头实时聚焦车辆行驶过程中的各类突发情况，提前帮助驾驶员预知风险，及时采取制动、转向等措施规避潜在的道路风险。
+
+- 🚕出租车行业[<kbd>出租车行业产品内容详见这里 ❯❯</kbd>](#🚕出租车行业产品)
+
+    ![Taxi Solution](https://www.streamax.com/images/a-2.jpg)
+
+   > ###### 高级驾驶辅助系统
+   >
+   > 高级驾驶辅助系统（ADAS）实时聚焦车辆行驶过程中的各类突发情况，提前帮助驾驶员预知风险，及时采取制动、转向等措施规避潜在的道路风险。
 
 - 🚍校车行业
 
@@ -330,7 +358,7 @@ graph LR
 
   
 
-### 🚚货运行业产品
+### **🚚**货运行业产品
 
 ---
 ---
@@ -340,51 +368,156 @@ graph LR
 - ![货运产品全景-1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250613151627652.png)
 - ![货运产品全景-2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250613152049684.png)
 
+------
 
-
-
+> [!NOTE]
+>
+> 如下列表并未列出所有产品
 
 #### 车联网产品
 
-| 图示                                                         | 名称                                                         | 描述                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![Dashcam](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image4.png#200w#line) | **Dashcam（Dashboard Camera，行车记录仪）**                  | 安装在车内，用于记录车辆行驶过程中的前方道路画面，包括时间、车速等信息。可在发生交通事故时提供视频证据，帮助确定责任归属，也方便车主查看行车过程中的特殊情况，如遇到特殊路况、危险驾驶行为等。通常具备循环录制、碰撞感应锁定视频等功能，以确保重要视频不被覆盖。 |
-| ![ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image5.png#200w#line) | **ADAS（Advanced Driver Assistance Systems，高级驾驶辅助系统）** | 通过传感器、摄像头等设备感知车辆周围环境，为驾驶员提供各种辅助功能。例如前碰撞预警（FCW），在检测到与前车距离过近且有碰撞风险时发出警报；车道偏离预警（LDW），当车辆偏离车道时提醒驾驶员；还有自适应巡航控制（ACC），能自动调整车速保持与前车的安全距离，提高行车安全性和舒适性。 |
-| ![DMS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image6.png#200w#line) | **专业 DMS（Driver Monitoring System，驾驶员监控系统）**     | 主要功能是监测驾驶员的状态。利用摄像头捕捉驾驶员的面部表情、眼部动作等，判断其是否出现疲劳驾驶、分心驾驶（如长时间看手机、东张西望）等情况，并及时发出警报，提醒驾驶员集中注意力，确保行车安全。一些高级的 DMS 还可以识别驾驶员的行为习惯，提供个性化的驾驶建议。 |
-| ![Cabin CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image7.png#200w#line) | **Cabin CAM（Cabin Camera，车内摄像头）**                    | 用于记录车内情况，包括驾驶员、乘客的行为和神态等。在公交、出租车等运营车辆中，可用于监督服务质量，处理乘客投诉，保障车内安全；在私家车中，可以监控车内财物安全，防止盗窃等情况发生，同时也能记录车内人员的紧急状况，为后续处理提供依据。 |
-| ![CAN+](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image8.png#200w#line) | **CAN+ 视频推展（Controller Area Network + Video Expansion，控制器局域网 + 视频推展）** | CAN（Controller Area Network，控制器局域网络）是一种常用于汽车的通信协议，通过 CAN 接口可以获取车辆的各种数据，如转速、油门开度、刹车状态等。而 “视频推展” 功能可能是将这些车辆数据与视频画面相结合，进行更深入的分析和展示。例如，在车辆行驶过程中，将 CAN 总线上的数据叠加在视频上，实时直观地反映车辆的运行状态，便于进行故障诊断、驾驶行为分析等。同时，这种设备可能还支持将这些数据和视频通过网络推送给远程监控平台，实现远程监控和管理。 |
-| ![MDVR](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image9.png#200w#line) | **MDVR（Mobile Digital Video Recorder，汽车行驶记录仪）**    | 是一种专业的车载视频记录设备，具备高稳定性和高容量存储的特点。它会记录车辆行驶过程中的多路视频画面（如前车、车内、车后等），并可按照设定的时间间隔进行循环录制。同时，MDVR 还会记录车辆的行驶数据，如速度、里程、位置等信息，这对于车队管理、交通安全监管以及事故责任认定都非常重要。它通常采用坚固的外壳设计，以确保在各种恶劣的行驶环境和碰撞情况下，存储的数据不会丢失或损坏。 |
+|                             图示                             |                             名称                             | 描述                                                         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| ![Dashcam](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image4.png#200w#line) |           Dashcam（Dashboard Camera，行车记录仪）            | 安装在车内，用于记录车辆行驶过程中的前方道路画面，包括时间、车速等信息。可在发生交通事故时提供视频证据，帮助确定责任归属，也方便车主查看行车过程中的特殊情况，如遇到特殊路况、危险驾驶行为等。通常具备循环录制、碰撞感应锁定视频等功能，以确保重要视频不被覆盖。 |
+| ![ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image5.png#200w#line) | ADAS（Advanced Driver Assistance Systems，高级驾驶辅助系统） | 通过传感器、摄像头等设备感知车辆周围环境，为驾驶员提供各种辅助功能。例如前碰撞预警（FCW），在检测到与前车距离过近且有碰撞风险时发出警报；车道偏离预警（LDW），当车辆偏离车道时提醒驾驶员；还有自适应巡航控制（ACC），能自动调整车速保持与前车的安全距离，提高行车安全性和舒适性。 |
+| ![DMS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image6.png#200w#line) |     专业 DMS（Driver Monitoring System，驾驶员监控系统）     | 主要功能是监测驾驶员的状态。利用摄像头捕捉驾驶员的面部表情、眼部动作等，判断其是否出现疲劳驾驶、分心驾驶（如长时间看手机、东张西望）等情况，并及时发出警报，提醒驾驶员集中注意力，确保行车安全。一些高级的 DMS 还可以识别驾驶员的行为习惯，提供个性化的驾驶建议。 |
+| ![Cabin CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image7.png#200w#line) |            Cabin CAM（Cabin Camera，车内摄像头）             | 用于记录车内情况，包括驾驶员、乘客的行为和神态等。在公交、出租车等运营车辆中，可用于监督服务质量，处理乘客投诉，保障车内安全；在私家车中，可以监控车内财物安全，防止盗窃等情况发生，同时也能记录车内人员的紧急状况，为后续处理提供依据。 |
+| ![CAN+](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image8.png#200w#line) | CAN+ 视频推展（Controller Area Network + Video Expansion，控制器局域网 + 视频推展） | CAN（Controller Area Network，控制器局域网络）是一种常用于汽车的通信协议，通过 CAN 接口可以获取车辆的各种数据，如转速、油门开度、刹车状态等。而 “视频推展” 功能可能是将这些车辆数据与视频画面相结合，进行更深入的分析和展示。例如，在车辆行驶过程中，将 CAN 总线上的数据叠加在视频上，实时直观地反映车辆的运行状态，便于进行故障诊断、驾驶行为分析等。同时，这种设备可能还支持将这些数据和视频通过网络推送给远程监控平台，实现远程监控和管理。 |
+| ![MDVR](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image9.png#200w#line) |    MDVR（Mobile Digital Video Recorder，汽车行驶记录仪）     | 是一种专业的车载视频记录设备，具备高稳定性和高容量存储的特点。它会记录车辆行驶过程中的多路视频画面（如前车、车内、车后等），并可按照设定的时间间隔进行循环录制。同时，MDVR 还会记录车辆的行驶数据，如速度、里程、位置等信息，这对于车队管理、交通安全监管以及事故责任认定都非常重要。它通常采用坚固的外壳设计，以确保在各种恶劣的行驶环境和碰撞情况下，存储的数据不会丢失或损坏。 |
 
-
+------
 
 #### 补盲产品
 
-| 图示                                                         | 名称                                                        | 描述                                                         |
-| ------------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| ![单 / 四画面有线 / 无线屏](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto2.png#200w#line) | **单 / 四画面有线 / 无线屏**                                | 可同时显示多个摄像头的画面，方便驾驶员实时查看车辆不同部位的状况，有线连接稳定，无线连接更灵活，便于在车内不同位置查看。 |
-| ![CMS20](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image10.png#200w#line) | **CMS20（Camera Monitoring System 20，摄像头监控系统 20）** | 用于监测车辆周围的环境，通过多个摄像头捕捉车辆四周的实时画面，为驾驶员提供更全面的视野，辅助驾驶操作，减少盲区风险。 |
-| ![R151/R159](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto3.png#200w#line) | **黑光侧盲 + 前盲（R151/R159）**                            | 在低光照条件下也能清晰成像，用于监测车辆侧面盲区和前方盲区，辅助驾驶员更好地了解周围环境，减少因盲区导致的交通事故。 |
-| ![DVS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image12.png#200w#line) | **黑光侧盲 / 前盲（DVS）**                                  | 与上述黑光产品类似，通过先进的图像传感器和算法，在黑暗环境下提供清晰的侧方和前方盲区画面，增强驾驶安全性。 |
-| ![**360 系统**](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#200w#line) | **360 系统**                                                | 即 360 度全景影像系统，通过环绕车辆的多个摄像头拍摄的画面拼接，生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境，提高驾驶便利性和安全性。 |
-| ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) | **CA51A-Fisheye Camera-1080P（鱼眼摄像头)**                 | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
-| ![无线摄像机](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image16.png#200w#line) | **无线摄像机**                                              | 通过无线传输技术与车辆监控系统连接，安装灵活，可放置在车辆不同位置，用于监测车辆周围环境，避免布线繁琐，为驾驶员提供实时画面。 |
+|                             图示                             |                             名称                             | 描述                                                         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| ![单 / 四画面有线 / 无线屏](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto2.png#200w#line) | Single/Quad screen wired/wireless（单 / 四画面有线 / 无线屏） | 可同时显示多个摄像头的画面，方便驾驶员实时查看车辆不同部位的状况，有线连接稳定，无线连接更灵活，便于在车内不同位置查看。 |
+| ![CMS20](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image10.png#200w#line) |   CMS20（Camera Monitoring System 20，摄像头监控系统 20）    | 用于监测车辆周围的环境，通过多个摄像头捕捉车辆四周的实时画面，为驾驶员提供更全面的视野，辅助驾驶操作，减少盲区风险。 |
+| ![R151/R159](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto3.png#200w#line) |                 黑光侧盲 + 前盲（R151/R159）                 | 在低光照条件下也能清晰成像，用于监测车辆侧面盲区和前方盲区，辅助驾驶员更好地了解周围环境，减少因盲区导致的交通事故。 |
+| ![DVS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image12.png#200w#line) |                    黑光侧盲 / 前盲（DVS）                    | 与上述黑光产品类似，通过先进的图像传感器和算法，在黑暗环境下提供清晰的侧方和前方盲区画面，增强驾驶安全性。 |
+| ![AVM 360 系统](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#180deg#200w#line) |                           360 系统                           | 即 360 度全景影像系统，通过环绕车辆的多个摄像头拍摄的画面拼接，生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境，提高驾驶便利性和安全性。 |
+| ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) |           CA51A-Fisheye Camera-1080P（鱼眼摄像头)            | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
+| ![无线摄像机](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image16.png#200w#line) |                          无线摄像机                          | 通过无线传输技术与车辆监控系统连接，安装灵活，可放置在车辆不同位置，用于监测车辆周围环境，避免布线繁琐，为驾驶员提供实时画面。 |
 
-
+------
 
 #### 货物安全
 
-| 图示                                                         | 名称                                  | 描述                                                         |
-| ------------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------ |
-| ![量方](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image18.png#200w#line) | 量方                                  | 用于测量货物的体积等信息，帮助优化货物装载方案，提高运输效率，合理安排货物空间，减少浪费。 |
-| ![蓝牙温湿度传感器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image19.png#200w#line) | 蓝牙温湿度 Sensor（蓝牙温湿度传感器） | 实时监测货物周围的温湿度环境，对于运输对温湿度有要求的货物，如食品、药品、电子产品等，可确保货物在适宜的环境下运输，保障货物质量。 |
-| ![蓝牙油杆传感器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image20.png#200w#line) | 蓝牙油杆 sensor（蓝牙油杆传感器）     | 监测车辆油箱油量变化，防止油料盗窃等情况，同时帮助管理者了解车辆油耗情况，便于进行成本控制和燃油管理。 |
-| ![酒精检测](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image21.png#line) | 酒精检测                              | 用于检测驾驶员是否饮酒，确保驾驶员在酒精含量符合规定的情况下驾驶车辆，保障行车安全，避免因酒驾导致的交通事故。 |
+|                             图示                             |                      名称                       | 描述                                                         |
+| :----------------------------------------------------------: | :---------------------------------------------: | ------------------------------------------------------------ |
+| ![量方](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image18.png#200w#line) |               Load Sensor（量方）               | 用于测量货物的体积等信息，帮助优化货物装载方案，提高运输效率，合理安排货物空间，减少浪费。 |
+| ![Door Sensor](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image40.png#200w#line) |            Door Sensor（车门传感器）            | 用于检测车门的开关状态，能够实时监测车门是否被打开或关闭，为车辆安全提供保障。当车门状态发生变化时，该传感器可以及时反馈信息，防止车门未关好导致的安全隐患，同时也有助于监控车辆的使用情况，确保车辆在合法授权的情况下使用。 |
+| ![温湿度传感器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image42.png#200w#line) | Temperature and Humidity Sensor（温湿度传感器） | 实时监测货物周围的温湿度环境，对于运输对温湿度有要求的货物，如食品、药品、电子产品等，可确保货物在适宜的环境下运输，保障货物质量。 |
+| ![Fuel Sensor](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image41.png#200w#line) |            Fuel Sensor（燃油传感器）            | 监测车辆油箱油量变化，防止油料盗窃等情况，同时帮助管理者了解车辆油耗情况，便于进行成本控制和燃油管理。 |
+| ![I-Button](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image44.png#200w#line) |            I-Button（身份识别按钮）             | 通常用于驾驶员身份识别，通过与车辆系统的连接，当驾驶员按下该按钮时，系统可以识别驾驶员的身份信息。这有助于实现个性化的驾驶设置，如调整座椅位置、后视镜角度、车载娱乐系统偏好等，提高驾驶的舒适性和便利性。同时，它还可以用于考勤管理，记录驾驶员的出勤情况，确保运营车辆的驾驶人员符合规定，便于车队管理。 |
+| ![酒精检测](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image21.png#line) |           Alcohol sensor（酒精检测）            | 用于检测驾驶员是否饮酒，确保驾驶员在酒精含量符合规定的情况下驾驶车辆，保障行车安全，避免因酒驾导致的交通事故。 |
+
+------
+
+### **🚌**公交行业产品
+
+---
+
+- ![Intelligent Bus Central Unit](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_1.jpg)
+- ![Bus Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_2.jpg)
+
+> [!NOTE]
+>
+> 如下列表并未列出所有产品
+
+#### Integrated public transport management platform
+|                             图示                             |                      产品名称                      | 说明                                               |
+| :----------------------------------------------------------: | :------------------------------------------------: | -------------------------------------------------- |
+| ![Safety Management Platform](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image55.png#200w#line) |     Safety Management Platform（安全管理平台）     | 实时监控公交车辆运行状态，提升安全管理水平。       |
+| ![Bus Operation Service Platform](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image56.png#200w#line) | Bus Operation Service Platform（公交运营服务平台） | 优化公交运营流程，提高运营效率。                   |
+| ![Operation & Maintenance Platform](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image54.png#200w#line) | Operation & Maintenance Platform（运营与维护平台） | 全面管理公交车辆运营与维护工作，确保车辆正常运行。 |
+
+------
+
+#### Driver Assistance AI Peripherals
+|                             图示                             |                        产品名称                         | 说明                                                         |
+| :----------------------------------------------------------: | :-----------------------------------------------------: | ------------------------------------------------------------ |
+| ![BSD](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto3.png#200w#line) |                   BSD（盲区监测系统）                   | 盲区监测系统，辅助驾驶员了解车辆盲区情况，减少因盲区导致的事故风险。 |
+| ![AVM 360](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#180deg#line#200w) |              AVM 360（360 度全景环视系统）              | 360 度全景环视系统，提供车辆周围全景影像，辅助驾驶员驾驶。   |
+| ![DMS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image31.png#200w#line) |     DMS（Driver Monitoring System，驾驶员监控系统）     | 监控驾驶员状态，提供疲劳驾驶和分心驾驶预警，提升行车安全性。 |
+| ![Dual-Lens ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image28.png#200w#line) |        Dual-Lens ADAS（双镜头高级驾驶辅助系统）         | 双镜头高级驾驶辅助系统，提供前碰撞预警、车道偏离预警等功能。 |
+| ![Collision Mitigation Control System](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250616145541022.png#200w#line) | Collision Mitigation Control System（碰撞缓解控制系统） | 在车辆发生碰撞时，通过技术手段减轻碰撞冲击力，保护乘客和驾驶员安全。 |
+
+------
+
+#### MDVR Family
+|                             图示                             |         产品名称          | 说明                                             |
+| :----------------------------------------------------------: | :-----------------------: | ------------------------------------------------ |
+| ![IBCU](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image60.png#200w#line) |   IBCU（车载控制单元）    | 车载控制单元，集成多种功能，实现车辆智能化管理。 |
+| ![A8 Pro](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image58.png#200w#line) | A8 Pro（高性能车载设备）  | 高性能车载设备，支持多种公交运营功能。           |
+| ![X7N Pro](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image59.png#200w#line) | X7N Pro（先进的车载系统） | 先进的车载系统，为公交运营提供高效支持。         |
+| ![X5N Pro](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image57.png#200w#line) | X5N Pro（可靠的车载设备） | 可靠的车载设备，满足公交日常运营需求。           |
+
+------
+
+#### Operation Service
+|                             图示                             |           产品名称           | 说明                                                         |
+| :----------------------------------------------------------: | :--------------------------: | ------------------------------------------------------------ |
+| ![Monitor Screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image47.png#200w#line) |   Monitor Screen（监控屏）   | 安装在公交车内，用于监控车内情况，提高行车安全性和服务质量。 |
+| ![PIS Screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image45.png#200w#line) | PIS Screen（乘客信息系统屏） | 为乘客提供实时公交信息，包括站点、到站时间等，提升乘客体验。 |
+| ![APC-1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image49.png#200w#line)![APC-2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image48.png#200w#line) |    APC（自动乘客计数器）     | 自动统计乘客上下车人数，为公交运营提供数据支持。             |
+| ![Android Screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image50.png#200w#line) |   Android Screen（安卓屏）   | 基于安卓系统的车载显示屏，功能丰富，可拓展多种应用。         |
 
 
 
-## 产品FAQ
+------
 
-> ###### Streamax IP Camera是否支持HDR
+
+
+### **🚕**出租车行业产品
+
+
+
+> ![Taxi Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_6.jpg)
+
+> [!NOTE]
+>
+> 如下列表并未列出所有产品
+------
+
+#### Embedded Android & Camera 
+
+|                             图示                             |                             名称                             | 描述                                                         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| ![Embedded Android](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image26.png#200w#line) |   3#、7#、9#、10#、12# Embedded Android（嵌入式安卓设备）    | 用于车辆信息显示和控制，支持多种应用程序，为驾驶员提供方便的操作界面。 |
+| ![ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image27.png#200w#line) |                   ADAS（高级驾驶辅助系统）                   | 通过摄像头和传感器监测车辆周围环境，提供碰撞预警、车道偏离预警等功能，辅助驾驶员安全驾驶。 |
+| ![In-cabin Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image28.png#200w#line) | In-cabin Camera integrated with facial recognition（带人脸识别的车内摄像头） | 用于识别乘客身份，增强乘车安全，提供个性化的乘车体验。       |
+| ![DMS Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image30.png#200w#line) |                DMS Camera（驾驶员监测摄像头）                | 监测驾驶员的行为和状态，如疲劳驾驶、分心驾驶等，及时发出警报，保障行车安全。 |
+| ![Passenger Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image29.png#200w#line) |                Passenger Camera（乘客摄像头）                | 安装在车内，用于监控乘客区域，提高乘车安全和记录乘车情况。   |
+
+
+------
+
+#### AI  DashCam
+
+|                             图示                             |                名称                 | 描述                                                         |
+| :----------------------------------------------------------: | :---------------------------------: | ------------------------------------------------------------ |
+| ![AI Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image33.png#200w#line) |       AI Camera（AI 摄像头）        | 能捕捉车辆前方画面，通过 AI 算法识别交通标志、车道线、行人和车辆，辅助驾驶决策。 |
+| ![millimeter wave radar](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image34.png#200w#line) | millimeter wave radar（毫米波雷达） | 用于检测车辆周围物体的距离和速度，提供实时的交通信息，辅助驾驶安全。 |
+| ![Ultrasonic radar](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image35.png#200w#line) |   Ultrasonic radar（超声波雷达）    | 用于短距离检测，如停车时辅助驾驶员判断车辆与障碍物的距离，帮助精准停车。 |
+| ![360° View unit](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image37.png#200w#line) |  360° View unit（360 度全景单元）   | 用于生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境。 |
+| ![AHD Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image36.png#200w#line) |      AHD Camera（AHD 摄像头）       | 拍摄车辆四周的实时画面，提供清晰的视频质量，确保全景视图的准确性和可靠性。 |
+
+------
+
+#### Operation Service
+
+|                             图示                             |                   名称                   | 描述                                                       |
+| :----------------------------------------------------------: | :--------------------------------------: | ---------------------------------------------------------- |
+| ![Net Taximeter](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image31.png#200w#line) |       Net Taximeter（网络计价器）        | 用于计算乘车费用，结合网络功能实现在线支付和计费信息上传。 |
+| ![Intelligent display screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image32.png#200w#line) | Intelligent display screen（智能显示屏） | 显示车辆状态                                               |
+| ![Advertising screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image38.png#200w#line) |       Advertising screen（广告屏）       | 用于播放广告和其他信息，增加车辆的商业价值和广告收入。     |
+
+------
+
+## 产品 Q & A
+
+> ###### Streamax IP Camera是否支持HDR？
 >
 > Emrys梁学贤 RE: 我们大部分IPC 支持WDR。WDR就是软件优化，HDR其实更多是硬件成本的消耗
 >
@@ -419,6 +552,10 @@ graph LR
 >    - HDR 编码格式：常见的 HDR 编码格式有 Dolby Vision、HDR10 等。Dolby Vision 能够提供更广泛的亮度范围和更丰富的色彩，它可以根据显示设备的特性动态地调整画面参数。HDR10 是一种较为主流的格式，它基于静态元数据，能够在兼容的设备上提供较好的 HDR 效果。
 >    - HDR 显示设备：为了能够呈现出 HDR 内容的效果，需要有支持 HDR 的显示设备。这些设备需要具备高亮度、宽色域和高对比度等特性。例如，一些高端的 4K HDR 电视亮度可以达到 1000 尼特甚至更高，能够展示出明亮且真实的画面效果。
 
+> ###### 什么是I-button？
+>
+> I-Button（身份识别按钮）通常用于驾驶员身份识别，通过与车辆系统的连接，当驾驶员按下该按钮时，系统可以识别驾驶员的身份信息。这有助于实现个性化的驾驶设置，如调整座椅位置、后视镜角度、车载娱乐系统偏好等，提高驾驶的舒适性和便利性。同时，它还可以用于考勤管理，记录驾驶员的出勤情况，确保运营车辆的驾驶人员符合规定，便于车队管理
+
 ## 我的碎碎念
 
 
@@ -429,7 +566,7 @@ graph LR
 
 1. 新人入职有《新员工入职指引》、笔记本和笔
 2. 新人可以通过锐明学院进行自学
-3. 20楼有食堂
+3. 20楼有食堂，放在制定冰箱，会有专人帮忙热饭
 
 ------
 
@@ -440,6 +577,7 @@ graph LR
 3. 新人没有工位，导师也出差了`建议：关爱空巢新人，提供专属工位，为新人提供1:1的指导`
 4. 没有给新人配电风扇，新人很羡慕 `建议：给夏天入职的同事发放电风扇`
 5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**错峰出行***_~Bu~_
+6. 22楼卫生间不禁烟🚭`建议：禁烟`
 
 
 ------
