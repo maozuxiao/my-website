@@ -10,7 +10,8 @@ keywords:
 vlook-welcome: Streamax
 vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
-vlook-query: coating=bu&ws=3
+vlook-query: coating=bu&ws=3&toc=2
+vlook-header-dup: 高级驾驶辅助系统;Operation Service;今日诗词;DMS;ADAS;
 ---
 
 ###### Streamax Landing Report<br />------<br />*Version 1.0`🐾`11th June 2025*<br />*一般`👀`部门可见*<br />*Sean`🚕` Mao*<br />
@@ -49,8 +50,53 @@ vlook-query: coating=bu&ws=3
 
 - [x] 新员工辅导流程--已发起
 - [x] 新员工入职培训--丘湄湄Arianna
-- [x] 权限申请：OMS/RDMS/文件系统（鸿翼）/wiki知识库/Salesforce（海外）
+- [x] 权限申请
+  - [ ] OMS
+  - [x] RDMS
+  - [x] 文件系统（鸿翼）
+  - [x] wiki知识库
+  - [ ] Salesforce（海外）--Pending 采购licenses中
+
 - [ ] 锐明学院课程
+- [ ] 6月新入职员工展厅参观：6月27日 周五 13:30 - 14:00(GMT+8)
+- [ ] Q3 New Hire Orientation(7.14-7.25)
+
+------
+## 企业文化
+
+> ###### 公司介绍
+> 锐明技术（股票代码002970）创立于2002年，现为深圳证券交易所主板上市企业，是以人工智能和视频技术为核心，专注于商用车的安全、合规和效率提升的AIoT智能物联解决方案提供商。截至目前，锐明技术在深圳、重庆、成都等地均设有技术研发中心。 公司以深圳为中心，辐射国内30多个省市以及北美、欧洲、中东等地，建立起以子公司、办事处等为载体的营销和售后服务体系。产品和解决方案广泛应用于全球100多个国家和地区，成功为北京奥运会、上海世博会、全国两会、卡塔尔世界杯、成都大运会、北京公交、成都公交、深圳出租、美国校车、新加坡公交、土耳其出租、厄瓜多尔综合交通等大型交通安保项目提供安全保障及信息化服务。锐明技术将秉持“成就客户、追求卓越、持续创新、团队合作、开放包容”的核心价值观。持续提升服务能力，努力成为“离客户最近的科技型企业”。并将围绕AI、大数据、高清视频等技术持续创新，为构筑更安全、高效、有序的美好交通未来不懈努力。
+---
+
+- 企业愿景
+  Corporate Vision
+
+  *成为最值得信赖的交通安全守护者**To become the most trusted guardian of traffic safety***
+
+- 企业使命
+  Corporate Mission
+
+  *科技构筑美好交通未来**Building a better transportation future with technology***
+
+---
+
+- 核心价值观
+  Core Values of Streamax
+  * *成就客户**Customer Success***
+  * *团队协作 **Team Collaboration***
+  * *开放包容 **Diversity & Inclusivity***
+  * *追求卓越 **Pursue Excellence***
+  * *持续创新 **Continuous Innovation***
+- 核心经营理念
+  Core Philosophy
+  * *做离客户最近的技术公司 **To be the Tech-Driven Company that Gets Closest to the Customers***
+  * *坚持长期主义 **Persisting in Long-Termism***
+    * *不做机会主义者 **Not being opportunistic***
+    * *十年如一日的坚持对研发的高投入 **Consistent high investment in research and development for a decade***
+    * *坚持对人才及企业能力的持续投入**Sustained investment in talent and enterprise capabilities***
+    * *技术能提升  **Technology Capability Enhancement***
+    * *企业能力提升 **Improvement of Organization Capability***
+  * *战略聚焦，在一厘米的宽度深耕一公里**Strategic Focus, Deep Cultivation within a Narrow Scope***
 
 ------
 ## 工作生活相关
@@ -146,15 +192,15 @@ graph LR
 
 ## 常用平台链接
 
-| 🆔序号 | :label:名称      | 📝描述                            | :link:链接                       |
-| ----- | ---------------- | -------------------------------- | -------------------------------- |
-| 1     | OA               | 内部流程发起                     | http://oa.streamax.com:8080/     |
-| 2     | 锐明学院         | 试用期课程学习                   | https://streamax.21tb.com/       |
-| 3     | 鸿翼文件服务器   | Streamax内部文件系统             | https://wj.streamax.com:9443/    |
-| 4     | Wiki知识库       | 技术支持FAQ，知识共享            | http://jfwiki.streamax.com:7503/ |
-| 5     | Coremail论客邮箱 | 网页版邮箱，用于内外部沟通       | https://mail.streamax.com/       |
-| 6     | RDMS             | 锐明技术RDMS项目管理系统（禅道） | https://rdms.streamax.com/       |
-| 7     | Salesforce       | CRM系统                          |                                  |
+| 🆔序号 | :label:名称      | 📝描述                                             | :link:链接                       |
+| ----- | ---------------- | ------------------------------------------------- | -------------------------------- |
+| 1     | OA               | 内部流程发起                                      | http://oa.streamax.com:8080/     |
+| 2     | 锐明学院         | 试用期课程学习                                    | https://streamax.21tb.com/       |
+| 3     | 鸿翼文件服务器   | Streamax内部文件系统                              | https://wj.streamax.com:9443/    |
+| 4     | Wiki知识库       | 技术支持FAQ，知识共享(需要通过OA跳转，无登录密码) | http://jfwiki.streamax.com:7503/ |
+| 5     | Coremail论客邮箱 | 网页版邮箱，用于内外部沟通                        | https://mail.streamax.com/       |
+| 6     | RDMS             | 锐明技术RDMS项目管理系统（禅道）                  | https://rdms.streamax.com/       |
+| 7     | Salesforce       | CRM系统                                           |                                  |
 
 ------
 
@@ -177,6 +223,10 @@ graph LR
 | 吴雨纾Nancy      | 产品工程师（摄像机）                                         | 产品发展中心-摄像机产品线          |
 | Doris 魏可依     | 产品工程师（平台）                                           | 产品发展中心-产品市场一部          |
 | Ariel 王梦琪     | 解决方案工程师（SafeGPT）                                    | 产品发展中心-产品市场一部          |
+
+
+
+*==[各产品线市场响应接口人20240223](https://docs.qq.com/sheet/DVEJDU3lvbWt5bEx3?tab=BB08J2)==*
 
 ------
 ## 锐明学院
@@ -214,9 +264,9 @@ graph LR
     - [x] [【2024锐小星培训】货运行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [【2024锐小星培训】公交行业分享：公交智能解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [【2024锐小星培训】出租行业分享：锐明出租行业智能化解决方案](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [【2024锐小星培训】矿山行业分享：矿山市场分析与解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [无线摄像机产品方案介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [无线摄像机产品方案介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [2025年OEM事业部产品矩阵](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [警用解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
@@ -261,65 +311,28 @@ graph LR
 
 ------
 
-### 学习总结
-
-> ###### 公司介绍
-> 锐明技术（股票代码002970）创立于2002年，现为深圳证券交易所主板上市企业，是以人工智能和视频技术为核心，专注于商用车的安全、合规和效率提升的AIoT智能物联解决方案提供商。截至目前，锐明技术在深圳、重庆、成都等地均设有技术研发中心。 公司以深圳为中心，辐射国内30多个省市以及北美、欧洲、中东等地，建立起以子公司、办事处等为载体的营销和售后服务体系。产品和解决方案广泛应用于全球100多个国家和地区，成功为北京奥运会、上海世博会、全国两会、卡塔尔世界杯、成都大运会、北京公交、成都公交、深圳出租、美国校车、新加坡公交、土耳其出租、厄瓜多尔综合交通等大型交通安保项目提供安全保障及信息化服务。锐明技术将秉持“成就客户、追求卓越、持续创新、团队合作、开放包容”的核心价值观。持续提升服务能力，努力成为“离客户最近的科技型企业”。并将围绕AI、大数据、高清视频等技术持续创新，为构筑更安全、高效、有序的美好交通未来不懈努力。
-
-#### 企业文化
-
----
-
-- 企业愿景
-  Corporate Vision
-
-  *成为最值得信赖的交通安全守护者**To become the most trusted guardian of traffic safety***
-
-- 企业使命
-  Corporate Mission
-
-  *科技构筑美好交通未来**Building a better transportation future with technology***
-
----
-
-- 核心价值观
-  Core Values of Streamax
-  * *成就客户**Customer Success***
-  * *团队协作 **Team Collaboration***
-  * *开放包容 **Diversity & Inclusivity***
-  * *追求卓越 **Pursue Excellence***
-  * *持续创新 **Continuous Innovation***
-- 核心经营理念
-  Core Philosophy
-  * *做离客户最近的技术公司 **To be the Tech-Driven Company that Gets Closest to the Customers***
-  * *坚持长期主义 **Persisting in Long-Termism***
-    * *不做机会主义者 **Not being opportunistic***
-    * *十年如一日的坚持对研发的高投入 **Consistent high investment in research and development for a decade***
-    * *坚持对人才及企业能力的持续投入**Sustained investment in talent and enterprise capabilities***
-    * *技术能提升  **Technology Capability Enhancement***
-    * *企业能力提升 **Improvement of Organization Capability***
-  * *战略聚焦，在一厘米的宽度深耕一公里**Strategic Focus, Deep Cultivation within a Narrow Scope***
-
-
-------
-
 ## 产品知识
 
-### 参考资料
-
-1. streamax company profile-Basic Information-0611.pptx
-2. Comprehensive MDVR series from Streamax 20230911.pptx
-3. Spc-CA51A-AHD Camer-1080P.docx
-4. 7.24-04 新生培训-货运.pptx
-5. 7.24-Streamax Intelligent Solutions for Public Transportation v2.3_Final-中文培训.pptx
-6. 7.24-03 锐明出租行业智能化解决方案-2024.pptx
+> ###### 参考资料
+>
+> 1. streamax company profile-Basic Information-0611.pptx
+> 2. Comprehensive MDVR series from Streamax 20230911.pptx
+> 3. Spc-CA51A-AHD Camer-1080P.docx
+> 4. 7.24-04 新生培训-货运.pptx
+> 5. 7.24-Streamax Intelligent Solutions for Public Transportation v2.3_Final-中文培训.pptx
+> 6. 7.24-03 锐明出租行业智能化解决方案-2024.pptx
+> 7. 无线摄像机产品方案介绍-20231222.pdf
+> 8. 7.24-02 Introduction of school bus industry.pptx
+> 9. 7.24-05 矿山市场分析与解决方案分享-V0.3.pptx
+> 10. 成震-警用培训.pptx
+> 11. 2025年前装春训课件最新.pdf
 
 ------
+
 
 ### 解决方案
 
 
-
 ---
 
 ---
@@ -328,21 +341,21 @@ graph LR
 
 ---
 
-- 🚚货运行业[<kbd>货运行业产品内容详见这里 ❯❯</kbd>](#🚚货运行业产品)
+- 🚚货运行业[<kbd>内容详见这里 ❯❯</kbd>](#🚚货运行业产品)
 
   ![Trucking Solution](https://www.streamax.com/images/e2.jpg)
 
   > ###### 360智能环视系统
   > 通过多摄像机的频接覆盖，对车辆周边环境和盲区进行覆盖，同时，系统集成AI机器视觉算法，当车辆周边存在行人时，进行主动提示报警，报警与车载屏幕进行联动，车载显示屏会显示报警对应画面，对驾驶员提供直观提示。
 
-- 🚌公交行业[<kbd>公交行业产品内容详见这里 ❯❯</kbd>](#🚌公交行业产品)
+- 🚌公交行业[<kbd>内容详见这里 ❯❯</kbd>](#🚌公交行业产品)
 
    ![Transit Bus Solution](https://www.streamax.com/userfiles/images/2021/08/25/2021082509418928.jpg)
 
   > ###### 高级驾驶辅助系统
   > 高级驾驶辅助系统（双目ADAS）配备长焦和短焦双镜头实时聚焦车辆行驶过程中的各类突发情况，提前帮助驾驶员预知风险，及时采取制动、转向等措施规避潜在的道路风险。
 
-- 🚕出租车行业[<kbd>出租车行业产品内容详见这里 ❯❯</kbd>](#🚕出租车行业产品)
+- 🚕出租车行业[<kbd>内容详见这里 ❯❯</kbd>](#🚕出租车行业产品)
 
     ![Taxi Solution](https://www.streamax.com/images/a-2.jpg)
 
@@ -350,13 +363,25 @@ graph LR
    >
    > 高级驾驶辅助系统（ADAS）实时聚焦车辆行驶过程中的各类突发情况，提前帮助驾驶员预知风险，及时采取制动、转向等措施规避潜在的道路风险。
 
-- 🚍校车行业
+- 🚍校车行业[<kbd>内容详见这里 ❯❯</kbd>](#🚍校车行业产品)
 
+    ![School Bus Solution](https://en.streamax.com/images/a1.jpg)
+
+    > ###### 学生信息管理系统
+    >
+    > 学生信息管理系统管理学生的登录记录。当学生上车并刷卡时，其签到信息将实时上传到平台，同时平台还支持快速搜索学生信息和出勤记录。
+
+    
+
+- ⛏️矿山行业[<kbd>内容详见这里 ❯❯</kbd>](#⛏️矿山行业产品)
+
+  ![Mining Solution](https://www.streamax.com/images/d2.jpg)
   
-
-- ⛏️矿山行业
-
-  
+  > ###### 货箱状态智能分析仪
+  >
+  > 
+  >
+  > 货箱状态识别：可通过人工智能技术自动识别货箱的空重、密闭、举升状态，实现渣土运输作业“三要素”的自动识别和主动上报，同时可识别货箱内的建筑垃圾类型，做到从源头进行建筑垃圾分类以及定点消纳。
 
 ### **🚚**货运行业产品
 
@@ -514,7 +539,64 @@ graph LR
 | ![Advertising screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image38.png#200w#line) |       Advertising screen（广告屏）       | 用于播放广告和其他信息，增加车辆的商业价值和广告收入。     |
 
 ------
+### **🚍**校车行业产品
 
+---
+
+- ![School Bus Solution](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_3.jpg)
+- ![School Bus Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_4.jpg)
+
+------
+
+#### Surveillance & AI Products
+
+|                             图示                             |                             名称                             | 描述                                                         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| ![AI Dashcam](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image37-1750152062085-4.png#200w#line) |       AI Dashcam（AI Dashboard Camera，AI行车记录仪）        | 安装在车内，用于记录车辆行驶过程中的前方道路画面，包括时间、车速等信息。可在发生交通事故时提供视频证据，帮助确定责任归属，也方便车主查看行车过程中的特殊情况，如遇到特殊路况、危险驾驶行为等。通常具备循环录制、碰撞感应锁定视频等功能，以确保重要视频不被覆盖。智能行车记录仪，记录车辆前方道路画面，具备 AI 功能，如碰撞检测等 |
+| ![ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image5.png#200w#line) | ADAS（Advanced Driver Assistance Systems，高级驾驶辅助系统） | 通过传感器、摄像头等设备感知车辆周围环境，为驾驶员提供各种辅助功能。例如前碰撞预警（FCW），在检测到与前车距离过近且有碰撞风险时发出警报；车道偏离预警（LDW），当车辆偏离车道时提醒驾驶员；还有自适应巡航控制（ACC），能自动调整车速保持与前车的安全距离，提高行车安全性和舒适性。 |
+| ![DMS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image6.png#200w#line) |     专业 DMS（Driver Monitoring System，驾驶员监控系统）     | 主要功能是监测驾驶员的状态。利用摄像头捕捉驾驶员的面部表情、眼部动作等，判断其是否出现疲劳驾驶、分心驾驶（如长时间看手机、东张西望）等情况，并及时发出警报，提醒驾驶员集中注意力，确保行车安全。一些高级的 DMS 还可以识别驾驶员的行为习惯，提供个性化的驾驶建议。 |
+| ![Interior CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image35-1750152082906-6.png#200w#line) |                  Interior CAM（车内摄像头）                  | 监控车内情况，保障乘客安全                                   |
+| ![Exterior CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image36-1750152109054-8.png#200w#line) |                  Exterior CAM（车外摄像头）                  | 提供车外视野，辅助驾驶                                       |
+| ![MDVR](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image38-1750152127266-10.png#200w#line) |    MDVR（Mobile Digital Video Recorder，汽车行驶记录仪）     | 是一种专业的车载视频记录设备，具备高稳定性和高容量存储的特点。它会记录车辆行驶过程中的多路视频画面（如前车、车内、车后等），并可按照设定的时间间隔进行循环录制。同时，MDVR 还会记录车辆的行驶数据，如速度、里程、位置等信息，这对于车队管理、交通安全监管以及事故责任认定都非常重要。它通常采用坚固的外壳设计，以确保在各种恶劣的行驶环境和碰撞情况下，存储的数据不会丢失或损坏。记录车辆行驶过程中的视频数据 |
+| ![AVM 360 系统](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#180deg#200w#line) |                           360 系统                           | 即 360 度全景影像系统，通过环绕车辆的多个摄像头拍摄的画面拼接，生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境，提高驾驶便利性和安全性。 |
+| ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) |           CA51A-Fisheye Camera-1080P（鱼眼摄像头)            | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
+
+------
+
+#### Attendance Check Products
+
+|                             图示                             |                  名称                   | 描述                   |
+| :----------------------------------------------------------: | :-------------------------------------: | ---------------------- |
+| ![Palm Vein RecognitioN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image27-1750152167414-12.png#200w#line) | Palm Vein Recognition（掌静脉识别系统） | 用于身份识别和考勤管理 |
+
+
+
+------
+
+#### Stop Arm Violation Products
+
+|                             图示                             |                   名称                    | 描述                       |
+| :----------------------------------------------------------: | :---------------------------------------: | -------------------------- |
+| ![Violation Detection CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image42-1750152195950-14.png#200w#line) | Violation Detection CAM（违规检测摄像头） | 监测违规行为，如停车违规等 |
+| ![License Plate CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image43.png#200w#line) |    License Plate CAM（车牌识别摄像头）    | 记录车辆车牌信息           |
+
+------
+
+#### Student Omission Products
+
+|                             图示                             |                  名称                   | 描述                                                    |
+| :----------------------------------------------------------: | :-------------------------------------: | ------------------------------------------------------- |
+| ![Check Button](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image29-1750152222097-17.png#200w#line) |        Check Button（检查按钮）         | 用于确认车辆状态或操作确认,比如确认是否所有学生都已下车 |
+| ![Motion Sensor](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image30-1750152233943-19.png#200w#line) |       Motion Sensor（运动传感器）       | 检测车辆或物体的运动状态                                |
+| ![Student Detection CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image28-1750152249405-21.png#200w#line) | Student Detection CAM（学生检测摄像头） | 识别和监控学生上下车情况                                |
+
+------
+
+### **⛏️**矿山行业产品
+
+> ![Mining Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_5.jpg)
+
+------
 ## 产品 Q & A
 
 > ###### Streamax IP Camera是否支持HDR？
@@ -556,17 +638,24 @@ graph LR
 >
 > I-Button（身份识别按钮）通常用于驾驶员身份识别，通过与车辆系统的连接，当驾驶员按下该按钮时，系统可以识别驾驶员的身份信息。这有助于实现个性化的驾驶设置，如调整座椅位置、后视镜角度、车载娱乐系统偏好等，提高驾驶的舒适性和便利性。同时，它还可以用于考勤管理，记录驾驶员的出勤情况，确保运营车辆的驾驶人员符合规定，便于车队管理
 
+
+
+
+
+
+
+------
+
 ## 我的碎碎念
 
 
 
 ### 优点
 
-
-
 1. 新人入职有《新员工入职指引》、笔记本和笔
 2. 新人可以通过锐明学院进行自学
 3. 20楼有食堂，放在制定冰箱，会有专人帮忙热饭
+4. 23楼可以领取日常工作用品，比如中性笔，笔记本，电池等，钉钉扫码登记即可。
 
 ------
 
@@ -576,7 +665,7 @@ graph LR
 2. 公司不提供纸巾，茶包`建议：提供纸巾和茶包增加员工幸福感`
 3. 新人没有工位，导师也出差了`建议：关爱空巢新人，提供专属工位，为新人提供1:1的指导`
 4. 没有给新人配电风扇，新人很羡慕 `建议：给夏天入职的同事发放电风扇`
-5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**错峰出行***_~Bu~_
+5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**早上07:20出门，晚上千万远离C口的电梯上车***_~Bu~_
 6. 22楼卫生间不禁烟🚭`建议：禁烟`
 
 
