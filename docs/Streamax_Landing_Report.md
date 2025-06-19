@@ -99,6 +99,16 @@ _^tab^_
 >   * *企业能力提升 **Improvement of Organization Capability***
 > * *战略聚焦，在一厘米的宽度深耕一公里**Strategic Focus, Deep Cultivation within a Narrow Scope***
 
+> **服务准则 service standard**
+> 
+> * *积极处理不抱怨**Positive handling without complaining***
+> * *主动负责不推诿**Rresponsible and accountable***
+> * *持续学习不依赖**Continuous learning without dependence***
+> * *真诚服务不忽悠**Sincere service not fooling***
+
+
+
+
 ------
 ## 工作生活相关
 
@@ -268,8 +278,8 @@ graph LR
     - [x] [【2024锐小星培训】校车行业分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [【2024锐小星培训】矿山行业分享：矿山市场分析与解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [无线摄像机产品方案介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [2025年OEM事业部产品矩阵](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [警用解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [2025年OEM事业部产品矩阵](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [警用解决方案分享](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
   ==选修课==
 
@@ -327,6 +337,9 @@ graph LR
 > 9. 7.24-05 矿山市场分析与解决方案分享-V0.3.pptx
 > 10. 成震-警用培训.pptx
 > 11. 2025年前装春训课件最新.pdf
+> 12. 7.24-01 质量意识-中英-0221.pptx
+> 13. 7.25-05 2024锐明服务体系介绍(1).pptx
+> 14. 7.25-01 三级研发N9M2.0-V1.0-20240721.pptx
 
 ------
 
@@ -697,13 +710,97 @@ _^tab^_
 >
 > I-Button（身份识别按钮）通常用于驾驶员身份识别，通过与车辆系统的连接，当驾驶员按下该按钮时，系统可以识别驾驶员的身份信息。这有助于实现个性化的驾驶设置，如调整座椅位置、后视镜角度、车载娱乐系统偏好等，提高驾驶的舒适性和便利性。同时，它还可以用于考勤管理，记录驾驶员的出勤情况，确保运营车辆的驾驶人员符合规定，便于车队管理
 
-
-
-
-
-
+> ###### 前装产品和后装产品的区别？
+>
+> ---
+>
+> - 前装
+>
+>   **定义**：是指汽车在生产制造过程中，由汽车制造商直接 安装在车辆上的设备
+>   **适配性**：与车辆的适配性好，确保产品能够完美地融入 车辆的整体架构
+>   **产品质量和可靠性**：质量和可靠性较高。需要经过汽车 制造商严格的质量检测和认证流程，要符合汽车行业的相 关标准和规范
+>   **价格**：通常包含在车辆的总价中
+>   **售后**：前装产品享受汽车制造商的售后服务体系
+>
+> - 后装
+>
+>   **定义**：是指车辆在销售之后，车主根据自己的需求和喜好另行 购买并安装的车载设备
+>   **适配性**：适配性相对复杂。由于车辆的品牌、型号众多，后装 产品需要更多的考虑通用性
+>   **产品质量和可靠性**：无汽车制造商的专业团队把关，更多关注 功能实现，不用经过车企严格的测试，质量方面差异较大，使用 寿命得不到保障
+>   **价格**：不包含在车辆的总价中，价格相对透明
+>   **售后**：产品的品牌方自行承担售后，无法享受整车的质保时间
+>
+> 
+>
+> 
 
 ------
+
+## 质量管理
+
+_^tab^_
+> **质量概念 Concept of Quality**
+>
+> ---
+>
+> - 质量
+>   Quality
+>
+>   <center>一组固有特性满足要求的程度</center>
+>   <center>A Degree to Which a Set of Inherent Characteristics Fulfills Requirements</center>
+>
+> - 四个特性
+>   Four Characteristics
+>   
+>   <center>相对性、时效性、广义性、经济性</center>
+>   <center> Relativity, Timeliness, Generality, Economy</center>
+
+> **PDCA Cycle**
+>
+> <mark><b><u>PDCA 是一个循环式的管理方法，代表着“计划-执行-检查-行动”（Plan-Do-Check-Act）。它是一种持续改进的工具，通过四个阶段的循环，帮助组织或个人不断优化流程和结果。</u></b></mark>
+>
+> PDCA的四个阶段:
+>
+> 1. **1.** **计划(Plan):**确定目标，分析现状，制定行动计划，明确要达到的目标和方法。
+> 2. **2.** **执行(Do):**按照计划实施，进行相关活动，并记录数据和信息。
+> 3. **3.** **检查(Check):**对执行结果进行评估，分析偏差，找出问题，衡量是否达到预期目标。
+> 4. **4.** **行动(Act):**根据检查结果，采取相应的行动，对计划进行调整和改进，并将成功的经验进行标准化，或为下一个循环做准备
+
+> **售后质量管理 After-sales Quality Management**
+>
+> ---
+>
+> - 质量投诉处理流程
+>   Quality Complaint Handling Process
+>   
+>   ![质量投诉处理流程](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E8%B4%A8%E9%87%8F%E6%8A%95%E8%AF%89%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.gif)
+>   
+> - 售后返修品处理流程
+>   After-sales Repair Process
+>   
+>   ![售后返修品处理流程](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E5%94%AE%E5%90%8E%E8%BF%94%E4%BF%AE%E5%93%81%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.gif)
+>
+
+
+
+> **问题处理规范：技术支持（反馈阶段）**
+>
+> | 序号 | 事项分类                          | 具体内容                                                     |
+> | :--: | :-------------------------------- | :----------------------------------------------------------- |
+> |  1   | 问题严重等级判定                  | 判定问题严重等级为`致命`、`严重`或`一般`。                   |
+> |  2   | 问题反馈流程                      | 发送问题反馈邮件；电话联系研发；在 <kbd>[RDMS](https://rdms.streamax.com/index.php?m=my&f=index)</kbd> 新建对应市场缺陷流程。 |
+> |  3   | **问题信息收集 - 客户局点信息**   | 收集服务器连接信息，包含客户局点` IP`、`账号`、`密码`。      |
+> |  4   | **问题信息收集 - 用户登录信息**   | 收集客户局点`域名`、`账号`、`密码`。                         |
+> |  5   | **问题信息收集 - 账号**           | ==若为私有化客户且不能通过堡垒机登录，需开通 VPN，并至少提供三个账号。== |
+> |  6   | **问题信息收集 - 问题描述**       | 包含具体`功能模块`、`接口`和`接口返回错误（API）`、`设备`、`异常时间`、`异常现象`、`问题日志`等信息，确保描述详细可供开发排查，<u>也可根据具体问题提供其他有助于排查的信息</u>。 |
+> |  7   | **问题信息收集 - 环境信息准确性** | ==确保提供的环境信息正确，账号可正常使用。==                 |
+> |  8   | 问题负责人确定及职责 - 进度管理   | 掌握问题解决进度，及时同步给相关方。                         |
+> |  9   | 问题负责人确定及职责 - 问题解决   | 推动当前环境和当前客户其他环境相同问题的解决。               |
+> |  10  | 问题负责人确定及职责 - 决策推动   | 推动决策或者根据已知客户诉求进行决策。                       |
+> |  11  | 问题负责人确定及职责 - 问题上升   | 问题阻塞时，及时推动阻塞点上升或者根据现状进行上升。         |
+> |  12  | 问题负责人确定及职责 - 客户安抚   | 安抚客户，掌握客户诉求。                                     |
+> |  13  | 问题负责人确定及职责 - 预防措施   | 对于多环境客户，根据现有问题及时推动相关方对其他未出现问题环境进行自检。关注现有预警功能，发现可能异常及时拉起相关方提前介入排查，由专项处理对接人主导。 |
+> |  14  | 环境自检与预警处理                | 关注现有预警功能，发现可能异常及时拉起相关方提前介入排查（专项处理对接人主导）。 |
 
 ## 我的碎碎念
 
@@ -728,5 +825,4 @@ _^tab^_
 
 ------
 
-
-# Thanks for watching! <br> *Sean`🍍` Mao*
+# Thanks for watching! <br>*Sean`🍍` Mao*
