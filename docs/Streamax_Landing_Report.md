@@ -34,49 +34,48 @@ _^tab^_
 >
 > <div align="center"><img src="https://s2.loli.net/2023/01/16/xuQNqZjR3lkcDBJ.gif" alt="Lofi Girl-001" /></div>
 
->  **Summer Lofi Chill ☀️ Ocean Coffee for Relaxing Morning 🌊 Lofi Hip Hop / Beats to relax/chill/study**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/edn7FurOFxM" title="Summer Lofi Chill ☀️ Ocean Coffee for Relaxing Morning 🌊 Lofi Hip Hop / Beats to relax/chill/study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
-> **lofi hip hop radio - beats to study/relax to 🐾**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="lofi hip hop radio - beats to study/relax to 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
->  **Chillhop Radio - jazzy & lofi hip hop beats 🐾**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="Chillhop Radio - jazzy &amp; lofi hip hop beats 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
->  **Green Spring Morning 🍃 Chill Morning Vibes 🍃 Spring Lofi Songs To Start Your Spring Day Peacefully**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/wFUSiwN2JFk" title="Green Spring Morning 🍃 Chill Morning Vibes 🍃 Spring Lofi Songs To Start Your Spring Day Peacefully" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
->  **RAINING IN JAPAN ☔ Rainy Lofi Songs To Make You Calm Down And Relax Your Mind ☔ Pluviophile Lofi**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/Vg13S-zzol0" title="RAINING IN JAPAN ☔ Rainy Lofi Songs To Make You Calm Down And Relax Your Mind ☔ Pluviophile Lofi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
->  **lofi hip hop radio 📚 beats to relax/study to**
->
-> <div align="center">
->   <iframe width="916" height="515" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio 📚 beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-> </div>
-
-
 > **今日诗词**
 >
 > ---
 > > <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=Salmon" style="max-width:100%; display: block; margin: 0 auto;">
 > 
 > > <img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=Brown" style="max-width:100%; display: block; margin: 0 auto;">
+
+>  **Summer Lofi Chill ☀️ **
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/edn7FurOFxM" title="Summer Lofi Chill ☀️ Ocean Coffee for Relaxing Morning 🌊 Lofi Hip Hop / Beats to relax/chill/study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+> **lofi hip hop radio  🐾**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="lofi hip hop radio - beats to study/relax to 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **Chillhop Radio🐾**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="Chillhop Radio - jazzy &amp; lofi hip hop beats 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **🍃 Spring Lofi **
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/wFUSiwN2JFk" title="Green Spring Morning 🍃 Chill Morning Vibes 🍃 Spring Lofi Songs To Start Your Spring Day Peacefully" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **☔ Rainy Lofi **
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/Vg13S-zzol0" title="RAINING IN JAPAN ☔ Rainy Lofi Songs To Make You Calm Down And Relax Your Mind ☔ Pluviophile Lofi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **lofi hip hop radio 📚 **
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio 📚 beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
 
 
 ------
@@ -331,7 +330,7 @@ graph LR
 
   ==选修课==
 
-    - [ ] [IPD整机开发过程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [IPD整机开发过程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
 - `课外拓展`
 
@@ -770,6 +769,57 @@ _^tab^_
 
 ------
 
+
+## IPD流程管理
+
+> IPD 即集成产品开发（Integrated Product Development），是一种先进、系统的新产品开发模式。
+
+_^tab^_
+
+> **背景和目的**
+>
+> ---
+>
+> - 背景
+>
+>   在传统的工业生产模式下，产品研发往往是各个部门各自为政。例如，研发部门只关注产品的技术性能，而不太考虑市场销售和生产成本等因素；生产部门可能只从便于制造的角度来考虑产品结构，容易导致产品开发周期长、成本高、质量不稳定等问题。
+>
+> - 目的
+>
+>   IPD 的目的就是要打破部门之间的壁垒，将市场需求、研发、生产、采购、销售等多个环节有效整合起来。通过跨部门的团队合作，合理利用资源，提高新产品开发的效率和质量，缩短产品上市时间，增强企业的竞争力。
+
+>  **核心理念**
+>
+>  ---
+>  ---
+>
+>  - 以客户需求为导向
+>    - 在新产品开发的全流程中，始终以客户的需求为核心。这意味着从产品概念的产生开始，就要深入研究目标客户群体的需求特点。
+>    - 例如，智能手机制造商在开发新机型时，会通过市场调研、用户反馈收集等方式，了解消费者对于手机拍照功能、续航能力、外观设计等方面的需求。然后根据这些需求来设计产品的功能和外观，确保产品能够满足市场需求。
+>  - 跨部门协作
+>      - IPD 强调不同部门之间的紧密合作。包括市场人员、研发人员、生产人员、采购人员、质量控制人员等都共同参与到产品开发过程中。
+>      - 比如，市场人员可以及时向研发团队反馈市场动态和竞争产品的特点；研发人员在设计产品时，要考虑生产部门的工艺能力和成本控制要求；生产部门根据研发的图纸和工艺要求，提前做好生产准备并反馈生产可行性问题；采购部门要与供应商沟通原材料的供应情况和价格等。
+>  - 产品开发流程优化
+>      - IPD 有一套标准化的、可重复的产品开发流程。这个流程涵盖了从产品构思、概念设计、详细设计、产品验证、发布到生命周期管理等多个阶段。
+>      - 以一款汽车的开发为例，在产品构思阶段，要对汽车的`市场定位`、`目标客户群`、`主要卖点`等进行详细规划；在概念设计阶段，设计汽车的外形、基本性能参数等；详细设计阶段则包括汽车各个零部件的详细设计；产品验证阶段要进行各种性能测试，如碰撞测试、耐久性测试等；发布后还要对产品进行持续的生命周期管理，如根据市场反馈进行改进、处理产品召回等情况。
+
+
+> **主要要素**
+>
+> 1. **团队**：建立跨职能的 IPD 团队，通常由核心团队和扩展团队组成。核心团队成员包括来自市场、研发、生产等部门的关键人员，他们负责产品的关键决策和日常工作；扩展团队则包括其他相关支持部门的人员，如法务、财务等，他们在特定的环节提供专业支持。
+> 2. **流程**：严格的流程管理是 IPD 的关键。每个阶段都有明确的输入、输出和决策点。例如，在产品验证阶段，输入是经过详细设计的产品设计文档，输出是测试报告，决策点则是产品是否通过验证可以进入下一阶段。
+> 3. **技术**：包括产品设计技术、制造技术等。IPD 鼓励采用先进的技术来提升产品质量和开发效率。例如，利用计算机辅助设计（CAD）软件进行产品设计，可以提高设计的精确性和效率；采用先进的制造工艺可以降低生产成本和提高产品质量。
+
+
+> **意义**
+>
+> - **对企业内部**：提高了企业内部的沟通效率，减少了因部门之间信息不畅导致的错误和返工。同时，通过优化流程，可以合理分配资源，降低产品开发成本。例如，企业可以减少因为频繁的设计变更而造成的原材料浪费和时间损失。
+> - **对市场竞争**：使企业能够更快地推出符合市场需求的新产品，从而在竞争激烈的市场中占据优势。例如，一家电子产品企业采用 IPD 模式后，能够比竞争对手更快地推出具有创新功能的智能手表，从而获得更多的市场份额。
+
+> **实际应用案例**
+>
+> 许多高科技企业都采用了 IPD 模式。例如，华为公司在产品开发过程中广泛应用 IPD。其手机产品从市场需求调研，到芯片研发、外观设计、软件开发，再到生产制造和售后服务，都贯穿了 IPD 的理念。通过跨部门的协作和标准化的流程，华为能够不断推出具有竞争力的手机产品，满足全球不同市场和客户的需求。
+
 ## 质量管理
 
 _^tab^_
@@ -789,17 +839,6 @@ _^tab^_
 >   <center>相对性、时效性、广义性、经济性</center>
 >   <center> Relativity, Timeliness, Generality, Economy</center>
 
-> **PDCA Cycle**
->
-> <mark><b><u>PDCA 是一个循环式的管理方法，代表着“计划-执行-检查-行动”（Plan-Do-Check-Act）。它是一种持续改进的工具，通过四个阶段的循环，帮助组织或个人不断优化流程和结果。</u></b></mark>
->
-> PDCA的四个阶段:
->
-> 1. **1.** **计划(Plan):**确定目标，分析现状，制定行动计划，明确要达到的目标和方法。
-> 2. **2.** **执行(Do):**按照计划实施，进行相关活动，并记录数据和信息。
-> 3. **3.** **检查(Check):**对执行结果进行评估，分析偏差，找出问题，衡量是否达到预期目标。
-> 4. **4.** **行动(Act):**根据检查结果，采取相应的行动，对计划进行调整和改进，并将成功的经验进行标准化，或为下一个循环做准备
-
 > **售后质量管理 After-sales Quality Management**
 >
 > ---
@@ -814,7 +853,6 @@ _^tab^_
 >   
 >   ![售后返修品处理流程](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E5%94%AE%E5%90%8E%E8%BF%94%E4%BF%AE%E5%93%81%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.gif)
 >
-
 
 
 > **问题处理规范：技术支持（反馈阶段）**
@@ -835,6 +873,63 @@ _^tab^_
 > |  12  | 问题负责人确定及职责 - 客户安抚   | 安抚客户，掌握客户诉求。                                     |
 > |  13  | 问题负责人确定及职责 - 预防措施   | 对于多环境客户，根据现有问题及时推动相关方对其他未出现问题环境进行自检。关注现有预警功能，发现可能异常及时拉起相关方提前介入排查，由专项处理对接人主导。 |
 > |  14  | 环境自检与预警处理                | 关注现有预警功能，发现可能异常及时拉起相关方提前介入排查（专项处理对接人主导）。 |
+
+
+_^tab^_
+
+> **PDCA Cycle**
+>
+> <mark><b><u>PDCA 是一个循环式的管理方法，代表着“计划-执行-检查-行动”（Plan-Do-Check-Act）。它是一种持续改进的工具，通过四个阶段的循环，帮助组织或个人不断优化流程和结果。</u></b></mark>
+>
+> PDCA的四个阶段:
+>
+> 1. **1.** **计划(Plan):**确定目标，分析现状，制定行动计划，明确要达到的目标和方法。
+> 2. **2.** **执行(Do):**按照计划实施，进行相关活动，并记录数据和信息。
+> 3. **3.** **检查(Check):**对执行结果进行评估，分析偏差，找出问题，衡量是否达到预期目标。
+> 4. **4.** **行动(Act):**根据检查结果，采取相应的行动，对计划进行调整和改进，并将成功的经验进行标准化，或为下一个循环做准备
+
+> **SWOT 分析**
+>
+> <mark><b><u>SWOT 分析是一种基于内外部竞争环境和竞争条件下的态势分析，就是将与研究对象密切相关的各种主要内部优势（Strength）、劣势（Weakness）、机会（Opportunity）和威胁（Threat）等，通过调查列举出来，并依照矩阵形式进行排列，再用系统分析的思想，把各种因素相互联系起来，并且加以分析和比较，从而得出一系列相应的结论。</u></b></mark>
+>
+> 1. **优势（Strength）**：是指组织机构或者个人所擅长的、拥有的并且能够带来竞争优势的方面。例如，一家汽车制造企业拥有先进的生产技术，能够在保证质量的前提下，大幅提高生产效率，从而降低生产成本，这就可以看作是它的优势。在个人层面，一个人具备出色的沟通能力，能够轻松地与不同类型的客户建立良好的关系，这也是个人的优势。
+> 2. **劣势（Weakness）**：主要指组织或者个人自身存在的缺陷和不足之处。比如，一个小型电商企业，其物流配送能力有限，无法像大型物流企业那样提供快速、高效的配送服务，这就是它的劣势。对于个人来说，如果一个人缺乏相关领域的专业知识，可能会在工作竞争中处于劣势。
+> 3. **机会（Opportunity）**：是指组织或者个人所处的外部环境中存在的有利因素。例如，随着电商行业的迅速发展，线上购物市场不断扩大，对于相关电商从业者来说，这就是一个巨大的机会。在技术领域，人工智能技术的兴起为很多科技公司提供了新的业务拓展机会，如开发智能客服系统、智能图像识别软件等。
+> 4. **威胁（Threat）**：主要是指外部环境中对组织或个人构成挑战或者不利影响的因素。比如，经济衰退可能会导致消费者购买力下降，对于高端消费品行业来说，这就会是一个威胁。在行业竞争方面，新的竞争对手进入市场，可能会抢走原有企业的市场份额，这也是威胁的一种。
+>
+> 进行 SWOT 分析的目的是帮助组织或者个人了解自身的优势与劣势，把握外部的机会，同时规避或者应对威胁，从而制定出更加科学合理的发展战略。
+
+> **鱼骨图**
+>
+> <mark><b><u>鱼骨图又叫因果图、石川图，是一种用于分析问题根本原因的工具。</u></b></mark>
+>
+> **一、鱼骨图的构成要素**
+>
+> - 它由一条主骨（问题陈述）和多条分支骨（大骨、中骨、小骨、孙骨等）组成。主骨代表要解决的问题，分支骨表示导致问题的各种可能因素。这些分支骨通常会从不同角度来分析问题产生的原因，如人、机、料、法、环、测（ 4M1E，即操作人员、机器设备、原材料、工艺方法、环境、测量与检验）等六大方面在质量管理领域比较常见。
+>
+> **二、绘制鱼骨图的步骤**
+>
+> 1. **确定问题陈述（主骨）**
+>    - 首先要明确要分析的核心问题。例如，假设问题是 “产品质量不合格率上升”。将这个问题写在鱼骨图的头部位置，作为主骨。主骨的形状像鱼的主干骨，从左到右横向画一条直线来代表它。
+> 2. **确定大骨（主要类别）**
+>    - 根据问题的性质和分析目的，确定大骨的类别。以产品质量问题为例，可以确定大骨为 “人、机、料、法、环、测” 这 6 个方面。
+>    - 从主骨的头部（问题陈述）向后画 6 条倾斜的分支线，分别在每条分支线的末端写上这 6 个大骨类别。这些分支线就像鱼的大骨头，与主骨相连。
+> 3. **绘制中骨（大骨的细分因素）**
+>    - 对于每个大骨，思考其可能包含的细分因素。例如，在 “人” 这个大骨下，中骨可以是 “员工技能水平”“员工工作态度”“员工培训情况” 等。
+>    - 从每个大骨的分支线处向两侧画出中骨分支线，中骨的分支线可以向两个方向延伸，分别表示不同的细分因素方向。
+>    - 在中骨分支线的末端写上对应的细分因素内容。例如，在 “员工技能水平” 这个中骨分支线末端具体描述技能水平可能存在的问题，如 “大部分员工对新设备操作不熟练”。
+> 4. **添加小骨和孙骨（更详细的细分因素）**
+>    - 在中骨的基础上，进一步细化原因。比如对于 “员工对新设备操作不熟练” 这个中骨，小骨可以是 “新设备培训时间不足”“培训教材不够清晰” 等。
+>    - 同样地，从每个中骨分支线向两侧画出小骨分支线，并在末端写上详细原因。如果需要还可以继续添加孙骨，即对小骨再进行细分。例如，“培训教材不够清晰” 的孙骨可能是 “教材内容过于专业，员工难以理解”“教材图表不直观” 等。
+> 5. **完善鱼骨图**
+>    - 在绘制过程中，可以使用不同颜色的笔或者标记符号来区分不同层次或者重要程度的原因。同时，检查鱼骨图是否完整，是否涵盖了所有可能导致问题的因素。如果有遗漏的部分，及时补充相应的分支骨和原因内容。
+>
+> 鱼骨图可以帮助人们系统地分析问题，找到问题产生的根本原因，从而采取有效的解决措施。
+>
+> **示例**
+>
+> > <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1072 height=712 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-6-19/1750327400/main.svg"></iframe>
+
 
 ## 我的碎碎念
 
