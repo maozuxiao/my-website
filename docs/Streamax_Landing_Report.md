@@ -28,15 +28,48 @@ vlook-header-dup: 高级驾驶辅助系统;Operation Service;今日诗词;DMS;AD
 
 _^tab^_
 
-> **lofi hip hop radio - beats to study/relax to 🐾**
->
-> <iframe width="916" height="515" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="lofi hip hop radio - beats to study/relax to 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > **Take a break ☕**
 >
 > ​														**==100==**_~Og~_
 >
 > <div align="center"><img src="https://s2.loli.net/2023/01/16/xuQNqZjR3lkcDBJ.gif" alt="Lofi Girl-001" /></div>
+
+>  **Summer Lofi Chill ☀️ Ocean Coffee for Relaxing Morning 🌊 Lofi Hip Hop / Beats to relax/chill/study**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/edn7FurOFxM" title="Summer Lofi Chill ☀️ Ocean Coffee for Relaxing Morning 🌊 Lofi Hip Hop / Beats to relax/chill/study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+> **lofi hip hop radio - beats to study/relax to 🐾**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="lofi hip hop radio - beats to study/relax to 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **Chillhop Radio - jazzy & lofi hip hop beats 🐾**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/5yx6BWlEVcY" title="Chillhop Radio - jazzy &amp; lofi hip hop beats 🐾" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **Green Spring Morning 🍃 Chill Morning Vibes 🍃 Spring Lofi Songs To Start Your Spring Day Peacefully**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/wFUSiwN2JFk" title="Green Spring Morning 🍃 Chill Morning Vibes 🍃 Spring Lofi Songs To Start Your Spring Day Peacefully" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **RAINING IN JAPAN ☔ Rainy Lofi Songs To Make You Calm Down And Relax Your Mind ☔ Pluviophile Lofi**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/Vg13S-zzol0" title="RAINING IN JAPAN ☔ Rainy Lofi Songs To Make You Calm Down And Relax Your Mind ☔ Pluviophile Lofi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
+>  **lofi hip hop radio 📚 beats to relax/study to**
+>
+> <div align="center">
+>   <iframe width="916" height="515" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio 📚 beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> </div>
+
 
 > **今日诗词**
 >
@@ -291,10 +324,10 @@ graph LR
 
   ==必修课==
 
-    - [ ] [【2024锐小星培训】质量课程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】技服研讨](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】三级研发架构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [【2024锐小星培训】IPD流程介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】质量课程](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】技服研讨](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】三级研发架构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [【2024锐小星培训】IPD流程介绍](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
   ==选修课==
 
@@ -340,6 +373,7 @@ graph LR
 > 12. 7.24-01 质量意识-中英-0221.pptx
 > 13. 7.25-05 2024锐明服务体系介绍(1).pptx
 > 14. 7.25-01 三级研发N9M2.0-V1.0-20240721.pptx
+> 15. 7.25-02 IPD流程管理介绍-20240723.pptx
 
 ------
 
