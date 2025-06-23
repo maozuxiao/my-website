@@ -92,6 +92,10 @@ _^tab^_
 > | ④       | H        | 工作模式 | 代表Hybrid 混合模式； `E`代表Extension为扩展模式，比如`X5N-E0804`拥有`LAN`连接 External Switch拓展IP camera & `AV IN总线`拓展AHD camera |
 > | ⑤      | 04       | AHD camera支持路数 | 支持4路模拟摄像头（AHD camera） |
 > | ⑥      | 01       | IP camera支持路数 | 支持1路IP摄像头（IP camera） |
+>
+> > [!NOTE]
+> >
+> > 1. 如果产品名称为M1N-**GM**_~Rd~_H0401，GM代表：`GENERAL MACHINE`
 
 ### 产品规格书
 
