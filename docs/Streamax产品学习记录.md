@@ -181,6 +181,7 @@ _^tab^_
 > - RS - 232 - C 接口的信号线定义包括多种信号类型。例如，数据线路（如 TxD - 发送数据，RxD - 接收数据），用于在设备之间传输数据；控制线路（如 RTS - 请求发送，CTS - 允许发送，DSR - 数据设备就绪，DTR - 数据终端就绪等），用于对数据的传输过程和链路状态进行控制。其`最大传输距离约为 15 米（在波特率为 19200 的情况下），最大传输速率为 20kbps 左右`。通常使用 9 针或 25 针的 DB - 9 或 DB - 25 接口。这个接口曾经广泛应用于计算机与调制解调器、计算机与其他串行设备之间的连接，如早期的计算机与打印机、终端设备等之间的通信。
 >   [<kbd>📖百度百科：RS-232 ❯❯</kbd>](https://baike.baidu.com/lemma/api/entry?word=RS-232&fromModule=lemma_search-b)
 >   [<kbd>📽️视频参考：4分钟听懂！什么是 RS-232？❯❯</kbd>](https://vd3.bdstatic.com/mda-mi8b0n3irhcdj0h6/480p/h264/1631173619817638772/mda-mi8b0n3irhcdj0h6.mp4)
+>   ![](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/mda-mi8b0n3irhcdj0h6.mp4)
 
 > **RS485 定义**
 >
@@ -188,6 +189,7 @@ _^tab^_
 > - RS - 485 接口采用了差分信号传输方式，具有良好的抗干扰能力。它采用两线制（半双工）或四线制（全双工）的通信方式。在两线制中，A 线和 B 线（也称为 “+” 和 “ - ”）用于数据传输，通过比较两线之间的电位差来判断信号的逻辑状态。RS - 485 的`最大传输距离可达 1200 米左右（在波特率为 90kbps 时），最大传输速率可达 10Mbps（在 12 米范围内）`。它**可以连接多个节点**，一般最多可以连接 **32 个节点**（通过中继器等设备可以扩展连接数量），在工业自动化、楼宇自动化等领域得到了广泛应用，如连接 PLC（可编程逻辑控制器）与传感器、执行器等设备，实现数据采集和控制指令的传输。
 > [<kbd>📖百度百科：RS-485 ❯❯</kbd>](https://baike.baidu.com/lemma/api/entry?word=RS-232&fromModule=lemma_search-b)
 > [<kbd>📽️视频参考：【工程师必备技能】什么是RS485？如何在工业控制系统中使用它？❯❯</kbd>](https://vd3.bdstatic.com/mda-mcqfjn3f1k7fjdd5/hd/cae_h264/1616671155/mda-mcqfjn3f1k7fjdd5.mp4)
+> ![](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/mda-mcqfjn3f1k7fjdd5.mp4)
 
 > **RS232 VS RS485**
 > |                            对比项                            | RS232                                    | RS485                                        |
@@ -200,6 +202,7 @@ _^tab^_
 > |                           电源供给                           | 通常需要单独电源                         | 可通过信号线供电                             |
 > 
 > [<kbd>📽️视频参考：RS232、RS485、TTL到底能传输多远距离？❯❯</kbd>](https://vd3.bdstatic.com/mda-pg97k2dwfd1twyiq/hd/cae_h264/1689225328082064355/mda-pg97k2dwfd1twyiq.mp4) 
+> ![](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/mda-pg97k2dwfd1twyiq.mp4)
 
 ### PAL & NTSC 
 
