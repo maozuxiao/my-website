@@ -14,7 +14,7 @@ vlook-query: coating=bu&ws=3&toc=3
 vlook-header-dup: A/V IN;
 ---
 
-###### ✒️Streamax 产品学习记录<br /><br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />
+###### ✒️Streamax 产品学习记录<br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />
 
 # **✒️**Streamax 产品学习记录
 
@@ -28,8 +28,12 @@ vlook-header-dup: A/V IN;
 
 ## 待办事项
 
-- [ ] 借用测试样机X3N-H0404
+- [x] 借用测试样机X3N-H0404
   1. 2025-6-20：覃海传-Beacher：下周会准备一台提供给我
+  1. 2025-6-23：找Cedric_张炯荣借用1台X3N-GMH0404，Mac `0018F55933F5` ； 1根电源线
+  1. 2025-6-23：找Frank孟祥奇借用1个适配器；1台CP4
+- [x] 了解样机X3N-H0404的硬件结构并成功点亮测试样机X3N-H0404
+  ![点亮样机X3N-H0404](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623171956703.png#40%)
 
 ## 学习路径
 
@@ -102,6 +106,7 @@ _^tab^_
 | 产品名称       | 规格书                                                       | Specification                                                |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | M1N-H0401      | [M1N-H0401规格书（V1.0）.docx](https://wj.streamax.com:9443/preview.html?fileid=0125934b-5fa5-4e98-a284-e94ed007c91a) | [M1N-H0401 Specification Q3.docx](https://wj.streamax.com:9443/preview.html?fileid=f810386b-c7f7-4f40-a4a4-f9f17609d199) |
+| X3N-H0404      | [X3N-H0404规格书（V1.0）.doc](https://wj.streamax.com:9443/preview.html?fileid=544b0b8e-31fe-484a-8232-f15945ea4bfd) | [X3N-H0404 Specification-20220421-EN.docx](https://wj.streamax.com:9443/preview.html?fileid=7354e8a1-c410-4874-89c3-c4af95f030c0) |
 | X3NPro-PTH0404 | [X3NPro-PTH0404中文规格书.docx](https://wj.streamax.com:9443/preview.html?fileid=54d7dd2f-8b73-45ff-a2b6-8673fdb2aaf2) | [X3NPro-PTH0404 Specification.doc.docx](https://wj.streamax.com:9443/preview.html?fileid=036af7da-e11e-48dd-b007-72f548237c90) |
 
 
@@ -114,34 +119,40 @@ _^tab^_
 
 > **前置面板(Front panel)**
 >
-> | 名称          | 定义                                                         | M1N-H0401             |
-> | ------------- | ------------------------------------------------------------ | --------------------- |
-> | PWR(指示灯)   | 电源指示灯<br />蓝色；设备上电时常亮；关机、待机或休眠时熄灭 | ✅                     |
-> | USB(指示灯)   | USB指示灯<br />绿色；设备识别到U盘时常亮；设备对U盘进行读写操作时闪烁，闪烁频率1HZ | ✅                     |
-> | ALM(指示灯)   | 报警指示灯<br />红色；触发任意报警时常亮；正常情况下熄灭     | ✅                     |
-> | REC(指示灯)   | 录制指示灯<br />红色；绿色；录像时常亮；非录像时熄灭         | ✅                     |
-> | ERR(指示灯)   | 故障指示灯<br />红色；硬盘加密芯片未获取到时常亮；其他状态熄灭 | ✅                     |
-> | NET(指示灯)   | 网络指示灯<br />绿色；通讯模块正常，无数通讯时常亮；通讯模块正常，有数据通讯时闪烁，闪烁频率1HZ；无通讯模块时熄灭 | ✅                     |
-> | VLOSS(指示灯) | 视频丢失或无信号指示灯                                       | ❌                     |
-> | SD(接口)      | SD卡接口<br />支持SDXC 32GB/64GB/128GB/256GB，可热插拔       | ✅2个                  |
-> | SIM(接口)     | SIM卡接口                                                    | ✅1个；Mini Sim卡      |
-> | USB(接口)     | 升级固件/运维宝（Easy check）                                | ✅运维宝（Easy check） |
-> | A/V OUT(接口) | 外接显示器/控制面板                                          | ❌                     |
+> | 名称          | 定义                                                         | M1N-H0401             | X3N-H0404                         |
+> | ------------- | ------------------------------------------------------------ | --------------------- | --------------------------------- |
+> | PWR(指示灯)   | 电源指示灯<br />蓝色；设备上电时常亮；关机、待机或休眠时熄灭 | ✅                     | ✅                                 |
+> | USB(指示灯)   | USB指示灯<br />绿色；设备识别到U盘时常亮；设备对U盘进行读写操作时闪烁，闪烁频率1HZ | ✅                     | ✅                                 |
+> | ALM(指示灯)   | 报警指示灯<br />红色；触发任意报警时常亮；正常情况下熄灭     | ✅                     | ✅                                 |
+> | REC(指示灯)   | 录制指示灯<br />红色；绿色；录像时常亮；非录像时熄灭         | ✅                     | ✅                                 |
+> | ERR(指示灯)   | 故障指示灯<br />红色；硬盘加密芯片未获取到时常亮；其他状态熄灭 | ✅                     | ✅                                 |
+> | NET(指示灯)   | 网络指示灯<br />绿色；通讯模块正常，无数通讯时常亮；通讯模块正常，有数据通讯时闪烁，闪烁频率1HZ；无通讯模块时熄灭 | ✅                     | ✅                                 |
+> | VLOSS(指示灯) | 视频丢失或无信号指示灯                                       | ❌                     | ❌                                 |
+> | SD(接口)      | SD卡接口<br />支持SDXC 32GB/64GB/128GB/256GB，可热插拔       | ✅2个                  | ✅1个                              |
+> | SIM(接口)     | SIM卡接口                                                    | ✅1个；Mini Sim卡      | ✅1个；Mini Sim卡                  |
+> | USB(接口)     | 升级固件/运维宝（Easy check）                                | ✅运维宝（Easy check） | ✅运维宝（Easy check               |
+> | A/V OUT(接口) | 外接显示器/控制面板                                          | ❌                     | ❌                                 |
+> | 硬盘盒        | 插入2.5寸/3.5寸 HDD/SSD，M.2 SSD                             | ❌                     | ✅上置硬盘盒；1 x2.5"SATA HDD或SSD |
 >
 > 
 
 > **后置面板(Rear panel)**
 >
-> | 名称                                                         | 定义                     | M1N-H0401                   |
-> | ------------------------------------------------------------ | ------------------------ | --------------------------- |
-> | WIFI Antenna![WIFI天线图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112524303.png)<br />![WIFI天线接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623115334151.png#20%) | WIFI天线接口             | ✅1*SMA                      |
-> | External GPS![GPS/BD北斗图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112539202.png)<br />![GPS&北斗外接接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113425889.png#20%) | 外接GPS/北斗定位模块接口 | ✅1个；4Pin；支持GPS/BD 北斗 |
-> | 3G or 4G Antenna![3G or 4G Antenna](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112622148.png)<br />![3G or 4G Antenna接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112743027.png#20%) | 3G/4G天线接口            | ✅1*SMA                      |
-> | A/V IN<br />![A/V IN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113616780.png#20%) | 模拟音视频输入           | ✅4个；4Pin同轴电缆          |
-> | IPC<br />![IP摄像头](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114134142.png#20%) | PON供电IPC接口           | ✅1个；6Pin同轴电缆          |
-> | Power<br />![电源接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114054994.png#20%) | DC8-36V电源输入          | ✅1个；9Pin电源线            |
-> | R-WATCH & AV out<br />![R-WATCH & AV out](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114201780.png#20%) | R-WATCH&A/V OUT接口      | ✅1个；8Pin                  |
-> | Sensor & Serial<br />![Sensor & Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114344644.png#20%) | 串口和开关量接口         | ✅1个；22Pin                 |
+> | 名称                                                         | 定义                     | M1N-H0401                   | X3N-H0404                   |
+> | ------------------------------------------------------------ | ------------------------ | --------------------------- | --------------------------- |
+> | WIFI Antenna![WIFI天线图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112524303.png)<br />![WIFI天线接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623115334151.png#20%) | WIFI天线接口             | ✅1*SMA                      | ✅1*SMA                      |
+> | External GPS![GPS/BD北斗图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112539202.png)<br />![GPS&北斗外接接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113425889.png#20%) | 外接GPS/北斗定位模块接口 | ✅1个；4Pin；支持GPS/BD 北斗 | ✅1个；4Pin；支持GPS/BD 北斗 |
+> | 3G or 4G Antenna![3G or 4G Antenna](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112622148.png)<br />![3G or 4G Antenna接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112743027.png#20%) | 3G/4G天线接口            | ✅1*SMA                      | ✅1*SMA                      |
+> | A/V IN<br />![A/V IN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113616780.png#20%) | 模拟音视频输入           | ✅4个；4Pin同轴电缆          | ✅4个；4Pin同轴电缆          |
+> | IPC<br />![IP摄像头](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114134142.png#20%) | PON供电IPC接口           | ✅1个；6Pin同轴电缆          | ✅4个；6Pin同轴电缆_~Rd~_    |
+> | Power<br />![电源接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114054994.png#20%) | DC8-36V电源输入          | ✅1个；9Pin电源线            | ✅1个；9Pin电源线            |
+> | R-WATCH & AV out<br />![R-WATCH & AV out](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114201780.png#20%) | R-WATCH&A/V OUT接口      | ✅1个；8Pin                  | ❌                           |
+> | Sensor & Serial<br />![Sensor & Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114344644.png#20%) | 串口和开关量接口         | ✅1个；22Pin                 | ✅1个；22Pin                 |
+> | USB Type B<br />![USB Type B](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164433187.png#20%) | USB Type B(可连防火盒)   | ❌                           | ✅1个；2.0版本               |
+> | WAN<br />![WAN口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164459316.png#20%) | WAN 口                   | ❌                           | ✅1个；100M                  |
+> | Serial<br />![Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164519364.png#20%) | 串口接口                 | ❌                           | ✅1个；12Pin                 |
+> | VGA<br />![VGA](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164535733.png#20%) | VGA视频接口              | ❌                           | ✅1个；8Pin                  |
+> | Panel<br />![Panel](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164555190.png#20%) | 控制面板（CP4）接口      | ❌                           | ✅1个；10Pin                 |
 
 ### IP camera Vs AHD camera
 
@@ -280,6 +291,5 @@ _^tab^_
 >
 > ![USB_TypeB-FireProof box](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250623100633279.png)
 
-
-
-# <center>*感谢观看！**Thanks for watching!***_~Bn~_</center></br><center>*科技构筑美好交通未来**Building a Brighter Future of Transportation with Technology***_~Bn~_</center></br><center>*Streamax**锐明技术股份有限公司***_~Bn~_</center>
+------
+# <center>*感谢观看！**Thanks for watching!***_~Bn~_</center><br><center>*科技构筑美好交通未来**Building a Brighter Future of Transportation with Technology***_~Bn~_</center><br><center>*Streamax**锐明技术股份有限公司***_~Bn~_</center>
