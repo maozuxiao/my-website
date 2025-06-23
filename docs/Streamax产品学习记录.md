@@ -11,7 +11,7 @@ vlook-welcome: Streamax
 vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
 vlook-query: coating=bu&ws=3&toc=3
-vlook-header-dup: 
+vlook-header-dup: A/V IN;
 ---
 
 ###### ✒️Streamax 产品学习记录<br /><br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />
