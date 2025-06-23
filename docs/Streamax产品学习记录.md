@@ -179,13 +179,13 @@ _^tab^_
 > - RS - 232 - C（推荐标准 232 - C）是美国电子工业协会（EIA）制定的一种串行物理接口标准。它是在 1969 年公布的，用于连接数据终端设备（DTE，Data Terminal Equipment）和数据通信设备（DCE，Data Communication Equipment）。
 > - RS - 232 - C 接口的信号线定义包括多种信号类型。例如，数据线路（如 TxD - 发送数据，RxD - 接收数据），用于在设备之间传输数据；控制线路（如 RTS - 请求发送，CTS - 允许发送，DSR - 数据设备就绪，DTR - 数据终端就绪等），用于对数据的传输过程和链路状态进行控制。其`最大传输距离约为 15 米（在波特率为 19200 的情况下），最大传输速率为 20kbps 左右`。通常使用 9 针或 25 针的 DB - 9 或 DB - 25 接口。这个接口曾经广泛应用于计算机与调制解调器、计算机与其他串行设备之间的连接，如早期的计算机与打印机、终端设备等之间的通信。
 > [<kbd>百度百科：RS-232 ❯❯</kbd>](https://baike.baidu.com/lemma/api/entry?word=RS-232&fromModule=lemma_search-b)
-> ![4分钟听懂！什么是 RS-232？](https://vd3.bdstatic.com/mda-mi8b0n3irhcdj0h6/480p/h264/1631173619817638772/mda-mi8b0n3irhcdj0h6.mp4)
+> <div id="vk-id-video1" class="v-caption" data-fig-type="video" data-title="&lt;span&gt;视频 Chapter 1.7.7.  &lt;/span&gt;4分钟听懂！什么是 RS-232？"><figcaption class="v-cap-1"><span>视频 Chapter 1.7.7.  </span>4分钟听懂！什么是 RS-232？</figcaption><video src="https://vd3.bdstatic.com/mda-mi8b0n3irhcdj0h6/480p/h264/1631173619817638772/mda-mi8b0n3irhcdj0h6.mp4" controls="controls">不支持视频标签</video></div>
 
 > **RS485 定义**
 > - RS - 485 是一种常用的总线标准，由美国电子工业协会（EIA）于 1983 年正式颁布。它是一种平衡串行通信接口，主要用于连接多个设备，构成分布式控制系统或进行长距离的数据传输。
 > - RS - 485 接口采用了差分信号传输方式，具有良好的抗干扰能力。它采用两线制（半双工）或四线制（全双工）的通信方式。在两线制中，A 线和 B 线（也称为 “+” 和 “ - ”）用于数据传输，通过比较两线之间的电位差来判断信号的逻辑状态。RS - 485 的`最大传输距离可达 1200 米左右（在波特率为 90kbps 时），最大传输速率可达 10Mbps（在 12 米范围内）`。它**可以连接多个节点**，一般最多可以连接 **32 个节点**（通过中继器等设备可以扩展连接数量），在工业自动化、楼宇自动化等领域得到了广泛应用，如连接 PLC（可编程逻辑控制器）与传感器、执行器等设备，实现数据采集和控制指令的传输。
 > [<kbd>百度百科：RS-485 ❯❯</kbd>](https://baike.baidu.com/lemma/api/entry?word=RS-232&fromModule=lemma_search-b)
-> ![【工程师必备技能】什么是RS485？如何在工业控制系统中使用它？](https://vd3.bdstatic.com/mda-mcqfjn3f1k7fjdd5/hd/cae_h264/1616671155/mda-mcqfjn3f1k7fjdd5.mp4)
+> <div id="vk-id-video2" class="v-caption" data-fig-type="video" data-title="&lt;span&gt;视频 Chapter 1.7.7.-2  &lt;/span&gt;【工程师必备技能】什么是RS485？如何在工业控制系统中使用它？"><figcaption class="v-cap-1"><span>视频 Chapter 1.7.7.-2  </span>【工程师必备技能】什么是RS485？如何在工业控制系统中使用它？</figcaption><video src="https://vd3.bdstatic.com/mda-mcqfjn3f1k7fjdd5/hd/cae_h264/1616671155/mda-mcqfjn3f1k7fjdd5.mp4" controls="controls">不支持视频标签</video></div>
 
 
 > **RS232 VS RS485**
@@ -198,7 +198,7 @@ _^tab^_
 > |  抗干扰能力  | 抗干扰能力弱，易受地电位差和电磁干扰影响 | 抗干扰能力强，能有效抑制共模干扰             |
 > |   电源供给   | 通常需要单独电源                         | 可通过信号线供电                             |
 > 
-> ![RS232、RS485、TTL到底能传输多远距离？](https://vd3.bdstatic.com/mda-pg97k2dwfd1twyiq/hd/cae_h264/1689225328082064355/mda-pg97k2dwfd1twyiq.mp4)
+> <div id="vk-id-video3" class="v-caption" data-fig-type="video" data-title="&lt;span&gt;视频 Chapter 1.7.7.-3  &lt;/span&gt;RS232、RS485、TTL到底能传输多远距离？"><figcaption class="v-cap-1"><span>视频 Chapter 1.7.7.-3  </span>RS232、RS485、TTL到底能传输多远距离？</figcaption><video src="https://vd3.bdstatic.com/mda-pg97k2dwfd1twyiq/hd/cae_h264/1689225328082064355/mda-pg97k2dwfd1twyiq.mp4" controls="controls">不支持视频标签</video></div>
 
 ### PAL & NTSC 
 
