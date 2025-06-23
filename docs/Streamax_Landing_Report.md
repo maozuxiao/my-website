@@ -4,8 +4,8 @@ author: Sean Mao
 keywords:
 - 问题处理步骤
 - 说明
-- Business,Enterprise
-- 海外营销中心-欧洲战区
+- Business,Enterprise,FAE,Technical Support
+- 海外营销中心-欧洲战区-土耳其区
 - 仅内部使用
 vlook-welcome: Streamax
 vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
@@ -94,7 +94,7 @@ _^tab^_
 - [ ] 锐明学院课程
 - [x] 展厅自主参观--2025-6-18
 - [ ] 导师1:1辅导
-  - [ ] 第一课 <sup>2025-6-20 14:15 GMT+8</sup>
+  - [x] 第一课 <sup>2025-6-20 14:15 GMT+8</sup>
 
 - [ ] 6月新入职员工展厅参观：6月27日 周五 13:30 - 14:00(GMT+8)
 - [ ] Q3 New Hire Orientation(7.14-7.25)
