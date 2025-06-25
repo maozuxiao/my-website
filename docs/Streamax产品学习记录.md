@@ -132,11 +132,12 @@ _^tab^_
 
 > **MDVR**
 >
-> | 产品名称       | 规格书                                                       | 说明书                                                       |
-> | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-> | M1N-H0401      | [M1N-H0401规格书（V1.0）.docx](https://wj.streamax.com:9443/preview.html?fileid=0125934b-5fa5-4e98-a284-e94ed007c91a)<br />[M1N-H0401 Specification Q3.docx](https://wj.streamax.com:9443/preview.html?fileid=f810386b-c7f7-4f40-a4a4-f9f17609d199) | [M1N产品使用说明书V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=064e99f2-3515-45e6-a41d-dd32703467e6)<br />[M1N User ManualV2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=a5f523f9-ba84-44a7-8595-dd01110140f4) |
-> | X3N-H0404      | [X3N-H0404规格书（V1.0）.doc](https://wj.streamax.com:9443/preview.html?fileid=544b0b8e-31fe-484a-8232-f15945ea4bfd)<br />[X3N-H0404 Specification-20220421-EN.docx](https://wj.streamax.com:9443/preview.html?fileid=7354e8a1-c410-4874-89c3-c4af95f030c0) | [X3N系列产品使用说明书-V2.0.doc](https://wj.streamax.com:9443/preview.html?fileid=28300d23-1b1c-4bb5-8010-36065a818659)<br />[X3N Series Product User Manual-V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=c939d7a5-1a6c-46ab-97b8-e62b518849fb) |
-> | X3NPro-PTH0404 | [X3NPro-PTH0404中文规格书.docx](https://wj.streamax.com:9443/preview.html?fileid=54d7dd2f-8b73-45ff-a2b6-8673fdb2aaf2)<br />[X3NPro-PTH0404 Specification.doc.docx](https://wj.streamax.com:9443/preview.html?fileid=036af7da-e11e-48dd-b007-72f548237c90) | [X3N Pro使用说明书.docx](https://wj.streamax.com:9443/preview.html?fileid=0615eb0e-55e1-45fb-99c2-be7a15b3d220)<br />[X3N Pro使用说明书（英文版）.docx](https://wj.streamax.com:9443/preview.html?fileid=00054bfc-3121-4586-a409-ae110ec71e95) |
+> | 产品名称       | 规格书                                                       | 说明书                                                       | 其他                                                         |
+> | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+> | M1N-H0401      | [M1N-H0401规格书（V1.0）.docx](https://wj.streamax.com:9443/preview.html?fileid=0125934b-5fa5-4e98-a284-e94ed007c91a)<br />[M1N-H0401 Specification Q3.docx](https://wj.streamax.com:9443/preview.html?fileid=f810386b-c7f7-4f40-a4a4-f9f17609d199) | [M1N产品使用说明书V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=064e99f2-3515-45e6-a41d-dd32703467e6)<br />[M1N User ManualV2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=a5f523f9-ba84-44a7-8595-dd01110140f4) |                                                              |
+> | X3N-H0404      | [X3N-H0404规格书（V1.0）.doc](https://wj.streamax.com:9443/preview.html?fileid=544b0b8e-31fe-484a-8232-f15945ea4bfd)<br />[X3N-H0404 Specification-20220421-EN.docx](https://wj.streamax.com:9443/preview.html?fileid=7354e8a1-c410-4874-89c3-c4af95f030c0) | [X3N系列产品使用说明书-V2.0.doc](https://wj.streamax.com:9443/preview.html?fileid=28300d23-1b1c-4bb5-8010-36065a818659)<br />[X3N Series Product User Manual-V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=c939d7a5-1a6c-46ab-97b8-e62b518849fb) |                                                              |
+> | X3NPro-PTH0404 | [X3NPro-PTH0404中文规格书.docx](https://wj.streamax.com:9443/preview.html?fileid=54d7dd2f-8b73-45ff-a2b6-8673fdb2aaf2)<br />[X3NPro-PTH0404 Specification.doc.docx](https://wj.streamax.com:9443/preview.html?fileid=036af7da-e11e-48dd-b007-72f548237c90) | [X3N Pro使用说明书.docx](https://wj.streamax.com:9443/preview.html?fileid=0615eb0e-55e1-45fb-99c2-be7a15b3d220)<br />[X3N Pro使用说明书（英文版）.docx](https://wj.streamax.com:9443/preview.html?fileid=00054bfc-3121-4586-a409-ae110ec71e95) | [X3NPro-PTH0404配置清单.xlsx](https://wj.streamax.com:9443/preview.html?fileid=1051676a-3c3f-43c4-b26d-b8cf2bae5b78) |
+> | AD plus 2.0    | [AD Plus 2.0 产品规格书.pdf](https://wj.streamax.com:9443/preview.html?fileid=04ed189d-5eac-4a25-a047-e5d6f7534edf)<br />[AD Plus 2.0 Specification.pdf](https://wj.streamax.com:9443/preview.html?fileid=9dcc63b9-ea91-48fe-856b-31452b99e82e) | [04-Quick User Manual & Installation Guidance of AD Plus.pdf](https://wj.streamax.com:9443/preview.html?fileid=24b0d8f9-3f14-4645-bbd1-dd37dddc953d) | [AD Plus 2.0 System diagram (Standard).pdf](https://wj.streamax.com:9443/preview.html?fileid=5d0e1ec2-2af5-4656-9d18-8a6cfb5b3521) |
 
 > **Control Panel **
 >
@@ -356,11 +357,48 @@ _^tab^_
 
 
 
+### Easy Check运维宝
+
+_^tab^_
+
+> **产品介绍 & Diagram**
+>
+> **产品概述**
+> Easy Check 是一款基于 Android 平板运行的设备管理软件，通过 WIFI 模块与 MDVR 设备连接，实现设备管理与维护，提高工作效率。
+>
+> **主要功能**
+>
+> 1. **WIFI 模块**：采用 USB 扩展设计，支持插拔即用、自动连接 WIFI、外部 SD 卡备份等功能。
+> 2. **软件功能**：支持快速搜索 MDVR 设备、查看设备状态、多通道高清视频预览、视频回放分析、视频备份、解锁锁定视频、导出报警日志、用户操作日志及参数文件等。
+>
+> **软件模块**
+>
+> 1. **通用模块**：显示设备基本信息、通信模块详情、存储设备状态、版本信息等。
+> 2. **预览模块**：支持 1 通道或 4 通道分屏显示，可切换音量开关。
+> 3. **回放模块**：支持报警、锁定、视频日历，可进行播放、快进、倒退等操作。
+> 4. **偏好设置模块**：可设置设备信息、时间、启动模式、用户信息、网络配置、实时预览、录像参数等。
+> 5. **帮助模块**：提供帮助文件及 Easy Check 版本信息。
+>
+> **使用步骤**
+>
+> 1. 安装软件(参考<kbd>[这里 >>](#Veyes(锐明运维宝)使用说明)</kbd>)后，点击刷新搜索本地网络中的 WIFI 设备，选择设备并登录。
+> 2. 根据需求进入不同模块进行操作，如预览、回放、设置等。
+>
+> **Diagram**
+>
+> ![Streamax Easycheck](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Streamax%20Easycheck.gif)
+
+> **操作手册**
+>
+> [<kbd>📖Easy Check Manual.doc</kbd>](https://wj.streamax.com:9443/preview.html?fileid=9a787a1b-967f-4272-b4f3-bc055d61cfee)
+
+
+
 ### Veyes(锐明运维宝)使用说明
 
 _^tab^_
 
-> **安装**
+> **软件安装**
 >
 > * Android手机用户请在谷歌商店搜索“Veyes” 下载后安装
 > * IOS手机用户请在APP商店内搜索“Veyes”下载后安装
@@ -369,7 +407,7 @@ _^tab^_
 > >
 > > Mobile Apps对系统版本有限制，要求Android 5.0或者IOS 11及以上系统版
 
-> **连接**
+> **WIFI连接**
 >
 > 1. 开启设备WIFI为AP模式：设备启动3分钟内WIFI为AP模式，或者设备启动后双击前面板按钮启动AP模式。
 > 2.	打开手机WIFI，打开Veyes点击【搜索】按钮，进入WIFI热点搜索界面选择对应热点。初次登录时，WIFI热点名称以设备SeriaNum号命名（设备标签可查找SeriaNum），若车牌号不为空，则热点名称为车牌号。
