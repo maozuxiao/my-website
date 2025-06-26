@@ -25,6 +25,7 @@ vlook-header-dup: A/V IN;WAN口;LAN口;
 | 时间    | 课件  | 总结 |
 | --------------- | ----------------------------------------------------- | ---- |
 | 2025-6-20 14:15 | Comprehensive MDVR series from Streamax 20230911.pptx | MDVR系列产品命名规范，产品硬件接口、产品参数，一些专业术语介绍 |
+| 2025-6-26 |  |  |
 
 ## 待办事项
 
@@ -98,7 +99,21 @@ _^tab^_
 > >
 > > **验证结果**：减少AHD路数，可以提升剩下摄像头的视频输出质量，但是视频输出质量受到硬件能力限制，录像码率不能超过额定值。
 
+> ###### 导出视频时Proprietary data和 AVI data有什么区别？
+> ![Proprietary data & AVI data](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250626141959846.png#left#40%)
+>
+> **Proprietary data（专有数据）**：指由特定公司、组织或个人拥有知识产权的私有数据，通常受专利、版权或商业秘密保护，不对外公开其技术规范或格式标准。
+>
+> **AVI data（AVI 格式数据）**：AVI（Audio Video Interleave）是由微软开发的一种**开放式视频容器格式**，于 1992 年推出，属于通用标准格式。
+>
+> > [!NOTE]
+> >
+> > 在X3N上导出的格式为H264/H265 Data & MP4 Data，如需播放H264/H265 Data文件需要下载解码器，比如[K-Lite Codec Pack](https://www.codecguide.com/download_kl.htm)才能播放，并且不能调节时间
+> > ![H264/H265 Data & MP4 Data](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250626174846893.png#40%)
 
+> ###### 不同层级的账号（admin/user）有什么区别？
+>
+> User没有config菜单，无法对MDVR进行配置
 
 
 
@@ -106,25 +121,30 @@ _^tab^_
 
 
 
-### 产品命名
+### 产品命名规范
 
-> **示例**：M1N-H0401
+> **示例**：**X**_~Rd~_<sup>①</sup>**3**_~Gn~_<sup>②</sup>**N**_~Ye~_<sup>③</sup>-**GM**_~Aq~_<sup>④</sup>-**H**_~Pu~_<sup>⑤</sup>**04**_~Ol~_<sup>⑥</sup>**04**_~Og~_<sup>⑦</sup>
 >
-> ![M1N-H0401](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250620160900347.png)
+> ![X3N-GM-H0404](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250626094225648.png)
 >
 > | 序号 | 编码部分 | 类型 | 含义 |
 > |:--------:|:----:|:----:|------|
-> | ①       | M        | 存储介质 | `M`代表Memory，存储介质为SD卡；若为`X`则代表机械硬盘（需区分3.5和2.5尺寸）或SATA SSD |
-> | ②       | 1        | 产品等级 | 产品等级，数字越大性能越高，性能排序`X5N-E0804`>`X3N-H0404`>`M1N-H0401` |
-> | ③       | N        | 芯片信息 | `N`代表NovaTek（联咏芯片）；`H`代表hisilicon(海思芯片) |
-> | ④       | H        | 工作模式 | 代表Hybrid 混合模式； `E`代表Extension为扩展模式，比如`X5N-E0804`拥有`LAN`连接 External Switch拓展IP camera & `AV IN总线`拓展AHD camera |
-> | ⑤      | 04       | AHD camera支持路数 | 支持4路模拟摄像头（AHD camera） |
-> | ⑥      | 01       | IP camera支持路数 | 支持1路IP摄像头（IP camera） |
+> | ①       | X        | 存储介质 | `X`：机械硬盘（需区分3.5和2.5尺寸）或SATA SSD<br />`M`：Micro SD /M.2 SSD<br />`A`：==待补充== |
+> | ②       | 3        | 产品等级 | 产品等级，数字越大性能越高，性能排序`X5N-E0804`>`X3N-H0404`>`M1N-H0401` |
+> | ③       | N        | 芯片信息 | `N`：NovaTek（联咏芯片）<br />如果该字段为空代表hisilicon(海思芯片) |
+> | ④ | GM | 行业代表 | `GM`：“Gengeral Mobile DVR” 通用车载视频<br />`TK`：“Trucking” 货运产品线<br />`PT`：“Public Transit” 公交产品线 |
+> | ⑤      | H        | 工作模式 | `H`：Hybrid，混合模式<br />`E`：Extension，扩展模式比如`X5N-E0804`拥有`LAN`连接 External Switch拓展IP camera & `AV IN总线`拓展AHD camera |
+> | ⑥     | 04       | AHD camera支持路数 | 支持4路模拟摄像头（AHD camera） |
+> | ⑦    | 04       | IP camera支持路数 | 支持4路IP摄像头（IP camera） |
 >
-> > [!NOTE]
-> >
-> > 1. 如果产品名称为M1N-**GM**_~Rd~_H0401，GM代表：`General Machine`
-> > 1. 如果产品名称为M1N-**PT**_~Rd~_H0401，PT代表`Public Transport`
+
+
+
+### MDVR 产品矩阵
+
+
+
+> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1046 height=626 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-6-26/1750906868/main.svg"></iframe>
 
 ### 产品规格书 & 说明书
 
@@ -137,6 +157,7 @@ _^tab^_
 > | M1N-H0401      | [M1N-H0401规格书（V1.0）.docx](https://wj.streamax.com:9443/preview.html?fileid=0125934b-5fa5-4e98-a284-e94ed007c91a)<br />[M1N-H0401 Specification Q3.docx](https://wj.streamax.com:9443/preview.html?fileid=f810386b-c7f7-4f40-a4a4-f9f17609d199) | [M1N产品使用说明书V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=064e99f2-3515-45e6-a41d-dd32703467e6)<br />[M1N User ManualV2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=a5f523f9-ba84-44a7-8595-dd01110140f4) |                                                              |
 > | X3N-H0404      | [X3N-H0404规格书（V1.0）.doc](https://wj.streamax.com:9443/preview.html?fileid=544b0b8e-31fe-484a-8232-f15945ea4bfd)<br />[X3N-H0404 Specification-20220421-EN.docx](https://wj.streamax.com:9443/preview.html?fileid=7354e8a1-c410-4874-89c3-c4af95f030c0) | [X3N系列产品使用说明书-V2.0.doc](https://wj.streamax.com:9443/preview.html?fileid=28300d23-1b1c-4bb5-8010-36065a818659)<br />[X3N Series Product User Manual-V2.0.docx](https://wj.streamax.com:9443/preview.html?fileid=c939d7a5-1a6c-46ab-97b8-e62b518849fb) |                                                              |
 > | X3NPro-PTH0404 | [X3NPro-PTH0404中文规格书.docx](https://wj.streamax.com:9443/preview.html?fileid=54d7dd2f-8b73-45ff-a2b6-8673fdb2aaf2)<br />[X3NPro-PTH0404 Specification.doc.docx](https://wj.streamax.com:9443/preview.html?fileid=036af7da-e11e-48dd-b007-72f548237c90) | [X3N Pro使用说明书.docx](https://wj.streamax.com:9443/preview.html?fileid=0615eb0e-55e1-45fb-99c2-be7a15b3d220)<br />[X3N Pro使用说明书（英文版）.docx](https://wj.streamax.com:9443/preview.html?fileid=00054bfc-3121-4586-a409-ae110ec71e95) | [X3NPro-PTH0404配置清单.xlsx](https://wj.streamax.com:9443/preview.html?fileid=1051676a-3c3f-43c4-b26d-b8cf2bae5b78) |
+> | X3N-H0208      | [X3N-H0208产品规格书V1.0.doc](https://wj.streamax.com:9443/preview.html?fileid=be609bc2-4ab1-4fe0-8a14-86abeac5ec53)<br />[X3N-H0208 Specification.pdf](https://wj.streamax.com:9443/preview.html?fileid=f8cc96d3-02a9-47e0-b715-7a976f126001) | [X3N-H0208客车安装方案（V1.0）.docx](https://wj.streamax.com:9443/preview.html?fileid=82077bee-988f-46cf-8cfa-821028a1dc3e)<br />[X3N-H0208 Installation Guide.pdf](https://wj.streamax.com:9443/preview.html?fileid=a2f39053-7e48-4c63-b46f-4a7c455b01ee) | [X3N-H0404-H0208配置表0909.xlsx](https://wj.streamax.com:9443/preview.html?fileid=e76df95a-7a4d-445d-8575-764a2b3c8a63) |
 > | AD plus 2.0    | [AD Plus 2.0 产品规格书.pdf](https://wj.streamax.com:9443/preview.html?fileid=04ed189d-5eac-4a25-a047-e5d6f7534edf)<br />[AD Plus 2.0 Specification.pdf](https://wj.streamax.com:9443/preview.html?fileid=9dcc63b9-ea91-48fe-856b-31452b99e82e) | [04-Quick User Manual & Installation Guidance of AD Plus.pdf](https://wj.streamax.com:9443/preview.html?fileid=24b0d8f9-3f14-4645-bbd1-dd37dddc953d) | [AD Plus 2.0 System diagram (Standard).pdf](https://wj.streamax.com:9443/preview.html?fileid=5d0e1ec2-2af5-4656-9d18-8a6cfb5b3521) |
 
 > **Control Panel **
@@ -172,22 +193,25 @@ _^tab^_
 
 > **后置面板(Rear panel)**
 >
-> | 名称                                                         | 定义                        | M1N-H0401                   | X3N-H0404                   |
-> | ------------------------------------------------------------ | --------------------------- | --------------------------- | --------------------------- |
-> | WIFI Antenna<br />![WIFI天线图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112524303.png)<br />![WIFI天线接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623115334151.png#20%) | WIFI天线接口                | ✅1*SMA                      | ✅1*SMA                      |
-> | External GPS<br />![GPS/BD北斗图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112539202.png)<br />![GPS&北斗外接接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113425889.png#20%) | 外接GPS/北斗定位模块接口    | ✅1个；4Pin；支持GPS/BD 北斗 | ✅1个；4Pin；支持GPS/BD 北斗 |
-> | 3G or 4G Antenna<br />![3G or 4G Antenna](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112622148.png)<br />![3G or 4G Antenna接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112743027.png#20%) | 3G/4G天线接口               | ✅1*SMA                      | ✅1*SMA                      |
-> | A/V IN<br />![A/V IN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113616780.png#20%) | 模拟音视频输入              | ✅4个；4Pin同轴电缆          | ✅4个；4Pin同轴电缆          |
-> | IPC<br />![IP摄像头](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114134142.png#20%) | PON供电IPC接口              | ✅1个；6Pin同轴电缆          | ✅4个；6Pin同轴电缆_~Rd~_    |
-> | Power<br />![电源接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114054994.png#20%) | DC8-36V电源输入             | ✅1个；9Pin电源线            | ✅1个；9Pin电源线            |
-> | R-WATCH & AV out<br />![R-WATCH & AV out](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114201780.png#20%) | R-WATCH&A/V OUT接口         | ✅1个；8Pin                  | ❌                           |
-> | Sensor & Serial<br />![Sensor & Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114344644.png#20%) | 串口和开关量接口            | ✅1个；22Pin                 | ✅1个；22Pin                 |
-> | USB Type B<br />![USB Type B](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164433187.png#20%) | USB Type B(可连防火盒)      | ❌                           | ✅1个；2.0版本               |
-> | WAN<br />![WAN口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164459316.png#20%) | WAN 口，连接电脑配置MDVR    | ❌                           | ✅1个；100M                  |
-> | LAN<br />![LAN口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250624110338651.png#20%) | LAN口，连接Extension Switch | ❌                           | ❌                           |
-> | Serial<br />![Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164519364.png#20%) | 串口接口                    | ❌                           | ✅1个；12Pin                 |
-> | VGA<br />![VGA](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164535733.png#20%) | VGA视频接口                 | ❌                           | ✅1个；8Pin                  |
-> | Panel<br />![Panel](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164555190.png#20%) | 控制面板（CP4）接口         | ❌                           | ✅1个；10Pin                 |
+> | 名称                                                         | 定义                                             | M1N-H0401                   | X3N-H0404                   |
+> | ------------------------------------------------------------ | ------------------------------------------------ | --------------------------- | --------------------------- |
+> | WIFI Antenna<br />![WIFI天线图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112524303.png)<br />![WIFI天线接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623115334151.png#20%) | WIFI天线接口                                     | ✅1*SMA                      | ✅1*SMA                      |
+> | External GPS<br />![GPS/BD北斗图标](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112539202.png)<br />![GPS&北斗外接接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113425889.png#20%) | 外接GPS/北斗定位模块接口                         | ✅1个；4Pin；支持GPS/BD 北斗 | ✅1个；4Pin；支持GPS/BD 北斗 |
+> | 3G or 4G Antenna<br />![3G or 4G Antenna](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112622148.png)<br />![3G or 4G Antenna接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623112743027.png#20%) | 3G/4G天线接口                                    | ✅1*SMA                      | ✅1*SMA                      |
+> | A/V IN<br />![A/V IN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623113616780.png#20%) | 模拟音视频输入                                   | ✅4个；4Pin同轴电缆          | ✅4个；4Pin同轴电缆          |
+> | AV-IN Type2<br />![AV-IN Type2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250626140644985.png#20%) | 模拟音视频输入                                   | ❌                           | ❌                           |
+> | IPC<br />![IP摄像头](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114134142.png#20%) | PON供电IPC接口                                   | ✅1个；6Pin同轴电缆          | ✅4个；6Pin同轴电缆_~Rd~_    |
+> | POE-IPC<br />![POE-IPC](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250626140425150.png#20%) | IPC音视频输入1-4（POE/PON)<br />POE 即以太网供电 | ❌                           | ❌                           |
+> | Power<br />![电源接口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114054994.png#20%) | DC8-36V电源输入                                  | ✅1个；9Pin电源线            | ✅1个；9Pin电源线            |
+> | R-WATCH & AV out<br />![R-WATCH & AV out](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114201780.png#20%) | R-WATCH&A/V OUT接口                              | ✅1个；8Pin                  | ❌                           |
+> | Sensor & Serial<br />![Sensor & Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623114344644.png#20%) | 串口和开关量接口                                 | ✅1个；22Pin                 | ✅1个；22Pin                 |
+> | USB通用串行总线接口<br />![USB](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250626164913699.png#20%) | USB通用串行总线接口                              | ❌                           | ❌                           |
+> | USB Type B<br />![USB Type B](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164433187.png#20%) | USB Type B(可连防火盒)                           | ❌                           | ✅1个；2.0版本               |
+> | WAN<br />![WAN口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164459316.png#20%) | WAN 口，连接电脑配置MDVR                         | ❌                           | ✅1个；100M                  |
+> | LAN<br />![LAN口](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250624110338651.png#20%) | LAN口，连接Extension Switch                      | ❌                           | ❌                           |
+> | Serial<br />![Serial](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164519364.png#20%) | 串口接口                                         | ❌                           | ✅1个；12Pin                 |
+> | VGA<br />![VGA](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164535733.png#20%) | VGA视频接口                                      | ❌                           | ✅1个；8Pin                  |
+> | Panel<br />![Panel](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250623164555190.png#20%) | 控制面板（CP4）接口                              | ❌                           | ✅1个；10Pin                 |
 
 ### IP camera Vs AHD camera
 
@@ -567,7 +591,7 @@ _^tab^_
 > > rtsp://admin:@10.100.100.1:554/mainstream4
 > > ```
 
-### 视频分辨率说明
+### 视频分辨率说明（待确认）
 
 _^tab^_
 
@@ -688,6 +712,184 @@ _^tab^_
 > | **应用范围**   | 中小型单一品牌系统                                           | 大型跨品牌集成系统                                           |
 > | **标准化组织** | 无                                                           | ONVIF 论坛（非盈利组织）                                     |
 > | **开发支持**   | 依赖厂商提供的 SDK                                           | 提供公开的 API 和开发文档                                    |
+
+
+
+### P frame和 I frame的区别
+
+>| **对比维度**         | **I 帧（Intra - coded Frame）帧内编码帧**                    | **P 帧（Predicted Frame）前向预测编码帧**                    |
+>| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+>| **编码方式**         | 帧内编码，完全自包含，采用 JPEG 压缩编码全帧图像信息。       | 帧间编码，通过参考前一帧数据预测当前帧，仅编码与前一帧的差异。 |
+>| **数据完整性**       | 包含完整图像信息（背景和运动主体详情），是全帧压缩编码帧。   | 不包含完整图像信息，仅记录与前面 I 帧或 P 帧的差值及运动矢量。 |
+>| **解码依赖性**       | 可独立解码，无需参考其他帧，常作为视频流起始点或恢复点。     | 解码时必须参考前面最近的 I 帧或 P 帧，需结合参考帧重构图像。 |
+>| **压缩效率**         | 压缩效率较低，文件体积较大，但画面质量较稳定。               | 压缩效率高于 I 帧（低于 B 帧），文件体积更小，仅编码帧间差异。 |
+>| **在视频流中的作用** | 是 P 帧和 B 帧的参考帧，决定同组后续帧质量；作为 GOP 基础帧，支持随机访问和错误恢复。 | 可作为后续 P 帧或 B 帧的参考帧，但解码错误可能扩散影响后续帧。 |
+
+
+
+## 第一阶段考核
+
+
+
+### 如何设置并触发报警录像
+
+
+
+
+
+### 平时主机不需要录像，当IO1报警产生时，需要预录和后录1分钟，如何实现
+
+> 
+
+### 需要报警抓拍上传到指定FTP，并同时在设备导出至PC查看。
+
+> 
+
+
+### 设备没能正常录像，如何处理
+
+> 
+
+
+### 设备上报服务器的操作步骤
+
+> 
+
+
+### 如何查线序
+
+> 
+
+
+### 如何查设备规格书
+
+> 
+
+
+### 实现U盘自动升级
+
+> 
+
+
+### 如何实现设备熄火后15分钟关机
+
+> 
+
+
+### 如何实现设备IO唤醒/G-sensor唤醒
+
+> 
+
+
+### 如何使用电脑浏览器导出设备视频
+
+> 
+
+
+### 如何配置SD卡子码流录像和硬盘双码流录像
+
+> 
+
+
+### 导出设备视频有多少种方式，分别是什么
+
+> 
+
+
+### 升级设备的有多少种方式，分别是什么
+
+> 
+
+
+### 批量对设备进行参数配置的步骤是什么？哪一类参数能/不能进行批量配置？
+
+> 
+
+
+### 如何查询某运营商的APN参数并对设备进行设置。
+
+> 
+
+
+### 保险丝的电流大小应该如何选择？
+
+> 
+
+
+### 如何区分是SMR还是CMR的硬盘
+
+> 
+
+
+### 如何抓设备的打印，有几种方式？
+
+> 
+
+
+### 如何区分新旧文件系统/硬盘？使用起来有什么注意事项
+
+> 
+
+
+### 客户提出需求：两路录像，录像需要保存至少两周，你应该怎么推荐硬盘的大小，你还要问什么问题
+
+> 
+
+
+### 客户要求联调外设：外置GPS，波特率59600，完成接线与设置，定位失败或者无信号如何处理
+
+> 
+
+
+### 锐明主机接第三方摄像头测试可行性，主机要设置什么参数，如果无视频画面或录像，如何处理
+
+> 
+
+
+### 司机投诉CP4常亮，而且声音太大，如何处理
+
+> 
+
+
+### 由于料号搞错，导致客户收到的是侧装的AHD摄像头，但是客户需要是正装摄像头，如何处理？
+
+> 
+
+
+### 客户投诉设备缺失WIFI/GPS/4G模块，如何排查并证明设备没有问题？
+
+> 
+
+
+### 客户要求某报警产生后，需要联动一个蜂鸣器，如何设置（用万用表去验证）
+
+> 
+
+
+### 客户需要进行画面联动，当车辆开门和倒车时，分别显示不同摄像头的画面。
+
+> 
+
+
+### 但客户发现倒车过程中开门，画面变成门的画面，客户希望我们解决此问题。
+
+> 
+
+
+### 客户解决方案模拟
+
+> 客户要求下周安装一台设备，要求支持：
+> 1. 5路录像（1*IPC@4@AHD）,
+> 2. panic button
+> 3. UPS
+> 4. Monitor（触控）
+> 5. 摄像头选型线材
+>
+> 需要你提供完整的料号，除此信息，你还需要问什么问题（提示：安装方式和环境，分辨率，系统资源消耗等）。
+>
+> 
+
+
 
 ------
 
