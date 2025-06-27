@@ -25,7 +25,7 @@ vlook-header-dup: A/V IN;WAN口;LAN口;
 | 时间    | 课件  | 总结 |
 | --------------- | ----------------------------------------------------- | ---- |
 | 2025-6-20 14:15 | Comprehensive MDVR series from Streamax 20230911.pptx | MDVR系列产品命名规范，产品硬件接口、产品参数，一些专业术语介绍 |
-| 2025-6-26 |  |  |
+| 2025-6-26 14:12 | MDVR GUI介绍 | 主要围绕主机操作界面的功能讲解、设置方法以及相关问题的讨论展开，重点在于掌握设备的操作逻辑和常见问题处理。 |
 
 ## 待办事项
 
@@ -758,7 +758,7 @@ _^tab^_
 
 > 
 
-### 需要报警抓拍上传到指定FTP，并同时在设备导出至PC查看。
+### 需要报警抓拍上传到指定FTP，并同时在设备导出至PC查看
 
 > 
 
@@ -775,12 +775,17 @@ _^tab^_
 
 ### 如何查线序
 
-> 
+> <kbd>[内部知识库搜索设备规格书>>](#如何查设备规格书)</kbd>>>搜索关键词`Cable Connector Pinouts`
+>
+> > [!NOTE]
+> >
+> > 线序信息除了在规格书中存在，还在安装手册中可以找到，关键词 `Installation `，比如X3N Installation 
 
 
 ### 如何查设备规格书
 
-> 
+> * **鸿翼服务器**：企业内容库>STREAMAX 锐明技术>Overseas department>Europe>Product list；也可使用模糊查找功能，比如搜索关键词X3N specification
+> * **OA**：使用模糊查找功能，比如搜索关键词X3N specification
 
 
 ### 实现U盘自动升级
@@ -823,11 +828,30 @@ _^tab^_
 > 
 
 
-### 如何查询某运营商的APN参数并对设备进行设置。
+### 如何查询某运营商的APN参数并对设备进行设置
 
-> 1. Google检索该运营商的IoT APN参数
-> 2. 通过
+>  **获取APN参数**
+>
+>  1. Google检索该运营商的IoT APN参数
+>  2. 通过<kbd>[Global IoT APN List](https://maozuxiao.github.io/my-website/Apn_list.html)</kbd>进行检索
+>  3. 把SIM卡插入其他通信设备上进行查看
+>
+>  **配置APN参数**
+>
+>  ---
+>
+>  - GUI
+>
+>    路径：Setup>>Basic Setup>>Network>Communication Module
+>     ![GUI Set Apn](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Gui_set_apn.mp4)
+>
+>  - WebUi
+>
+>    路径：Config>>Network>>Communication Module
+>
+>     ![WebUI Set Apn](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Webui_set_apn.mp4)
 
+------
 
 ### 保险丝的电流大小应该如何选择？
 
@@ -892,7 +916,8 @@ _^tab^_
 
 ### 客户提出需求：两路录像，录像需要保存至少两周，你应该怎么推荐硬盘的大小，你还要问什么问题
 
-> 
+> * 录像的质量要求是什么？
+> * ……
 
 
 ### 客户要求联调外设：外置GPS，波特率59600，完成接线与设置，定位失败或者无信号如何处理
