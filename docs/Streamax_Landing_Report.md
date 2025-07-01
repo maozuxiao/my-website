@@ -368,11 +368,11 @@ graph LR
   ==选修课==
 
     - [x] [左脑框架，搭建脉络清晰的结构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [右脑力量，汇聚打动人心的力量](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [右脑力量，汇聚打动人心的力量](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [零基础学工作总结与汇报](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [会议纪要写作技巧](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [ ] [高效职场人的时间管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [职业形象塑造——像个职业人的样子](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [职业形象塑造——像个职业人的样子](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
 ------
 
@@ -460,15 +460,17 @@ _^tab^_
 ### **🚚**货运行业产品
 
 _^tab^_
-> **货运场景大图**
+> **货运场景大图<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
+>
 > 
+>
 > ![货运场景](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250613163707796.png)
 
-> **货运产品全景-1**
-> 
+> **货运产品全景-1<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
+>
 > ![货运产品全景-1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250613151627652.png)
 
-> **货运产品全景-2**
+> **货运产品全景-2<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > ![货运产品全景-2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250613152049684.png)
 
@@ -483,7 +485,7 @@ _^tab^_
 
 _^tab^_
 
-> **车联网产品**
+> **车联网产品<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > |                             图示                             |                             名称                             | 描述                                                         |
 > | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
@@ -494,7 +496,7 @@ _^tab^_
 > | ![CAN+](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image8.png#200w#line) | CAN+ 视频推展（Controller Area Network + Video Expansion，控制器局域网 + 视频推展） | CAN（Controller Area Network，控制器局域网络）是一种常用于汽车的通信协议，通过 CAN 接口可以获取车辆的各种数据，如转速、油门开度、刹车状态等。而 “视频推展” 功能可能是将这些车辆数据与视频画面相结合，进行更深入的分析和展示。例如，在车辆行驶过程中，将 CAN 总线上的数据叠加在视频上，实时直观地反映车辆的运行状态，便于进行故障诊断、驾驶行为分析等。同时，这种设备可能还支持将这些数据和视频通过网络推送给远程监控平台，实现远程监控和管理。 |
 > | ![MDVR](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image9.png#200w#line) |    MDVR（Mobile Digital Video Recorder，汽车行驶记录仪）     | 是一种专业的车载视频记录设备，具备高稳定性和高容量存储的特点。它会记录车辆行驶过程中的多路视频画面（如前车、车内、车后等），并可按照设定的时间间隔进行循环录制。同时，MDVR 还会记录车辆的行驶数据，如速度、里程、位置等信息，这对于车队管理、交通安全监管以及事故责任认定都非常重要。它通常采用坚固的外壳设计，以确保在各种恶劣的行驶环境和碰撞情况下，存储的数据不会丢失或损坏。 |
 
-> **补盲产品**
+> **补盲产品<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > |                             图示                             |                             名称                             | 描述                                                         |
 > | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
@@ -506,7 +508,7 @@ _^tab^_
 > | ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) |           CA51A-Fisheye Camera-1080P（鱼眼摄像头)            | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
 > | ![无线摄像机](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image16.png#200w#line) |                          无线摄像机                          | 通过无线传输技术与车辆监控系统连接，安装灵活，可放置在车辆不同位置，用于监测车辆周围环境，避免布线繁琐，为驾驶员提供实时画面。 |
 
-> **货物安全**
+> **货物安全<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > |                             图示                             |                      名称                       | 描述                                                         |
 > | :----------------------------------------------------------: | :---------------------------------------------: | ------------------------------------------------------------ |
@@ -521,11 +523,11 @@ _^tab^_
 
 ### **🚌**公交行业产品
 _^tab^_
-> **Intelligent Bus Central Unit**
+> **Intelligent Bus Central Unit<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > ![Intelligent Bus Central Unit](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_1.jpg)
 
-> **Bus Product Panorama**
+> **Bus Product Panorama<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > ![Bus Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_2.jpg)
 
@@ -539,7 +541,7 @@ _^tab^_
 
 _^tab^_
 
-> **Integrated public transport management platform**
+> **Integrated public transport management platform<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                      产品名称                      | 说明                                               |
 | :----------------------------------------------------------: | :------------------------------------------------: | -------------------------------------------------- |
@@ -547,7 +549,7 @@ _^tab^_
 | ![Bus Operation Service Platform](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image56.png#200w#line) | Bus Operation Service Platform（公交运营服务平台） | 优化公交运营流程，提高运营效率。                   |
 | ![Operation & Maintenance Platform](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image54.png#200w#line) | Operation & Maintenance Platform（运营与维护平台） | 全面管理公交车辆运营与维护工作，确保车辆正常运行。 |
 
-> **Driver Assistance AI Peripherals**
+> **Driver Assistance AI Peripherals<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                        产品名称                         | 说明                                                         |
 | :----------------------------------------------------------: | :-----------------------------------------------------: | ------------------------------------------------------------ |
@@ -557,7 +559,7 @@ _^tab^_
 | ![Dual-Lens ADAS](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image28.png#200w#line) |        Dual-Lens ADAS（双镜头高级驾驶辅助系统）         | 双镜头高级驾驶辅助系统，提供前碰撞预警、车道偏离预警等功能。 |
 | ![Collision Mitigation Control System](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250616145541022.png#200w#line) | Collision Mitigation Control System（碰撞缓解控制系统） | 在车辆发生碰撞时，通过技术手段减轻碰撞冲击力，保护乘客和驾驶员安全。 |
 
-> **MDVR Family**
+> **MDVR Family<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |         产品名称          | 说明                                             |
 | :----------------------------------------------------------: | :-----------------------: | ------------------------------------------------ |
@@ -566,7 +568,7 @@ _^tab^_
 | ![X7N Pro](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image59.png#200w#line) | X7N Pro（先进的车载系统） | 先进的车载系统，为公交运营提供高效支持。         |
 | ![X5N Pro](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image57.png#200w#line) | X5N Pro（可靠的车载设备） | 可靠的车载设备，满足公交日常运营需求。           |
 
-> **Operation Service**
+> **Operation Service<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |           产品名称           | 说明                                                         |
 | :----------------------------------------------------------: | :--------------------------: | ------------------------------------------------------------ |
@@ -583,7 +585,7 @@ _^tab^_
 
 
 _^tab^_
-> **Taxi Product Panorama**
+> **Taxi Product Panorama<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > ![Taxi Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_6.jpg)
 
@@ -596,7 +598,7 @@ _^tab^_
 ------
 
 _^tab^_
-> **Embedded Android & Camera**
+> **Embedded Android & Camera<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                             名称                             | 描述                                                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
@@ -606,7 +608,7 @@ _^tab^_
 | ![DMS Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image30.png#200w#line) |                DMS Camera（驾驶员监测摄像头）                | 监测驾驶员的行为和状态，如疲劳驾驶、分心驾驶等，及时发出警报，保障行车安全。 |
 | ![Passenger Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image29.png#200w#line) |                Passenger Camera（乘客摄像头）                | 安装在车内，用于监控乘客区域，提高乘车安全和记录乘车情况。   |
 
-> **AI  DashCam**
+> **AI  DashCam<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                名称                 | 描述                                                         |
 | :----------------------------------------------------------: | :---------------------------------: | ------------------------------------------------------------ |
@@ -616,7 +618,7 @@ _^tab^_
 | ![360° View unit](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image37.png#200w#line) |  360° View unit（360 度全景单元）   | 用于生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境。 |
 | ![AHD Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image36.png#200w#line) |      AHD Camera（AHD 摄像头）       | 拍摄车辆四周的实时画面，提供清晰的视频质量，确保全景视图的准确性和可靠性。 |
 
-> **Operation Service**
+> **Operation Service<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                   名称                   | 描述                                                       |
 | :----------------------------------------------------------: | :--------------------------------------: | ---------------------------------------------------------- |
@@ -629,7 +631,7 @@ _^tab^_
 ### **🚍**校车行业产品
 
 _^tab^_
-> **School Bus Solution**
+> **School Bus Solution<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > ![School Bus Solution](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_3.jpg)
 
@@ -647,7 +649,7 @@ _^tab^_
 
 
 _^tab^_
-> **Surveillance & AI Products**
+> **Surveillance & AI Products<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                             名称                             | 描述                                                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
@@ -660,20 +662,20 @@ _^tab^_
 | ![AVM 360 系统](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image14.png#180deg#200w#line) |                           360 系统                           | 即 360 度全景影像系统，通过环绕车辆的多个摄像头拍摄的画面拼接，生成车辆周围的全景视图，帮助驾驶员直观地了解车辆在泊车、狭窄道路行驶等复杂场景下的周围环境，提高驾驶便利性和安全性。 |
 | ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) |           CA51A-Fisheye Camera-1080P（鱼眼摄像头)            | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
 
-> **Attendance Check Products**
+> **Attendance Check Products<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                  名称                   | 描述                   |
 | :----------------------------------------------------------: | :-------------------------------------: | ---------------------- |
 | ![Palm Vein RecognitioN](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image27-1750152167414-12.png#200w#line) | Palm Vein Recognition（掌静脉识别系统） | 用于身份识别和考勤管理 |
 
-> **Stop Arm Violation Products**
+> **Stop Arm Violation Products<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                   名称                    | 描述                       |
 | :----------------------------------------------------------: | :---------------------------------------: | -------------------------- |
 | ![Violation Detection CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image42-1750152195950-14.png#200w#line) | Violation Detection CAM（违规检测摄像头） | 监测违规行为，如停车违规等 |
 | ![License Plate CAM](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image43.png#200w#line) |    License Plate CAM（车牌识别摄像头）    | 记录车辆车牌信息           |
 
-> **Student Omission Products**
+> **Student Omission Products<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > |                             图示                             |                  名称                   | 描述                                                    |
 | :----------------------------------------------------------: | :-------------------------------------: | ------------------------------------------------------- |
@@ -686,7 +688,7 @@ _^tab^_
 
 ### **⛏️**矿山行业产品
 _^tab^_
-> **Mining Product Panorama**
+> **Mining Product Panorama<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > ![Mining Product Panorama](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/streamax%20company%20profile-Basic%20Information-0611_5.jpg)
 
@@ -698,7 +700,7 @@ _^tab^_
 
 ------
 _^tab^_
-> **车联网产品**
+> **车联网产品<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 >
 > | 图示                                                         | 产品名称                                                     | 说明图示                                                     |
 > | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -710,7 +712,7 @@ _^tab^_
 > | ![Vibration Sensor](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Vibration%20Sensor.png#200w#line) | Vibration Sensor（振动传感器）                               | 检测车辆的振动水平，帮助监测设备健康状况，预防机械故障。     |
 > | ![Bucket Detect Camera](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image5.png#200w#line) | Bucket Detect Camera（铲头检测摄像头）                       | 监控铲斗的操作和负载情况，确保最佳性能，并防止过载或机械故障。<br /><sub>与ADAS外观一致，但是算力更强</sub> |
 
-> **补盲产品**
+> **补盲产品<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > | 图示                                                         | 产品名称                                | 说明                                                         |
 | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
@@ -718,7 +720,7 @@ _^tab^_
 | ![R151/R159](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/hdphoto3.png#200w#line) | 黑光侧盲 + 前盲（R151/R159）            | 在低光照条件下也能清晰成像，用于监测车辆侧面盲区和前方盲区，辅助驾驶员更好地了解周围环境，减少因盲区导致的交通事故。 |
 | ![CA51A-Fisheye Camera-720P](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image15.png#200w#line) | CA51A-Fisheye Camera-1080P（鱼眼摄像头) | 具有1/2.8 2M pixel CMOS传感器，支持自动电子快门、自动曝光和自动白平衡，配备1.8mm鱼眼镜头或1.9mm广角镜头，可提供高分辨率的全景影像，适用于车辆监控系统，尤其是360度环视系统，帮助驾驶员了解车辆周围环境。具备IP67防水等级，结构小巧，易于安装，符合车辆抗震设计要求，低照度性能出色，可在0.01lux的极低光照条件下工作。 |
 
-> **车辆监测与辅助驾驶系统**
+> **车辆监测与辅助驾驶系统<kbd>[返回📝解决方案 ❯❯](#📝解决方案 )</kbd>**
 > 
 > | 图示                                                         | 产品名称                     | 说明                                                         |
 | ------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------ |
