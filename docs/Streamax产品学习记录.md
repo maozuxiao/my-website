@@ -11,7 +11,7 @@ vlook-welcome: Streamax
 vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
 vlook-query: coating=bu&ws=3&toc=3
-vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;
+vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;
 ---
 
 ###### ✒️Streamax 产品学习记录<br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />[✉️](mailto:sean@streamax.com)
@@ -780,16 +780,118 @@ _^tab^_
 
 ### 如何设置并触发报警录像
 
-
+>   **MDVR设置**
+>
+>  1. Log in WebUI
+>  2. Access Config>>Surveillance>>Record>>Main Stream
+>     1. *Record mode`Alam`* 
+>  3. Access Config>>Alarm, Config the Alarm settings
+>     1. Base
+>        1. lO Alarm
+>        2. Speed Alarm
+>        3. Panel Alarm
+>        4. GPS Alarm
+>     2. Video
+>        1. Video Loss
+>        2. Motion
+>        3. Cover
+>        4. Privacy Mode
+>     3. Advanced
+>        1. Driver Behavior Alarm
+>        2. Geo-Fence
+>     4. AI App
+>        1. ADAS
+>        2. DMS
+>        3. BSD
+>        4. Calibration Parameter
+>        5. Alarm Notifications
+>        6. Algorithm Calibration
+>
+>  **视频演示**
+>
+>  ![How_to_set_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/How2set_alarm_recording.mp4)
 
 
 
 ### 平时主机不需要录像，当IO1报警产生时，需要预录和后录1分钟，如何实现
 
-> 
+>   **MDVR设置**
+>
+>  1. Log in WebUI
+>  2. Access Config>>Surveillance>>Record>>General
+>     1. *Pre-recording`1 Min`*
+>  3. Access Config>>Surveillance>>Record>>Main Stream
+>     1. *Record mode`Alam`* 
+>  4. Access Config>>Alarm>>Base>>IO Alarm
+>     1. Click “Enable” checkbox of “Sensor1”
+>     2. Setup `Trigger`
+>        1. *Trigger Source`Source Voltage`*
+>        2. *Trigger`High`*
+>        3. *Effective Time`5 Seconds`*
+>     3. Setup `LinkPage`
+>        1. *Channel`1`*
+>        2. *Post Recording`1 Min`*
+>        3. *Lock`√`*
+>
+>  
+>
+>  **连线图示**
+>
+>  1. MDVR连接Sensor & Serial线
+>  2. SENSOR IN1与+5V导线相连，模拟高电平状态
+>
+>  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=833 height=401 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-1/1751340446/main.svg"></iframe>
+>
+>  **视频演示**
+>
+>  ![S1_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/S1_alarm_recording.mp4)
 
 ### 需要报警抓拍上传到指定FTP，并同时在设备导出至PC查看
 
+>  **MDVR设置**
+>
+> 1. Log in WebUI
+> 2. Access Config>>Basic Setup>>Application>>FTP Server
+>    1. *FTP Enable`√`*
+>    2. *Server`Server IP`*
+>    3. *Port`FTP Port`*
+>    4. *User Name`FTP UserName`*
+>    5. *Password`FTP Password`*
+> 3. Access Config>>Collection>>Snap Setting>>Trigger Snap>>Alarm Snap>>Snap Link>>Setup>>Channel
+>    1. *Snap Enable`√`*
+>    2. *Upload Type`FTP`*
+>    3. *Snap Numbers (1~3)Pcs`3`*
+>    4. *Interval (5~3600)Seconds`30`*
+> 4. Access Config>>Alarm>>Base>>IO Alarm
+>    1. Click “Enable” checkbox of “Sensor1”
+>    2. Setup `Trigger`
+>       1. *Trigger Source`Source Voltage`*
+>       2. *Trigger`High`*
+>       3. *Effective Time`5 Seconds`*
+>    3. Setup `LinkPage`
+>       1. *Channel`1`*
+>       2. *Post Recording`1 Min`*
+>       3. *Lock`√`*
+>       4. *Alarm snap`√`*
+>
+> **设置视频**
+>
+> ![Alarm_Snap](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Alarm_Snap.mp4)
+>
+> **导出抓拍图片**
+>
+> 1. Login CP4 GUI
+> 2. Click Setup>>Maintenance>>FileData>>Data Export
+>    1. ◉Export Time
+>    2. Start Time
+>    3. End Time
+>    4. *File Type`Captured Picture`*
+> 3. Click <kbd>Export</kbd>
+>
+> **导出视频**
+>
+> ![export_alarm_snapshot](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/export_alarm_snapshot.mp4)
+>
 > 
 
 
@@ -797,15 +899,19 @@ _^tab^_
 
 > 1. **检查电源连接**：确保 MDVR 已正确连接到电源插座，且电源线无损坏、保险丝正确安装，确保MDVR 的电源稳定，无电压过低或波动情况。可尝试更换其他电源插座进行测试，若问题依旧，可能是电源适配器故障，需更换电源适配器。
 > 2. **查看设备连接**：确认 MDVR 与摄像头等其他设备的连接正常，连接端口有无损坏。若连接线松动或损坏，应更换新的连接线。
-> 3. **检查摄像头** ：查看摄像头是否正常工作，有无遮挡、故障或电源问题。可尝试更换摄像头或将其连接到其他正常设备上测试。若摄像头本身有问题，需维修或更换。
+> 3. **检查摄像头** ：查看摄像头是否正常安装，有无遮挡、故障或电源问题。可尝试更换摄像头或将其连接到其他正常设备上测试。若摄像头本身有问题，需维修或更换。
 > 4. **排查存储设备**：检查硬盘或存储卡是否正确安装，必要时刻需考虑先格式化存储设备。若存储设备存在故障，需对其进行修复或更换。
-> 5. **核对设置参数**：进入 MDVR 设置界面，检查日期、时间设置是否正确，是否有定时录像、报警录像设置。查看视频编码格式、分辨率、帧率、PAL & NTSC系统设置等参数是否设置正确。如果参数设置不正确，按实际情况进行调整。
+> 5. **核对设置参数**：
+>    1. 进入 MDVR 设置界面，检查日期、时间设置是否正确，是否有定时录像
+>    2. 进入 MDVR 设置界面，查看视频编码格式、分辨率、帧率、PAL & NTSC系统设置等参数是否设置正确。如果参数设置不正确，按实际情况进行调整
+>    3. 进入 MDVR 设置界面，检查是否有太多的加锁录像，导致存储剩余空间不足；检查是否未打开录像覆盖功能，导致存储空间不足
+>    4. 进入 MDVR 设置界面，检查录像通道使能开关是否打开；检查是否设置报警录像但关闭报警使能开关
 > 6. **处理软件问题**：尝试重新启动 MDVR，看是否能恢复正常录像。若设备有可用的软件更新，可更新到最新版本，以修复可能存在的软件漏洞。若问题仍未解决，可尝试将设备恢复出厂设置，但需注意此操作会清除原有设置，需重新进行配置。
 
 
 ### 设备上报服务器的操作步骤
 
-> 
+>  
 
 
 ### 如何查线序
@@ -876,7 +982,15 @@ _^tab^_
 
 ### 如何使用电脑浏览器导出设备视频
 
-> 
+> 1. **登录**：登录WebUI，访问“PlayBack”
+> 2. **选择日期**：在日历区域，点击要查询视频的日期（如 2025 - 07 - 01 ）
+> 3. **设置时间范围**： “Start Time” 栏输入起始时间（如 09:25:00  ），“End Time” 栏输入结束时间（如 23:59:59  ） 。  
+> 4. **选择通道**：在 “Channel” 区域，勾选要查询的通道（可全选或按需选，如示例中 1 - 8 通道  ） 
+> 5. **搜索视频**：点击 “Search” 按钮，检索对应日期、时间、通道的视频  
+> 6. **查看列表**：点击“Record List”按钮。列出符合筛选规则的视频条目
+> 7. **下载视频**：列表在右侧显示，若需下载，点击视频条目旁 “Download” 按钮 
+>
+> ![DL_Video_WebUI](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/DL_Video_WebUI.mp4)
 
 
 ### 如何配置SD卡子码流录像和硬盘双码流录像
@@ -893,7 +1007,11 @@ _^tab^_
 
 ### 导出设备视频有多少种方式，分别是什么
 
-> 
+> 导出视频有3种方式，分别是
+>
+> 1. 通过浏览器登录WebUI导出
+> 2. U盘导出
+> 3. FT Cloud导出
 
 
 ### 升级设备的有多少种方式，分别是什么
@@ -930,7 +1048,6 @@ _^tab^_
 >  - WebUi
 >
 >    路径：Config>>Network>>Communication Module ![WebUI Set Apn](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Webui_set_apn.mp4)
->
 
 ------
 
