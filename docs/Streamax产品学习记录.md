@@ -11,7 +11,7 @@ vlook-welcome: Streamax
 vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
 layout: default
 vlook-query: coating=bu&ws=3&toc=3
-vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;
+vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;基本信息;视频演示;模拟测试接线;
 ---
 
 ###### ✒️Streamax 产品学习记录<br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />[✉️](mailto:sean@streamax.com)
@@ -856,85 +856,92 @@ _^tab^_
 
 ### 如何设置并触发报警录像
 
+_^tab^_
+
 >   **MDVR设置**
 >
->  1. Log in WebUI
->  2. Access Config>>Surveillance>>Record>>Main Stream
->     1. *Record mode`Alam`* 
->  3. Access Config>>Alarm, Config the Alarm settings
->     1. Base
+>   1. Log in WebUI
+>   2. Access Config>>Surveillance>>Record>>Main Stream
+>      1. *Record mode`Alam`* 
+>
+>   3. Access Config>>Alarm, Config the Alarm settings
+>     4. Base
 >        1. lO Alarm
 >        2. Speed Alarm
 >        3. Panel Alarm
 >        4. GPS Alarm
->     2. Video
+>     5. Video
 >        1. Video Loss
 >        2. Motion
 >        3. Cover
 >        4. Privacy Mode
->     3. Advanced
+>     6. Advanced
 >        1. Driver Behavior Alarm
 >        2. Geo-Fence
->     4. AI App
+>     7. AI App
 >        1. ADAS
 >        2. DMS
 >        3. BSD
 >        4. Calibration Parameter
 >        5. Alarm Notifications
 >        6. Algorithm Calibration
+
+>   **视频演示**
 >
->  **视频演示**
->
->  ![How_to_set_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/How2set_alarm_recording.mp4)
+>   ![How_to_set_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/How2set_alarm_recording.mp4)
 
 
 
 ### 平时主机不需要录像，当IO1报警产生时，需要预录和后录1分钟，如何实现
 
+_^tab^_
+
 >   **MDVR设置**
 >
->  1. Log in WebUI
->  2. Access Config>>Surveillance>>Record>>General
->     1. *Pre-recording`1 Min`*
->  3. Access Config>>Surveillance>>Record>>Main Stream
->     1. *Record mode`Alam`* 
->  4. Access Config>>Alarm>>Base>>IO Alarm
->     1. Click “Enable” checkbox of “Sensor1”
->     2. Setup `Trigger`
+>   1. Log in WebUI
+>   2. Access Config>>Surveillance>>Record>>General
+>      1. *Pre-recording`1 Min`*
+>
+>   3. Access Config>>Surveillance>>Record>>Main Stream
+>      1. *Record mode`Alam`* 
+>
+>   4. Access Config>>Alarm>>Base>>IO Alarm
+>     5. Click “Enable” checkbox of “Sensor1”
+>     6. Setup `Trigger`
 >        1. *Trigger Source`Source Voltage`*
 >        2. *Trigger`High`*
 >        3. *Effective Time`5 Seconds`*
->     3. Setup `LinkPage`
+>     7. Setup `LinkPage`
 >        1. *Channel`1`*
 >        2. *Post Recording`1 Min`*
->        3. *Lock`√`*
+>        3. *Lock`☑`*
+
+>   **连线图示**
 >
->  
+>   1. MDVR连接Sensor & Serial线
+>   2. SENSOR IN1与+5V导线相连，模拟高电平状态
 >
->  **连线图示**
+> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=833 height=401 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-1/1751340446/main.svg"></iframe>
+
+>   **视频演示**
 >
->  1. MDVR连接Sensor & Serial线
->  2. SENSOR IN1与+5V导线相连，模拟高电平状态
->
->  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=833 height=401 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-1/1751340446/main.svg"></iframe>
->
->  **视频演示**
->
->  ![S1_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/S1_alarm_recording.mp4)
+>   ![S1_alarm_recording](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/S1_alarm_recording.mp4)
 
 ### 需要报警抓拍上传到指定FTP，并同时在设备导出至PC查看
+
+_^tab^_
 
 >  **MDVR设置**
 >
 > 1. Log in WebUI
 > 2. Access Config>>Basic Setup>>Application>>FTP Server
->    1. *FTP Enable`√`*
+>    1. *FTP Enable`☑`*
 >    2. *Server`Server IP`*
 >    3. *Port`FTP Port`*
 >    4. *User Name`FTP UserName`*
 >    5. *Password`FTP Password`*
 > 3. Access Config>>Collection>>Snap Setting>>Trigger Snap>>Alarm Snap>>Snap Link>>Setup>>Channel
->    1. *Snap Enable`√`*
+>    1. *Snap Enable`☑`*
 >    2. *Upload Type`FTP`*
 >    3. *Snap Numbers (1~3)Pcs`3`*
 >    4. *Interval (5~3600)Seconds`30`*
@@ -947,13 +954,13 @@ _^tab^_
 >    3. Setup `LinkPage`
 >       1. *Channel`1`*
 >       2. *Post Recording`1 Min`*
->       3. *Lock`√`*
->       4. *Alarm snap`√`*
->
+>       3. *Lock`☑`*
+>       4. *Alarm snap`☑`*
+
 > **设置视频**
 >
 > ![Alarm_Snap](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/Alarm_Snap.mp4)
->
+
 > **导出抓拍图片**
 >
 > 1. Login CP4 GUI
@@ -963,7 +970,7 @@ _^tab^_
 >    3. End Time
 >    4. *File Type`Captured Picture`*
 > 3. Click <kbd>Export</kbd>
->
+
 > **导出视频**
 >
 > ![export_alarm_snapshot](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/export_alarm_snapshot.mp4)
@@ -989,22 +996,24 @@ _^tab^_
 
 >  1. Navigate to http://10.100.100.1/
 >  2. Click `Config`>>`Network`
->  3. Config the servers parameters under `Server Setup`，以下为示例，其中`Register Server IP`也可以是服务器的URL
->     1. *ON`√`*
+>  3. Config the servers parameters under `Server Setup`，以下为示例，其中`Register Server IP`可以是服务器IP或者URL，但是不能包含/字符
+>     1. *ON`☑`*
 >     2. *Protocol Type`N9M`*
->     3. *TLS Enable`√`*
->     4. *Enable Network`WIFI`*
->     5. *Register Server IP`58.250.161.103`*
->     6. *Register Server port`TCP 10250`*
->     7. *TLS`5556`*
+>     3. *TLS Enable`☐`*
+>     4. *Enable Network`示例：WIFI，也可选择Local或者Module`*
+>     5. *Register Server IP`uat-saas.streamamax.com`*
+>     6. *Register Server port`TCP 21803`*
+>     7. ~~*Register Server TLS`5556`*~~
 >     8. *Media Server IP`58.250.161.103`*
->     9. *Media Server port`TCP 10250`*
->     10. *TLS`5556`*
+>     9. *Media Server port`TCP 21803`*
+>     10. ~~*Media Server TLS`5556`*~~
 >  4. Click `Maintenance` >>`Server Status` to check the **Server Connect Status**_~Cy~_
 >
 >  > [!NOTE]
 >  >
 >  > 由于缺少测试账号，设备上报服务器后的步骤暂时没办法测试
+>  >
+>  > [<kbd>用户手册参考 > ></kbd>](https://uat-saas.streamax.com/ftm/docs/help-center?appId=10001&tab=product-doc)
 
 
 ### 如何查线序
@@ -1044,33 +1053,59 @@ _^tab^_
 
 ### 如何实现设备熄火后15分钟关机
 
+_^tab^_
+
 > **点火关机延迟**
 >
 > 1) 只有在**点火开机(Ignition)状态**下才起效；关闭车钥匙进入点火关机延时处理，并在直通界面提示倒计时关机时间，延时时间可设置（0~86399秒）
 > 2) 如果操作界面停留在设置界面，则不进入倒计时，但退出到直通界面则进入倒计时
->
+
 > **操作步骤**
 >
 > Setup>>Basic Setup>>Startup>>ON/OFF>>Ignition Delay>><kbd>900（15分钟）</kbd> *0`~`86399*Seconds
 >
 > ![设备熄火后15分钟关机](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E7%86%84%E7%81%AB%E5%90%8E15%E5%88%86%E9%92%9F%E5%85%B3%E6%9C%BA.mp4)
->
+
 > **模拟测试接线**
 >
-> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1267 height=624 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-6-30/1751265660/main.svg"></iframe>
->
->    
->
-> > [!IMPORTANT]
-> >
-> > **模拟车辆熄火**：*ACC` &` DC IN+* 与适配器的DC母口的正极连接在一起，<kbd>DC IN-</kbd>与适配器的DC母口的负极连接在一起，断开ACC的连接
-> >
-> > **模拟车辆点火**：**模拟车辆熄火后**_~Rd~_，<kbd>DC IN+</kbd>与适配器的DC母口的正极连接在一起，<kbd>DC IN-</kbd>与适配器的DC母口的负极连接在一起，连接*ACC` &` DC IN+* 
+> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=967 height=533 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-6-30/1751265660/page-1.svg"></iframe>
 
-
-### 📍如何实现设备IO唤醒/G-sensor唤醒
-
+> [!IMPORTANT]
 > 
+> **模拟车辆熄火**：*ACC` &` DC IN+* 与适配器的DC母口的正极连接在一起，<kbd>DC IN-</kbd>与适配器的DC母口的负极连接在一起，断开ACC的连接
+> 
+> **模拟车辆点火**：**模拟车辆熄火后**_~Rd~_，<kbd>DC IN+</kbd>与适配器的DC母口的正极连接在一起，<kbd>DC IN-</kbd>与适配器的DC母口的负极连接在一起，连接*ACC` &` DC IN+* 
+
+### 如何实现设备IO唤醒/G-sensor唤醒
+
+_^tab^_
+
+> **MDVR设置**
+>
+> 1. Log in WebUI
+>
+> 2. Access Config>>Startup>>Sleep
+>
+>    1. *Sleep Mode`Low power standby`*
+>
+> 3. Access Config>>Startup>>Wake
+>
+>    1. *IO Wake`√`*
+>
+>    2. *G-sensor Wake`√`*(降低阈值以方便测试)
+>1. *X Threshold`0.1`*
+>       
+>2. *Y Threshold`0.1`*
+>       
+>3. *Z Threshold`0.1`*
+
+> **模拟测试接线**
+>
+> 1. ACC连接DC IN+点火启动MDVR
+> 2. ACC断开DC IN+模拟MDVR休眠
+> 3. 外接一个DC IN+给SENSOR IN1模拟IO唤醒；或者摇晃MDVR触发G-sensor唤醒
+>
+>  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1946 height=1301 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-6-30/1751265660/page-2.svg"></iframe>
 
 
 ### 如何使用电脑浏览器导出设备视频
@@ -1134,12 +1169,14 @@ _^tab^_
 
 ### 如何查询某运营商的APN参数并对设备进行设置
 
+_^tab^_
+
 >  **获取APN参数**
 >
 >  1. Google检索该运营商的IoT APN参数
 >  2. 通过<kbd>[Global IoT APN List](https://maozuxiao.github.io/my-website/Apn_list.html)</kbd>进行检索
 >  3. 把SIM卡插入其他通信设备上进行查看
->
+
 >  **配置APN参数**
 >
 >  ---
@@ -1157,13 +1194,17 @@ _^tab^_
 
 ### 保险丝的电流大小应该如何选择？
 
+_^tab^_
+
+>  **保险丝选择方法**
+>  
 >  保险丝的选择需要根据**车电系统的电压**，电压为`12V`时选择**7.5A Fuse**_~Rd~_，电压为`24V`时选择**15A Fuse**_~Bu~_
 >
 >  | Model               | Picture                                                      | Part No.      | Application Scenario                         | Part No.  Description                                        |
 >  | ------------------- | ------------------------------------------------------------ | ------------- | -------------------------------------------- | ------------------------------------------------------------ |
 >  | **7.5A Fuse**_~Rd~_ | ![7.5A Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112227582.png) | 1060970000006 | Voltage of vehicle electrical system = `12V` | Female  Connector Mounted Fuse \| Plug-in Common Type \| 32V \| 7.5A \| 028707.5 |
 >  | **15A Fuse**_~Bu~_  | ![15A  Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112331262.png) | 1060970000005 | Voltage of vehicle electrical system = `24V` | Female  Connector Mounted Fuse \| Plug-in Common Type, Blue Shell \| 32V \| 15A \|  0287015 |
->
+
 >  **保险丝工作原理**
 >
 >  保险丝利用**电流热效应**工作，核心原理基于焦耳定律 $$ Q = 0.24I^2RT $$（*Q* 为发热量，*I* 是电流，*R* 是电阻，*T* 是时间 ），具体过程：
@@ -1176,34 +1217,35 @@ _^tab^_
 
 ### 如何区分是SMR还是CMR的硬盘
 
+_^tab^_
+
 >  **什么是CMR和SMR?**
 >
 > * 垂直盘（即CMR，在某些场合也称为垂直磁记录PMR）曾经的主流技术，采用独立平行的磁道布局，相邻磁道间保留物理间隙。磁头可直接读写目标磁道，无需干扰相邻数据区域，实现高效操作。
 > * 叠瓦盘（SMR）相对的新技术，采用类似屋顶瓦片的重叠磁道设计，取消磁道间隙以提升存储密度（相同盘片容量可提升约25%）。其写入新数据时需先读取并修改重叠区域的相邻磁道数据，再进行整体重写，操作更复杂。
->
+
 > **可以通过如下方式来区分硬盘类型**_~Rd~_
 >
-> **公司提供**
+> ---
 >
-> 1. <kbd>[OA搜索关键词：存储推荐> >](http://oa.streamax.com:8080/kms/multidoc/index.jsp?j_module=true#cri.q=docSubject%3A%E5%AD%98%E5%82%A8%E6%8E%A8%E8%8D%90)</kbd>，找到最近的存储推荐表
-> 2. 查阅表格：搜索型号如MQ01ABD100V，即可在表中找到对应信息
->
-> **客户外购**
->
-> 1. **品牌官网查阅官方文档**：通过查看硬盘品牌官方文档，获取该型号硬盘的相关信息来确定硬盘类型
-> 2. **缓存大小**：叠瓦式（SMR）硬盘通常还有一个典型特征，即便是在低容量下也配备更大的缓存。比如2TB叠瓦盘配备256MB缓存
-> 3. **工具检测**：CrystalDiskInfo（Windows）/  HDDScan（Windows）/ GNOME Disks（Linux）
-> 4. **性能测试**：
+> - 公司提供
+>   1. <kbd>[OA搜索关键词：存储推荐> >](http://oa.streamax.com:8080/kms/multidoc/index.jsp?j_module=true#cri.q=docSubject%3A%E5%AD%98%E5%82%A8%E6%8E%A8%E8%8D%90)</kbd>，找到最近的存储推荐表
+>   2. 查阅表格：搜索型号如MQ01ABD100V，即可在表中找到对应信息
+> - 客户自购
+>   1. **品牌官网查阅官方文档**：通过查看硬盘品牌官方文档，获取该型号硬盘的相关信息来确定硬盘类型
+>   2. **缓存大小**：叠瓦式（SMR）硬盘通常还有一个典型特征，即便是在低容量下也配备更大的缓存。比如2TB叠瓦盘配备256MB缓存
+>   3. **工具检测**：CrystalDiskInfo（Windows）/  HDDScan（Windows）/ GNOME Disks（Linux）
+>   4. **性能测试**：
 >      CMR（传统磁记录）硬盘在大文件持续写入或随机读写时速度稳定
 >      SMR（叠瓦式磁记录）硬盘在写入数据量超过缓存后速度会大幅下降且恢复缓慢，随机写入时明显下降
-> 5. **使用场景判断**
->    * **冷数据存储（如影视备份、历史档案），数据一次写入后极少修改**_~Gn~_
->      * 移动硬盘等便携设备（2.5英寸机械盘90%为SMR）
->      * 超大规模冷存储库，优先考虑容量与能耗成本
->    * **频繁读写、`监控领域`：优先采用CMR硬盘方案**_~Gn~_
->      * 需频繁读写的系统盘、数据库、游戏存储
->      * NAS网络存储、RAID阵列及企业级服务器（群晖/威联通等NAS厂商明确禁用SMR盘）
->      * 7×24小时运行的监控与企业级应用（氦气封装硬盘均为CMR）
+>   5. **使用场景判断**
+>      * **冷数据存储（如影视备份、历史档案），数据一次写入后极少修改**_~Gn~_
+>        * 移动硬盘等便携设备（2.5英寸机械盘90%为SMR）
+>        * 超大规模冷存储库，优先考虑容量与能耗成本
+>      * **频繁读写、`监控领域`：优先采用CMR硬盘方案**_~Gn~_
+>        * 需频繁读写的系统盘、数据库、游戏存储
+>        * NAS网络存储、RAID阵列及企业级服务器（群晖/威联通等NAS厂商明确禁用SMR盘）
+>        * 7×24小时运行的监控与企业级应用（氦气封装硬盘均为CMR）
 
 
 ### 📍如何抓设备的打印，有几种方式？
@@ -1353,13 +1395,61 @@ _^tab^_
 > 
 
 
-### 📍客户要求某报警产生后，需要联动一个蜂鸣器，如何设置（用万用表去验证）
+### 客户要求某报警产生后，需要联动一个蜂鸣器，如何设置（用万用表去验证）
 
+_^tab^_
+
+> **MDVR设置**
+>
+> 1. Log in WebUI
+> 2. Access Config>>Alarm>>Base>>IO Alarm
+>   3. Click “Enable” checkbox of “Sensor1”
+>   4. Setup `Trigger`
+>      1. *Trigger Source`Source Voltage`*
+>      2. *Trigger`High`*
+>      3. *Effective Time`5 Seconds`*
+>   5. Setup `LinkPage`
+>      1. *Linkage IO Output`☑1`*
+>      2. *Output Delay Time`0`*
+>
+> **连线图示**
+>
+> 1. MDVR连接Sensor & Serial线
+> 2. SENSOR IN1与+5V导线相连，模拟高电平状态
+> 3. 万用表红表笔接 sensor out 的输出线（信号线），黑表笔接设备的**公共地（GND）**
+>
+> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=833 height=401 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-1/1751340446/page-2.svg"></iframe>
 > 
 
+> **万用表验证步骤**
+>
+> #### **步骤 1：静态状态检测（未触发报警时）**
+>
+> - **目的**：检测 sensor out 在未触发时的基准电压（判断初始状态是否正常）。
+>
+> - 操作：
+>
+>   1. 确保 MDVR 或传感器处于**未报警状态**（无触发信号）。
+>   2. 万用表红表笔接 sensor out 的输出线（信号线），黑表笔接设备的**公共地（GND）**（如 MDVR 的外壳、电源负极）。
+>   3. 观察万用表读数：
+>      - 若设置为 “低电平有效”：未触发时应为高电平（接近供电电压）。
+>      - 若设置为 “高电平有效”：未触发时应为低电平（接近 0V或显示电阻值）。
+>
+> #### **步骤 2：触发状态检测（模拟报警时）**
+>
+> - **目的**：检测 sensor out 在触发时能否正常切换电平（判断输出功能是否有效）。
+>
+> - 操作：
+>
+>   1. 手动触发报警（保持表笔连接（红笔接 sensor out 线，黑笔接 GND），观察电压变化：
+>      - 若为 “低电平有效”：触发时应从高电平跳变为低电平（0V 左右）。
+>      - 若为 “高电平有效”：触发时应从低电平（0V）跳变为高电平（接近供电电压，测试值为11.5V左右）。
 
 ### 客户需要进行画面联动，当车辆开门和倒车时，分别显示不同摄像头的画面。
 
+> 1. Log in WebUI
+> 2. Access Config>>Alarm>>Base>>IO Alarm
+>
 > ---
 >
 > - 车辆开门
@@ -1372,13 +1462,13 @@ _^tab^_
 >   - **报警类型（Alarm Type）**：Event（事件型报警 ）
 >   - **关联传感器用途（Sensor Uses）**：`Door 1`（关联门 1 ，用于监测门相关状态 ）
 >
->   ### 触发设置（Sensor1Trigger ）
+>   ### 触发设置（Sensor1 Trigger ）
 >
 >   - **触发源（Trigger Source）**：Source Voltage（电源电压，监测电压变化作为触发条件 ）
 >   - **触发条件（Trigger）**：High（电压高电平触发 ）
 >   - **有效时间（Effective Time）**：5 秒（电压高电平持续 5 秒才会触发后续动作，范围 0 - 10 秒 ）
 >
->   ### 报警联动设置（Sensor1Alarm Linkage ）
+>   ### 报警联动设置（Sensor1 Linkage ）
 >
 >   - **通道（Channel）**：未勾选 1 - 8 通道，即不联动这些通道录像等
 >
@@ -1394,7 +1484,7 @@ _^tab^_
 >
 >     - **布局通道（Layout）**：Channel 2（联动显示通道 2 的画面 ）
 >   - **显示时长（Duration）**：10 秒（联动画面显示 10 秒，范围 1 - 300 秒 ）
->     
+>
 >   - **报警抓拍（Alarm Snap）**：未勾选，不执行报警抓拍
 >
 > - 倒车
@@ -1405,15 +1495,15 @@ _^tab^_
 >   - **OSD 标识**：S2
 >   - **启用（Enable）**：已勾选，启用该传感器
 >   - **报警类型（Alarm Type）**：Event（事件型报警 ）
->   - **关联用途（Sensor Uses）**：`Aster`
+>   - **关联用途（Sensor Uses）**：`Aster` 
 >
->   ### 触发设置（Sensor2Trigger ）
+>   ### 触发设置（Sensor2 Trigger ）
 >
 >   - **触发源（Trigger Source）**：Source Voltage（电源电压，监测电压变化触发 ）
 >   - **触发条件（Trigger）**：High（电压高电平触发 ）
 >   - **有效时间（Effective Time）**：5 秒（电压高电平持续 5 秒触发后续动作，范围 0 - 10 秒 ）
 >
->   ### 报警联动设置（Sensor2Alarm Linkage ）
+>   ### 报警联动设置（Sensor2 Linkage ）
 >
 >   - **通道（Channel）**：未勾选 1 - 8 通道，不联动这些通道录像等
 >   - **后录像时长（Post Recording）**：~~1 Min（触发报警后，持续录像 1 分钟 ）~~
@@ -1426,9 +1516,22 @@ _^tab^_
 >   - **报警抓拍（Alarm Snap）**：未勾选，不执行报警抓拍
 
 
-### 📍但客户发现倒车过程中开门，画面变成门的画面，客户希望我们解决此问题。
+### 但客户发现倒车过程中开门，画面变成门的画面，客户希望我们解决此问题。
 
-> 
+> 检查**关联用途（Sensor Uses）**是否设置为`Aster`，如果为为`Aster`设置，则进行修改即可。
+>
+> > [!NOTE]
+> >
+> > 测试发现，
+> >
+> > 1. 当 S1：Sensor Uses=Door 1；S2：Sensor Uses=Aster时
+> >    1. 先触发S1并保持S1的触发状态，再触发S2，会变成Sensor2 Linkage的配置
+> >    2. 先触发S2并保持S2的触发状态，再触发S1，仍然是Sensor2 Linkage的配置
+> > 2. 当 S1：Sensor Uses=Door 1；S2：Sensor Uses=Door 2或其他非Aster设置时
+> >    1. 先触发S1并保持S1的触发状态，再触发S2，会变成Sensor2 Linkage的配置
+> >    2. 先触发S2并保持S2的触发状态，再触发S1，会变成Sensor1 Linkage的配置
+> >
+> > **综上，传感器 的 “Sensor Uses” 是否为 “Aster” 是决定联动配置是否受触发顺序影响的关键因素：非 “Aster” 设置下，触发顺序决定最终联动对象；Aster 设置下，触发顺序不影响，始终联动Aster传感器的配置。**_~OgCyGn~_
 
 
 ### 📍客户解决方案模拟
@@ -1441,10 +1544,16 @@ _^tab^_
 > 5. 摄像头选型线材
 >
 > 需要你提供完整的料号，除此信息，你还需要问什么问题（提示：安装方式和环境，分辨率，系统资源消耗等）。
+
+_^tab^_
+
+> **信息获取**
 >
-> 
+> 1. 
 
-
+> **方案选型**
+>
+> 1. 
 
 ## 解决方案接线图
 
@@ -1467,6 +1576,7 @@ _^tab^_
 > CP4
 >
 > <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=2757 height=1259 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-2/1751451782/main.svg"></iframe>
+> 
 
 > **方案2**
 >
@@ -1485,6 +1595,7 @@ _^tab^_
 > CP4
 >
 > <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=2757 height=1222 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-2/1751451847/main.svg"></iframe>
+> 
 
 ## 测试问题汇总
 
