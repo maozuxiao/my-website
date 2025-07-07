@@ -69,6 +69,13 @@ _^tab^_
 1. 登录<kbd>[OA系统](http://oa.streamax.com:8080/login.jsp)</kbd>>>常用新建/发起>>MC查询>>规格文件查询，相关`参考料号`
 1. 如有文件名，点击下载PDF文档
 
+## 工作所需工具
+
+- [ ] 螺丝刀套装
+- [ ] 数字万用表
+- [ ] U盘
+- [ ] USB串口线转232/485
+
 ## 待验证问题
 
 > ###### 如果AHD支持X路，只使用X-1路，视频输出质量是否会提升，比如1080P@12fps(AHD)>>1080P@25fps(AHD)？
@@ -123,19 +130,19 @@ _^tab^_
 
 ### 产品命名规范
 
-> **示例**：**X**_~Rd~_<sup>①</sup>**3**_~Gn~_<sup>②</sup>**N**_~Ye~_<sup>③</sup>-**GM**_~Aq~_<sup>④</sup>-**H**_~Pu~_<sup>⑤</sup>**04**_~Ol~_<sup>⑥</sup>**04**_~Og~_<sup>⑦</sup>
+> **示例**：**X**_~Rd~_<sup>①</sup>**3**_~Gn~_<sup>②</sup>**N**_~Ye~_<sup>③</sup>**GM**_~Aq~_<sup>④</sup>**H**_~Pu~_<sup>⑤</sup>**04**_~Ol~_<sup>⑥</sup>**04**_~Og~_<sup>⑦</sup>
 >
 > ![X3N-GM-H0404](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20250626094225648.png)
 >
 > | 序号 | 编码部分 | 类型 | 含义 |
 > |:--------:|:----:|:----:|------|
-> | ①       | X        | 存储介质 | `X`：机械硬盘（需区分3.5和2.5尺寸）或SATA SSD<br />`M`：Micro SD /M.2 SSD<br />`A`：==待补充== |
-> | ②       | 3        | 产品等级 | 产品等级，数字越大性能越高，性能排序`X5N-E0804`>`X3N-H0404`>`M1N-H0401` |
-> | ③       | N        | 芯片信息 | `N`：NovaTek（联咏芯片）<br />如果该字段为空代表hisilicon(海思芯片) |
-> | ④ | GM | 行业代表 | `GM`：“Gengeral Mobile DVR” 通用车载视频<br />`TK`：“Trucking” 货运产品线<br />`PT`：“Public Transit” 公交产品线 |
-> | ⑤      | H        | 工作模式 | `H`：Hybrid，混合模式<br />`E`：Extension，扩展模式比如`X5N-E0804`拥有`LAN`连接 External Switch拓展IP camera & `AV IN总线`拓展AHD camera |
-> | ⑥     | 04       | AHD camera支持路数 | 支持4路模拟摄像头（AHD camera） |
-> | ⑦    | 04       | IP camera支持路数 | 支持4路IP摄像头（IP camera） |
+> | ①       | **X**_~Rd~_ | 存储介质 | `X`：机械硬盘（需区分3.5和2.5尺寸）或SATA SSD<br />`M`：Micro SD /M.2 SSD<br />`A`：==待补充== |
+> | ②       | **3**_~Gn~_ | 产品等级 | 产品等级，数字越大性能越高，性能排序`X5N-E0804`>`X3N-H0404`>`M1N-H0401` |
+> | ③       | **N**_~Ye~_ | 芯片信息 | `N`：NovaTek（联咏芯片）<br />如果该字段为空代表hisilicon(海思芯片) |
+> | ④ | **GM**_~Aq~_ | 行业代表 | `GM`：“Gengeral Mobile DVR” 通用车载视频<br />`TK`：“Trucking” 货运产品线<br />`PT`：“Public Transit” 公交产品线 |
+> | ⑤      | **H**_~Pu~_| 工作模式 | `H`：Hybrid，混合模式<br />`E`：Extension，扩展模式比如`X5N-E0804`拥有`LAN`连接 External Switch拓展IP camera & `AV IN总线`拓展AHD camera |
+> | ⑥     | **04**_~Ol~_| AHD camera支持路数 | 支持4路模拟摄像头（AHD camera） |
+> | ⑦    |  **04**_~Og~_| IP camera支持路数 | 支持4路IP摄像头（IP camera） |
 >
 
 
@@ -850,6 +857,20 @@ _^tab^_
 > > - 接入从机设备时，功耗会升至 **<5W（PON）** 或 **<5.8W（POE）**。
 > > - 两种模式均支持宽压输入，适应车辆复杂电气环境。
 
+### 锐明标准常见外设波特率设置
+
+
+
+| 序号 | 设备名称    | 串口类型 | 波特率 |
+| ---- | ----------- | -------- | ------ |
+| 1    | LED控制面板 | RS485    | 9600   |
+| 2    | 外置GPS     | RS232    | 9600   |
+| 3    | 惯量传感器  | RS485    | 19200  |
+| 4    | 云台        | RS485    | 2400   |
+| 5    | 绿色驾驶    | RS232    | 57600  |
+| 6    | 串口扩展盒  | RS232    | 57600  |
+| 7    | 校车刷卡机  | RS485    | 57600  |
+
 ## 第一阶段考核
 
 
@@ -1004,7 +1025,7 @@ _^tab^_
 >     5. *Register Server IP`uat-saas.streamamax.com`*
 >     6. *Register Server port`TCP 21803`*
 >     7. ~~*Register Server TLS`5556`*~~
->     8. *Media Server IP`58.250.161.103`*
+>     8. *Media Server IP`uat-saas.streamamax.com`*
 >     9. *Media Server port`TCP 21803`*
 >     10. ~~*Media Server TLS`5556`*~~
 >  4. Click `Maintenance` >>`Server Status` to check the **Server Connect Status**_~Cy~_
@@ -1164,7 +1185,7 @@ _^tab^_
 
 ### 📍批量对设备进行参数配置的步骤是什么？哪一类参数能/不能进行批量配置？
 
-> 
+> 不能导入车牌号等注册信息参数
 
 
 ### 如何查询某运营商的APN参数并对设备进行设置
@@ -1248,9 +1269,112 @@ _^tab^_
 >        * 7×24小时运行的监控与企业级应用（氦气封装硬盘均为CMR）
 
 
-### 📍如何抓设备的打印，有几种方式？
+### 如何抓设备的打印，有几种方式？
 
+> 一共4种方式
+>
+> 1. WebUI导出
+> 2. GUI导出
+> 3. MDVR串口打印
+> 4. FT Cloud配置打印任务
+
+_^tab^_
+
+> **WebUI导出**
+>
+> 1. Login WebUI
+> 2. Navigate `log`
+> 3. Select `Log Type` `Time(Date)`  `Log Type` `Alarm Type` `(Time Period)`
+> 4. Click `Search`>> `Export`
+
+> **GUI导出**
 > 
+> 1. Login CP4 GUI
+> 2. Click Setup>>Maintenance>>FileData>>Data Export
+>    1. ◉Export Time
+>    2. Start Time
+>    3. End Time
+>    4. *File Type`Alarm Log/Operation Log/BlackBox Data/Debug Log Information`*
+> 3. Click <kbd>Export</kbd>
+
+> **MDVR串口打印**
+>
+> 1. 准备相关线材，`USB 转 232 串口线`插上电脑的 USB口，`三帧打印线`的 DB9 母头接上` USB 转 232 串口线`的 DB9 公头，MDVR的`串口线`与`三帧打印线`3个引脚按下图连接
+>    ```mermaid
+>    sequenceDiagram
+>        participant 串口线
+>        participant 三帧打印线
+>             
+>        串口线 <<->> 三帧打印线: TXD <-> RXD
+>        三帧打印线 <<->> 串口线: RXD <-> TXD
+>        串口线 <<->> 三帧打印线: GND <-> GND
+>    ```
+> 2. 电脑识别COM口后，使用工具（MobaXterm/SecureCRT）添加COM口，波特率`115200`
+>
+> 3. 通过线材与电脑连接好，并在软件选择与其对应的端口打开后，就会弹出一堆数据出来 滚动，敲下回车，出现 streamax login 字符时，分别输入账号密码登录设备
+>
+>    1. 账号：root
+>    2. 密码：***321456***
+>
+> 4. 输入命令 格式：`./DebugLevel+ 模 块 + 等 级 + 输 出`
+>
+> 5. 复现问题
+>
+> 6. 日志打印后保存提供给研发进行分析
+> 
+> > [!NOTE]
+> >
+> > ## 参数表
+> > 参考文档： [<kbd>设备串口打印说明文档20170309.pdf</kbd>](http://oa.streamax.com:8080/sys/attachment/sys_att_main/sysAttMain.do?method=view&fdId=167aabdce7ae8e3fc30eea343cf836d8)
+> > 
+> > ### 模块 (Module)
+> >
+> > | 模块代码 | 模块名称       | 描述                                          |
+> > | -------- | -------------- | --------------------------------------------- |
+> > | 0x100    | config         | 记录参数配置                                  |
+> > | 0x200    | avstream       | 录像、视频相关                                |
+> > | 0x400    | device         | 设备硬件部分，包括 GPS 定位、CAN、关机等      |
+> > | 0x500    | event          | 事件，如抓拍/采集                             |
+> > | 0x600    | streamProtocol | CEIBA/运维                                    |
+> > | 0x700    | netservice     | 网络基础模块相关，如 WIFI、拨号模块、SIM 卡等 |
+> > | 0x800    | storage        | 存储状态                                      |
+> > | 0xb00    |                | 基础 UI 界面                                  |
+> > | 0x1a00   | basic          | 外设                                          |
+> > | 0x2100   |                | 808 公交协议（周清华）                        |
+> > | 0x1e00   |                | 报站模块/智达协议（周延昱）                   |
+> > | 0xbb00   |                | 博康/杰源（陈春林）                           |
+> >
+> > ### 日志等级 (Level)
+> >
+> > | 等级代码 | 等级名称 |
+> > | -------- | -------- |
+> > | 0        | error    |
+> > | 1        | critical |
+> > | 2        | warning  |
+> > | 3        | message  |
+> > | 4        | debug    |
+> >
+> > ### 输出 (Output)
+> >
+> > | 输出代码 | 输出方式 | 描述        |
+> > | -------- | -------- | ----------- |
+> > | 0        | serial   | 串口输出    |
+> > | 5        | file     | 文件输出    |
+> > | 10       | Telnet   | Telnet 输出 |
+
+> **FT Cloud配置打印任务**
+> 
+> 1. Login FTCloud
+> 2. Navigate `Maintenance`>>`File Transfer`>>`Device File Upload`
+> 3. Click `Add` and select the vehicle
+> 4. Click `Next`
+> 5. Input the `Task Name` and select the `Network type`(All/Wired/Wifi/(3/4G))
+> 6. Click `Next`
+> 7. Select the file type under `Log Extraction` tab
+> 8. Config `Print Level Setting`
+> 9. Click `Add`
+> 10. After the Task Status = Upload successful, click 📥(Download icon) under `Operation` column
+
 
 ### 如何区分新旧文件系统/硬盘？使用起来有什么注意事项
 
@@ -1277,8 +1401,6 @@ _^tab^_
 > **使用注意事项**
 >
 > **FAT32文件系统格式**: 避免存储单文件＞4GB，否则会提示 “文件过大”；分区大小不能超过2TB
->
-> 
 
 
 ### 客户提出需求：两路录像，录像需要保存至少两周，你应该怎么推荐硬盘的大小，你还要问什么问题
@@ -1299,9 +1421,84 @@ _^tab^_
 >
 > > 比如客户选择*分辨率`WD1`*  *画质等级`1`* *每天录像时长`8 H`*，查找表格发现测试数据：*单通道录像文件大小（MB）/小时`1170 MB`*, 则可以给客户推荐 1170×8×14×2=262080 MB=255.9375 GB，考虑冗余情况，建议512 GB以上的硬盘大小。<kbd>[OA搜索关键词：存储推荐> >](http://oa.streamax.com:8080/kms/multidoc/index.jsp?j_module=true#cri.q=docSubject%3A%E5%AD%98%E5%82%A8%E6%8E%A8%E8%8D%90)</kbd>找到最近的存储推荐表提供具体型号给客户
 
-### 📍客户要求联调外设：外置GPS，波特率59600，完成接线与设置，定位失败或者无信号如何处理
+### 客户要求联调外设：外置GPS，波特率59600，完成接线与设置，定位失败或者无信号如何处理
 
+_^tab^_
+
+> **接线安装检查**
+>
+> 1. 检查 GPS 天线是否有正确安装，在主机后面的 GPS 天线座上有丝印 GPS 标识
+> 2. 检查天线接收头是否被遮挡，天线接收头不能被杂物给盖住，盖住有可能接受不到信号
+> 3. 排插周围的是否有电磁干扰，比如大功率摄像头、仪表盘旁的屏幕、MDVR等，GPS外置模块需要远离这些电子设备50 <sup>CM</sup>以上
+
+> **设置检查**
 > 
+> #### Version Info
+>
+> 1. Login WebUI
+> 2. Navigate Maintenance>>Version Info
+> 3. Check if the Firmware & GPS version is latest version
+>
+> #### Device Module
+>
+> 1. Login WebUI
+> 2. Navigate Maintenance>>Device Module
+> 3. Check if the Module Status of `Module 1 ` is `Module Name, eg. EC25` and the `Dial Status` is `Dialed up`
+> 4. Check if the Module Status of `Satellite Location Module ` is `Normal`
+>
+> #### A-GPS
+> 
+> 1. Login WebUI
+> 2. Navigate  Config>>Collection>>General>>A-GPS
+>    1. *Enable`☑`*
+>    2. *Server Address`http://AGPS.streamax.com`*
+>    3. *Port`21077`*
+> 3. Click `Save`
+
+> **Troubleshooting**
+>
+> 确认连接和设置都正确后，参考如下步骤抓取日志
+>
+> #### Enable Serial Port
+>
+> 1. Login WebUI
+> 2. Navigate  Config>>Collection>>General>>Serial Port
+> 3. Set RS232
+>    1. External GPS
+>    2. The baud rate setting is selected based on the module type. Please refer <kbd>[锐明标准常见外设波特率设置](#锐明标准常见外设波特率设置)</kbd>
+>
+> #### Capture Logs
+>
+> 1. 准备相关线材，`USB 转 232 串口线`插上电脑的 USB口，`三帧打印线`的 DB9 母头接上` USB 转 232 串口线`的 DB9 公头，MDVR的`串口线`与`三帧打印线`3个引脚按下图连接
+>    ```mermaid
+>    sequenceDiagram
+>        participant 串口线
+>        participant 三帧打印线
+>             
+>        串口线 <<->> 三帧打印线: TXD <-> RXD
+>        三帧打印线 <<->> 串口线: RXD <-> TXD
+>        串口线 <<->> 三帧打印线: GND <-> GND
+>    ```
+> 2. 电脑识别COM口后，使用工具（MobaXterm/SecureCRT）添加COM口，波特率`115200`
+>
+> 3. 通过线材与电脑连接好，并在软件选择与其对应的端口打开后，就会弹出一堆数据出来 滚动，敲下回车，出现 streamax login 字符时，分别输入账号密码登录设备
+>
+>    1. 账号：root
+>    2. 密码：***321456***
+>
+> 4. 输入命令 `./DebugLevel 0x400 4 0`后回车，格式：`./DebugLevel+ 模 块 + 等 级 + 输 出`
+>
+> 5. 复现问题（插拔GPS模块或者串口工具发送命令重启模块）
+>
+> 6. 日志打印后保存提供给研发进行分析
+>
+
+> [!NOTE]
+>
+> 1. 常用波特率为2400/4800/9600/19200/28800/38400/56000/57600/115200，题干的波特率应改为 `57600`
+> 2. 参考文档：
+>    1. [<kbd>GPS问题系统排查方法-v1.0.doc.pdf</kbd>](http://oa.streamax.com:8080/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=1687846f28fc8a251c5efa5461e82fd7)
+>    2. [<kbd>设备串口打印说明文档20170309.pdf</kbd>](http://oa.streamax.com:8080/sys/attachment/sys_att_main/sysAttMain.do?method=view&fdId=167aabdce7ae8e3fc30eea343cf836d8)
 
 
 ### 锐明主机接第三方摄像头测试可行性，主机要设置什么参数，如果无视频画面或录像，如何处理
@@ -1310,25 +1507,21 @@ _^tab^_
 
 > **MDVR设置参数(IP摄像头)**
 >
-> *Remote Device`Default`*
->
-> **Protocol Type`ONVIF`* | N9M是私有协议，IPC的通用协议是ONVIF，<kbd>[请参考N9M & ONVIF 协议 > >](#N9M & ONVIF 协议)</kbd>
->
-> *IP Address`示例：10.100.100.101`*
->
-> *Port`示例：9006`*
->
-> *User Name`示例：admin`*
->
-> *Password`示例：[empty]`*
+> 1. Log in WebUI
+> 2. Access Config>>Surveillance>>IPC Setup>>Enable `Device Channel`>>Setup
+> 3. Click ` ☰`
+>    1. *Remote Device`Default`*
+>    2. *Protocol Type`ONVIF`* | N9M是私有协议，IPC的通用协议是ONVIF，<kbd>[请参考N9M & ONVIF 协议 > >](#N9M & ONVIF 协议)</kbd>
+>    3. *IP Address`示例：10.100.100.101`*
+>    4. *Port`示例：9006`*
+>    5. *User Name`示例：admin`*
+>    6. *Password`示例：[empty]`*
 >
 > > [!CAUTION]
 > >
 > > 对接第三方摄像头可能存在第三方AHD摄像头和第三方IP摄像头，但AHD摄像头主要考虑信号制式能否匹配系统设置，没有其他额外的参数设置。
 > >
 > > 因此该问题的答案是基于第三方摄像头为IPC回复
-
-
 
 > **排查无视频画面或无法录像**
 >
@@ -1390,9 +1583,16 @@ _^tab^_
 > 3. 优化/输出SOP以应对该类典型问题，SOP的背景部分可以添加补发货物所需的时间和成本
 
 
-### 📍客户投诉设备缺失WIFI/GPS/4G模块，如何排查并证明设备没有问题？
+### 客户投诉设备缺失WIFI/GPS/4G模块，如何排查并证明设备没有问题？
 
-> 
+> Prepare `1*available SIM Card` / `1*GPS Module` / `1*Hotspot`
+>
+> 1.	Login WebUI
+> 2.	Navigate Maintenance>>Device Module
+> 3.	Insert SIM card and set the correct APN then check if the `Module 1` Status is `Module Name, eg. EC25` and the `Dial Status` is `Dialed up`
+> 4.	 Enable the WIFI in **AP Mode**_~Rd~_ and check if `WIFI Module` Connect Status is `Start Success`, and the mobile phone can connect the ESSID success 
+> 5.	 Enable the WIFI in **Client Mode**_~Rd~_ and check if `WIFI Module` Connect Status is `Connect Success`, and the MDVR can connect to the hotspot success
+> 6.	Connect the GPS module, and check if the `Satellite Location Module ` Status is `Normal` 
 
 
 ### 客户要求某报警产生后，需要联动一个蜂鸣器，如何设置（用万用表去验证）
