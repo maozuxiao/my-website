@@ -39,8 +39,8 @@ vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;基本信息;视�
 
 ## 学习路径
 
-- [ ] 硬件学习
-- [ ] 软件操作系统学习
+- [x] 硬件学习
+- [x] 软件操作系统学习
 - [ ] 云平台学习
 - [ ] 行业解决方案讲解
 
@@ -1012,16 +1012,21 @@ _^tab^_
 >    4. 进入 MDVR 设置界面，检查录像通道使能开关是否打开；检查是否设置报警录像但关闭报警使能开关
 > 6. **处理软件问题**：尝试重新启动 MDVR，看是否能恢复正常录像。若设备有可用的软件更新，可更新到最新版本，以修复可能存在的软件漏洞。若问题仍未解决，可尝试将设备恢复出厂设置，但需注意此操作会清除原有设置，需重新进行配置。
 
-
 ### 设备上报服务器的操作步骤
 
->  1. Navigate to http://10.100.100.1/
+_^tab^_
+
+
+
+>  **MDVR设置**
+>
+>  1. Login WebUI
 >  2. Click `Config`>>`Network`
 >  3. Config the servers parameters under `Server Setup`，以下为示例，其中`Register Server IP`可以是服务器IP或者URL，但是不能包含/字符
 >     1. *ON`☑`*
 >     2. *Protocol Type`N9M`*
 >     3. *TLS Enable`☐`*
->     4. *Enable Network`示例：WIFI，也可选择Local或者Module`*
+>     4. *Enable Network`示例：WIFI，也可选择Local/Module/Auto Adaptation`*
 >     5. *Register Server IP`uat-saas.streamamax.com`*
 >     6. *Register Server port`TCP 21803`*
 >     7. ~~*Register Server TLS`5556`*~~
@@ -1032,9 +1037,11 @@ _^tab^_
 >
 >  > [!NOTE]
 >  >
->  > 由于缺少测试账号，设备上报服务器后的步骤暂时没办法测试
->  >
->  > [<kbd>用户手册参考 > ></kbd>](https://uat-saas.streamax.com/ftm/docs/help-center?appId=10001&tab=product-doc)
+>  > 由于缺少测试账号，设备上报服务器后的步骤暂时没办法测试。[<kbd>用户手册参考 > ></kbd>](https://uat-saas.streamax.com/ftm/docs/help-center?appId=10001&tab=product-doc)
+
+> **操作视频**
+>
+> [设备上报服务器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E8%AE%BE%E5%A4%87%E4%B8%8A%E6%8A%A5%E6%9C%8D%E5%8A%A1%E5%99%A8.mp4)
 
 
 ### 如何查线序
@@ -1182,10 +1189,55 @@ _^tab^_
 > 2. U盘升级(运维宝)
 > 3. FT Cloud升级
 
+### 批量对设备进行参数配置的步骤是什么？哪一类参数能/不能进行批量配置？
 
-### 📍批量对设备进行参数配置的步骤是什么？哪一类参数能/不能进行批量配置？
+_^tab^_
 
-> 不能导入车牌号等注册信息参数
+> **参数批量配置步骤**
+>
+> 1. Login [FT Cloud](https://uat-saas.streamax.com/)
+> 2. Navigate `Maintenance`>>`Parameter Configuration`>>`Parameter Management`>>`Sending Parameters`
+> 3. Find the parametes type in the list of `Parameter group management`
+> 4. click to config related parametes
+> 5. Click the button <kbd>Parameter distribution</kbd>
+> 6. Fill in task information
+> 7. Select vehicle(Support multiple selection)
+> 8. Determine parameters to be issued
+> 9. Click <kbd>Next</kbd> >> Click <kbd>Distribute</kbd>
+> 10. Find the result in `Maintenance`>>`Parameter Configuration`>>`Task Details`
+>
+> > [!NOTE]
+> >
+> > If you already have the config file, you can upload it in  `Maintenance`>>`General Functions`>>`File Management`, then create a test in `Maintenance`>>`Parameter Configuration`>>`Configure Task`
+
+> **批量配置列表**
+>
+> ---
+>
+> - 可批量配置
+>   * FaceCompare
+>   * Whitelist management
+>   * Time Setting（Cross Time Zone Disable）
+>   * basic settings
+>   * Network Settings
+>   * Mainstream Video Setting
+>   * Time Setting（Cross Time Zone Enable）
+>   * Server Address
+>   * Substream Video Setting
+>   * AI Function
+>   * Calibration Parameter
+>   * Account Management
+>   * WIFI
+>   * IO Set
+>   * Gsensor_Enable
+>   * Gsensor_Set
+>   * Alarm_Video
+>   * Alarm_Basic
+>   * Live view
+>   * Collection
+>   * Camera Setup
+> - 不可批量配置
+>   * 车牌号等注册信息参数
 
 
 ### 如何查询某运营商的APN参数并对设备进行设置
@@ -1287,7 +1339,7 @@ _^tab^_
 > 3. Select `Log Type` `Time(Date)`  `Log Type` `Alarm Type` `(Time Period)`
 > 4. Click `Search`>> `Export`
 
-> **GUI导出**
+> **CP4 GUI导出**
 > 
 > 1. Login CP4 GUI
 > 2. Click Setup>>Maintenance>>FileData>>Data Export
@@ -1321,12 +1373,19 @@ _^tab^_
 > 5. 复现问题
 >
 > 6. 日志打印后保存提供给研发进行分析
-> 
+>
 > > [!NOTE]
 > >
+> > ### 参考文档
+> >
+> > 1.   [<kbd>设备串口打印说明文档20170309.pdf</kbd>](http://oa.streamax.com:8080/sys/attachment/sys_att_main/sysAttMain.do?method=view&fdId=167aabdce7ae8e3fc30eea343cf836d8)
+> > 2.   [<kbd>GPS问题系统排查方法-v1.0.doc.pdf</kbd>](http://oa.streamax.com:8080/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=1687846f28fc8a251c5efa5461e82fd7)
+> > 3.   [<kbd>M1N 2.0 产品使用说明书V1.0.docx</kbd>](https://wj.streamax.com:9443/preview.html?fileid=f208110a-3be2-4bd7-ae1d-a39ae47e15aa)
+> >
 > > ## 参数表
-> > 参考文档： [<kbd>设备串口打印说明文档20170309.pdf</kbd>](http://oa.streamax.com:8080/sys/attachment/sys_att_main/sysAttMain.do?method=view&fdId=167aabdce7ae8e3fc30eea343cf836d8)
+> >
 > > 
+> >
 > > ### 模块 (Module)
 > >
 > > | 模块代码 | 模块名称       | 描述                                          |
@@ -1469,36 +1528,29 @@ _^tab^_
 >
 > #### Capture Logs
 >
-> 1. 准备相关线材，`USB 转 232 串口线`插上电脑的 USB口，`三帧打印线`的 DB9 母头接上` USB 转 232 串口线`的 DB9 公头，MDVR的`串口线`与`三帧打印线`3个引脚按下图连接
->    ```mermaid
->    sequenceDiagram
->        participant 串口线
->        participant 三帧打印线
->             
->        串口线 <<->> 三帧打印线: TXD <-> RXD
->        三帧打印线 <<->> 串口线: RXD <-> TXD
->        串口线 <<->> 三帧打印线: GND <-> GND
->    ```
-> 2. 电脑识别COM口后，使用工具（MobaXterm/SecureCRT）添加COM口，波特率`115200`
+> 
 >
-> 3. 通过线材与电脑连接好，并在软件选择与其对应的端口打开后，就会弹出一堆数据出来 滚动，敲下回车，出现 streamax login 字符时，分别输入账号密码登录设备
+> ##### GPS打印
 >
->    1. 账号：root
->    2. 密码：***321456***
+> 1. Login WebUI
+> 2. Navigate Config>>Collection>>General>>Location
+> 3. Enable the GPS Command and send `log gpgsv`
+> 4. Waiting a few minutes send the command `unlog gpgsv`
+> 5. Export the BlackBox Data(Mandatory); Alarm Log/Operation Log/Debug Log Information(Optional)
+>    1. Login CP4 GUI
+>    2. Click Setup>>Maintenance>>FileData>>Data Export
+>       1. ◉Export Time
+>       2. Start Time
+>       3. End Time
+>       4. *File Type`Alarm Log/Operation Log/BlackBox Data/Debug Log Information`*
+>    3. Click <kbd>Export</kbd>
 >
-> 4. 输入命令 `./DebugLevel 0x400 4 0`后回车，格式：`./DebugLevel+ 模 块 + 等 级 + 输 出`
+> 
 >
-> 5. 复现问题（插拔GPS模块或者串口工具发送命令重启模块）
+> ##### 设备打印
 >
-> 6. 日志打印后保存提供给研发进行分析
+> 请参考[<kbd>CP4 GUI 导出日志 & MDVR串口打印</kbd>](#如何抓设备的打印，有几种方式？)
 >
-
-> [!NOTE]
->
-> 1. 常用波特率为2400/4800/9600/19200/28800/38400/56000/57600/115200，题干的波特率应改为 `57600`
-> 2. 参考文档：
->    1. [<kbd>GPS问题系统排查方法-v1.0.doc.pdf</kbd>](http://oa.streamax.com:8080/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=1687846f28fc8a251c5efa5461e82fd7)
->    2. [<kbd>设备串口打印说明文档20170309.pdf</kbd>](http://oa.streamax.com:8080/sys/attachment/sys_att_main/sysAttMain.do?method=view&fdId=167aabdce7ae8e3fc30eea343cf836d8)
 
 
 ### 锐明主机接第三方摄像头测试可行性，主机要设置什么参数，如果无视频画面或录像，如何处理
@@ -1734,14 +1786,15 @@ _^tab^_
 > > **综上，传感器 的 “Sensor Uses” 是否为 “Aster” 是决定联动配置是否受触发顺序影响的关键因素：非 “Aster” 设置下，触发顺序决定最终联动对象；Aster 设置下，触发顺序不影响，始终联动Aster传感器的配置。**_~OgCyGn~_
 
 
-### 📍客户解决方案模拟
+### 客户解决方案模拟
 
 > 客户要求下周安装一台设备，要求支持：
 > 1. 5路录像（1*IPC@4@AHD）,
 > 2. panic button
 > 3. UPS
 > 4. Monitor（触控）
-> 5. 摄像头选型线材
+> 5. 摄像头选型
+> 6. 线材
 >
 > 需要你提供完整的料号，除此信息，你还需要问什么问题（提示：安装方式和环境，分辨率，系统资源消耗等）。
 
@@ -1749,11 +1802,44 @@ _^tab^_
 
 > **信息获取**
 >
-> 1. 
+> #### 安装基础信息
+>
+> - 车型与场景：是客车、货车还是特种车辆（不同车型的安装空间、电源不同）
+> - 安装方式：固定方式（壁挂 / 吸顶 / 嵌入式）、安装位置（驾驶室仪表台、车顶、后备箱），是否需要抗震支架（货车震动大需加强固定）
+> - 电源参数：车载供电电压（12V/24V）、最大功耗需求（避免 UPS 容量不足）
+>
+> #### 摄像头与录像细节
+>
+> - 分辨率：IPC（网络摄像头）的具体分辨率、AHD 摄像头的分辨率
+> - 摄像头制式：PAL/NTSC
+> - 摄像头功能：是否需要夜视（红外 / 星光级）、防水等级、音频采集（带麦克风）、广角需求、双目/三目等
+> - 录像策略：视频分辨率、画质等级、存储周期（用于评估硬盘大小）
+>
+> #### 外设细节
+>
+> - UPS：续航时间、特殊功能要求
+> - 触控 Monitor：尺寸、支持分辨率、防护等级
+> - 其他外设：确认是否还需要喊话器、防火盒、串口线、运维宝、控制盒等其他外设
+>
+> #### 外观
+> 
+> - 产品外观：颜色、Logo
+>
+> #### 环境与性能需求
+>
+> - 环境参数：工作温湿度范围、粉尘 / 震动等级（需对应防护设计）
+> - 系统负载：是否同时运行多任务（如录像 + 实时预览 + 4G 上传 + AI 分析），是否有额外软件（如人脸识别、司机行为分析），避免 CPU / 内存不足；
 
 > **方案选型**
 >
-> 1. 
+> 1. 登录<kbd>[鸿翼文件服务器](https://wj.streamax.com:9443/)</kbd>
+> 2. 搜索关键词`xx可售清单`，找到表格文件后**下载**打开查看`可售单品清单`和其他子表（XX 可以填写通过客户提供车型来填写，比如 公交 可售清单）
+> 3. 找到对应物料的`参考料号` 并输出`客户需求物料清单`
+>
+> > [!CAUTION]
+> >
+> > 1. 如果可售清单不包含所需物料，需要登录<kbd>[OA系统](http://oa.streamax.com:8080/login.jsp)</kbd>>>常用新建/发起>>MC查询>>规格文件查询，相关`参考料号`
+> > 2. 需要仔细核对接口类型
 
 ## 解决方案接线图
 
@@ -1801,12 +1887,13 @@ _^tab^_
 
 
 
-> | 问题                               | 解决方案                 |
-> | ---------------------------------- | ------------------------ |
-> | 电源线连接正常，但是``无法上电``   | 电源线内没装``保险丝``   |
-> | 浏览器实时`预览录屏`显示为全黑     | 清除`浏览器缓存`         |
-> | 浏览器实时`预览录屏`显示为`未编码` | 未打开`子码流`           |
-> | AHD P3连接AV IN                    | AHD P3作为从机连接IPC P3 |
+> | 问题                                                         | 解决方案                                   |
+> | ------------------------------------------------------------ | ------------------------------------------ |
+> | 电源线连接正常，但是``无法上电``                             | 电源线内没装``保险丝``                     |
+> | 浏览器实时`预览录屏`显示为全黑                               | 清除`浏览器缓存`                           |
+> | 浏览器实时`预览录屏`显示为`未编码`                           | 未打开`子码流`                             |
+> | AHD P3连接AV IN                                              | AHD P3作为从机连接IPC P3                   |
+> | FT Cloud中添加车辆Device ID填写和MDVR中的Device ID一致，但设备没办法上报 | `FT Cloud  Device ID`=`MDVR Serial Number` |
 >
 > 
 
