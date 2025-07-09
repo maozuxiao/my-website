@@ -8,7 +8,7 @@
 
 ## 常用快捷键
 
-输入快捷键后，需要点击 <kbd>Space Bar</kbd>
+输入快捷键后，需要点击 <kbd>Space Bar</kbd>，更多快捷键请访问：[CAD快捷键速查](https://maozuxiao.github.io/my-website/cad-shortcut-reference.html)
 
 | 快捷键 |     命令     | 快捷键 |     命令     |
 | :----: | :----------: | :----: | :----------: |
