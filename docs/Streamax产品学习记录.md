@@ -41,7 +41,7 @@ vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;基本信息;视�
 
 - [x] 硬件学习
 - [x] 软件操作系统学习
-- [ ] 云平台学习
+- [x] 云平台学习
 - [ ] 行业解决方案讲解
 
 ## 汇报方式
@@ -1037,11 +1037,13 @@ _^tab^_
 >
 >  > [!NOTE]
 >  >
->  > 由于缺少测试账号，设备上报服务器后的步骤暂时没办法测试。[<kbd>用户手册参考 > ></kbd>](https://uat-saas.streamax.com/ftm/docs/help-center?appId=10001&tab=product-doc)
+>  > FT CLOUD: [<kbd>用户手册参考 > ></kbd>](https://uat-saas.streamax.com/ftm/docs/help-center?appId=10001&tab=product-doc)
 
 > **操作视频**
 >
-> [设备上报服务器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E8%AE%BE%E5%A4%87%E4%B8%8A%E6%8A%A5%E6%9C%8D%E5%8A%A1%E5%99%A8.mp4)
+> ![设备上报服务器](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/%E8%AE%BE%E5%A4%87%E4%B8%8A%E6%8A%A5%E6%9C%8D%E5%8A%A1%E5%99%A8.mp4)
+>
+> ![FT Cloud绑定设备](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/FT%20Cloud%E7%BB%91%E5%AE%9A%E8%AE%BE%E5%A4%87.mp4)
 
 
 ### 如何查线序
@@ -1356,7 +1358,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                
+>                   
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
@@ -1847,7 +1849,7 @@ _^tab^_
 
 > **方案1**
 >
-> A8PRO-H0412
+> A8PRO-H0412x 1
 >
 > C24M x 3
 >
@@ -1859,14 +1861,14 @@ _^tab^_
 >
 > C20 x 1
 >
-> CP4
+> CP4x 1
 >
 > <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=2757 height=1259 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-2/1751451782/main.svg"></iframe>
 > 
 
 > **方案2**
 >
-> A8PRO-H0412
+> A8PRO-H0412x 1
 >
 > C20 x 1
 >
@@ -1878,7 +1880,7 @@ _^tab^_
 >
 > C24M x 3
 >
-> CP4
+> CP4x 1
 >
 > <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=2757 height=1222 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-7-2/1751451847/main.svg"></iframe>
 > 
