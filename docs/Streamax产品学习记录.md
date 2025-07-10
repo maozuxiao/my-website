@@ -1016,8 +1016,6 @@ _^tab^_
 
 _^tab^_
 
-
-
 >  **MDVR设置**
 >
 >  1. Login WebUI
@@ -1358,7 +1356,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                   
+>                      
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
