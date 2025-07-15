@@ -26,6 +26,7 @@ vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;基本信息;视�
 | --------------- | ----------------------------------------------------- | ---- |
 | 2025-6-20 14:15 | Comprehensive MDVR series from Streamax 20230911.pptx | MDVR系列产品命名规范，产品硬件接口、产品参数，一些专业术语介绍 |
 | 2025-6-26 14:12 | MDVR GUI介绍 | 主要围绕主机操作界面的功能讲解、设置方法以及相关问题的讨论展开，重点在于掌握设备的操作逻辑和常见问题处理。 |
+| 2025-7-11 14:40:00 | CEIBA2平台介绍 | CEIBA2平台软件及相关系统的介绍与功能说明总结 |
 
 ## 待办事项
 
@@ -376,7 +377,7 @@ _^tab^_
 >    
 >   > [!NOTE]
 >    >
->    > 1. IPV4地址可以设置成：*10.100.100.2`𓍯𓂃𓏧♡`10.100.100.255`*
+>    > 1. IPV4地址可以设置成：*10.100.100.2`𓍯𓂃𓏧♡`10.100.100.255*
 >    > 2. **如MDVR无WAN/LAN口，还可以通过IPC 6Pin母口转接RJ45母口的方法，连接电脑以访问WebUI：<kbd>View MDVR</kbd>**_~GdPkAq~_
 >    
 >2. 连接有线网络，为MDVD提供网络服务
@@ -857,6 +858,39 @@ _^tab^_
 > > - 接入从机设备时，功耗会升至 **<5W（PON）** 或 **<5.8W（POE）**。
 > > - 两种模式均支持宽压输入，适应车辆复杂电气环境。
 
+###  Comparison between P3 and P3D
+
+> 参考文档：[<kbd>Comparison between P3 and P3D</kbd>](https://wj.streamax.com:9443/preview.html?fileid=280930)
+>
+> | 特性                                                         | P3                                                           | P3D                                                          |
+> | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+> | **传感器**                                                   | 1/2.8” 2M像素CMOS                                            | 1/2.8” 2M像素CMOS                                            |
+> | **信噪比**                                                   | >50db                                                        | >50db                                                        |
+> | **最低照度**                                                 | 0Lux(IR on), 0.05Lux(IR off)                                 | 0Lux(IR on), 0.05Lux(IR off)                                 |
+> | **镜头**                                                     | 2.7mm                                                        | 2.7mm                                                        |
+> | **视角**                                                     | ==HFOV 120° VFOV 62.5°==                                     | ==HFOV 119° VFOV 63.5°==                                     |
+> | **宽动态**                                                   | 80dB                                                         | 80dB                                                         |
+> | **红外距离**                                                 | 3m                                                           | 3m                                                           |
+> | **暖光支持**                                                 | 不支持                                                       | 支持                                                         |
+> | **外观颜色**                                                 | 黑色                                                         | 白色                                                         |
+> | **视频压缩格式**                                             | H.264 by default/H.265                                       | H.264 by default/H.265                                       |
+> | **图像分辨率**                                               | 1920*1080                                                    | 1920*1080                                                    |
+> | **CBR/VBR支持**                                              | 支持                                                         | 支持                                                         |
+> | **音频输入**                                                 | 不支持                                                       | 不支持                                                       |
+> | **网络端口**                                                 | 10/100M 自动适应端口(6-Pin 航空端口)                         | 10/100M 自动适应端口(6-Pin 航空端口)                         |
+> | **RS485**                                                    | 1通道                                                        | 1通道                                                        |
+> | **USB支持**                                                  | 支持                                                         | 支持                                                         |
+> | **传感器通道**                                               | 4通道                                                        | 4通道                                                        |
+> | **电源输入**                                                 | PON(DC12V), 支持8~16V范围                                    | PON(DC12V), 支持8~16V范围                                    |
+> | **尺寸（含支架）**                                           | 内置: 188.05mm*67.04mm*33mm 悬挂: 179.17mm*55.88mm*42.5mm 侧面: 178.96mm*54.95mm*45.35mm | 内置: 188.05mm*67.04mm*33mm 悬挂: 179.17mm*55.88mm*42.5mm 侧面: 178.96mm*54.95mm*45.35mm |
+> | **功耗**                                                     | <5W                                                          | <5W                                                          |
+> | **工作温度**                                                 | -30℃-70℃                                                     | -30℃-70℃                                                     |
+> | **存储温度**                                                 | -40℃-85℃                                                     | -40℃-85℃                                                     |
+> | **湿度**                                                     | 0~90%                                                        | 0~90%                                                        |
+> | **特殊功能**                                                 | 人数统计                                                     | 支持                                                         |
+> | **OD功能**<br />*==**OD（Origin-Destination）**: 起讫点”或“出行起终点”，用于精准统计乘客上下车位置与流量，是城市公交智慧化的核心数据之一。==* | ==不支持==                                                   | ==支持==                                                     |
+> | **认证**                                                     | CE, Fcc, EN50155, E-mark, RoHS, REACH, IP66                  | N/A                                                          |
+
 ### 锐明标准常见外设波特率设置
 
 
@@ -871,9 +905,161 @@ _^tab^_
 | 6    | 串口扩展盒  | RS232    | 57600  |
 | 7    | 校车刷卡机  | RS485    | 57600  |
 
-## 第一阶段考核
+### CEIBA II平台介绍
+
+> [!TIP]
+>
+> **OverView**
+>
+> CEIBA 2是一个视频服务、远程数据管理平台
+>
+> **系统架构**
+>
+> - **CS架构**：基于客户端-服务器（Client-Server）架构，提供稳定和高效的视频服务。
+>
+> **主要功能**
+>
+> - **实时预览**：支持多车辆监控和实时视频预览。
+> - **录像回放**：支持服务器端和本地视频的回放功能。
+> - **录像管理**：包括录像的裁剪、下载和证据管理。
+> - **报警中心**：实时推送报警和GPS数据。
+> - **基础数据管理**：包括设备信息、车辆信息和司机信息的管理。
+> - **自动下载**：支持服务器定时下载任务。
+> - **系统设置**：包括设备注册、用户管理等。
+
+#### CEIBA II  services and ports list
+
+| Services             | Function Declaration                                         | The Corresponding Process      | The Corresponding Ports       | Map<br />(Ports that do not show YES do not need to be mapped, but the ports cannot be occupied by other programs) |
+| -------------------- | ------------------------------------------------------------ | ------------------------------ | ----------------------------- | ------------------------------------------------------------ |
+| DVRRTService         | Ceiba 2 process daemon service controls the start and stop of various services, and the services stop and restart automatically | DVRRTService.exe               |                               |                                                              |
+| MySql5.5             | Store platform base data                                     | MySql5.5.exe                   | 3306                          |                                                              |
+| Mongodb              | Store the user's old black box data                          | mongod.exe                     | 27017                         |                                                              |
+| Monggodb_3.2         | Save black box datas                                         | mongod.exe                     | 27018                         |                                                              |
+| MessagerServer       | Device registration service, device side registration, data reporting and instruction issuing are all through this service | MessagerServer.exe             | 12012 (Alarm push)            |                                                              |
+| :                    | :                                                            | :                              | 5556 (MDVR upload)            | Yes                                                          |
+| DVRGTService         | Forwarding service, Send the liveview requested by the client back to the client after retrieving it from the device | DVRGTService.exe               | 12091 (MDVR type)             | Yes                                                          |
+| :                    | :                                                            | :                              | 12092 (N9M device)            | Yes                                                          |
+| :                    | :                                                            | :                              | 17891 (Client)                | Yes                                                          |
+| WCMSWebCenterService | Function: Batch upgrade, automatic add                       | WCMS.Server.WindowsService.exe |                               |                                                              |
+| Apache2.2            | Old web side, Evidence center, auto download etc.Client embedded pages | httpd.exe                      | 12055                         | Yes                                                          |
+| AdsServer            | Automatic download service for server timed download tasks   | ADSServer.exe                  | 7857/7858                     |                                                              |
+| ClientBalance        | Load balancing service, client login authentication, return each server IP and port for the client | ServiceProxy.exe               | 7264                          | Yes                                                          |
+| n9m_proxy            | Configure the device page agent remotely                     | HttpProxyServerNP.exe          | 12050 (Client)                | Yes                                                          |
+| :                    | :                                                            | :                              | 12051 (MDVR)                  | Yes                                                          |
+| ARMSStorageServer    | Black box writes in service, analyzes the black box data downloaded from ADS and writes in them to mongodb | ARMS.StorageServer.exe         |                               |                                                              |
+| ARMSRestServer       | Black box reading service, which reads the black box data stored in monggodb | ARMS.RestServer.exe            | 12040                         | Yes                                                          |
+| ServiceSTPlay        | Server playback services                                     | ServiceSTPlay.exe              | 12045                         | Yes                                                          |
+| AlarmService         | Alarms and GPS datas real time push service                  | AlarmService.exe               | 12125                         |                                                              |
+| ClientAccessService  | Client access service, used to relay client request information and used to relay client request information and server return information (devices online and offline information, real - time GPS, etc.) | ClientAccessService.exe        | 12020                         | Yes                                                          |
+| Redis Service        | Buffer, GPS and other datas                                  | redis - server.exe             | 12004                         |                                                              |
+| PushService          | Alarm push of APP                                            | PushService.exe                |                               |                                                              |
+| OnlineServer         | Online statistics service, online statistics of equipment information | ServiceOLStatistics.exe        | 12035                         |                                                              |
+| EvidenceServer       | Evidence center service, equipments upload evidence, evidence information processing | EvidenceService.exe            | 12065                         | Yes                                                          |
+| HttpSdkService       | WEB connector                                                | HttpSdkService.exe             | 12047                         |                                                              |
+| ServiceSTMgr         | storing video directly to the server                         | ServiceSTMgr.exe               |                               |                                                              |
+| rm_media_service     | Web Liveview and Playback                                    | media_service.exe              | 8090 (Playback)               | Yes                                                          |
+| :                    | :                                                            | :                              | 12060 - 12063 (Real time)     | Yes                                                          |
+| :                    | :                                                            | :                              | 12198 - 12202 (MDVR protocol) | Yes                                                          |
+| FileZilla Server     | FTP server, Get the configuration of the device during batch upgrade | FileZilla server.exe           | 21; 3001 - 3100               | Yes<br /> (Ports 3001 - 3100 are the remote upgrade)         |
+| WCMS5                | WEB side                                                     | node.exe                       | 12056                         | Yes                                                          |
+| WCMS5REACT           | Evidence center                                              | node.exe                       | 3113                          | Yes                                                          |
+| None                 | N9M_2.0 Remote device configuration                          | nginx.exe                      | 8081                          | Yes                                                          |
+| None                 | N9M_2.0 evidence video upload                                |                                | 12048                         | Yes                                                          |
+
+ #### CEIBA II Deployment
+
+_^Tab^_
+
+> **Server Software**
+>
+> #### 前置条件
+>
+> 1. [安装安装.NET3.5](http://jfwiki.streamax.com:7503/web/#/172/1280)
+> 2. 下载服务端软件：[Ceiba2Srv_2.6.8.0.23_en.exe](https://streamax-flie-1304261646.cos.ap-hongkong.myqcloud.com/STREAMAX/平台软件安装包/CB2/2.6.8.0.23/Ceiba2Srv_2.6.8.0.23_en.exe)
+>    1. **[海外下载页面](http://jfwiki.streamax.com:7503/web/#/172/4813)**
+>    2. **[国内下载页面](http://jfwiki.streamax.com:7503/web/#/172/4812)**
+>
+> #### 安装步骤
+>
+> 1. 双击安装包进行安装，选择 “定制安装”
+> 2. 选择安装路径后点击确定，点击下一步，等待安装完成即可
+> 3. 安装完成后，在弹出的网络配置工具中，**将流媒体IP修改为外网ip**_~Rd~_，注意服务器外网IP就是0.0.0.0，最后点击修改配置等待服务重启完成即可
+
+> **Client Software**
+>
+> #### 前置条件
+>
+> 下载服务端软件：[CEIBA2_V2.6.8.0.21_EN.exe](https://streamax-flie-1304261646.cos.ap-hongkong.myqcloud.com/STREAMAX/平台软件安装包/CB2/2.6.8.0.23/CEIBA2_V2.6.8.0.21_EN.exe)
+>       1. **[海外下载页面](http://jfwiki.streamax.com:7503/web/#/172/4813)**
+>       2. **[国内下载页面](http://jfwiki.streamax.com:7503/web/#/172/4812)**
+>
+> #### 安装步骤
+>
+> 1. 双击安装包进行安装
+> 2. 选择安装路径>>一直选择下一步>>点击`install`，等待安装完成即可
+
+#### 激活CEIBA II
+
+> 1. 获取授权文件
+> 2. 激活CEIBA II
+>    1. V2.6.3 及以下版本授权： 拷贝文件LIC_DVRGTSERVICE.dat 到服务器安装目录下C:\Program Files (x86)\CMS Server\TransmitServer 下替换原有授权文件即可
+>    2. V2.6.7 和2.6.8 版本授权：登录到CB2 web 系统中,按照图中授权，授权完成后时间会变成2025年12月3日
+>       ![image-20250715133703854](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250715133703854.png#60%)
+
+#### 上报服务器配置
+
+> **MDVR设置**
+>
+> #### 公网平台
+> 
+> 1. *Protocol Type`N9M`*
+> 2. *Register Server IP`15.188.206.201`*
+> 3. *Register Server portTCP`5556`*
+> 4. *Media Server IP`15.188.206.201`*
+> 5. *Media Server port`5556`*
+> #### 测试平台
+> 
+> 1. *Protocol Type`N9M`*
+> 2. *Register Server IP`Server IP`*
+> 3. *Register Server portTCP`5556`*
+> 4. *Media Server IP`Server IP`*
+> 5. *Media Server port`12091 or 12092`*
+
+#### 登录凭证
+
+_^Tab^_
+
+> **以Server方式登录**
+> 
+> #### 公网(15.188.206.201)
+> *UserName`AF_user`*
+> *Password`St@123456`*
+> #### 私有化
+> *UserName`admin`*
+> *Password`admin`* 
+
+> **以Local方式登录**
+>
+> *UserName`admin`*
+> *Password`(Empty)`*
+
+#### 用户手册 & FAQ
+
+_^Tab^_
+
+> **用户手册**
+> 
+> 1. [DVR Server Control：CB2服务启停控制面板](http://jfwiki.streamax.com:7503/web/#/172/4524)
+> 2. [CEIBA2软件安装和功能说明书原文](https://wj.streamax.com:9443/preview.html?fileid=3537012)
+> 3. [CEIBAII software manual 2020_Q2](https://wj.streamax.com:9443/preview.html?fileid=3537015)
+
+> **FAQ**
+> 
+> 1. [客户端--PC](http://jfwiki.streamax.com:7503/web/#/172/1293)
+> 2. [客户端--Web](http://jfwiki.streamax.com:7503/web/#/172/5100)
 
 
+## 设备第一阶段考核
 
 ### 如何设置并触发报警录像
 
@@ -1174,11 +1360,11 @@ _^tab^_
 >    4. 点击时间轴上放的clip✂️按钮
 >    5. 通过拖动时间轴上的虚线来选取开始和结束时间，点击`OK`
 >    6. 配置`Clip Settings`>>选择导出的格式
->       1. Standard: 包含log和Raw H.264以及265格式的文件（如需播放H264/H265 Data文件需要下载解码器，比如[K-Lite Codec Pack](https://www.codecguide.com/download_kl.htm)才能播放，并且不能调节时间）
+>       1. Standard: 包含log和Raw H.264以及265格式的文件（GPS信息等）（如需播放H264/H265 Data文件需要下载解码器，比如[K-Lite Codec Pack](https://www.codecguide.com/download_kl.htm)才能播放，并且不能调节时间）
 >       2. Export: EXE格式文件，通过Ceiba2打开
 >       3. MP4: MP4格式的视频文件
 >    7. 配置`Clip Settings`>>选择路径 & 主码流/子码流
-> 4. FT Cloud导出
+> 4. 管理平台FT Cloud/Ceiba导出
 
 
 ### 升级设备的有多少种方式，分别是什么
@@ -1187,7 +1373,7 @@ _^tab^_
 >
 > 1. WebUI升级
 > 2. U盘升级(运维宝)
-> 3. FT Cloud升级
+> 3. FT Cloud/Ceiba Server升级
 
 ### 批量对设备进行参数配置的步骤是什么？哪一类参数能/不能进行批量配置？
 
@@ -1356,7 +1542,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                      
+>                                              
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
