@@ -1023,14 +1023,16 @@ _^Tab^_
 > 2. *Register Server IP`Server IP`*
 > 3. *Register Server portTCP`5556`*
 > 4. *Media Server IP`Server IP`*
-> 5. *Media Server port`12091 or 12092`*
+> 5. *Media Server port`5556`*
 
 #### 登录凭证
 
 _^Tab^_
 
 > **以Server方式登录**
-> 
+>
+> > 服务器模式提供丰富的在线功能,
+>
 > #### 公网(15.188.206.201)
 > *UserName`AF_user`*
 > *Password`St@123456`*
@@ -1043,20 +1045,31 @@ _^Tab^_
 > *UserName`admin`*
 > *Password`(Empty)`*
 
-#### 用户手册 & FAQ
+#### 用户手册 /FAQ/注意事项
 
 _^Tab^_
 
 > **用户手册**
-> 
+>
 > 1. [DVR Server Control：CB2服务启停控制面板](http://jfwiki.streamax.com:7503/web/#/172/4524)
 > 2. [CEIBA2软件安装和功能说明书原文](https://wj.streamax.com:9443/preview.html?fileid=3537012)
 > 3. [CEIBAII software manual 2020_Q2](https://wj.streamax.com:9443/preview.html?fileid=3537015)
+> 4. [CEIBA2安装使用说明书](http://oa.streamax.com:8080/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=17c26246c88613c6cf1bb7f400b9ea74)
 
 > **FAQ**
-> 
+>
 > 1. [客户端--PC](http://jfwiki.streamax.com:7503/web/#/172/1293)
 > 2. [客户端--Web](http://jfwiki.streamax.com:7503/web/#/172/5100)
+
+> [!WARNING]
+>
+> 1. 更新 server 版本，需要先备份配置数据库文件，再卸载旧版本然后安装新版本，导入数据库文件,[点击参考详细操作细节](http://jfwiki.streamax.com:7503/web/#/172/1283)
+> 2. 如果网页端加载live view和playback，检查MDVR的server配置是否正确，MDVR上报服务器所连接的网络是否稳定通畅
+> 3. Server端使用 HTTPS 功能需要客户提供适用于 nginx 的证书（.crt）和密钥(.key)，将客户的证书和 密钥拷贝至 CMS Server\ngnix\keys 目录下,命名参考如下修改后替换进去。点击 Use https，点击 modify config 重启所有服务即可启用 HTTPS
+>    1. *证书`certificate.pem`*
+>    2. *密钥`privatekey.pem`*
+> 4. `MDVR上报服务器设置，Register Server IP = Media Server IP；Register Server port = Media Server port`设备上报平台需要填 2 种服务器信息，分别是注册服务器和媒体服务器。注册服务器信息 用于与服务器建立信令通道，媒体服务器信息用于与服务器建立媒体通道。单机接入时这两个服务器的信息是一致的。如果媒体服务器信息没有正确填写，设备回放、 剪辑、自动下载都无法正常工作。
+> 5. 客户端登录情况，下输入服务器地址时不需要端口，但服务器中如果修改了默认的 *7264 端口`客户端/APP 登录端口`*时， 需要在服务器 IP 后面加上被修改后的端口。*示例`192.168.74.39:6878`*
 
 
 ## 设备第一阶段考核
@@ -1542,7 +1555,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                                              
+>                                                       
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
