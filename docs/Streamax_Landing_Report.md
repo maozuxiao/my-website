@@ -303,7 +303,8 @@ graph TD
 | 康正晖           | 入职搭子                                                     | 产品研发中心-自动驾驶研发部        |
 | 冯雨书Florence   | 锐明学院课程学习问题对接人                                   | 人力资源部-COE组                   |
 | 胡萍             | 费用报销对接人                                               | 财务部-账务组                      |
-| 黄秋月 Kelly     | [机票业务（国际票务）/各国签证、港澳台签注/国际酒店/境外保险](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-川渝行政组                  |
+| 黄秋月 Kelly     | [重庆区域 机票业务（国际票务）/各国签证、港澳台签注/国际酒店/境外保险](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-川渝行政组                  |
+| 陈二娣           | [深圳区域 机票业务（国际票务）/各国签证、港澳台签注/国际酒店/境外保险](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-行政服务组                  |
 | 付雅琴           | [车辆派遣（含租车+港车）/接待安排/国内酒店预订/餐厅预订/名片定制/快递业务](https://streamax.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do?courseId=f43e1171ba854d3d87f74ad6d1c1887c&courseType=NEW_COURSE_CENTER&vb_server=http%3A%2F%2F21tb-video.21tb.com&eln_session_id=elnSessionId.d1b816849b60467d8cd7db72389b0110&host=streamax.21tb.com) | 行政部-行政服务组                  |
 | 吴可嘉 Victor Wu | 产品工程师（货运产品线）                                     | 产品发展中心-货运产品线-海外货运组 |
 | 张明瀚           | 产品工程师（出租产品线）                                     | 产品发展中心-出租产品线            |
@@ -1084,7 +1085,7 @@ _^tab^_
 >
 > 1. 新人入职有《新员工入职指引》、笔记本和笔
 > 2. 新人可以通过锐明学院进行自学
-> 3. 20楼有食堂，放在制定冰箱，会有专人帮忙热饭
+> 3. 20楼有食堂，放在制定冰箱，会有专人帮忙热饭，4A吃饭方便
 > 4. 23楼可以领取日常工作用品，比如中性笔，笔记本，电池等，钉钉扫码登记即可
 > 5. 16楼有展厅，可以实操产品，体验公司的解决方案
 
@@ -1092,11 +1093,24 @@ _^tab^_
 >
 > 1. 公司内部系统的账号并不完全互通，不同的系统需要设置不同的密码，账号使用工号不太友好`建议：各系统互通，通过单点登录控制授权登录，账号使用公司邮箱前缀代替工号`
 > 2. 公司不提供纸巾，茶包`建议：提供纸巾和茶包增加员工幸福感`
-> 3. 新人没有工位，导师也出差了`建议：关爱空巢新人，提供专属工位`
-> 4. 没有给新人配电风扇，新人很羡慕 `建议：给夏天入职的同事发放电风扇`
-> 5. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**早上07:20出门，晚上千万远离C口的电梯上车***_~Bu~_
-> 6. 22楼卫生间不禁烟🚭`建议：禁烟`
+> 3. 公共交通通勤的噩梦==塘朗站==，以及中转站==深圳北站==*建议：**早上07:20出门，晚上千万远离C口的电梯上车***_~Bu~_
+> 4. 22楼卫生间不禁烟🚭`建议：禁烟`
 > 7. 公司几乎没下午茶`建议：加大下午茶力度！`
+
+
+## **🙏**特别鸣谢
+
+1. HRBP 丘湄湄Arianna ，我加入Streamax的领路人，不厌其烦的解答我的疑问，组织培训，让我顺利的融入EU团队。感谢混果汁的`生酪牛油果草莓`
+2. 欧洲区同事朱琳Judy，`EU内务总管`，帮我安排工位，还请吃果盘
+3. Mentor 梁学贤Emrys，我的导师，在出差的情况下，百忙之中抽出时间给我培训，让我了解公司的产品，通过情景化的考题提高排查问题的能力和产品知识的积累
+4. 欧洲区同事孟祥奇Frank，Emrys指定的`现场导师`，在我学习公司产品的过程中提供了巨大的帮助，包括各类线材和工具的提供、产品知识的解答等等
+5. 欧洲区同事林逸曦Echo，4A食堂饭搭子，带我解锁了快乐老家
+6. 领导杨志建Pascal，EU的战总，首次出差时的队友，带我开启了Streamax的出差之旅
+7. 非洲区同事肖鹏宇Henry/Bonsa/Fita、亚太区同事焦建致 Aibek/Manuel/James/Pandi/Kelvin、拉美区同事蔡煜明 Cas/Daniel/Renato、欧洲区同事Clelio、北美区同事徐林澍Lorence，Q3的培训搭子，给我带来了很多欢乐
+
+> [!NOTE]
+>
+> 以上排名不分先后……
 
 ------
 

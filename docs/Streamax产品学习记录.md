@@ -148,6 +148,18 @@ _^tab^_
 
 
 
+### 缩写说明
+
+| 缩写 | 全称                                                  |
+| ---- | ----------------------------------------------------- |
+| ADAS | Advanced Driver Assistance System（高级驾驶辅助系统） |
+| DSC  | Driver Safety Cockpit（驾驶员安全驾驶舱）             |
+| DMS  | Driver Monitoring System（驾驶员监控系统）            |
+| LDW  | Lane Departure Warning（车道偏离警告）                |
+| HMW  | Headway Monitoring Warning（距离监控警告）            |
+| FCW  | Forward Collision Warning（前向碰撞警告）             |
+| BSD  | Blind Spot Detection System（盲区检测系统）           |
+
 ### MDVR 产品矩阵
 
 
@@ -1483,12 +1495,12 @@ _^tab^_
 
 >  **保险丝选择方法**
 >  
->  保险丝的选择需要根据**车电系统的电压**，电压为`12V`时选择**7.5A Fuse**_~Rd~_，电压为`24V`时选择**15A Fuse**_~Bu~_
+>  保险丝的选择需要根据**车电系统的电压**，电压为`12V`时选择**15A Fuse**_~Rd~_，电压为`24V`时选择**7.5A Fuse**_~Bu~_
 >
 >  | Model               | Picture                                                      | Part No.      | Application Scenario                         | Part No.  Description                                        |
 >  | ------------------- | ------------------------------------------------------------ | ------------- | -------------------------------------------- | ------------------------------------------------------------ |
->  | **7.5A Fuse**_~Rd~_ | ![7.5A Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112227582.png) | 1060970000006 | Voltage of vehicle electrical system = `12V` | Female  Connector Mounted Fuse \| Plug-in Common Type \| 32V \| 7.5A \| 028707.5 |
->  | **15A Fuse**_~Bu~_  | ![15A  Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112331262.png) | 1060970000005 | Voltage of vehicle electrical system = `24V` | Female  Connector Mounted Fuse \| Plug-in Common Type, Blue Shell \| 32V \| 15A \|  0287015 |
+>  | **7.5A Fuse**_~Rd~_ | ![7.5A Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112227582.png) | 1060970000006 | Voltage of vehicle electrical system = `24V` | Female  Connector Mounted Fuse \| Plug-in Common Type \| 32V \| 7.5A \| 028707.5 |
+>  | **15A Fuse**_~Bu~_  | ![15A  Fuse](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250627112331262.png) | 1060970000005 | Voltage of vehicle electrical system = `12V` | Female  Connector Mounted Fuse \| Plug-in Common Type, Blue Shell \| 32V \| 15A \|  0287015 |
 
 >  **保险丝工作原理**
 >
@@ -1568,7 +1580,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                                                             
+>                                                                   
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
