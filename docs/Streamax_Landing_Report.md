@@ -1107,6 +1107,7 @@ _^tab^_
 5. 欧洲区同事林逸曦Echo，4A食堂饭搭子，带我解锁了快乐老家
 6. 领导杨志建Pascal，EU的战总，首次出差时的队友，带我开启了Streamax的出差之旅
 7. 非洲区同事肖鹏宇Henry/Bonsa/Fita、亚太区同事焦建致 Aibek/Manuel/James/Pandi/Kelvin、拉美区同事蔡煜明 Cas/Daniel/Renato、欧洲区同事Clelio、北美区同事徐林澍Lorence，Q3的培训搭子，给我带来了很多欢乐
+8. 系统验证部Cedric_张炯荣/覃海传-Beacher/杨子鹏-Percy/乔伟东Joen为我提供测试物料和相关培训
 
 > [!NOTE]
 >
