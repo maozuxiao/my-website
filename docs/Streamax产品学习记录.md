@@ -1580,7 +1580,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                                                                            
+>                                                                               
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
@@ -2120,6 +2120,7 @@ _^tab^_
 > | FT Cloud中添加车辆Device ID填写和MDVR中的Device ID一致，但设备没办法上报 | `FT Cloud  Device ID`=`MDVR Serial Number`                   |
 > | A16MAX是否需要外接AVM BOX才能使用CA51A(鱼眼摄像头)           | 不需要AVM BOX，A16MAX内置AVM功能，使用AVM功能视频输入口（A/V IN口）9/10/11/12分别对应的CA51A摄像头需要部署在前/后/左/右位置<br />![A16MAX(IBCU) AVM feature](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/A16MAX(IBCU)%20AVM%20feature.gif#40%)<br />==AVM摄像机的通道（即9~12通道）不能设置镜像/翻转，否则会出现AVM拼接画面（即13通道)黑屏。== |
 > | C46支持2种模式                                               | 1. 作为AHD，需要外接GPS盒子<br />2. 作为IPC，不需要外接GPS盒子 |
+> | C24M(927C24M) 1080P 2.8MM D SIDE `5152023000021`退市怎么办？ | 替换料号**946C24M** `5152136100005`                          |
 >
 > 
 
