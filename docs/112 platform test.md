@@ -190,3 +190,5 @@ Alarm Snap: ☑
    > 2. The connection URL is correct.
    >    * Format: http://{username}:{password}@{public IP}:{port}/api/{Endpoint}.m3u8
    >    * Example: http://MOBILBIL:Xx7*Lp1!@5.11.182.231:80/api/cam_0003.m3u8
+   
+# Thanks for Watching!!!
