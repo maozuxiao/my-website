@@ -177,10 +177,12 @@ Alarm Snap: ☑
 3. Click `Go To Test Screen` and click <kbd>F12</kbd> to open the browser's developer tools (The server is getting Incident)
    ![Getting Incident](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250809192623046.png)
 
-4. Click the panic button≥1s (The server obtains the incident information ,and the test passes.)
+4. Click the panic button≥1s (The server obtains the incident information, and the test passes.)
    ![incident information](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250809192822962.png)
 
-5. Click the `Start Test` button on the right side of the Device Data/Incident Images/Location Data/Device Health Check cards to test
+5. Duplicate the webpage and check if the server gets a new incident ID
+
+6. Click the `Start Test` button on the right side of the Device Data/Incident Images/Location Data/Device Health Check cards to test
    ![Test overview](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250809193553598.png)
 
    > [!NOTE]
@@ -190,5 +192,5 @@ Alarm Snap: ☑
    > 2. The connection URL is correct.
    >    * Format: http://{username}:{password}@{public IP}:{port}/api/{Endpoint}.m3u8
    >    * Example: http://MOBILBIL:Xx7*Lp1!@5.11.182.231:80/api/cam_0003.m3u8
-   
+
 # Thanks for Watching!!!
