@@ -192,5 +192,27 @@ Alarm Snap: ☑
    > 2. The connection URL is correct.
    >    * Format: http://{username}:{password}@{public IP}:{port}/api/{Endpoint}.m3u8
    >    * Example: http://MOBILBIL:Xx7*Lp1!@5.11.182.231:80/api/cam_0003.m3u8
+   
+## 验收配置
+
+_^tab^_
+
+> **X1N_AI-N0400**
+>
+> ### Product Info
+>
+> Product Name: X1N_AI-N0400
+>
+> Firmware Version: B3.5.10_DC25071099
+>
+> ### Config
+>
+> 1. Disabled the MDVR server
+>
+> ### Other
+>
+> 1. 当前112测试过检，仅要求1路APN连接112平台，不需要2路APNs(1路连接112,1路连接其他平台，比如FT Cloud)
+> 2. X1N软件不支持1个模块1张SIM卡多个APN的场景，需要软件开发。建议从SIM测进行管控，配置成允许访问多个服务端（112，FT Cloud等）
+
 
 # Thanks for Watching!!!
