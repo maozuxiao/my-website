@@ -9,7 +9,7 @@
 3. 从星巴克右前方的门出去可以在右上角发现一个停车场
 4. 找到外卖柜，输入`外卖取件码`
 
-![image-20250821202535132](C:\Users\streamax\AppData\Roaming\Typora\typora-user-images\image-20250821202535132.png)
+![取卡路线图](C:\Users\streamax\AppData\Roaming\Typora\typora-user-images\image-20250821202535132.png)
 
 > 外卖柜地址：[京基100大厦A座外卖柜](https://www.amap.com/place/B0FFGWHCQ1)--深圳市罗湖区深南东路5011号0层(大剧院地铁站B口步行245米)
 >
@@ -31,4 +31,11 @@
 
 4. **享受你的游泳之旅吧~**
 
-   
+## 归还房卡
+
+1. 结束游泳后，来到取卡地点：京基100大厦A座外卖柜](https://www.amap.com/place/B0FFGWHCQ1)
+2. 扫描外卖柜二维码，根据步骤寄存房卡，预计需要0.5元费用
+3. 获取取件码后，反馈给Dandy（卖家）即可
+
+
+
