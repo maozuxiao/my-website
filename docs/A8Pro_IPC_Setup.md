@@ -36,13 +36,15 @@
 
 
 
-## Set up the start screen
+## Set up the startup screen
+
+> If you want to customize the display of the startup screen on your control panel, please refer to the following steps
 
 ### Precondition
 
-Reboot the device to make the IPC settings as the default.
+Reboot the device to make sure the IPC settings default.
 
-### Navigate to Live View Setting
+### Navigate to Live View Settings
 
 WebUI PATH: Config>>Surveillance>>Live View
 Control Panel PATH: Setup>>Surveillance>>Live View
@@ -57,5 +59,5 @@ Control Panel PATH: Setup>>Surveillance>>Live View
 
 After completing all the settings, click the "Save" button at the bottom right corner of the interface to save your configuration. If you want to revert to the default settings, you can click the "Default" button.
 
-![Set up the start screen](C:\Users\streamax\AppData\Roaming\Typora\typora-user-images\image-20250829203834670.png)
+![Set up the start screen](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20250829203834670.png)
 
