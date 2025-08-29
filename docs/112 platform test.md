@@ -208,6 +208,7 @@ _^tab^_
 > ### Config
 >
 > 1. Disabled the MDVR server
+> 1. Enabled Video audio
 >
 > ### Other
 >

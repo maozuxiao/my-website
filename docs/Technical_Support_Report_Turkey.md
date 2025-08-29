@@ -40,7 +40,7 @@ vlook-header-dup:
 - [ ] 深圳HQ接待土耳其新国标客户事项--`Ercan`
   1. 对接人：金晨日kim 
   2. 待安排事项：邀请函/Visa/接待日期和流程
-- [ ] PT Cloud Demo账号 & 需求对接--`Ercan` & `CE`
+- [x] PT Cloud Demo账号 & 需求对接--`Ercan` & `CE`
 - [ ] Delete some unnecessary files to free up some space of 3914-Ceiba2-standalone-213.74.173.69，[参考手册](http://jfwiki.streamax.com:7503/web/#/172/4678)(删除文件之前咨询刘众)
 - [x] TÜBİTAK在要的 `V3.3.28_R23053003_946C20_M4.0` `V3.5.6 R24103102 946C25 M2.8` 2个版本给Mobilbil的人
 - [ ] FT Cloud账号 & 用户手册--ausis
@@ -53,15 +53,18 @@ vlook-header-dup:
 
 ## Turkey Account List
 
-| 客户代号             | 客户名称                                                     | 客户背景                                      | 在行项目                                                     | 已完成项目 | 客户等级 | 备注                         |
-| -------------------- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ | ---------- | -------- | ---------------------------- |
-| *新：3914`旧：1029`* | [Mobilbil Endustri Teknolojileri Limited Sirketi Co.](https://crm-streamax.lightning.force.com/lightning/r/Account/001IT00002qLhMtYAK/view) | `土耳其最大客户` `代理商` `土耳其业绩占比95%` | [EGO Bus](https://crm-streamax.lightning.force.com/lightning/r/006IT00000nAkZCYA0/view) (`2000+公交车` `土耳其国标` `项目预计：2026`) |            | High     | *办公地点`Miyansera Evleri`* |
-| :                    | :                                                            | :                                             | ESKISEHIR Bus                                                |            | :        | :                            |
-| :                    | :                                                            | :                                             | [Guleryuz GSR 2025 - P](https://crm-streamax.lightning.force.com/lightning/r/006IT00000nAkaFYAS/view)（`欧规` `前装`） |            | :        | :                            |
-|                      |                                                              |                                               |                                                              |            |          |                              |
-| :                    | :                                                            | :                                             |                                                              |            | :        | :                            |
+| 客户代号             | 客户名称                                                     | 客户背景                                      | 在行项目                                                     | 已完成项目 | 客户等级 | 备注                                                         |
+| -------------------- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ | ---------- | -------- | ------------------------------------------------------------ |
+| *新：3914`旧：1029`* | [Mobilbil Endustri Teknolojileri Limited Sirketi Co.](https://crm-streamax.lightning.force.com/lightning/r/Account/001IT00002qLhMtYAK/view) | `土耳其最大客户` `代理商` `土耳其业绩占比95%` | [EGO Bus](https://crm-streamax.lightning.force.com/lightning/r/006IT00000nAkZCYA0/view) (`2000+公交车` `土耳其国标` `项目预计：2026`) |            | High     | 推PT CLOUD                                                   |
+| :                    | :                                                            | :                                             | ESKISEHIR Bus                                                |            | High     | 推PT CLOUD                                                   |
+| :                    | :                                                            | :                                             | [Guleryuz GSR 2025 - P](https://crm-streamax.lightning.force.com/lightning/r/006IT00000nAkaFYAS/view)（`欧规` `前装`） |            | Low      |                                                              |
+| :                    | :                                                            | :                                             | Asis                                                         |            | Medium   | 集成ceiba API<br />Ceiba server: 176.236.69.51<br />User: mobilbil<br />Password: Asis2435. |
 
 ## Account：[Mobilbil Endustri Teknolojileri Limited Sirketi Co.](https://crm-streamax.lightning.force.com/lightning/r/Account/001IT00002qLhMtYAK/view)
+
+### 办公地点
+
+*办公地点`Miyansera Evleri`*
 
 ### 组织架构图
 
