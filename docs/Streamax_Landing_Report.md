@@ -398,9 +398,9 @@ graph TD
 
     - [x] [左脑框架，搭建脉络清晰的结构](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [右脑力量，汇聚打动人心的力量](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [零基础学工作总结与汇报](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [会议纪要写作技巧](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
-    - [ ] [高效职场人的时间管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [零基础学工作总结与汇报](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [会议纪要写作技巧](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
+    - [x] [高效职场人的时间管理](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
     - [x] [职业形象塑造——像个职业人的样子](https://streamax.21tb.com/els/html/learnroadmap/learnroadmap.viewRoadMapDetail.do?roadMapId=0bc879dab40247bebb8658b36bc1cc89&projectId=583f3d081b2b4629b47695450aa50eb9&courseType=NEW_COURSE_CENTER&from=courseCenter&current_app_id=8a8081ee4061e43a01406279c93101ff#)
 
 ------
@@ -1105,7 +1105,7 @@ _^tab^_
 3. Mentor 梁学贤Emrys，我的导师，在出差的情况下，百忙之中抽出时间给我培训，让我了解公司的产品，通过情景化的考题提高排查问题的能力和产品知识的积累
 4. 欧洲区同事孟祥奇Frank，Emrys指定的`现场导师`，在我学习公司产品的过程中提供了巨大的帮助，包括各类线材和工具的提供、产品知识的解答等等
 5. 欧洲区同事林逸曦Echo，4A食堂饭搭子，带我解锁了快乐老家
-6. 领导杨志建Pascal，EU的战总，首次出差时的队友，带我开启了Streamax的出差之旅
+6. 杨志建Pascal，首次出差时的队友，带我开启了Streamax的出差之旅
 7. 非洲区同事肖鹏宇Henry/Bonsa/Fita、亚太区同事焦建致 Aibek/Manuel/James/Pandi/Kelvin、拉美区同事蔡煜明 Cas/Daniel/Renato、欧洲区同事Clelio、北美区同事徐林澍Lorence，Q3的培训搭子，给我带来了很多欢乐
 8. 系统验证部Cedric_张炯荣/覃海传-Beacher/杨子鹏-Percy/乔伟东Joen为我提供测试物料和相关培训
 
