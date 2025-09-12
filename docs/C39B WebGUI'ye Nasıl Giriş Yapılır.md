@@ -31,3 +31,7 @@
 
 1. [QQ tarayıcısını](http://dldir1.qq.com/invc/tt/QQBrowser_Setup_9.7.exe) indirin ve yükleyin
 2. IP adresi üzerinden IPC WebGUI'ye erişin
+
+## Giriş Kimlik Bilgileri
+Kullanıcı adı: admin
+Şifre: {empty}

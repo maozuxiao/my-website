@@ -31,3 +31,7 @@
 
 1. Download and install the [QQ browser](http://dldir1.qq.com/invc/tt/QQBrowser_Setup_9.7.exe)
 2. Access the IPC WebGUI by IP address
+
+## Login Credentials
+Username: admin
+Password: {empty}
