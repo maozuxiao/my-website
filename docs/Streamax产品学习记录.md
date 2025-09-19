@@ -610,6 +610,24 @@ _^tab^_
 > > rtsp://admin:@10.100.100.1:554/mainstream4
 > > ```
 
+> **Streamax IPC RTSP**
+>
+> > 可以使用工具ONVIF Device Manager(安装包：odm-v2.2.250.msi)
+> >
+> > PON摄像头改网线直连电脑
+> >
+> > 接电脑端：适配器红线正极接网线的`蓝` `蓝白`；适配器黑线负极接网线的`棕` `棕白`
+> >
+> > 接IPC端：保持不变
+>
+> **C39B(外购产品)**
+> > rtsp main：rtsp://IP:554/stander/livestream/0/0
+> > rtsp sub：rtsp://IP:554/stander/livestream/0/1
+>
+> **C25**
+> > rtsp main：rtsp://admin:admin@IP:554/mainstream0
+> > rtsp sub：rtsp://admin:admin@IP:554/substream0
+
 ### 视频分辨率说明
 
 _^tab^_
@@ -1579,7 +1597,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                                                                                        
+>                                                                                              
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
