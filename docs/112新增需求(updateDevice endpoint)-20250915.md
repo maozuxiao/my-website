@@ -1,6 +1,23 @@
+---
+title: 112新增需求(updateDevice endpoint)-20250915
+author: Sean Mao
+keywords:
+- 问题处理步骤
+- 说明
+- Business,Enterprise,FAE,Technical Support
+- 海外营销中心-欧洲战区-土耳其区
+- 仅内部使用
+vlook-welcome: Streamax
+vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
+layout: default
+vlook-query: coating=bu&ws=3&toc=2
+vlook-header-dup: 
+---
 # 112新增需求(updateDevice endpoint)-20250915
 
-## 文档版本记录
+[TOC]
+
+## Revision
 
 | VERSION | PREPARED BY  | CREATION / MODIFICATION DATE | EXPLANATION                                                  |
 | ------- | ------------ | ---------------------------- | ------------------------------------------------------------ |
