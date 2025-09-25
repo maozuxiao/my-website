@@ -76,6 +76,22 @@ vlook-header-dup:
   }
   ```
 
+* **新增说明**
+
+  > [!NOTE]
+  >
+  > **一般情况**：客户把更新包文件上传到文件夹，再调用 updateDevice 接口；
+  >
+  > **若仍触发空包或旧包**则返回：
+  >
+  > 
+  >
+  > ```json
+  > oldVersion = newVersion, estimatedTime = 0
+  > ```
+  >
+  > 
+  
 * Flow chat (After MDVR received the post request from  ENDPOINT (updateDevice) )
 
   ```mermaid
@@ -95,7 +111,14 @@ vlook-header-dup:
   > **待澄清**：
   >
   > 1. 客户希望如何判断哪个是新版本，哪个是旧版本
+  >
+  >    > 客户反馈只会放置一个版本，无需判断版本新旧，只需要清楚版本是否一致
+  >
   > 2. 如果文件夹内包含多个版本，如何处理
+  >
+  >    > 客户反馈只会放置一个版本
+  >
+  > 3. 是否需要新增一个功能，支持升级IP摄像头？
 
 ## Exceptional Adverse Event Protocol Flow Scenario
 
@@ -150,95 +173,113 @@ _^tab^_
 > **中文图示**
 >
 > ```mermaid
+> ---
+> config:
+>   theme: forest
+> ---
 > sequenceDiagram
->  participant 112平台
->  participant 设备
->  participant FTP服务器
->  participant 厂商负责人
->  participant 车主
->  participant 指定维修站
+> participant 112平台
+> participant 设备
+> participant FTP服务器
+> participant 厂商负责人
+> participant 车主
+> participant 指定维修站
 > 
->  112平台->>设备: POST /updateDevice (Basic Auth, kitId)
->  设备->>设备: 校验kitId匹配
->  alt kitId不匹配
->      设备-->>112平台: 返回错误（未授权）
->  else kitId匹配
->      设备->>FTP服务器: 连接FTPS (aad-ftp.ng112.gov.tr:21, MOBILBIL/Xx7*Lp1!)
->      FTP服务器->>设备: 返回厂商型号目录
->      设备-->>112平台: 返回Response
->      设备->>FTP服务器: 下载经TÜBİTAK批准的升级包
->      alt 下载成功
->          设备->>设备: 安装新版本
->          112平台->>设备: POST /getDeviceInfo
->          设备->>112平台: 获取 getDeviceInfo Response
->          112平台->>设备: healthCheck验证版本
->          设备-->>112平台: 返回新version
->          112平台->>112平台: 与Kit ID记录比对版本一致
->          112平台-->>设备: 更新完成确认
->      else 下载失败/中断
->          设备->>设备: 继续运行旧版本（不报错）
->          设备-->>112平台: 无上报，保持旧version
->      else 升级后设备无响应
->          112平台->>厂商负责人: 发送预警短信
->          112平台->>车主: 发送预警短信
->          车主->>指定维修站: 驾车进站
->          指定维修站->>设备: USB-Type-C手动刷包
->          指定维修站->>112平台: 请求远程健康检查
->          112平台->>设备: healthCheck
->          alt 检查通过
->              112平台->>车主: 允许上路通知
->          else 检查失败
->              112平台->>指定维修站: 重新刷包指示
->          end
+> 112平台->>设备: POST /updateDevice (Basic Auth, kitId)
+> 设备->>设备: 校验kitId匹配
+> alt kitId不匹配
+> 设备-->>112平台: 返回错误（未授权）
+> else kitId匹配
+> 设备->>FTP服务器: 连接FTPS (aad-ftp.ng112.gov.tr:21, MOBILBIL/Xx7*Lp1!)
+> FTP服务器->>设备: 返回厂商型号目录
+> 设备->>设备: 对比本地版本与FTP最新版本
+> alt 版本不同
+> 设备-->>112平台: 返回Response
+> 设备->>FTP服务器: 下载经TÜBİTAK批准的升级包
+> else 版本相同或FTP目录为空
+>        设备-->>112平台: 返回Response (oldVersion = newVersion, estimatedTime = 0)
+> alt 下载成功
+>    设备->>设备: 安装新版本
+>    112平台->>设备: POST /getDeviceInfo
+>    设备->>112平台: 获取 getDeviceInfo Response
+>    112平台->>设备: healthCheck验证版本
+>    设备-->>112平台: 返回新version
+>    112平台->>112平台: 与Kit ID记录比对版本一致
+>    112平台-->>设备: 更新完成确认
+> else 下载失败/中断
+>    设备->>设备: 继续运行旧版本（不报错）
+>    设备-->>112平台: 无上报，保持旧version
+> else 升级后设备无响应
+>    112平台->>厂商负责人: 发送预警短信
+>    112平台->>车主: 发送预警短信
+>    车主->>指定维修站: 驾车进站
+>    指定维修站->>设备: USB-Type-C手动刷包
+>    指定维修站->>112平台: 请求远程健康检查
+>    112平台->>设备: healthCheck
+>    alt 检查通过
+>        112平台->>车主: 允许上路通知
+>    else 检查失败
+>        112平台->>指定维修站: 重新刷包指示
+>    end
+> end
 >      end
->  end
+> end
 > ```
 
 > **英文图示**
 >
 > ```mermaid
+> ---
+> config:
+>   theme: forest
+> ---
 > sequenceDiagram
->  participant 112Platform
->  participant Device
->  participant FTPServer
->  participant VendorManager
->  participant VehicleOwner
->  participant AuthorizedService
+> participant 112Platform
+> participant Device
+> participant FTPServer
+> participant VendorManager
+> participant VehicleOwner
+> participant AuthorizedService
 > 
->  112Platform->>Device: POST /updateDevice (Basic Auth, kitId)
->  Device->>Device: Validate kitId match
->  alt kitId mismatch
->      Device-->>112Platform: Return error (Unauthorized)
->  else kitId match
->      Device->>FTPServer: Connect FTPS (aad-ftp.ng112.gov.tr:21, MOBILBIL/Xx7*Lp1!)
->      FTPServer->>Device: Return vendor model folder
->      Device-->>112Platform: Return Response
->      Device->>FTPServer: Download TUBITAK-approved update package
->      alt Download success
->          Device->>Device: Install new version
->          112Platform->>Device: POST /getDevicelnfo
->          Device->>112Platform: getDevicelnfo response
->          112Platform->>Device: healthCheck to verify version
->          Device-->>112Platform: Return new version
->          112Platform->>112Platform: Compare with KitID record
->          112Platform-->>Device: Update completion confirm
->      else Download failure / interrupt
->          Device->>Device: Keep running old version (no error reported)
->          Device-->>112Platform: No report, old version retained
->      else Device unresponsive after upgrade
->          112Platform->>VendorManager: Send alert SMS
->          112Platform->>VehicleOwner: Send alert SMS
->          VehicleOwner->>AuthorizedService: Drive to service station
->          AuthorizedService->>Device: Manual flash via USB-Type-C
->          AuthorizedService->>112Platform: Request remote health check
->          112Platform->>Device: healthCheck
->          alt Check passed
->              112Platform->>VehicleOwner: Permit to re-enter traffic
->          else Check failed
->              112Platform->>AuthorizedService: Instruct re-flash
->          end
->      end
->  end
+> 112Platform->>Device: POST /updateDevice (Basic Auth, kitId)
+> Device->>Device: Validate kitId match
+> alt kitId mismatch
+> Device-->>112Platform: Return error (Unauthorized)
+> else kitId match
+> Device->>FTPServer: Connect FTPS (aad-ftp.ng112.gov.tr:21, MOBILBIL/Xx7*Lp1!)
+> FTPServer->>Device: Return vendor model folder
+> Device->>Device: Compare the local version and the FTP update package version
+> alt Different versions
+> Device-->>112Platform: Return Response
+> Device->>FTPServer: Download TUBITAK-approved update package
+> else The versions are the same or the FTP directory is empty
+> Device-->>112Platform: Return Response (oldVersion = newVersion, estimatedTime = 0)
+> alt Download success
+>    Device->>Device: Install new version
+>    112Platform->>Device: POST /getDevicelnfo
+>    Device->>112Platform: getDevicelnfo response
+>    112Platform->>Device: healthCheck to verify version
+>    Device-->>112Platform: Return new version
+>    112Platform->>112Platform: Compare with KitID record
+>    112Platform-->>Device: Update completion confirm
+> else Download failure / interrupt
+>    Device->>Device: Keep running old version (no error reported)
+>    Device-->>112Platform: No report, old version retained
+> else Device unresponsive after upgrade
+>    112Platform->>VendorManager: Send alert SMS
+>    112Platform->>VehicleOwner: Send alert SMS
+>    VehicleOwner->>AuthorizedService: Drive to service station
+>    AuthorizedService->>Device: Manual flash via USB-Type-C
+>    AuthorizedService->>112Platform: Request remote health check
+>    112Platform->>Device: healthCheck
+>    alt Check passed
+>        112Platform->>VehicleOwner: Permit to re-enter traffic
+>    else Check failed
+>        112Platform->>AuthorizedService: Instruct re-flash
+>    end
+>    end
+> end
+> end
 
 
 
