@@ -1,17 +1,10 @@
 # X1N-N0400 & C25 Upgrade
 
-
-
-
 ## Revision
-
-
 
 | Date      | Version | Description     | Author   |
 | --------- | ------- | --------------- | -------- |
 | 2025-10-6 | 1.0     | Create Document | Sean Mao |
-
-
 
 ## Precondition
 
@@ -21,7 +14,6 @@
    > * Put X1N-N0400 & C25 upgrade packages in `upgradefile` 
 
 2. `Easy Check` **Software** is installed on your mobile phone
-
 
 ## System Diagram
 
@@ -48,3 +40,7 @@
 1. Navigate to General>Version Info, and click <kbd>⬆️</kbd> on the `IPC` row
 2. Select the C25 Chanel and click <kbd>Upgrade</kbd>
    ![Upgrade C25](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251006200457027.png)
+
+> [!NOTE]
+>
+> If the upgrade fails, please don't hesitate to contact the **Mobilbil Team**.
