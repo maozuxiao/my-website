@@ -1,12 +1,31 @@
+---
+title: Turkey School Bus Solution
+author: Sean Mao
+keywords:
+- 问题处理步骤
+- 说明
+- Business,Enterprise,FAE,Technical Support
+- 海外营销中心-欧洲战区-土耳其区
+- 仅内部使用
+vlook-welcome: Streamax
+vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }},h4{{Chapter ###. }},h5{{Chapter ###. }}
+layout: default
+vlook-query: coating=bu&ws=3&toc=3
+vlook-header-dup: 
+---
+
+###### ✒️Turkey School Bus Solution<br />*Version 1.0`🐾`13th October 2025*<br />*一般`👀`部门可见*<br />**** <br />[✉️](mailto:sean@streamax.com)<br />**Sean°Mao**<br>*赫尔新根默斯肯的肥皂泡*
+
 # Turkey School Bus Solution
 
 [toc]
 
 ## Revison
 
-| Date      | Version | Description     |
-| --------- | ------- | --------------- |
-| 2025-10-1 | V1.0    | Create document |
+| Date       | Version | Description                                                  |
+| ---------- | ------- | ------------------------------------------------------------ |
+| 2025-10-1  | V1.0    | Create document                                              |
+| 2025-10-13 | V1.1    | Modify the sensor out alarm description from 3 seconds of sound and 3 seconds of pause to continuous sound |
 
 ## System Diagram
 
@@ -90,7 +109,11 @@ _^tab^_
 
 ## Key Accessories
 
+
+
 ### Check button (CCM)
+
+
 
 #### Description
 
@@ -105,9 +128,11 @@ Before leaving, the driver must confirm whether there are any students left in t
 1. After ACC OFF, the device immediately starts the inspection voice broadcast until the inspection time ends.
 2. If the CCM button is not pressed during the inspection time after ACC OFF, an “inspection missed” alarm is sent to the customer platform.
 3. If the CCM button is pressed during the inspection time after ACC OFF, no inspection alarm is generated and nothing is reported to the customer platform.
-4. When the anti-forget IO has “sensor out” checked and the horn is bound, after an inspection-missed alarm is triggered, the device’s GUI shutdown countdown is canceled; the external horn beeps for 3 s and pauses for 3 s in a continuous loop.
+4. When the anti-forget IO has “sensor out” checked and the horn is bound, after an inspection-missed alarm is triggered, the device’s GUI shutdown countdown is canceled; the external horn beeps continuously.
 
 #### CCM Related Configuration
+
+
 
 Path: EasyCheck>>Preferences>>Alarm>>Base
 
@@ -131,6 +156,8 @@ _^tab^_
 
 ### Motion Sensor 
 
+
+
 #### Description
 
 After the driver leaves, the device can continue to detect whether there are any students left in the car.
@@ -141,9 +168,9 @@ After the driver leaves, the device can continue to detect whether there are any
 
 2. If a student is left inside and triggers the motion sensor, the sensor uses its IO to wake the hibernating MDVR. Upon waking, the MDVR displays an alarm-cancel dialog and the shutdown countdown switches to 15 minutes:
     a) Tap “Cancel”: the “student left on bus” alarm is blocked; the MDVR resumes its 15-minute shutdown countdown, enters low-power hibernation, and cannot be woken again until the next ACC ON.
-    b) Do nothing: the dialog times out, firing the “student left on bus” alarm. The MDVR logs the event locally, reports it to the platform, and plays calming audio. The shutdown countdown is cancelled and the unit stays powered on continuously. Simultaneously, an IO output activates the external alarm in a 3-second-on / 3-second-off loop.
+    b) Do nothing: the dialog times out, firing the “student left on bus” alarm. The MDVR logs the event locally, reports it to the platform, and plays calming audio. The shutdown countdown is cancelled and the unit stays powered on continuously. Simultaneously, an IO output activates the external alarm continuously.
 
-3. The school-bus maintenance team will contact on-site personnel remotely to open the door and rescue the student. After the student is freed, the calming audio and external alarm keep sounding; to stop them, the rescuer must board the bus while the student door is open and press the patrol button—pressing it with the door closed has no effect. Alternatively, the platform can remotely turn off the alarms without requiring anyone to open the door on site.
+3. The school-bus maintenance team will contact on-site personnel remotely to open the door and rescue the student. After the student is freed, the calming audio and external alarm keep sounding; to stop them, the rescuer must board the bus while the student door is open and press the patrol button—`ACC ON` can release the alarm.
 
 #### Motion Sensor Related Configuration
 
@@ -208,3 +235,5 @@ The motion sensor only supports aisle detection and cannot detect whether there 
 Path: EasyCheck>>General>>AI Calibration>>Student Anti-foregetting & Sear Calibration
 
 ![C34+ CA34 Related Configuration](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251010223522670.png#800w)
+
+# Thanks for watching!
