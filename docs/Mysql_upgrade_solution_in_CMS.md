@@ -38,12 +38,13 @@ vlook-header-dup: Back up the MySql directory;Patch Mysql new version;Start the 
      ```
 
 2. **Start the MySQL Service (if not already running)**
+   
    - If the MySQL service is not running, start it using:
      ```bash
      net start mysql
      ```
      - Note: Skip this step if the service is already running.
-
+   
 3. **Connect to the MySQL Server**
    - Use the following command to connect to the MySQL server:
      ```bash
@@ -143,4 +144,29 @@ Start the MySql service in Windows `Task Manager`
 
  [<kbd>Check the MySQL version ❯❯</kbd>](#Check the MySQL version )
 
+
+
+### Run MySQL Upgrade
+
+1. **Navigate to the MySQL Bin Directory**
+
+   - Open Command Prompt.
+
+   - Change directory to the MySQL bin folder:
+
+     ```bash
+     cd C:\Program Files (x86)\CMS Server\MySql\bin
+     ```
+
+2. **Run MySQL Upgrade**
+
+     ```bash
+     mysql_upgrade.exe -uroot -p
+     ```
+     
+3. **Enter the Password**
+   
+   - When prompted, enter the password: ***c6l7r8ceacvi2010vs***
+   
+4. **Wait for the update to complete**
 #  Thanks for watching!
