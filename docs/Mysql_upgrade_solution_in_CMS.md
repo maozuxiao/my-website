@@ -125,26 +125,6 @@ Copy all files in the MySql directory from the patch (`MySql-3.7.44-SP251009`) t
 Start the MySql service in Windows `Task Manager`
 ![Start the MySql service](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020234322339.png)
 
-### Restore the data using the Data Tool
-
-1. Open the Backup & Restore Tool: `Data Tool`，click <kbd>Start restore</kbd>
-2. Select [<kbd>Previous backup folder ❯❯</kbd>](#Backup the basic data using the Data Tool )
-3. Click <kbd>OK</kbd> and **wait for the restoration to complete**
-    ![Restore the data using the Data Tool](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020235115708.png)
-4. After the restore is completed, the following window will pop up
-    ![Restore successful](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251021150853710.png#400w)
-
-### Start all service
-
-1. Open the `DVRServerCtrl`
-
-2. Check if any services are not started. If so, click <kbd>Start all server</kbd>
-
-### Check the upgraded MySQL version
-
- [<kbd>Check the MySQL version ❯❯</kbd>](#Check the MySQL version )
-
-
 
 ### Run MySQL Upgrade
 
@@ -169,4 +149,23 @@ Start the MySql service in Windows `Task Manager`
    - When prompted, enter the password: ***c6l7r8ceacvi2010vs***
    
 4. **Wait for the update to complete**
+### Restore the data using the Data Tool
+
+1. Open the Backup & Restore Tool: `Data Tool`，click <kbd>Start restore</kbd>
+2. Select [<kbd>Previous backup folder ❯❯</kbd>](#Backup the basic data using the Data Tool )
+3. Click <kbd>OK</kbd> and **wait for the restoration to complete**
+    ![Restore the data using the Data Tool](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020235115708.png)
+4. After the restore is completed, the following window will pop up
+    ![Restore successful](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251021150853710.png#400w)
+
+### Start all service
+
+1. Open the `DVRServerCtrl`
+
+2. Check if any services are not started. If so, click <kbd>Start all server</kbd>
+
+### Check the upgraded MySQL version
+
+ [<kbd>Check the MySQL version ❯❯</kbd>](#Check the MySQL version )
+
 #  Thanks for watching!
