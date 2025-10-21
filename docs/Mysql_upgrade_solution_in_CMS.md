@@ -52,11 +52,8 @@ vlook-header-dup: Back up the MySql directory;Patch Mysql new version;Start the 
      - Replace `3307` with your server port if different. The default port is `3307`.
 
 4. **Enter the Password**
-   - When prompted, enter the password:
-     ```mysql
-     Enter password: c6l7r8ceacvi2010vs
-     ```
-
+   - When prompted, enter the password: ***c6l7r8ceacvi2010vs***
+   
 5. **Check MySQL Version**
    
    - Once connected, check the MySQL version by running:
