@@ -28,6 +28,48 @@ vlook-header-dup: Back up the MySql directory;Patch Mysql new version;Start the 
 
 ------
 
+## Check the MySQL version
+
+1. **Navigate to the MySQL Bin Directory**
+   - Open Command Prompt.
+   - Change directory to the MySQL bin folder:
+     ```bash
+     cd C:\Program Files (x86)\CMS Server\MySql\bin
+     ```
+
+2. **Start the MySQL Service (if not already running)**
+   - If the MySQL service is not running, start it using:
+     ```bash
+     net start mysql
+     ```
+     - Note: Skip this step if the service is already running.
+
+3. **Connect to the MySQL Server**
+   - Use the following command to connect to the MySQL server:
+     ```bash
+     mysql -uroot -p -P3307 -hlocalhost
+     ```
+     - Replace `3307` with your server port if different. The default port is `3307`.
+
+4. **Enter the Password**
+   - When prompted, enter the password:
+     ```mysql
+     Enter password: c6l7r8ceacvi2010vs
+     ```
+
+5. **Check MySQL Version**
+   
+   - Once connected, check the MySQL version by running:
+     ```mysql
+     mysql> SELECT VERSION();
+     +-----------+
+     | VERSION() |
+     +-----------+
+     | 5.7.44    |
+     +-----------+
+     1 row in set (0.00 sec)
+     ```
+------
 ## Upgrade steps
 
 > [!CAUTION]
@@ -41,23 +83,18 @@ vlook-header-dup: Back up the MySql directory;Patch Mysql new version;Start the 
 
 1. Open the Backup & Restore Tool: `Data Tool`
 
-2. Back up `Basic Data`. You can also back up every item, which may take extra time.
+2. Back up `Basic Data` & `ADS index files`. You can also back up every item, which may take extra time.
 
-3. Click <kbd>Start backup</kbd>, the `Save As` dialog box pops up, Select the path you need and click <kbd>Save</kbd>
-   ![Data Tool-Backup-1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251021011735943.png)
+3. Click <kbd>Start backup</kbd>, the `Save As` dialog box pops up, Select the path you need and click <kbd>Save</kbd>![Data Tool-Backup-1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251021151949809.png)
    
 4. After the backup is completed, the following window will pop up
    ![Data Tool-Backup-2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020230324644.png)
 
 ### Stop all services
 
-1. Go to Windows `Services`, disable `DVRRTService`
+1. Open the `DVRServerCtrl`
 
-   ![Disable DVRRTService](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020233725491.png)
-
-2. Open the `DVRServerCtrl`
-
-3. Click <kbd>Stop all server</kbd>
+2. Click <kbd>Stop all server</kbd>
 
    ![Stop all server](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020230909101.png)
 
@@ -95,16 +132,18 @@ Start the MySql service in Windows `Task Manager`
 1. Open the Backup & Restore Tool: `Data Tool`，click <kbd>Start restore</kbd>
 2. Select [<kbd>Previous backup folder ❯❯</kbd>](#Backup the basic data using the Data Tool )
 3. Click <kbd>OK</kbd> and **wait for the restoration to complete**
-![Restore the data using the Data Tool](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020235115708.png)
+    ![Restore the data using the Data Tool](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020235115708.png)
+4. After the restore is completed, the following window will pop up
+    ![Restore successful](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251021150853710.png#400w)
 
 ### Start all service
 
-1. Go to Windows `Services`, Enable `DVRRTService`
+1. Open the `DVRServerCtrl`
 
-   ![Enable DVRRTService](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020235427935.png)
+2. Check if any services are not started. If so, click <kbd>Start all server</kbd>
 
-2. Open the `DVRServerCtrl`
+### Check the upgraded MySQL version
 
-3. Click <kbd>Start all server</kbd>
+ [<kbd>Check the MySQL version ❯❯</kbd>](#Check the MySQL version )
 
 #  Thanks for watching!
