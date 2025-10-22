@@ -168,4 +168,22 @@ Start the MySql service in Windows `Task Manager`
 
  [<kbd>Check the MySQL version ❯❯</kbd>](#Check the MySQL version )
 
+
+
+## FAQ
+
+### When patch Mysql new version pop up：`The action can't be completed because the folder or a file in it is open in another program`
+![Error-msg-01](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20251022215215060.png#400w)
+
+> 1. Ensure the MySQL service is stopped under Task Manager > Services.
+> 2. If the file replacement still fails after the service is stopped, refer to the following steps:
+>    1. <KBD>CTRL</KBD> + <KBD>R</KBD> input services.msc
+>    2. Navigate to Mysql, Change the `Startup type` as `Disabled`, then click <KBD>Apply</KBD>
+>       ![Disabled Mysql](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20251022215250082.png#400w)
+>    3. Restart the Windows server and try to patch again
+>
+>
+> 
+> 
+
 #  Thanks for watching!
