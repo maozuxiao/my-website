@@ -116,9 +116,11 @@ Copy all files in the MySql directory from the patch (`MySql-3.7.44-SP251009`) t
 
 > [!NOTE]
 >
-> If the following pop-up window appears, click `Replace the files in the destination`
+> * If the following pop-up window appears, click `Replace the files in the destination`
 >
 > ![Replace the files in the destination](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251020232208090.png)
+>
+> * If an error message pops up: `The action can't be completed because the folder or a file in it is open in another program`, please refer to  [<kbd>FAQ ❯❯</kbd>](#When patch Mysql new version pop up：`The action can't be completed because the folder or a file in it is open in another program`)
 
 ### Start the MySql service
 
