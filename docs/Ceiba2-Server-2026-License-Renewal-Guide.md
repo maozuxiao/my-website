@@ -73,7 +73,7 @@ _^Tab^_
 > ![Check version-Method1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251104134851497.png)
 
 > **Method 2**
-> 1. Access the Ceiba2 web management platform, reference path: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
+> 1. Access the Ceiba2 web management platform, reference url: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
 > 2. Click *ⓘ`Version`* to check the version
 >
 > ![Check version-Method2](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251104135043261.png)
@@ -90,7 +90,7 @@ _^Tab^_
 
 > **Ceiba 2 version 2.6.7.x.xx**
 >
-> 1. Access the Ceiba2 web management platform, reference path: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
+> 1. Access the Ceiba2 web management platform, reference url: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
 > 2. Log in with the admin username and password
 > 3. Navigate to ⚙️>>Authorization
 > 4. Click <kbd>Upload authorization</kbd>
@@ -98,7 +98,7 @@ _^Tab^_
 
 > **Ceiba 2 version 2.6.8.x.xx**
 >
-> 1. Access the Ceiba2 web management platform, reference path: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
+> 1. Access the Ceiba2 web management platform, reference url: **[<kbd>http://localhost:12056/basic/home/default.html</kbd>](http://localhost:12056/basic/home/default.html)**
 > 2. Log in with the admin username and password
 > 3. Navigate to ⚙️>>Authorization
 > 4. Click <kbd>Upload authorization</kbd>
