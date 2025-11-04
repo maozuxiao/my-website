@@ -53,7 +53,7 @@ vlook-header-dup: Back up the MySql directory;Patch Mysql new version;Start the 
      - Replace `3307` with your server port if different. The default port is `3307`.
 
 4. **Enter the Password**
-   - When prompted, enter the password: ***c6l7r8ceacvi2010vs***
+   - When prompted, enter the password: `{Please check it with your technical support}`
    
 5. **Check MySQL Version**
    
@@ -148,7 +148,7 @@ Start the MySql service in Windows `Task Manager`
      
 3. **Enter the Password**
    
-   - When prompted, enter the password: ***c6l7r8ceacvi2010vs***
+   - When prompted, enter the password: `{Please check it with your technical support}`
    
 4. **Wait for the update to complete**
 ### Restore the data using the Data Tool
@@ -184,8 +184,11 @@ Start the MySql service in Windows `Task Manager`
 >       ![Disabled Mysql](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/20251022215250082.png#400w)
 >    3. Restart the Windows server and try to patch again
 >
->
-> 
-> 
+
+-----
+
+## ~~Security Information~~
+
+> 1. Mysql Password: `c6l7r8ceacvi2010vs`
 
 #  Thanks for watching!

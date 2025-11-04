@@ -53,7 +53,7 @@ flowchart LR
 
 ------
 
-## Download the License File
+## ~~Download the License File~~
 
 > [!IMPORTANT]
 >
