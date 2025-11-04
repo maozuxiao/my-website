@@ -68,7 +68,7 @@ _^Tab^_
 
 > **Method 1**
 > 1. Open the `Control Pannel` of Windows Server
-> 2. Check the Version 
+> 2. Check the Version in version column
 >
 > ![Check version-Method1](https://cdn.jsdelivr.net/gh/maozuxiao/Image-shack/image-20251104134851497.png)
 
