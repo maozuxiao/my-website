@@ -36,7 +36,7 @@ flowchart LR
         A([Start]) --> B{Check 
         Ceiba2 Server 
         Version}
-        B -->|2.6.6.x.xx and below| C[Use LIC_DVRGTSERVICE.dat]
+        B -->|2.6.3.x.xx and below| C[Use LIC_DVRGTSERVICE.dat]
         B -->|2.6.7.x.xx| D[Use 20261203267.pem]
         B -->|2.6.8.x.xx| E[Use 20261203268.pem]
         C --> F([End])
