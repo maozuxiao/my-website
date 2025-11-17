@@ -82,7 +82,7 @@ _^Tab^_
 
 _^Tab^_
 
-> **Ceiba 2 version 2.6.6.x.xx and below**
+> **Ceiba 2 version 2.6.3.x.xx and below**
 >
 > 1. Navigate to the `\CMS Server\TransmitServer` folder on the Windows server, reference path: <kbd>C:\Program Files (x86)\CMS Server\TransmitServer</kbd>
 > 2. Replace the `LIC_DVRGTSERVICE.dat` license file
