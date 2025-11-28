@@ -14,7 +14,7 @@ vlook-query: coating=bu&ws=3&toc=3
 vlook-header-dup: A/V IN;WAN口;LAN口;操作手册;MDVR设置;基本信息;视频演示;模拟测试接线;前置条件;安装步骤;
 ---
 
-###### ✒️Streamax 产品学习记录<br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**** <br />*Sean`🍍` Mao*<br />[✉️](mailto:sean@streamax.com)
+###### ✒️Streamax 产品学习记录<br />*Version 1.0`🐾`20th June 2025*<br />*一般`👀`部门可见*<br />**Sean Mao** <br />*赫尔新根默斯肯的肥皂泡*
 
 # **✒️**Streamax 产品学习记录
 
@@ -1597,7 +1597,7 @@ _^tab^_
 >    sequenceDiagram
 >        participant 串口线
 >        participant 三帧打印线
->                                                                                              
+>                                                                                                       
 >        串口线 <<->> 三帧打印线: TXD <-> RXD
 >        三帧打印线 <<->> 串口线: RXD <-> TXD
 >        串口线 <<->> 三帧打印线: GND <-> GND
@@ -2139,7 +2139,8 @@ _^tab^_
 > | C46支持2种模式                                               | 1. 作为AHD，需要外接GPS盒子<br />2. 作为IPC，不需要外接GPS盒子 |
 > | C24M(927C24M) 1080P 2.8MM D SIDE `5152023000021`退市怎么办？ | 替换料号**946C24M** `5152136100005`                          |
 > | 输错密码超过5次，30分钟后才能解锁，但是现在就需要使用设备怎么办？ | 移除设备上的存储设施，重启即可                               |
-> | 如何打开C6D5.0 Telnet                                        | 连接串口线（4pin）波特率：115200 \| login: `root` \| 密码：321456 |
+> | 如何进C6D5.0串口                                             | 连接串口线（4pin）波特率：115200 \| login: `root` \| 密码：321456 |
+> | 如何进ADPLUS2.0串口                                          | 连接串口线（4pin）波特率：115200 \| login: `root` \|密码：RMSoft1107 |
 >
 > 
 
