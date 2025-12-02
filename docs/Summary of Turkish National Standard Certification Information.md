@@ -35,7 +35,7 @@ vlook-header-dup:
 
 _^Tab^_
 
-> **TR-C**
+> **TR-Turkish National Standard Certification Form**
 >
 > *==Turkish National Standard Certification Form-TR==*
 >
