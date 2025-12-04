@@ -25,7 +25,7 @@ vlook-header-dup:
 
 
 
-> **定制化与规模化的平衡艺术**：系统梳理为国标定制的全套流程，并探讨未来通过技术手段实现降本增效的可行路径。
+> **定制化与规模化的平衡艺术**_~GdPkAq~_：系统梳理为国标定制的全套流程，并探讨未来通过技术手段实现降本增效的可行路径。
 
 ------
 
@@ -61,18 +61,35 @@ vlook-header-dup:
 
 _^tab^_
 
-> **核心挑战一：Emark重新认证**
+> **核心挑战一：产品认证缺失**
 >
-> 由于**数据传输接口需要为<kbd>Type-C</kbd>**，Emark需要重新认证，涉及多个机型，包含如下机型：
+> 应新国标要求，需要厂商提供多种类型的产品认证，包含==IP65 (EN 60529)==;==ISO 16750-3 (需有ILC)==;==IK08 (60068-2-75)==;==TS EN 62471 (需有ILC)==;==UN/ECE R10(E-Mark)==;==UN/ECE R118==。目前土耳其在售的产品缺少这些认证，会影响后续产品的销售。
 >
-> 1. X1N-N0400
-> 2. X3N-H0208
-> 3. C6D V5.0
-> 4. X7NPRO (X7NPRO-H0416/X7NPRO-H1608)
-> 5. A8PRO(A8PRO-H0412/A8PRO-H0808/A8PRO-H1204)
-> 6. A16Max
+> *==Turkish National Standard Certification Form-CN==*
+>
+> |    Category    |   Product Name    | Certification/Standard                       | ==                                                           | ==                    | ==                        | ==                     | ==              |
+> | :------------: | :---------------: | -------------------------------------------- | ------------------------------------------------------------ | --------------------- | ------------------------- | ---------------------- | --------------- |
+> |       :        |         :         | ==IP65 (EN 60529)==                          | ==ISO 16750-3 (需有ILC)==                                    | ==IK08 (60068-2-75)== | ==TS EN 62471 (需有ILC)== | ==UN/ECE R10(E-Mark)== | ==UN/ECE R118== |
+> |  MDVR _~Gn!~_  |  C6D5.0(Type-C)   | N/A                                          | ✅                                                            | N/A                   | N/A                       |                        | N/A             |
+> |       :        | X1N-N0400(Type-C) | N/A                                          | ✅                                                            | N/A                   | N/A                       | ✅                      | N/A             |
+> |       :        |     X1N-H0401     | N/A                                          | ➖<br />有机械冲击, 暂时挂起                                  | N/A                   | N/A                       | ✅                      | N/A             |
+> |       :        | X3N-H0208(Type-C) | N/A                                          | ✅                                                            | N/A                   | N/A                       | ✅                      | N/A             |
+> |       :        |  X7NPRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机已就绪，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202512月底），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19ad866e5a1ab9b3e24433c44579ac62) | N/A                   | N/A                       | ❌                      | N/A             |
+> |       :        |   A8PRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />第一轮测试失败，预计202512初开始第二轮测，已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                   | N/A                       | ✅                      | N/A             |
+> |       :        |  A16Max(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机整改中，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202601月中），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                   | N/A                       | ❌                      | N/A             |
+> | Camera _~Ro!~_ |       C39B        | ✅(IP66)                                      | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726d7a703a1843d00752e48c7bd563) @蒋旭辉 | ✅                     | ✅                         | ❌                      | ❌               |
+> |       :        |        C39        | ❌                                            | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726ca8fca8fecd165450b415997ff9) @蒋旭辉 | ❌                     | ❌                         | ❌(In Roadmap)          | ❌               |
+> |       :        |       CA39        | ✅(IP69K)                                     | ❌<br />需要提供认证证书@蒋旭辉                               | ✅                     | ❌                         | ✅                      | ❌               |
+> |       :        |       CA39B       | ❌<br />已经提交认证申请@陈峰(Felix 陈峰)     | ❌<br />已经提交认证申请 @蒋旭辉                              | ✅                     | ❌                         | ❌                      | ❌               |
+> |       :        |        C25        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)               | ❌                         | ✅                      | ❌               |
+> |       :        |        C24        | ✅(IP69K)                                     | ❌                                                            | ❌                     | ❌                         | ✅                      | ✅               |
+> |       :        |       C24M        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)               | ❌                         | ✅                      | ❌               |
+> |       :        |        C11        | ✅(IP66)                                      | ❌                                                            | ✅                     | ❌                         | ✅                      | ❌               |
+> |       :        |  CA11(MINI DOME)  | ❌                                            | ❌                                                            | ❌                     | ❌                         | ✅                      | ❌               |
+> |       :        |        C26        | ❌<br />murat安排样品交期@许嘉达(Murat許嘉達) | ❌                                                            | ✅                     | ❌                         | ✅                      | ❌               |
+> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新                      | N/A                   | ❌                         | ❌                      | ❌               |
 
-> **核心挑战二：缺少ISOSAE 21434 认证**
+> **核心挑战二：ISOSAE 21434 体系认证缺失**
 >
 > 
 
@@ -89,7 +106,7 @@ _^tab^_
 
 _^tab^_
 
-> **解决方案一：Emark认证**
+> **解决方案一：补齐产品认证**
 >
 > 
 
