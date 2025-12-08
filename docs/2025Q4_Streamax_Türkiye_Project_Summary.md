@@ -21,6 +21,32 @@ vlook-header-dup:
 
 [TOC]
 
+
+
+---
+
+---
+
+---
+
+- Beijing, 中国
+
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Asia%2FShanghai" width="100%" height="115" frameborder="0" seamless=""></iframe>
+
+- Istanbul, 土耳其
+
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Europe%2FIstanbul" width="100%" height="115" frameborder="0" seamless=""></iframe>
+
+- London, 英国
+
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Europe%2FLondon" width="100%" height="115" frameborder="0" seamless=""></iframe>
+
+- Netherlands, 荷兰
+
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=medium&timezone=Europe%2FAmsterdam" width="100%" height="115" frameborder="0" seamless></iframe> 
+
+------
+
 ## 分享目的
 
 
@@ -63,41 +89,37 @@ _^tab^_
 
 > **核心挑战一：产品认证缺失**
 >
-> 应新国标要求，需要厂商提供多种类型的产品认证，包含==IP65 (EN 60529)==;==ISO 16750-3 (需有ILC)==;==IK08 (60068-2-75)==;==TS EN 62471 (需有ILC)==;==UN/ECE R10(E-Mark)==;==UN/ECE R118==。目前土耳其在售的产品缺少这些认证，会影响后续产品的销售。
+> 应新国标要求，需要厂商提供多种类型的产品认证，包含==IP65 (EN 60529)==;==ISO 16750-3 (需有ILC)==;==IK08 (60068-2-75)==;==TS EN 62471 (需有ILC)==;==UN/ECE R10(E-Mark)==;==UN/ECE R118==。目前土耳其在售的部分产品缺少这些认证，可能影响后续产品的销售。
 >
 > *==Turkish National Standard Certification Form-CN==*
 >
-> |    Category    |   Product Name    | Certification/Standard                       | ==                                                           | ==                    | ==                        | ==                     | ==              |
-> | :------------: | :---------------: | -------------------------------------------- | ------------------------------------------------------------ | --------------------- | ------------------------- | ---------------------- | --------------- |
-> |       :        |         :         | ==IP65 (EN 60529)==                          | ==ISO 16750-3 (需有ILC)==                                    | ==IK08 (60068-2-75)== | ==TS EN 62471 (需有ILC)== | ==UN/ECE R10(E-Mark)== | ==UN/ECE R118== |
-> |  MDVR _~Gn!~_  |  C6D5.0(Type-C)   | N/A                                          | ✅                                                            | N/A                   | N/A                       |                        | N/A             |
-> |       :        | X1N-N0400(Type-C) | N/A                                          | ✅                                                            | N/A                   | N/A                       | ✅                      | N/A             |
-> |       :        |     X1N-H0401     | N/A                                          | ➖<br />有机械冲击, 暂时挂起                                  | N/A                   | N/A                       | ✅                      | N/A             |
-> |       :        | X3N-H0208(Type-C) | N/A                                          | ✅                                                            | N/A                   | N/A                       | ✅                      | N/A             |
-> |       :        |  X7NPRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机已就绪，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202512月底），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19ad866e5a1ab9b3e24433c44579ac62) | N/A                   | N/A                       | ❌                      | N/A             |
-> |       :        |   A8PRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />第一轮测试失败，预计202512初开始第二轮测，已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                   | N/A                       | ✅                      | N/A             |
-> |       :        |  A16Max(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机整改中，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202601月中），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                   | N/A                       | ❌                      | N/A             |
-> | Camera _~Ro!~_ |       C39B        | ✅(IP66)                                      | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726d7a703a1843d00752e48c7bd563) @蒋旭辉 | ✅                     | ✅                         | ❌                      | ❌               |
-> |       :        |        C39        | ❌                                            | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726ca8fca8fecd165450b415997ff9) @蒋旭辉 | ❌                     | ❌                         | ❌(In Roadmap)          | ❌               |
-> |       :        |       CA39        | ✅(IP69K)                                     | ❌<br />需要提供认证证书@蒋旭辉                               | ✅                     | ❌                         | ✅                      | ❌               |
-> |       :        |       CA39B       | ❌<br />已经提交认证申请@陈峰(Felix 陈峰)     | ❌<br />已经提交认证申请 @蒋旭辉                              | ✅                     | ❌                         | ❌                      | ❌               |
-> |       :        |        C25        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)               | ❌                         | ✅                      | ❌               |
-> |       :        |        C24        | ✅(IP69K)                                     | ❌                                                            | ❌                     | ❌                         | ✅                      | ✅               |
-> |       :        |       C24M        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)               | ❌                         | ✅                      | ❌               |
-> |       :        |        C11        | ✅(IP66)                                      | ❌                                                            | ✅                     | ❌                         | ✅                      | ❌               |
-> |       :        |  CA11(MINI DOME)  | ❌                                            | ❌                                                            | ❌                     | ❌                         | ✅                      | ❌               |
-> |       :        |        C26        | ❌<br />murat安排样品交期@许嘉达(Murat許嘉達) | ❌                                                            | ✅                     | ❌                         | ✅                      | ❌               |
-> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新                      | N/A                   | ❌                         | ❌                      | ❌               |
+> |    Category    |   Product Name    | Certification/Standard                       | ==                                                           | ==                                                           | ==                        | ==                     | ==              |
+> | :------------: | :---------------: | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- | ---------------------- | --------------- |
+> |       :        |         :         | ==IP65 (EN 60529)==                          | ==ISO 16750-3 (需有ILC)==                                    | ==IK08 (60068-2-75)==                                        | ==TS EN 62471 (需有ILC)== | ==UN/ECE R10(E-Mark)== | ==UN/ECE R118== |
+> |  MDVR _~Gn!~_  |  C6D5.0(Type-C)   | N/A                                          | ✅                                                            | ❌(In Roadmap)<br />已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19ae23d144f47636ef8c9a64aa5bd473&s_css=default) | N/A                       |                        | N/A             |
+> |       :        | X1N-N0400(Type-C) | N/A                                          | ✅                                                            | N/A                                                          | N/A                       | ✅                      | N/A             |
+> |       :        |     X1N-H0401     | N/A                                          | ➖<br />有机械冲击, 暂时挂起                                  | N/A                                                          | N/A                       | ✅                      | N/A             |
+> |       :        | X3N-H0208(Type-C) | N/A                                          | ✅                                                            | N/A                                                          | N/A                       | ✅                      | N/A             |
+> |       :        |  X7NPRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机已就绪，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202512月底），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19ad866e5a1ab9b3e24433c44579ac62) | N/A                                                          | N/A                       | ❌                      | N/A             |
+> |       :        |   A8PRO(Type-C)   | N/A                                          | ❌(In Roadmap)<br />第一轮测试失败，预计202512初开始第二轮测，已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                                                          | N/A                       | ✅                      | N/A             |
+> |       :        |  A16Max(Type-C)   | N/A                                          | ❌(In Roadmap)<br />样机整改中，先安排Emark认证，有草稿后寄回样机做ISO 16750-3（预计202601月中），已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19a299d9640373531fe47414f4e8c32f) | N/A                                                          | N/A                       | ❌                      | N/A             |
+> | Camera _~Ro!~_ |       C39B        | ✅(IP66)                                      | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726d7a703a1843d00752e48c7bd563) @蒋旭辉 | ✅                                                            | ✅                         | ❌                      | ❌               |
+> |       :        |        C39        | ❌                                            | ❌<br />已经提交[认证申请](http://58.250.161.100:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19726ca8fca8fecd165450b415997ff9) @蒋旭辉 | ❌                                                            | ❌                         | ❌(In Roadmap)          | ❌               |
+> |       :        |       CA39        | ✅(IP69K)                                     | ❌<br />需要提供认证证书@蒋旭辉                               | ✅                                                            | ❌                         | ✅                      | ❌               |
+> |       :        |       CA39B       | ❌<br />已经提交认证申请@陈峰(Felix 陈峰)     | ❌<br />已经提交认证申请 @蒋旭辉                              | ✅                                                            | ❌                         | ❌                      | ❌               |
+> |       :        |        C25        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)                                                      | ❌                         | ✅                      | ❌               |
+> |       :        |        C24        | ✅(IP69K)                                     | ❌                                                            | ❌                                                            | ❌                         | ✅                      | ✅               |
+> |       :        |       C24M        | ✅(IP67)                                      | ✅                                                            | ✅(IK10)                                                      | ❌                         | ✅                      | ❌               |
+> |       :        |        C11        | ✅(IP66)                                      | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
+> |       :        |  CA11(MINI DOME)  | ❌                                            | ❌                                                            | ❌                                                            | ❌                         | ✅                      | ❌               |
+> |       :        |        C26        | ❌<br />murat安排样品交期@许嘉达(Murat許嘉達) | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
+> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新                      | N/A                                                          | ❌                         | ❌                      | ❌               |
 
-> **核心挑战二：ISOSAE 21434 体系认证缺失**
->
-> 
-
-> **核心挑战三：C25G Global shuttle过检受阻**
+> **核心挑战二：C25G Global shuttle过检受阻**
 >
 > TSE验收方法不透明，只告知测试结果：C25G 不支持  Global shuttle
 
-> **核心挑战四：低成本方案新需求**
+> **核心挑战三：低成本方案新需求**
 >
 > 
 ------
@@ -108,17 +130,90 @@ _^tab^_
 
 > **解决方案一：补齐产品认证**
 >
+> ### 认证流程
+>
+> ```mermaid
+> flowchart LR
+> A[提交认证申请] --> B[样机申请<br/>并提供给认证对接人]
+> B --> C[获取认证报告和证书]
+> C --> D[同步给代理商和客户]
 > 
+> style A fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style B fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style C fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style D fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> ```
+> ### 流程详情
+>
+> ---
+>
+> ---
+>
+> ---
+>
+> - 提交认证申请
+>
+>   1. **确认认证类型**：明确是外发认证还是实验室认证，不同的认证类型对应不同的OA流程。
+>
+>      > * <u>外发认证OA路径</u>：11 产品发展中心类 > > 产品认证申请流程_~Rd~_
+>      >
+>      > * <u>实验室认证OA路径</u>：10 整机研发中心类 > > 1003 测试类 >> 检测申请业务流程_~Gn~_
+>
+>   2. **明确费用以及归属**
+>
+>      > * <u>外发认证</u>：和认证负责人（陈峰/夏文浩）沟通了解认证所需费用，再与销售 & 大区经理确认费用归属_~Rd~_
+>      >
+>      > * <u>实验室认证</u>: 直接和销售 & 大区经理确认费用归属，实验室负责人（蒋旭辉）_~Gn~_
+>
+>   3. **确认样机料号以及准备样机规格书**
+>
+>   4. **填写认证的目的以及流程所需的信息后提交认证申请**
+>
+> - 样机申请并提供给认证对接人
+>
+>   **费用由`客户`承担**：
+>
+>   * <u>有在行订单</u>：与商务以及客户沟通，从订单中抽取一台进行认证
+>   * <u>无在行订单</u>：商务走下单流程
+>
+>   **费用由`战区`承担**：内部进行邮件申请，跟单同事进行OA流程申请
+>
+> - 获取认证报告和证书
+>
+>   获取认证报告和证书后需要归档，以便后续项目使用
+>
+>   > [!NOTE]
+>   >
+>   > 部分认证需要核对草稿再发放报告和证书，注意核对好产品名称之类的细节
+>
+> - 同步给代理商和客户
+>
+>   准备外发文档，同步客户，[<kbd>点击访问 >> </kbd>](https://maozuxiao.github.io/my-website/Summary_of_Turkish_National_Standard_Certification_Information.html)
+>
 
-> **解决方案二：申请ISOSAE 21434 认证**
+> **解决方案二：提供C25G Global shuttle的证明材料和视频**
+>
+> ---
+>
+> - 证明材料
+>
+>   ### C25G料号
+>
+>   | 料号          | 描述                                                         |
+>   | ------------- | ------------------------------------------------------------ |
+>   | 5152200100003 | IP973C25G/V1.0/I1A1S0M3.0P2T1C0/E0001/AX620Q+**SC233HGS**_~Rd~_/1080P/有红外/带音频/无SD卡/3mm/PON供电/另一端RS765-6航空母头/0.5M/白色壳/无/锐明英文LOGO/带独立包装/通用 |
+>
+>   ### 传感器Spec
+>
+>   ![SC233HGS Spec](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/image-20251205114429121.png "SC233HGS Spec")
+>
+> - 证明视频
+>
+>   ![C25G Global shuttle Video](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/Global%20shuttle%20test-Compressed.mp4)
 >
 > 
 
-> **解决方案三：提供C25G Global shuttle的证明材料和视频**
->
-> 
-
-> **解决方案四：沟通低成本方案**
+> **解决方案三：沟通低成本方案**
 >
 > 
 ------
