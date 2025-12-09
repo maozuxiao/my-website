@@ -142,7 +142,7 @@ _^Tab^_
 > 1. The optimal state is when speaker power ≥20W and impedance =4Ω, recommended ✅️
 > 2. Using 10W speakers may cause risks to both the speakers and MDVR (XPAD), not recommended ❌️
 > 3. Using 10W speakers may cause low volume problem, not recommended ❌️
-> 4. You can refer to the case in [Example 2](#example2) for configuration: 8 *25W`8Ω`* speakers (total impedance after grouped connection is 4Ω)
+> 4. You can refer to the case in [Example 2](#example2) for configuration: 8 pcs *25W`8Ω`* speakers (total impedance after grouped connection is 4Ω)
 
 
 
