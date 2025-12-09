@@ -71,9 +71,9 @@ _^Tab^_
 >
 >   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=677 height=638 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-12-9/1765251494/page-6.svg"></iframe>
 
-## Solution Description
 
-### Customer Requirements & Questions
+
+## Customer Requirements & Questions
 
 **Requirements**
 
