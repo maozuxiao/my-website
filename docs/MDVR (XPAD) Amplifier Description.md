@@ -21,7 +21,7 @@ vlook-header-dup:
 > 1. MDVR(XPAD)的功放功率是20W/4欧姆，则恒定的正弦电压 \( U²=P·R=20×4=80 \)
 > 2. XPAD 的 4 Ω 是`标称最佳负载`，为了长期可靠，请把每路负载保持在 ≥ 4 Ω
 
-
+# MDVR (XPAD) Amplifier Description
 
 [TOC]
 
@@ -69,6 +69,7 @@ _^Tab^_
 > - Example Diagram-2
 >
 >   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=677 height=638 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2539370/share/2025-12-9/1765251494/page-6.svg"></iframe>
+
 ## 方案说明
 
 ### 客户需求 & 疑问
@@ -141,6 +142,6 @@ _^Tab^_
 
 1. 喇叭功率≥20W时，且阻抗=4Ω为最佳状态
 2. 使用10W功率的喇叭，可能导致喇叭和MDVR(XPAD)的风险，不建议使用
-3. 可以参考[示例2](#示例2)中的案例进行配置
+3. 可以参考[示例2](#示例2)中的案例进行配置，8个*25W`8 Ω`*的喇叭（分组连接后总阻抗为4Ω）
 
 #  Thanks for watching!
