@@ -12,7 +12,6 @@ vlook-header-autonum: h1{{Chapter ###. }},h2{{Chapter ###. }},h3{{Chapter ###. }
 layout: default
 vlook-query: coating=bu&ws=3&toc=3
 vlook-header-dup: 
-
 ---
 
 ###### ✒️土耳其国标项目：软硬件定制化开发与低成本未来方案<br />*Version 1.0`🐾`20th December*<br />*一般`👀`部门可见*<br />**** <br />[✉️](mailto:sean@streamax.com)<br />**Sean°Mao**<br>*赫尔新根默斯肯的肥皂泡*
@@ -117,7 +116,7 @@ _^tab^_
 
 > **核心挑战二：C25G Global shuttle过检受阻**
 >
-> TSE验收方法不透明，只告知测试结果：C25G 不支持  Global shuttle
+> TSE验收方法不透明，通过代理商被告知测试结果：Streamax提示的C25G样品不支持`  Global shuttle`
 
 > **核心挑战三：低成本方案新需求**
 >
@@ -134,14 +133,23 @@ _^tab^_
 >
 > ```mermaid
 > flowchart LR
-> A[提交认证申请] --> B[样机申请<br/>并提供给认证对接人]
-> B --> C[获取认证报告和证书]
-> C --> D[同步给代理商和客户]
+>  A[提交认证申请] --> B[样机申请]
+>  B --> E{修改硬件？}
+>  E -.->|是| F[提供样机给<br/>硬件结构工程师修改]
+>  F --> G[提供样机给<br/>认证对接人]
+>  E -.->|否| G
+>  G --> C[获取<br/>认证报告和证书]
+>  C --> D[同步<br/>代理商和客户]
+>  C --> H[同步<br/>硬件工程师并创建Bom和延伸机型料号]
 > 
-> style A fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
-> style B fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
-> style C fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
-> style D fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+>  style A fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+>  style B fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+>  style C fill:#F0F8FF,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+>  style D fill:#FFD700,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+>  style E fill:#FFFACD,stroke:#FF8C00,stroke-width:2px,color:#B22222
+>  style F fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+>  style G fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+>  style H fill:#E0FFFF,stroke:#20B2AA,stroke-width:2px,color:#008B8B
 > ```
 > ### 流程详情
 >
@@ -149,7 +157,6 @@ _^tab^_
 >
 > ---
 >
-> ---
 >
 > - 提交认证申请
 >
@@ -178,6 +185,10 @@ _^tab^_
 >
 >   **费用由`战区`承担**：内部进行邮件申请，跟单同事进行OA流程申请
 >
+>   > [!NOTE] 
+>   >
+>   > 部分认证涉及硬件修改，请提前与硬件结构工程师沟通，安排样机的硬件整改
+>
 > - 获取认证报告和证书
 >
 >   获取认证报告和证书后需要归档，以便后续项目使用
@@ -190,6 +201,21 @@ _^tab^_
 >
 >   准备外发文档，同步客户，[<kbd>点击访问 >> </kbd>](https://maozuxiao.github.io/my-website/Summary_of_Turkish_National_Standard_Certification_Information.html)
 >
+> - 同步硬件工程师创建Bom和延伸机型料号
+>
+>   考虑后续存在市场售卖行为，提前相关机型新建料号，方便后续有订单后直接使用
+>
+>   | OA标题                                                       |  申请单编号   |
+>   | :----------------------------------------------------------- | :-----------: |
+>   | A8Pro-H1204的TYPE-C的接口                                    | P202511080010 |
+>   | A8PRO-H1204 整机料号申请                                     | P202511050073 |
+>   | C25G(Global Shuttle) PON 航空6 PIN 新料号申请                | P202511040078 |
+>   | 土耳其A8Pro 2.0改TYPE-C接口的BOM申请                         | P202511030136 |
+>   | 土耳其X3N-H0208的TYPE-C接口BOM的RJ45和6PIN航空头申请要求申请 | P202511030132 |
+>
+> ### 后续步骤
+>
+> 
 
 > **解决方案二：提供C25G Global shuttle的证明材料和视频**
 >
@@ -222,6 +248,34 @@ _^tab^_
 
 ## 成果与复盘
 
+### 新增多个产品的认证报告
+
+------
+
+- UN/ECE R10(E-Mark)
+  - [x] C6D V5.0^Type-c^
+  - [x] X1N-N0400^Type-c^
+  - [x] X3N-H0208^Type-c^
+  - [x]  A8PRO(A8PRO-H0412/A8PRO-H0808/A8PRO-H1204)^Type-c^
+  - [ ] X7NPRO (X7NPRO-H0416/X7NPRO-H1608)^Type-c^ <kbd>申请中</kbd>
+  - [ ] A16Max^Type-c^ <kbd>申请中</kbd>
+- ISO 16750-3
+  - [x] C6D V5.0^Type-c^
+  - [x] X1N-N0400^Type-c^
+  - [x] X3N-H0208^Type-c^
+  - [ ] A8PRO-H0412^Type-c^<kbd>申请中</kbd>
+  - [ ] X7NPRO-H0416^Type-c^<kbd>申请中</kbd>
+  - [ ] A16Max^Type-c^<kbd>申请中</kbd>
+  - [ ] C20 <kbd>沟通中</kbd>
+- IK08
+  - [ ] C6D V5.0^Type-c^<kbd>申请中</kbd>
+
+------
+### C25G Global shuttle过检有序推进中
+------
+### 低成本方案××××
+
+1. 
 
 
 ------
