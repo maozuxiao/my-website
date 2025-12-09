@@ -20,6 +20,7 @@ vlook-header-dup:
 >
 > 1. The amplifier power of MDVR (XPAD) is 20W/4 ohms, so the constant sinusoidal voltage \( U²=P·R=20×4=80V² \)
 > 2. The 4Ω of XPAD is the `nominal optimal load`. For long-term reliability, keep each channel load at ≥4Ω
+> 3. The recommended configuration is: total impedance = 4Ω, speaker power ≥ 20W, quantity = 8. _~RdGnBu~_
 
 # MDVR (XPAD) Amplifier Description
 
