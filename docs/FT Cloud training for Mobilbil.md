@@ -29,7 +29,7 @@ vlook-header-dup:
 
 **Training Date**
 
-*2025-12-11`XX:XX`GMT+8*
+*2025-12-11`15:00 to 16:00`GMT+8*
 
 ------
 
@@ -62,8 +62,8 @@ vlook-header-dup:
 >
 > | No.  | 问题总结 (Issue Summary)                 | 问题描述 (Issue Description)                                 | 操作路径 (Steps to Reproduce)                                |
 > | ---- | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-> | 1    | How are Driver Faces Defined?            | 客户希望只允许已定义的驾驶员驾驶车辆，如果未定义的驾驶员正在驾驶或发生警报，则只发出未定义驾驶员的警报。这是否可行？如果可行，我们希望知道在哪里可以进行设置。<br />The customer wants to have only defined drivers and if an undefined driver is driving or an alarm occurs, they want an undefined driver alarm. Is this possible? If possible, we would like to be shown where the settings are made |                                                              |
-> | 2    | Automatic Email with Alarm Video Link    | 客户希望报警信息能自动通过邮件发送，并且邮件中包含链接，点击链接后能查看相关报警视频（类似 Ceiba 系统），这是如何实现的？<br>The customer wants the incoming alarms to be sent automatically as an e-mail, and when a link is created in this e-mail and clicked on it, they want to see the related alarm video (just like Ceiba), how does this happen? | Need to configure Alarm upload rule if you want to view the evidence while the Device is offline, but it will occupy a lot of cloud storage<br />FT Manager >> Alarm Management >> Alarm Notification >> Add<br />无法设置模板 |
+> | 1    | How are Driver Faces Defined?            | 客户希望只允许已定义的驾驶员驾驶车辆，如果未定义的驾驶员正在驾驶或发生警报，则只发出未定义驾驶员的警报。这是否可行？如果可行，我们希望知道在哪里可以进行设置。<br />The customer wants to have only defined drivers and if an undefined driver is driving or an alarm occurs, they want an undefined driver alarm. Is this possible? If possible, we would like to be shown where the settings are made | 1. `Çevrimiçi yüz karşılaştırması etkinleştirildi` need to enable first.<br />2. 已经进入识别状态（除Reason for failure: No clear face image uploaded之外的情况） |
+> | 2    | Automatic Email with Alarm Video Link    | 客户希望报警信息能自动通过邮件发送，并且邮件中包含链接，点击链接后能查看相关报警视频（类似 Ceiba 系统），这是如何实现的？<br>The customer wants the incoming alarms to be sent automatically as an e-mail, and when a link is created in this e-mail and clicked on it, they want to see the related alarm video (just like Ceiba), how does this happen? | Need to configure Alarm upload rule if you want to view the evidence while the Device is offline, but it will occupy a lot of cloud storage<br />FT Manager >> Alarm Management >> Alarm Notification >> Add<br />It's mandatory to set up the Email template and the Template Type should be `Alarm email` |
 > | 3    | Evidence Video Auto-play Issue           | 某些证据视频在鼠标悬停时自动播放，而另一些则完全无法播放，原因是什么？<br>Some of the evidence videos are automatically watched when you hover over them and some are not watched at all, what is the reason for this? | Some are pictures， some are evidence that was not uploaded  |
 > | 4    | Alarm Reporting Location                 | 所有报警的报告从哪里获取？如何查看哪位司机触发了哪些报警？在哪里可以打印周报和月报？<br>Where is the reporting of all alarms taken from? Which driver generated which alarms and where can I print weekly and monthly reports? | FT Vision >> Report Center >> Safety Analysis Risk Ranking >> Driver |
 > | 5    | Alarm Time Settings for Evidence         | 证据视频的报警时间设置在哪里？如“报警前3秒”、“报警后5秒”等选项在哪里配置？<br>Where do we set the alarm times of the evidence generated, where are the options such as 3 seconds before alarm, 5 seconds after alarm? | FT Manager >> Alarm Management >> Alarm Upload >> Add >> Recordingf`enabled` >> Before Alarm (s) & After Alarm (s) |
