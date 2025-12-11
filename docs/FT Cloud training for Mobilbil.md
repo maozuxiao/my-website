@@ -76,7 +76,16 @@ vlook-header-dup:
 
 > If Mobilbil has any further questions, they can be asked at the meeting.
 
-1. 
+1. What's the Evidence Email template mean?
+
+   > You can preset an Evidence Email template, then navigate to FT Vision >> Evidence >> Evidence Center >> click the three dots in the upper right corner of the evidence card >> Share Via Email >> and select the previously set template from the Mail Template dropdown menu.
+   >
+   > ![Share Via Email-Evidence Center](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/image-20251211181115817.png "Share Via Email-Evidence Center")
+
+2. Why did `No Media Data` & `Download failed` in the evidence center?
+
+> Due to network issues, power outages, or insufficient storage space, the images/videos contained in the evidence failed to upload to the server. You need to go to: FT Manager >> Task Center >> Evidence Video >> Fail, select the failed task, check the box, and click <kbd>Batch Retry</kbd>.
+> ![Batch Retry](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/image-20251211181823159.png "Batch Retry")
 
 ------
 
@@ -85,6 +94,11 @@ vlook-header-dup:
 > 1. Provide the path to the user manual for reference if you are unsure how to use subsequent functions.
 >
 > 2. Ask Mobilbil for their opinions and suggestions on FT Cloud.
+>
+> 3. Training screen recording:
+>
+>    > **Link**: https://us02web.zoom.us/rec/share/R6jVn2VqyKXhTil8eDNhT-LXInf3FM9ukWzKPGG00Vvle4DengNqPCosITqIIE-I._kHiomPeZrrZwZFE 
+>    > **Passcode**: 6CMBG3Z$
 
 ------
 
