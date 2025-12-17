@@ -14,7 +14,7 @@ vlook-query: coating=bu&ws=3&toc=3
 vlook-header-dup: 
 ---
 
-###### ✒️土耳其国标项目：软硬件定制化开发与低成本未来方案<br />*Version 1.0`🐾`20th December*<br />*一般`👀`部门可见*<br />**** <br />[✉️](mailto:sean@streamax.com)<br />**Sean°Mao**<br>*赫尔新根默斯肯的肥皂泡*
+###### ✒️土耳其国标项目：软硬件定制化开发与低成本未来方案<br />*Version 1.0`🐾`20th December*<br />*一般`👀`部门可见*<br />**** <br />[✉️](mailto:sean@streamax.com)<br />**Sean°Mao**<br>*<img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=23&amp;spacing=2&amp;color=White" style="max-width:100%; display: block; margin: 0;">*
 
 # 土耳其国标项目：软硬件定制化开发与低成本未来方案
 
