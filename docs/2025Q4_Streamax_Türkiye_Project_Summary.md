@@ -30,19 +30,19 @@ vlook-header-dup:
 
 - Beijing, 中国
 
-  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Asia%2FShanghai" width="100%" height="115" frameborder="0" seamless=""></iframe>
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=small&timezone=Asia%2FShanghai" width="100%" height="90" frameborder="0" seamless></iframe>
 
 - Istanbul, 土耳其
 
-  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Europe%2FIstanbul" width="100%" height="115" frameborder="0" seamless=""></iframe>
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=small&timezone=Europe%2FIstanbul" width="100%" height="90" frameborder="0" seamless></iframe>
 
 - London, 英国
 
-  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&amp;size=medium&amp;timezone=Europe%2FLondon" width="100%" height="115" frameborder="0" seamless=""></iframe>
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=small&timezone=Europe%2FLondon" width="100%" height="90" frameborder="0" seamless></iframe>
 
 - Netherlands, 荷兰
 
-  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=medium&timezone=Europe%2FAmsterdam" width="100%" height="115" frameborder="0" seamless></iframe> 
+  <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=cn&size=small&timezone=Europe%2FAmsterdam" width="100%" height="90" frameborder="0" seamless></iframe>
 
 ------
 
