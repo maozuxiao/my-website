@@ -283,6 +283,10 @@ _^tab^_
 > - 证明视频
 >
 >   ![C25G Global shuttle Video](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/Global%20shuttle%20test-Compressed.mp4)
+>   
+>   [<kbd>C25G anti-led flicker</kbd>](https://app.filmora.io/#/object/d51q8lo7ut3k3vpfq62g)
+>   
+>   <iframe src="https://app.filmora.io/#/object/d51q8lo7ut3k3vpfq62g" width="100%" height="600" frameborder="0" allowfullscreen loading="lazy" title="Filmora App"></iframe>
 >
 > 
 
