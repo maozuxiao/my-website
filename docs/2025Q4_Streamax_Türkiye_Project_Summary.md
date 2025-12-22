@@ -56,7 +56,7 @@ vlook-header-dup: 项目意义;项目团队构成;投入资源;
 
 ## 项目背景
 
-土耳其政府发布规定，要求所有M1[^M1]、M2[^M2]和M3[^M3]类商用车辆必须配备与112紧急呼叫中心连接的移动安全系统。根据土耳其政府要求，2025年7月1日确定为土耳其国标开始实施的日期，所有变更将于2028年底前完成。政府针对各个技术指标给出了权重，并要求强制考核。后续所有进入土耳其的产品都需要符合新国标。即所有DVR和摄像机均需要满足这套国标，才能在土耳其市场上售卖。这套国标的要求主要包含
+土耳其政府发布规定，要求所有M1[^M1]、M2[^M2]和M3[^M3]类商用车辆必须配备与112紧急呼叫中心连接的移动安全系统。**根据土耳其政府要求，2025年7月1日确定为土耳其国标开始实施的日期，所有变更将于2028年底前完成。**_~Rd~_政府针对各个技术指标给出了权重，并要求强制考核。后续所有进入土耳其的产品都需要符合新国标。即所有DVR和摄像机均需要满足这套国标，才能在土耳其市场上售卖。这套国标的要求主要包含
 
 > *==项目需求==*
 >
@@ -116,11 +116,11 @@ _^tab^_
 > |       :        |        C11        | ✅(IP66)                                      | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
 > |       :        |  CA11(MINI DOME)  | ❌                                            | ❌                                                            | ❌                                                            | ❌                         | ✅                      | ❌               |
 > |       :        |        C26        | ❌<br />murat安排样品交期@许嘉达(Murat許嘉達) | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
-> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新                      | N/A                                                          | ❌                         | ❌                      | ❌               |
+> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新<br />已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19b027c889849b1dad1b59b45f4b1077&s_css=default) @蒋旭辉 | N/A                                                          | ❌                         | ❌                      | ❌               |
 
 > **核心挑战二：C25G Global shuttle过检受阻**
 >
-> TSE验收方法不透明，通过代理商被告知测试结果：Streamax提供的的C25G样品不支持`  Global shuttle`
+> TSE验收方法不透明，通过代理商被告知测试结果：Streamax提供的的C25G样品不支持*全局快门`Global shuttle`*以及其特性*LED防频闪`Auti-LED flicker`*
 
 > **核心挑战三：解决方案成本较高**
 >
@@ -144,28 +144,31 @@ _^tab^_
 >
 > 截至目前，除 Streamax 外，另有 `8` 家公司已获得临时授权，其产品已完成硬件测试及 112 报警中心连接测试，目前均与 Streamax 一样，正在等待网络安全测试的完成。
 >
-> #### 临时授权企业及其品牌来源：
->- **JMK Güvenlik**：品牌 JMK，中国 OEM  
-> - **Digimaksi Güvenlik**：品牌 ICAR，中国 OEM  
-> - **Mobilbil：品牌 Streamax，中国 OEM**_~GdPkAq~_
-> - **Openeye Mobility**：品牌 Openeye，OEM 来源未知  
-> - **Paress Teknoloji**：品牌 Paress，OEM 来源未知  
-> - **SFA Korkmazlar**：品牌未知  
-> - **Dijital Tanıma Sistemleri (DTSis)**：土耳其本土品牌  
-> - **Seyir Mobil**：品牌 Dahua，中国 OEM  
-> - **Beylerbeyi**：品牌 Beylerbeyi，中土混合 OEM  
-> 
-> #### 竞品套件价格（含 MDVR + 3 路摄像头 + 2TB SSD）：
->- **JMK**：550 美元（注：此报价基于存储危机前的 2TB SSD 成本，实际价格可能随 SSD 市场波动而变化）  
-> - **Digimaksi / ICAR**：650–700 美元（依客户和采购量浮动）  
-> - **Openeye**：725–770 美元（依客户和采购量浮动）  
-> - **Dahua**：650–700 美元（依客户和采购量浮动）  
-> - **Streamax：820 美元**_~Rd~_
-> 
-> > [!NOTE]
->>>
-> > Streamax 并不以 550 美元价位段产品为直接竞争目标，而是将主要竞争对手定位在 650–700 美元区间内的成熟品牌，如 Dahua 和 ICAR
-> 
+> ------
+>
+> - 已入围企业及其品牌
+>   - **JMK Güvenlik**：品牌 JMK，中国 OEM  
+>   - **Digimaksi Güvenlik**：品牌 ICAR，中国 OEM  
+>   - **Mobilbil：品牌 Streamax，中国 OEM**_~GdPkAq~_
+>   - **Openeye Mobility**：品牌 Openeye，OEM 来源未知  
+>   - **Paress Teknoloji**：品牌 Paress，OEM 来源未知  
+>   - **SFA Korkmazlar**：品牌未知  
+>   - **Dijital Tanıma Sistemleri (DTSis)**：土耳其本土品牌  
+>   - **Seyir Mobil**：品牌 Dahua，中国 OEM  
+>   - **Beylerbeyi**：品牌 Beylerbeyi，中土混合 OEM 
+> - 竞品套件价格
+>   （含MDVR+3路摄像头+2TB SSD）
+>   - **JMK**：550 美元（注：此报价基于存储危机前的 2TB SSD 成本，实际价格可能随 SSD 市场波动而变化）  
+>   - **Digimaksi / ICAR**：650–700 美元（依客户和采购量浮动）  
+>   - **Openeye**：725–770 美元（依客户和采购量浮动）  
+>   - **Dahua**：650–700 美元（依客户和采购量浮动）  
+>   - **Streamax：820 美元**_~Rd~_
+>
+> > [!caution]
+> >
+> > 1. Streamax 并不以 550 美元价位段产品为直接竞争目标，而是将主要竞争对手定位在 650–700 美元区间内的成熟品牌，如 Dahua 和 ICAR
+> > 2. 受全球存储行业价格变动影响，如上提到的价格会根据实时行情波动
+>
 
 
 ------

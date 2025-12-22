@@ -59,7 +59,7 @@ _^Tab^_
 > |       :        |        C11        | ✅(IP66)                                      | ❌(Yol Haritasında)                       | ✅                     | ❌                         | ✅                      | ❌               |
 > |       :        |  CA11(MINI DOME)  | ❌                                            | ❌(Yol Haritasında)                       | ❌                     | ❌                         | ✅                      | ❌               |
 > |       :        |        C26        | ❌<br />murat, numune teslim tarihini ayarlayacak @许嘉达(Murat許嘉達) | ❌(Yol Haritasında)                       | ✅                     | ❌                         | ✅                      | ❌               |
-> |       :        |        C20        | ❌                                            | ✅<br />Ancak sertifika süresi dolmuş, güncelleme gerekli @蒋旭辉 | Yok                   | ❌                         | ❌                      | ❌               |
+> |       :        |        C20        | ❌                                            | ❌(Yol Haritasında) | Yok                   | ❌                         | ❌                      | ❌               |
 
 > **CN-Turkish National Standard Certification Form**
 >
@@ -85,7 +85,7 @@ _^Tab^_
 > |       :        |        C11        | ✅(IP66)                                      | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
 > |       :        |  CA11(MINI DOME)  | ❌                                            | ❌                                                            | ❌                                                            | ❌                         | ✅                      | ❌               |
 > |       :        |        C26        | ❌<br />murat安排样品交期@许嘉达(Murat許嘉達) | ❌                                                            | ✅                                                            | ❌                         | ✅                      | ❌               |
-> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新                      | N/A                                                          | ❌                         | ❌                      | ❌               |
+> |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新<br />已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19b027c889849b1dad1b59b45f4b1077&s_css=default) @蒋旭辉 | N/A                                                          | ❌                         | ❌                      | ❌               |
 
 
 ## Product Standard Certification Lookup Form (Internal Access Only)
