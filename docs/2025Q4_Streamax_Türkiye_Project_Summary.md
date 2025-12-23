@@ -61,8 +61,9 @@ vlook-header-dup: 项目意义;项目团队构成;投入资源;
 > *==项目需求==*
 >
 > 1. **通过安装紧急按钮、摄像头和录像设备，实现了对车载硬件的集中控制**
-> 2. **数据传输接口需要为<kbd>Type-C</kbd>**
-> 3. **支持DVR直连土耳其报警<kbd>112平台</kbd>，且需具备`网络安全`功能**
+> 2. **MDVR数据传输接口需要为<kbd>Type-C</kbd>**
+> 3. **室内摄像头支持*IP65防护`2M Pixel`Global Shutter***
+> 4. **支持DVR直连土耳其报警<kbd>112平台</kbd>，软件通过指定机构`TSE`的<kbd>渗透性测试</kbd>**
 >
 > ![112 Workflow](https://cdn.jsdelivr.net/gh/maozuxiao/Misaki/%E5%9B%BE%E7%89%871.png)
 >
@@ -92,7 +93,7 @@ _^tab^_
 
 > **核心挑战一：产品认证缺失**
 >
-> 应新国标要求，需要厂商提供多种类型的产品认证，包含==IP65 (EN 60529)==;==ISO 16750-3 (需有ILC)==;==IK08 (60068-2-75)==;==TS EN 62471 (需有ILC)==;==UN/ECE R10(E-Mark)==;==UN/ECE R118==。目前土耳其在售的部分产品缺少这些认证，可能影响后续产品的销售。
+> 应新国标要求，需要厂商提供多种类型的产品认证，包含`IP65 (EN 60529)` `ISO 16750-3 (需有ILC)` `IK08 (60068-2-75)` `TS EN 62471 (需有ILC)` `UN/ECE R10(E-Mark)` `UN/ECE R118` 目前土耳其在售的部分产品**缺少这些认证，可能影响后续产品的销售。**_~Rd~_
 >
 > *==Turkish National Standard Certification Form-CN==*
 >
@@ -119,6 +120,8 @@ _^tab^_
 > |       :        |        C20        | ❌                                            | ✅(In Roadmap)<br />但證書已過期, 須更新<br />已经提交[认证申请](http://oa.streamax.com:8080/km/review/km_review_main/kmReviewMain.do?method=view&fdId=19b027c889849b1dad1b59b45f4b1077&s_css=default) @蒋旭辉 | N/A                                                          | ❌                         | ❌                      | ❌               |
 
 > **核心挑战二：C25G Global shuttle过检受阻**
+>
+> 
 >
 > TSE验收方法不透明，通过代理商被告知测试结果：Streamax提供的的C25G样品不支持*全局快门`Global shuttle`*以及其特性*LED防频闪`Auti-LED flicker`*
 
@@ -183,23 +186,24 @@ _^tab^_
 >
 > ```mermaid
 > flowchart LR
->  A[提交认证申请] --> B[样机申请]
->  B --> E{修改硬件？}
->  E -.->|是| F[提供样机给<br/>硬件结构工程师修改]
->  F --> G[提供样机给<br/>认证对接人]
->  E -.->|否| G
->  G --> C[获取<br/>认证报告和证书]
->  C --> D[同步<br/>代理商和客户]
->  C --> H[同步<br/>硬件工程师并创建Bom和延伸机型料号]
+> A[提交认证申请] --> B[样机申请]
+> B --> E{修改硬件？}
+> E -.->|是| F[提供样机给<br/>硬件结构工程师修改]
+> F --> G[提供样机给<br/>认证对接人]
+> E -.->|否| G
+> G --> C[获取<br/>认证报告和证书]
+> C --> D[同步<br/>代理商和客户]
+> C --> H[同步<br/>硬件工程师并创建Bom和延伸机型料号]
 > 
->  style A fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
->  style B fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
->  style C fill:#F0F8FF,stroke:#7AC5CD,stroke-width:2px,color:#00868B
->  style D fill:#FFD700,stroke:#7AC5CD,stroke-width:2px,color:#00868B
->  style E fill:#FFFACD,stroke:#FF8C00,stroke-width:2px,color:#B22222
->  style F fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
->  style G fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
->  style H fill:#E0FFFF,stroke:#20B2AA,stroke-width:2px,color:#008B8B
+> style A fill:#FEEBD5,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style B fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+> style C fill:#F0F8FF,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style D fill:#FFD700,stroke:#7AC5CD,stroke-width:2px,color:#00868B
+> style E fill:#FFFACD,stroke:#FF8C00,stroke-width:2px,color:#B22222
+> style F fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+> style G fill:#E6E6FA,stroke:#9370DB,stroke-width:2px,color:#4B0082
+> style H fill:#E0FFFF,stroke:#20B2AA,stroke-width:2px,color:#008B8B
+> linkStyle default stroke:#9370DB,stroke-width:2px
 > ```
 > ### 流程详情
 >
