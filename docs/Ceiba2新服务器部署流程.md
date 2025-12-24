@@ -101,7 +101,12 @@
 >    cd "C:\Program Files (x86)\CMS Server\WCMS5"
 >    ```
 >
-> 4. Run the script..monitor-device-protocol.ps1
+> 4. Run the script.
+>
+>    ```powershell
+>    .\monitor-device-protocol.ps1
+>    ```
+>
 > 5. The system will verify whether the user password security reinforcement has been completed during output.
 >
 > > **Security status**: 
@@ -126,13 +131,13 @@
 > >     Set-ExecutionPolicy -ExecutionPolicy UNRESTRICTED -Scope CurrentUser
 > >     ```
 > >
-> >  3. Then type `y` and press Enter.
+> >  3. Then type `Y` and press Enter.
 > >
 > >  4. Enter the following command:
 > >     ```powershell
 > >     .\monitor-device-protocol.ps1
 > >     ```
-> > 5. Then type `r` and press Enter.
+> > 5. Then type `R` and press Enter.
 > >
 > >  ![command-overview](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/iwElAqNwbmcDBgTRA9cF0QJxBrAxkJkkaF4YbAkjGgRHAy4AB9IEB8MmCAAJsmRpbmdSaWNoVGV4dEVkaXRvcgoAC9IABCBW.png_720x720q90.jpg)
 >
@@ -157,6 +162,8 @@
 > We kindly ask you to acknowledge this situation and grant authorization for the remediation procedure. Please follow the instructions in the readme to install and run the script.
 >
 > Thank you for your prompt attention and cooperation in ensuring the continued security and stability of your CEIBA2 platform.
+>
+> ![Full process](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/image-20251224161441117.png)
 
 
 
