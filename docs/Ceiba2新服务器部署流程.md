@@ -71,16 +71,92 @@
 ### 安装
 
 1. 双击exe格式的文件，点击第一步下载完成的安装包进行安装，选择 “定制安装”。
+   ![定制安装](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/index.php)
 
-##### （3）选择安装路径后点击确定，点击下一步，等待安装完成即可。
+2. 选择安装路径后点击确定，点击下一步，等待安装完成即可。
 
-![img](http://jfwiki.streamax.com:7503/server/index.php?s=/api/attachment/visitFile/sign/31cc0950d228a9b3f68859c24cbf91b0)
-![img](http://jfwiki.streamax.com:7503/server/index.php?s=/api/attachment/visitFile/sign/59e0099650552342225712cc870f617d)
-![img](http://jfwiki.streamax.com:7503/server/index.php?s=/api/attachment/visitFile/sign/73ccfe714baac4e365e98addbf8cfb19)
+   ![选择安装路径](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/image-20251224112741906.png)
+   
+3. 安装完成后，在弹出的网络配置工具中，将流媒体IP修改为外网ip，注意服务器外网IP就是0.0.0.0，最后点击修改配置等待服务重启完成即可。
 
-##### （4）安装完成后，在弹出的网络配置工具中，将流媒体IP修改为外网ip，注意服务器外网IP就是0.0.0.0，最后点击修改配置等待服务重启完成即可。
+   ![设置流媒体IP为外网IP](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/image-20251224112846210.png)
 
-![img](http://jfwiki.streamax.com:7503/server/index.php?s=/api/attachment/visitFile/sign/07a28c89e3bca4719d86347585b7ba9e)
+   
+
+## 补丁
+
+> [!CAUTION]
+>
+> 2025年12月出现安全漏洞，如果版本等于或小于[Ceiba2Srv_2.6.8.0.24_en.exe](https://streamax-file02-1304261646.cos.ap-guangzhou.myqcloud.com/STREAMAX/平台软件安装包/CB2/Ceiba2_2.6.8.0.24/Ceiba2Srv_2.6.8.0.24_en.exe)需要打补丁处理
+>
+> 
+>
+> 1. Copy the script file to the WCMS5 service directory of Ceiba2; For example: C:\Program Files (x86)\CMS Server\WCMS5
+>
+> 2. Launch Windows PowerShell as an administrator in the Start menu;
+>
+> 3. Access the WCMS5 service directory of Ceiba2 via PowerShell;
+>
+>    ```powershell
+>    cd "C:\Program Files (x86)\CMS Server\WCMS5"
+>    ```
+>
+> 4. Run the script..monitor-device-protocol.ps1
+> 5. The system will verify whether the user password security reinforcement has been completed during output.
+>
+> > **Security status**: 
+> >
+> > "Green" indicates the system is either a security-hardened version or has been deployed with hardened patches.
+> >
+> > Red indicates unsecured, requiring the Expert Department to apply user password reinforcement patches.
+> >
+> > total call count: The number indicating whether any API/v1/basic/device/protocol interfaces have been invoked.
+> >
+> > File modified successfully: Interface shielding completed.
+>
+> 6. Upon script execution completion, the WCMS5 service will restart automatically to enable interface blocking.
+>
+> >  If CB2 patch script failed. You can follow the steps below to run it:
+> >
+> >  1. Open PowerShell.
+> >
+> >  2. Enter the following command:
+> >
+> >     ```powershell
+> >     Set-ExecutionPolicy -ExecutionPolicy UNRESTRICTED -Scope CurrentUser
+> >     ```
+> >
+> >  3. Then type `y` and press Enter.
+> >
+> >  4. Enter the following command:
+> >     ```powershell
+> >     .\monitor-device-protocol.ps1
+> >     ```
+> > 5. Then type `r` and press Enter.
+> >
+> >  ![command-overview](https://cdn.jsdelivr.net/gh/maozuxiao/Steamax_IMG/iwElAqNwbmcDBgTRA9cF0QJxBrAxkJkkaF4YbAkjGgRHAy4AB9IEB8MmCAAJsmRpbmdSaWNoVGV4dEVkaXRvcgoAC9IABCBW.png_720x720q90.jpg)
+>
+> 
+
+> Dear Customer,
+>
+> We would like to inform you of a recently identified **critical security vulnerability** in CEIBA2 Server. This vulnerability could potentially be exploited by malicious actors to send unauthorized configuration modification commands to devices, including altering reporting server addresses. Such an attack could result in mass device disconnections and significantly disrupt the normal operation of customer platforms.
+>
+> To mitigate these risks, we kindly request that you run the **remediation script** provided in the following link. Remote support can be arranged upon request if needed.
+>
+> https://wj.streamax.com:9443/outpublish.html?code=Bcd823993d9774301853e238a4f565b63&lang=en#view
+>
+> The remediation script will:
+>
+> 1. Scan the CEIBA2 Server for any known unpatched critical vulnerabilities.
+> 2. Check whether the CEIBA2 Server has been previously compromised via known exploit attempts.
+> 3. Immediately patch vulnerable interfaces that are susceptible to attacks.
+>
+> After execution, the script will automatically restart the **WCMS5 service**, resulting in a brief web service interruption of no more than one minute.
+>
+> We kindly ask you to acknowledge this situation and grant authorization for the remediation procedure. Please follow the instructions in the readme to install and run the script.
+>
+> Thank you for your prompt attention and cooperation in ensuring the continued security and stability of your CEIBA2 platform.
 
 
 
