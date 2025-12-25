@@ -1,4 +1,6 @@
-# sX3N-H0208 Live View Preview Order Settings
+# X3N-H0208 Live View Preview Order Settings
+
+[TOC]
 
 ## Test Device Version
 
